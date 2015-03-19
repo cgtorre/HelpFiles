@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Worksheet>
-<Version major="15" minor="0"/>
+<Version major="18" minor="2"/>
 <Label-Scheme value="2" prefix=""/>
-<View-Properties presentation="false"></View-Properties>
-<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
-<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<View-Properties presentation="false" autoexpanding_sections="true"><Zoom percentage="150"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="900" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -65,8 +67,8 @@
 <Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
-<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -74,6 +76,7 @@
 <Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
 <Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
 <Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -119,8 +122,7 @@
 <Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
 </Styles>
 <Metadata-table>
-    <Metadata-category name="&lt;default&gt;">
-    </Metadata-category>
+    <Metadata-category name="&lt;default&gt;"/>
     <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
         <Metadata-attribute name="Active" value="false"/>
         <Metadata-attribute name="Alias" value="DifferentialGeometry/DGRe, DifferentialGeometry/DGIm"/>
@@ -128,11 +130,9 @@
     </Metadata-tag>
 </Metadata-table>
 <Task-table>
-    <Task-category name="&lt;default&gt;">
-    </Task-category>
+    <Task-category name="&lt;default&gt;"/>
 </Task-table>
-<Task>
-</Task>
+<Task/>
 <Group labelreference="L1" drawlabel="true">
 <Input>
 <Text-field style="Heading 1" layout="Heading 1">DifferentialGeometry[DGconjugate]<Font bold="true" style="Help Normal"> - find the complex conjugate of a vector, tensor or differential form; find the conjugate of a quaternion or octonion </Font></Text-field>
@@ -527,6 +527,6 @@
 </Section>
 <Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
 <Text-field bookmark="seealso" style="Heading 2" layout="Heading 2">See Also</Text-field></Title>
-<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">LieAlgebras</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraData" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">AlgebraData</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraInverse" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">AlgebraInverse</Font></Hyperlink><Font style="Text">,</Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraNorm" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]"> AlgebraNorm</Font></Hyperlink> <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebra/Representation" hyperlink="true"></Hyperlink><Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"></Hyperlink></Text-field>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">LieAlgebras</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraData" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">AlgebraData</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraInverse" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">AlgebraInverse</Font></Hyperlink><Font style="Text">,</Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/AlgebraNorm" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]"> AlgebraNorm</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/DGsetup" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">DGsetup</Font></Hyperlink> <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebra/Representation" hyperlink="true"></Hyperlink><Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"></Hyperlink></Text-field>
 </Section>
 </Worksheet>
