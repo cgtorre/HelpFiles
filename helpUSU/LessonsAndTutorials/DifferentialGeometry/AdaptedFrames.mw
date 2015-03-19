@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="GR &gt; " ShowLabels="true"/>
+<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal257" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="24" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal258" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,1]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,1]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output12" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,1]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="NormalBlue" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,1]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,1]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Math" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="NormalBlue" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal257" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal258" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="10" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value=""/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/DifferentialGeometry/AdaptedFrames"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" italic="true" size="24" bold="true" foreground="[0,0,160]" layout="Normal257"><Font bold="true" italic="true" foreground="[0,0,160]" size="24">DifferentialGeometry Lessons</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Heading 1" layout="Heading 1">Lesson 11: Anholonomic Frames</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Overview</Text-field></Title>
+<Text-field style="Normal" layout="Normal">For many symbolic computations, it is very advantageous to work with a frame or coframe other than the coordinate frame or coframe.  All of the commands in the DifferentialGeometry and Tensor packages are designed to work in any user-defined frame.  Indeed, most of the code in the DifferentialGeometry and Tensor packages does not rely on local coordinate formulas.  In subsequence releases of DifferentialGeometry, this coordinate-free approach will be applied to the JetCalculus package.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">In this lesson, you will learn to do the following:</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">Initialize an adapted frame.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">Perform calculations in the adapted frame.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">Convert vectors, forms, tensors from the adapted frame to the coordinate frame and vice versa.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Using FrameData and DGsetup to create an anholonomic frame</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">There are four steps to creating an anholonomic frame on a manifold <Font style="Help Math">M</Font>:</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">first, use <Hyperlink linktarget="Help:DifferentialGeometry/DGsetup" hyperlink="true"><Font style="Hyperlink" size="14">DGsetup</Font></Hyperlink> to create a manifold <Font style="Help Math">M0</Font>, with the same coordinates as those that will be used on<Font style="Help Math"> M</Font>.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">define a frame or coframe on <Font style="Help Math">M0</Font>, that is, a list of vector fields or differential 1-forms on <Font style="Help Math">M0</Font> which give a basis for the tangent or cotangent space at each point.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">pass this frame or coframe to the command <Hyperlink linktarget="Help:DifferentialGeometry/FrameData" hyperlink="true"><Font style="Hyperlink" size="14">FrameData</Font></Hyperlink>.  This command computes the dual coframe or frame, the structure equations for the frame and coframe and exterior derivatives of the coordinate functions in terms of the coframe -- in short, all the data needed to perform calculations in the frame.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">pass the output of the <Font style="Help Math">FrameData</Font> command to <Font style="Help Math">DGsetup</Font>.  At this point, the labels to be used for the frame and coframe can be specified.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We illustrate these steps with a simple example.</Text-field>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">Step 1.</Font>  Define the underlying manifold.</Text-field>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y], M0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlL2ZyYW1lfm5hbWU6fk0wRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">Step 2. </Font> Define a frame on <Font style="Help Math">M0 --</Font> we shall use the vectors <Font style="Help Math">X1 = yD_x</Font> and <Font style="Help Math">X2 = yD_y</Font>.  The structure equations for this frame are <Font style="Help Math">[X1, X2] = -X1.  </Font>The dual coframe is <Font style="Help Math">theta1 = 1/ydx, theta2 = 1/ydy</Font>.</Text-field>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Fr := evalDG([y*D_x, y*D_y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNGckc3JComJSJ5RyIiIiUkRF94RyIiIiomJSJ5RyIiIiUkRF95RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Check the structure equations.</Text-field>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieBracket(Fr[1], Fr[2]) &amp;plus Fr[1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">Step 3.</Font>  Calculate the structure equations for the frame using the <Hyperlink linktarget="Help:DifferentialGeomety/FrameData" hyperlink="true"><Font style="Hyperlink" size="14">FrameData</Font></Hyperlink> program.  The output of the frame data program is a rather complex <Font style="Help Math">DifferentialGeometry</Font> object -- what is displayed is simply the structure equations for the given frame or coframe.  The labels <Font style="Help Math">E1</Font>, <Font style="Help Math">E2</Font>, ... and <Font style="Help Math">Theta1</Font>, <Font style="Help Math">Theta2</Font>, ... are used to display these structure equations.</Text-field>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">FD1 := FrameData(Fr, M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSRGRDFHNyMvNyQlI0UxRyUjRTJHLCQlI0UxRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">Step 4. </Font> Pass the structure equation data <Font style="Help Math">FD1</Font> to <Hyperlink linktarget="Help:DifferentialGeometry/DGsetup" hyperlink="true"><Font style="Hyperlink" size="14">DGsetup</Font></Hyperlink>.  We shall label the frame vectors as <Font style="Help Math">X1 </Font>and <Font style="Help Math">X2 </Font>and the dual 1-forms by<Font style="Help Math"> theta1</Font> and <Font style="Help Math">theta2</Font>.  Remember that these must be unassigned names.  For this example, we add the keyword <Font style="Help Math">verbose</Font> to the argument list so that the details of the frame being defined is displayed.</Text-field>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(FD1, [X], [theta], verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlT1RoZX5mb2xsb3dpbmd+Y29vcmRpbmF0ZXN+aGF2ZX5iZWVufnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlZ25UaGV+Zm9sbG93aW5nfnZlY3Rvcn5maWVsZHN+aGF2ZX5iZWVufmRlZmluZWR+YW5kfnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUjWDFHJSNYMkc=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlXm9UaGV+Zm9sbG93aW5nfmRpZmZlcmVudGlhbH4xLWZvcm1zfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUndGhldGExRyUndGhldGEyRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">Remark.  </Font>Exactly the same result can be achieved using the dual basis of 1-forms:</Text-field>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Omega := DualBasis(Fr);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JComJSJ5RyEiIiUjZHhHIiIiKiYlInlHISIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">FD2 := FrameData(Omega, M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSRGRDJHNyQvKiYlImRHIiIiJSdUaGV0YTFHIiIiKiglJ1RoZXRhMUciIiIlIl5HIiIiJSdUaGV0YTJHIiIiLyomJSJkRyIiIiUnVGhldGEyRyIiIiIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(FD2, [X], [theta], verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlT1RoZX5mb2xsb3dpbmd+Y29vcmRpbmF0ZXN+aGF2ZX5iZWVufnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlZ25UaGV+Zm9sbG93aW5nfnZlY3Rvcn5maWVsZHN+aGF2ZX5iZWVufmRlZmluZWR+YW5kfnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUjWDFHJSNYMkc=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlXm9UaGV+Zm9sbG93aW5nfmRpZmZlcmVudGlhbH4xLWZvcm1zfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUndGhldGExRyUndGhldGEyRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">At this point, all calculations with vector fields, differential forms, and tensors can be done with respect to the frame <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font> and its dual coframe <Font style="Help Math">theta1</Font>, <Font style="Help Math">theta2</Font>.  For  example, here are the exterior derivatives of the coordinate functions in terms of the dual coframe.</Text-field>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqJiUieUciIiIlJ3RoZXRhMUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqJiUieUciIiIlJ3RoZXRhMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Here are the structure equations for the frame <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font>.</Text-field>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieBracket(X1, X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJCUjWDFHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Here are the structure equations for the coframe <Font style="Help Math">theta1</Font>, <Font style="Help Math">theta2</Font>.</Text-field>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(theta1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqKCUndGhldGExRyIiIiUiXkciIiIlJ3RoZXRhMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(theta2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlJ3RoZXRhMUciIiIlIl5HIiIiJSd0aGV0YTJHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We note that this structure equation information is available through the <Hyperlink linktarget="Help:DifferentialGeometry/Tools" hyperlink="true"><Font style="Hyperlink" size="14">Tools</Font></Hyperlink> command <Hyperlink linktarget="Help:DifferentialGeometry/Tools/DGinfo" hyperlink="true"><Font style="Hyperlink" size="14">DGinfo</Font></Hyperlink>.</Text-field>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Tools:-DGinfo(&quot;ExteriorDerivativeFunctionStructureEquations&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JComJSJ5RyIiIiUndGhldGExRyIiIiomJSJ5RyIiIiUndGhldGEyRyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Tools:-DGinfo(&quot;ExteriorDerivativeFormStructureEquations&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCooJSd0aGV0YTFHIiIiJSJeRyIiIiUndGhldGEyRyIiIioqJSIwRyIiIiUndGhldGExRyIiIiUiXkciIiIlJ3RoZXRhMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Tools:-DGinfo(&quot;LieBracketStructureEquations&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkqbXZlcmJhdGltR0YkNiNRX2F3NyM3Iy1JKG1mZW5jZWRHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2KC1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2Iy1JJ210YWJsZUc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjY2LUkkbXRyRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNictSSRtdGRHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2KC1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JS1JI21pRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiVRIjA2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiItSSNtb0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYtUTEmSW52aXNpYmxlVGltZXM7NiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiLyUmZmVuY2VHUSZmYWxzZTYiLyUqc2VwYXJhdG9yR1EmZmFsc2U2Ii8lKXN0cmV0Y2h5R1EmZmFsc2U2Ii8lKnN5bW1ldHJpY0dRJmZhbHNlNiIvJShsYXJnZW9wR1EmZmFsc2U2Ii8lLm1vdmFibGVsaW1pdHNHUSZmYWxzZTYiLyUnYWNjZW50R1EmZmFsc2U2Ii8lJ2xzcGFjZUdRJjAuMGVtNiIvJSdyc3BhY2VHUSYwLjBlbTYiLUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JVEjWDE2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiIvJSlyb3dhbGlnbkdRITYiLyUsY29sdW1uYWxpZ25HUSE2Ii8lK2dyb3VwYWxpZ25HUSE2Ii8lKHJvd3NwYW5HUSIxNiIvJStjb2x1bW5zcGFuR1EiMTYiLUkkbXRkRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNigtSSVtcm93RzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiQtSSNtb0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYtUSomdW1pbnVzMDs2Ii8lLG1hdGh2YXJpYW50R1Enbm9ybWFsNiIvJSZmZW5jZUdRJmZhbHNlNiIvJSpzZXBhcmF0b3JHUSZmYWxzZTYiLyUpc3RyZXRjaHlHUSZmYWxzZTYiLyUqc3ltbWV0cmljR1EmZmFsc2U2Ii8lKGxhcmdlb3BHUSZmYWxzZTYiLyUubW92YWJsZWxpbWl0c0dRJmZhbHNlNiIvJSdhY2NlbnRHUSZmYWxzZTYiLyUnbHNwYWNlR1EsMC4yMjIyMjIyZW02Ii8lJ3JzcGFjZUdRLDAuMjIyMjIyMmVtNiItSSNtaUc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYlUSNYMTYiLyUnaXRhbGljR1EldHJ1ZTYiLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWM2Ii8lKXJvd2FsaWduR1EhNiIvJSxjb2x1bW5hbGlnbkdRITYiLyUrZ3JvdXBhbGlnbkdRITYiLyUocm93c3BhbkdRIjE2Ii8lK2NvbHVtbnNwYW5HUSIxNiIvJSlyb3dhbGlnbkdRITYiLyUsY29sdW1uYWxpZ25HUSE2Ii8lK2dyb3VwYWxpZ25HUSE2Ii1JJG10ckc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYnLUkkbXRkRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNigtSSNtaUc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYlUSNYMTYiLyUnaXRhbGljR1EldHJ1ZTYiLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWM2Ii8lKXJvd2FsaWduR1EhNiIvJSxjb2x1bW5hbGlnbkdRITYiLyUrZ3JvdXBhbGlnbkdRITYiLyUocm93c3BhbkdRIjE2Ii8lK2NvbHVtbnNwYW5HUSIxNiItSSRtdGRHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2KC1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JS1JI21pRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiVRIjA2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiItSSNtb0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYtUTEmSW52aXNpYmxlVGltZXM7NiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiLyUmZmVuY2VHUSZmYWxzZTYiLyUqc2VwYXJhdG9yR1EmZmFsc2U2Ii8lKXN0cmV0Y2h5R1EmZmFsc2U2Ii8lKnN5bW1ldHJpY0dRJmZhbHNlNiIvJShsYXJnZW9wR1EmZmFsc2U2Ii8lLm1vdmFibGVsaW1pdHNHUSZmYWxzZTYiLyUnYWNjZW50R1EmZmFsc2U2Ii8lJ2xzcGFjZUdRJjAuMGVtNiIvJSdyc3BhY2VHUSYwLjBlbTYiLUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JVEjWDE2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiIvJSlyb3dhbGlnbkdRITYiLyUsY29sdW1uYWxpZ25HUSE2Ii8lK2dyb3VwYWxpZ25HUSE2Ii8lKHJvd3NwYW5HUSIxNiIvJStjb2x1bW5zcGFuR1EiMTYiLyUpcm93YWxpZ25HUSE2Ii8lLGNvbHVtbmFsaWduR1EhNiIvJStncm91cGFsaWduR1EhNiIvJSZhbGlnbkdRJWF4aXM2Ii8lKXJvd2FsaWduR1EpYmFzZWxpbmU2Ii8lLGNvbHVtbmFsaWduR1EnY2VudGVyNiIvJStncm91cGFsaWduR1EnfGdyZnJsZWZ0fGdyaHI2Ii8lL2FsaWdubWVudHNjb3BlR1EldHJ1ZTYiLyUsY29sdW1ud2lkdGhHUSVhdXRvNiIvJSZ3aWR0aEdRJWF1dG82Ii8lK3Jvd3NwYWNpbmdHUSYxLjBleDYiLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtNiIvJSlyb3dsaW5lc0dRJW5vbmU2Ii8lLGNvbHVtbmxpbmVzR1Elbm9uZTYiLyUmZnJhbWVHUSVub25lNiIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbXxpcjAuNWV4NiIvJSplcXVhbHJvd3NHUSZmYWxzZTYiLyUtZXF1YWxjb2x1bW5zR1EmZmFsc2U2Ii8lLWRpc3BsYXlzdHlsZUdRJmZhbHNlNiIvJSVzaWRlR1EmcmlnaHQ2Ii8lMG1pbmxhYmVsc3BhY2luZ0dRJjAuOGVtNiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiL0krbXNlbWFudGljc0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IlEnTWF0cml4NiIvJSVvcGVuR1EiWzYiLyUmY2xvc2VHUSJdNiIvSSttc2VtYW50aWNzRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiUSdNYXRyaXg2IkYn</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Sample calculations with anholonomic frames</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">This paragraph is a continuation of the previous one.  We perform some simple calculations using the anholonomic frame<Font style="Help Math"> X1</Font>, <Font style="Help Math">X2</Font> and the dual 1-forms <Font style="Help Math">theta1</Font>, <Font style="Help Math">theta2</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" size="14" bold="true" foreground="[0,0,1]" layout="Normal"><Font bold="true" foreground="[0,0,1]" size="14">1.  Lie brackets</Font></Text-field>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">X := evalDG(x*X1 + y*X2); </Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJYRywmKiYlInhHIiIiJSNYMUciIiIiIiIqJiUieUciIiIlI1gyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Y := evalDG(y^2*X1 - x^2*X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJZRywmKiYpJSJ5RyIiIyIiIiUjWDFHIiIiIiIiKiYpJSJ4RyIiIyIiIiUjWDJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieBracket(X, Y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiomLCYqJiIiIyIiIiklInlHIiIkIiIiIiIiKiQpJSJ4RyIiJCIiIiIiIiIiIiUjWDFHIiIiIiIiKigpJSJ4RyIiIyIiIiUieUciIiIlI1gyRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" size="14" bold="true" foreground="[0,0,1]" layout="Normal"><Font bold="true" foreground="[0,0,1]" size="14">2.  Exterior derivatives</Font></Text-field>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">f := x^2 + y^2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJmRywmKiQpJSJ4RyIiIyIiIiIiIiokKSUieUciIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(f);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJioqIiIjIiIiJSJ4RyIiIiUieUciIiIlJ3RoZXRhMUciIiIiIiIqKCIiIyIiIiklInlHIiIjIiIiJSd0aGV0YTJHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">omega := evalDG(x*y^2*theta1 - theta2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcsJiooJSJ4RyIiIiklInlHIiIjIiIiJSd0aGV0YTFHIiIiIiIiJSd0aGV0YTJHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ExteriorDerivative(omega);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJCosJSJ4RyIiIiklInlHIiIjIiIiJSd0aGV0YTFHIiIiJSJeRyIiIiUndGhldGEyRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" size="14" bold="true" foreground="[0,0,1]" layout="Normal"><Font bold="true" foreground="[0,0,1]" size="14">3.  Lie derivatives</Font></Text-field>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieDerivative(Y, f);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiooIiIjIiIiKSUieUciIiQiIiIlInhHIiIiIiIiKigiIiMiIiIpJSJ4RyIiIyIiIiklInlHIiIjIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieDerivative(X, omega);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJioqIiIkIiIiKSUieUciIiQiIiIlInhHIiIiJSd0aGV0YTFHIiIiIiIiKiYsJiUieUchIiIqJiklInhHIiIjIiIiKSUieUciIiMiIiIiIiIiIiIlJ3RoZXRhMkciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">T := evalDG(theta1 &amp;t X1 &amp;t theta2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSd0aGV0YTFHIiIiJSNYMUciIiIlJ3RoZXRhMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieDerivative(X1, T);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqKCUndGhldGEyRyIiIiUjWDFHIiIiJSd0aGV0YTJHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal258" layout="Normal258">4.  Transformations</Text-field>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Phi := Transformation(M, M, [x = y^2, y = x*y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyQvJSJ4RyokKSUieUciIiMiIiIvJSJ5RyomJSJ4RyIiIiUieUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pushforward(Phi, X1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqKCUieEchIiIlInlHIiIiJSNYMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pushforward(Phi, X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJioqIiIjIiIiJSJ4RyEiIiUieUciIiIlI1gxRyIiIiIiIiUjWDJHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Note that the Jacobian of <Font style="Help Math">Phi</Font> is calculated with respect to the frame <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font>.  (The first column of<Font style="Help Math"> J</Font> contains the components of <Font style="Help Math">Phi_*(X1)</Font> with respect to <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font> and the second column of <Font style="Help Math">Phi_*(X2) </Font>with respect to <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font>.</Text-field>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">J := Tools:-DGinfo(Phi, &quot;JacobianMatrix&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkqbXZlcmJhdGltR0YkNiNRZVt3Pi1JI21pRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiVRIko2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiItSShtZmVuY2VkRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNigtSSVtcm93RzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiMtSSdtdGFibGVHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2Ni1JJG10ckc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYnLUkkbXRkRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNigtSSNtbkc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYkUSIwNiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiLyUpcm93YWxpZ25HUSE2Ii8lLGNvbHVtbmFsaWduR1EhNiIvJStncm91cGFsaWduR1EhNiIvJShyb3dzcGFuR1EiMTYiLyUrY29sdW1uc3BhbkdRIjE2Ii1JJG10ZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYoLUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2KC1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JS1JI21uRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiRRIjI2Ii8lLG1hdGh2YXJpYW50R1Enbm9ybWFsNiItSSNtb0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYtUTEmSW52aXNpYmxlVGltZXM7NiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiLyUmZmVuY2VHUSZmYWxzZTYiLyUqc2VwYXJhdG9yR1EmZmFsc2U2Ii8lKXN0cmV0Y2h5R1EmZmFsc2U2Ii8lKnN5bW1ldHJpY0dRJmZhbHNlNiIvJShsYXJnZW9wR1EmZmFsc2U2Ii8lLm1vdmFibGVsaW1pdHNHUSZmYWxzZTYiLyUnYWNjZW50R1EmZmFsc2U2Ii8lJ2xzcGFjZUdRJjAuMGVtNiIvJSdyc3BhY2VHUSYwLjBlbTYiLUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JVEieTYiLyUnaXRhbGljR1EldHJ1ZTYiLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWM2Ii1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2Iy1JI21pRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiVRIng2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiIvJS5saW5ldGhpY2tuZXNzR1EiMTYiLyUrZGVub21hbGlnbkdRJ2NlbnRlcjYiLyUpbnVtYWxpZ25HUSdjZW50ZXI2Ii8lKWJldmVsbGVkR1EmZmFsc2U2Ii8lKXJvd2FsaWduR1EhNiIvJSxjb2x1bW5hbGlnbkdRITYiLyUrZ3JvdXBhbGlnbkdRITYiLyUocm93c3BhbkdRIjE2Ii8lK2NvbHVtbnNwYW5HUSIxNiIvJSlyb3dhbGlnbkdRITYiLyUsY29sdW1uYWxpZ25HUSE2Ii8lK2dyb3VwYWxpZ25HUSE2Ii1JJG10ckc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYnLUkkbXRkRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNigtSSZtZnJhY0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYoLUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IjYjLUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2JVEieTYiLyUnaXRhbGljR1EldHJ1ZTYiLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWM2Ii1JJW1yb3dHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2Iy1JI21pRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiVRIng2Ii8lJ2l0YWxpY0dRJXRydWU2Ii8lLG1hdGh2YXJpYW50R1EnaXRhbGljNiIvJS5saW5ldGhpY2tuZXNzR1EiMTYiLyUrZGVub21hbGlnbkdRJ2NlbnRlcjYiLyUpbnVtYWxpZ25HUSdjZW50ZXI2Ii8lKWJldmVsbGVkR1EmZmFsc2U2Ii8lKXJvd2FsaWduR1EhNiIvJSxjb2x1bW5hbGlnbkdRITYiLyUrZ3JvdXBhbGlnbkdRITYiLyUocm93c3BhbkdRIjE2Ii8lK2NvbHVtbnNwYW5HUSIxNiItSSRtdGRHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHNiI2KC1JI21uRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiNiRRIjE2Ii8lLG1hdGh2YXJpYW50R1Enbm9ybWFsNiIvJSlyb3dhbGlnbkdRITYiLyUsY29sdW1uYWxpZ25HUSE2Ii8lK2dyb3VwYWxpZ25HUSE2Ii8lKHJvd3NwYW5HUSIxNiIvJStjb2x1bW5zcGFuR1EiMTYiLyUpcm93YWxpZ25HUSE2Ii8lLGNvbHVtbmFsaWduR1EhNiIvJStncm91cGFsaWduR1EhNiIvJSZhbGlnbkdRJWF4aXM2Ii8lKXJvd2FsaWduR1EpYmFzZWxpbmU2Ii8lLGNvbHVtbmFsaWduR1EnY2VudGVyNiIvJStncm91cGFsaWduR1EnfGdyZnJsZWZ0fGdyaHI2Ii8lL2FsaWdubWVudHNjb3BlR1EldHJ1ZTYiLyUsY29sdW1ud2lkdGhHUSVhdXRvNiIvJSZ3aWR0aEdRJWF1dG82Ii8lK3Jvd3NwYWNpbmdHUSYxLjBleDYiLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtNiIvJSlyb3dsaW5lc0dRJW5vbmU2Ii8lLGNvbHVtbmxpbmVzR1Elbm9uZTYiLyUmZnJhbWVHUSVub25lNiIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbXxpcjAuNWV4NiIvJSplcXVhbHJvd3NHUSZmYWxzZTYiLyUtZXF1YWxjb2x1bW5zR1EmZmFsc2U2Ii8lLWRpc3BsYXlzdHlsZUdRJmZhbHNlNiIvJSVzaWRlR1EmcmlnaHQ2Ii8lMG1pbmxhYmVsc3BhY2luZ0dRJjAuOGVtNiIvJSxtYXRodmFyaWFudEdRJ25vcm1hbDYiL0krbXNlbWFudGljc0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkc2IlEnTWF0cml4NiIvJSVvcGVuR1EiWzYiLyUmY2xvc2VHUSJdNiIvSSttc2VtYW50aWNzRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliRzYiUSdNYXRyaXg2IkYn</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Flows can be calculated from vector fields defined in the anholonomic basis.</Text-field>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">X;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiomJSJ4RyIiIiUjWDFHIiIiIiIiKiYlInlHIiIiJSNYMkciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">simplify(Flow(X, epsilon));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JC8lInhHLCQqJiUieEciIiIsJiomJShlcHNpbG9uRyIiIiUieUciIiIiIiIiIiIhIiIhIiIhIiIvJSJ5RywkKiYlInlHIiIiLCYqJiUoZXBzaWxvbkciIiIlInlHIiIiIiIiIiIiISIiISIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" foreground="[0,0,1]" size="14">5. </Font> <Font bold="true" style="Text" foreground="[0,0,1]" size="14">Infinitesimal generators</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Here are the infinitesimal generators for the action of the Euclidean group on the x-y plane.</Text-field>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">T := Transformation(M, M, [x = cos(theta)*x + sin(theta)*y + a, y = -sin(theta)*x + cos(theta)*y + b]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJURzckLyUieEcsKComLSUkY29zRzYjJSZ0aGV0YUciIiIlInhHIiIiIiIiKiYtJSRzaW5HNiMlJnRoZXRhRyIiIiUieUciIiIiIiIlImFHIiIiLyUieUcsKComLSUkc2luRzYjJSZ0aGV0YUciIiIlInhHIiIiISIiKiYtJSRjb3NHNiMlJnRoZXRhRyIiIiUieUciIiIiIiIlImJHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Gamma := InfinitesimalTransformation(T, [a, b, theta]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZHYW1tYUc3JSomJSJ5RyEiIiUjWDFHIiIiKiYlInlHISIiJSNYMkciIiIsJiUjWDFHIiIiKiglInhHIiIiJSJ5RyEiIiUjWDJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieAlgebras:-LieAlgebraData(Gamma);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JC83JCUjZTFHJSNlM0csJCUjZTJHISIiLzckJSNlMkclI2UzRyUjZTFH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">6.  Christoffel Symbols and Curvature</Text-field>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g := evalDG(theta1 &amp;t theta1 + theta2 &amp;t theta2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJnRywmKiYlJ3RoZXRhMUciIiIlJ3RoZXRhMUciIiIiIiIqJiUndGhldGEyRyIiIiUndGhldGEyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">C := Christoffel(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJDRywmKiglJ3RoZXRhMUciIiIlI1gyRyIiIiUndGhldGExRyIiIiIiIiooJSd0aGV0YTJHIiIiJSNYMUciIiIlJ3RoZXRhMUciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">R := CurvatureTensor(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJSRywqKiolI1gxRyIiIiUndGhldGEyRyIiIiUndGhldGExRyIiIiUndGhldGEyRyIiIiEiIioqJSNYMUciIiIlJ3RoZXRhMkciIiIlJ3RoZXRhMkciIiIlJ3RoZXRhMUciIiIiIiIqKiUjWDJHIiIiJSd0aGV0YTFHIiIiJSd0aGV0YTFHIiIiJSd0aGV0YTJHIiIiIiIiKiolI1gyRyIiIiUndGhldGExRyIiIiUndGhldGEyRyIiIiUndGhldGExRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Converting vector fields, differential forms and tensors from coordinate frames to anholonomic frames.</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We continue with the previous example.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">To change a <Font style="Help Math">DifferentialGeometry</Font> object from one frame to another, both defined with respect to the same underlying coordinates, simply</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">create the identity map and its inverse between the two frames.</Text-field>
+<Text-field style="Dash Item" layout="Dash Item">use the appropriate <Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink" size="14">DifferentialGeometry</Font></Hyperlink> command <Hyperlink linktarget="Help:DifferentialGeometry/Pushforward" hyperlink="true"><Font style="Hyperlink" size="14">Pushforward</Font></Hyperlink> (vector fields), <Hyperlink linktarget="Help:DifferentialGeometry/Pullback" hyperlink="true"><Font style="Hyperlink" size="14">Pullback</Font></Hyperlink> (differential forms), <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor" hyperlink="true"><Font style="Hyperlink" size="14">PushPullTensor</Font></Hyperlink> (tensors).</Text-field>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Id := Transformation(M0, M, [x = x, y = y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNJZEc3JC8lInhHJSJ4Ry8lInlHJSJ5Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">invId := Transformation(M, M0, [x = x, y = y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZpbnZJZEc3JC8lInhHJSJ4Ry8lInlHJSJ5Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Fr;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JComJSJ5RyIiIiUkRF94RyIiIiomJSJ5RyIiIiUkRF95RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Omega;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JComJSJ5RyEiIiUjZHhHIiIiKiYlInlHISIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a vector field given in the anholonomic frame to the coordinate frame.</Text-field>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pushforward(invId, Id, a*X1 + b*X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiooJSJhRyIiIiUieUciIiIlJERfeEciIiIiIiIqKCUieUciIiIlImJHIiIiJSREX3lHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a vector field given in the coordinate frame to the anholonomic frame.</Text-field>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pushforward(Id, invId, a*D_x + b*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiooJSJhRyIiIiUieUchIiIlI1gxRyIiIiIiIiooJSJiRyIiIiUieUchIiIlI1gyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a differential form given in the anholonomic frame to the coordinate frame:</Text-field>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pullback(Id, a*theta1 + b*theta2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiooJSJhRyIiIiUieUchIiIlI2R4RyIiIiIiIiooJSJiRyIiIiUieUchIiIlI2R5RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a differential form given in the coordinate frame to the anholonomic frame.</Text-field>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Pullback(invId, a*dx + b*dy);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMsJiooJSJhRyIiIiUieUciIiIlJ3RoZXRhMUciIiIiIiIqKCUieUciIiIlImJHIiIiJSd0aGV0YTJHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a tensor field given in the anholonomic frame to the coordinate frame.</Text-field>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">PushPullTensor(invId, Id, X1 &amp;t theta2 &amp;t theta1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqKiUieUchIiIlJERfeEciIiIlI2R5RyIiIiUjZHhHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Convert a tensor field given in the coordinate frame to the anholonomic frame.</Text-field>
+<Group labelreference="L52" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">PushPullTensor(Id, invId, dx &amp;t D_y &amp;t dx &amp;t dy);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqLCklInlHIiIjIiIiJSd0aGV0YTFHIiIiJSNYMkciIiIlJ3RoZXRhMUciIiIlJ3RoZXRhMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Exercises</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Exercise 1</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Construct an orthonormal coframe for the metric <Font style="Help Math">g</Font>.  Calculate the curvature tensor and its first covariant derivative in terms of this orthonormal frame.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L53" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">restart: with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L54" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y, z], M0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlL2ZyYW1lfm5hbWU6fk0wRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L55" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g := evalDG((1/(k^2 + x^2 + y^2 + z^2)^2)*(dx &amp;t dx + dy &amp;t dy + dz &amp;t dz));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJnRywoKigpLCoqJCklImtHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUieUciIiMiIiIiIiIqJCklInpHIiIjIiIiIiIiIiIjISIiJSNkeEciIiIlI2R4RyIiIiIiIiooKSwqKiQpJSJrRyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIqJCklInlHIiIjIiIiIiIiKiQpJSJ6RyIiIyIiIiIiIiIiIyEiIiUjZHlHIiIiJSNkeUciIiIiIiIqKCksKiokKSUia0ciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIiIiMhIiIlI2R6RyIiIiUjZHpHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L56" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">kappa := k^2+x^2+y^2+z^2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZrYXBwYUcsKiokKSUia0ciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Solution</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Define the orthonormal frame.</Text-field>
+<Group labelreference="L57" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Omega := evalDG([1/kappa*dx, 1/kappa*dy, 1/kappa*dz]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JSomLCoqJCklImtHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUieUciIiMiIiIiIiIqJCklInpHIiIjIiIiIiIiISIiJSNkeEciIiIqJiwqKiQpJSJrRyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIqJCklInlHIiIjIiIiIiIiKiQpJSJ6RyIiIyIiIiIiIiEiIiUjZHlHIiIiKiYsKiokKSUia0ciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIhIiIlI2R6RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L58" drawlabel="true">
+<Input>
+<Text-field style="Normal" layout="Normal">Calculate the structure equations for this frame.  Initialize.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L59" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEq := FrameData(Omega, M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSxTdHJ1Y3R1cmVFcUc3JS8qJiUiZEciIiIlJ1RoZXRhMUciIiIsJiosIiIjIiIiJSJ5RyIiIiUnVGhldGExRyIiIiUiXkciIiIlJ1RoZXRhMkciIiIiIiIqLCIiIyIiIiUiekciIiIlJ1RoZXRhMUciIiIlIl5HIiIiJSdUaGV0YTNHIiIiIiIiLyomJSJkRyIiIiUnVGhldGEyRyIiIiwmKiwiIiMiIiIlInhHIiIiJSdUaGV0YTFHIiIiJSJeRyIiIiUnVGhldGEyRyIiIiEiIiosIiIjIiIiJSJ6RyIiIiUnVGhldGEyRyIiIiUiXkciIiIlJ1RoZXRhM0ciIiIiIiIvKiYlImRHIiIiJSdUaGV0YTNHIiIiLCYqLCIiIyIiIiUieEciIiIlJ1RoZXRhMUciIiIlIl5HIiIiJSdUaGV0YTNHIiIiISIiKiwiIiMiIiIlInlHIiIiJSdUaGV0YTJHIiIiJSJeRyIiIiUnVGhldGEzRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L60" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEq, [E], [omega], verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlT1RoZX5mb2xsb3dpbmd+Y29vcmRpbmF0ZXN+aGF2ZX5iZWVufnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JSUieEclInlHJSJ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlZ25UaGV+Zm9sbG93aW5nfnZlY3Rvcn5maWVsZHN+aGF2ZX5iZWVufmRlZmluZWR+YW5kfnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JSUjRTFHJSNFMkclI0UzRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlXm9UaGV+Zm9sbG93aW5nfmRpZmZlcmVudGlhbH4xLWZvcm1zfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JSUnb21lZ2ExRyUnb21lZ2EyRyUnb21lZ2EzRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Write the metric in the orthonormal frame.</Text-field>
+<Group labelreference="L61" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Id := Transformation(M, M0, [x = x, y = y, z = z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNJZEc3JS8lInhHJSJ4Ry8lInlHJSJ5Ry8lInpHJSJ6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L62" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">G := PushPullTensor(Id, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJHRywoKiYlJ29tZWdhMUciIiIlJ29tZWdhMUciIiIiIiIqJiUnb21lZ2EyRyIiIiUnb21lZ2EyRyIiIiIiIiomJSdvbWVnYTNHIiIiJSdvbWVnYTNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Compute the Christoffel connection, the curvature tensor, the Ricci scalar, and the covariant derivative of the curvature tensor.</Text-field>
+<Group labelreference="L63" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">C := Christoffel(G);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output12"><Equation executable="false" style="2D Output">NiM+JSJDRyw6KiwiIiMiIiIlInlHIiIiJSdvbWVnYTFHIiIiJSNFMkciIiIlJ29tZWdhMUciIiIiIiIqLCIiIyIiIiUieEciIiIlJ29tZWdhMUciIiIlI0UyRyIiIiUnb21lZ2EyRyIiIiEiIiosIiIjIiIiJSJ6RyIiIiUnb21lZ2ExRyIiIiUjRTNHIiIiJSdvbWVnYTFHIiIiIiIiKiwiIiMiIiIlInhHIiIiJSdvbWVnYTFHIiIiJSNFM0ciIiIlJ29tZWdhM0ciIiIhIiIqLCIiIyIiIiUieUciIiIlJ29tZWdhMkciIiIlI0UxRyIiIiUnb21lZ2ExRyIiIiEiIiosIiIjIiIiJSJ4RyIiIiUnb21lZ2EyRyIiIiUjRTFHIiIiJSdvbWVnYTJHIiIiIiIiKiwiIiMiIiIlInpHIiIiJSdvbWVnYTJHIiIiJSNFM0ciIiIlJ29tZWdhMkciIiIiIiIqLCIiIyIiIiUieUciIiIlJ29tZWdhMkciIiIlI0UzRyIiIiUnb21lZ2EzRyIiIiEiIiosIiIjIiIiJSJ6RyIiIiUnb21lZ2EzRyIiIiUjRTFHIiIiJSdvbWVnYTFHIiIiISIiKiwiIiMiIiIlInhHIiIiJSdvbWVnYTNHIiIiJSNFMUciIiIlJ29tZWdhM0ciIiIiIiIqLCIiIyIiIiUiekciIiIlJ29tZWdhM0ciIiIlI0UyRyIiIiUnb21lZ2EyRyIiIiEiIiosIiIjIiIiJSJ5RyIiIiUnb21lZ2EzRyIiIiUjRTJHIiIiJSdvbWVnYTNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L64" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">R := CurvatureTensor(C);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output12"><Equation executable="false" style="2D Output">NiM+JSJSRyw6Ki4iIiUiIiIpJSJrRyIiIyIiIiUjRTFHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTJHIiIiIiIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTFHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTFHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTFHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTNHIiIiIiIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTFHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTFHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTJHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTJHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTJHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTFHIiIiIiIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTJHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTNHIiIiIiIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTJHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTJHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTNHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTNHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTNHIiIiJSdvbWVnYTFHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTFHIiIiIiIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTNHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTNHIiIiISIiKi4iIiUiIiIpJSJrRyIiIyIiIiUjRTNHIiIiJSdvbWVnYTJHIiIiJSdvbWVnYTNHIiIiJSdvbWVnYTJHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L65" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">R := RicciScalar(G, R);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJSRywkKiYiI0MiIiIpJSJrRyIiIyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L66" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">CovariantDerivative(R, C);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJ29tZWdhMUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Exercise 2</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Use the vector fields<Font style="Help Math"> X1</Font>, <Font style="Help Math">X2</Font>, and <Font style="Help Math">Y1</Font>, <Font style="Help Math">Y2</Font> to construct two frames on the 2-dimensional manifold <Font style="Help Math">M0</Font>.  Denote the frame/coframes by <Font style="Help Math">E1</Font>, <Font style="Help Math">E2</Font>, <Font style="Help Math">omega1</Font>, <Font style="Help Math">omega2</Font> and <Font style="Help Math">F1</Font>, <Font style="Help Math">F2</Font>, <Font style="Help Math">sigma1</Font>, <Font style="Help Math">sigma2</Font>.  Express the metric<Font style="Help Bold" foreground="[0,0,1]"> g</Font>, given in terms of the first frame as <Font style="Help Math">g = omega1^2 + omega2^2</Font>, in terms of the second frame.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L67" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L68" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y], M0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlL2ZyYW1lfm5hbWU6fk0wRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L69" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">X1 := evalDG(1/y*D_x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNYMUcqJiUieUchIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L70" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">X2 := evalDG(1/x*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNYMkcqJiUieEchIiIlJERfeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L71" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Y1 := evalDG(x*y*D_x + y^2*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNZMUcsJiooJSJ4RyIiIiUieUciIiIlJERfeEciIiIiIiIqJiklInlHIiIjIiIiJSREX3lHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L72" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Y2 := evalDG(x^2*D_x - x*y*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNZMkcsJiomKSUieEciIiMiIiIlJERfeEciIiIiIiIqKCUieEciIiIlInlHIiIiJSREX3lHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Solution</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Calculate the structure equations for the  two frames and initialize.</Text-field>
+<Group labelreference="L73" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEq1 := FrameData([X1, X2], P);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JS1TdHJ1Y3R1cmVFcTFHNyMvNyQlI0UxRyUjRTJHLCYqKCUieUchIiIlInhHISIiJSNFMUciIiIiIiIqKCUieUchIiIlInhHISIiJSNFMkciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L74" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEq2 := FrameData([Y1, Y2], Q);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JS1TdHJ1Y3R1cmVFcTJHNyMvNyQlI0UxRyUjRTJHLCYqJiUieEciIiIlI0UxRyIiIiIiIiomJSJ5RyIiIiUjRTJHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L75" drawlabel="true">
+<Input>
+<Text-field prompt="M0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEq1, [E], [omega], verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlT1RoZX5mb2xsb3dpbmd+Y29vcmRpbmF0ZXN+aGF2ZX5iZWVufnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlZ25UaGV+Zm9sbG93aW5nfnZlY3Rvcn5maWVsZHN+aGF2ZX5iZWVufmRlZmluZWR+YW5kfnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUjRTFHJSNFMkc=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlXm9UaGV+Zm9sbG93aW5nfmRpZmZlcmVudGlhbH4xLWZvcm1zfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUnb21lZ2ExRyUnb21lZ2EyRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6flBH</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L76" drawlabel="true">
+<Input>
+<Text-field prompt="P &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEq2, [P], [sigma], verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlT1RoZX5mb2xsb3dpbmd+Y29vcmRpbmF0ZXN+aGF2ZX5iZWVufnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlZ25UaGV+Zm9sbG93aW5nfnZlY3Rvcn5maWVsZHN+aGF2ZX5iZWVufmRlZmluZWR+YW5kfnByb3RlY3RlZDpH</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUjUDFHJSNQMkc=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlXm9UaGV+Zm9sbG93aW5nfmRpZmZlcmVudGlhbH4xLWZvcm1zfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6Rw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM3JCUnc2lnbWExRyUnc2lnbWEyRw==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6flFH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Define the metric <Font style="Help Math">g </Font>in the frame <Font style="Help Math">P</Font>.</Text-field>
+<Group labelreference="L77" drawlabel="true">
+<Input>
+<Text-field prompt="Q &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g := evalDG(omega1 &amp;t omega1 + omega2 &amp;t omega2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJnRywmKiYlJ29tZWdhMUciIiIlJ29tZWdhMUciIiIiIiIqJiUnb21lZ2EyRyIiIiUnb21lZ2EyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Define the identity transformation from <Font style="Help Math">Q</Font> to <Font style="Help Math">P</Font>.</Text-field>
+<Group labelreference="L78" drawlabel="true">
+<Input>
+<Text-field prompt="P &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Id := Transformation(Q, P, [x = x, y = y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSNJZEc3JC8lInhHJSJ4Ry8lInlHJSJ5Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the metric in the frame <Font style="Help Math">Q</Font>.</Text-field>
+<Group labelreference="L79" drawlabel="true">
+<Input>
+<Text-field prompt="Q &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">G := PushPullTensor(Id, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiM+JSJHRywmKiwiIiMiIiIpJSJ5RyIiJSIiIiklInhHIiIjIiIiJSdzaWdtYTFHIiIiJSdzaWdtYTFHIiIiIiIiKiwiIiMiIiIpJSJ5RyIiIyIiIiklInhHIiIlIiIiJSdzaWdtYTJHIiIiJSdzaWdtYTJHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Exercise 3</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Let <Font style="Help Math">G</Font> be the matrix group of <Font style="Help Math">2x2</Font> upper triangular matrices.  Endow <Font style="Help Math">G</Font> with the frames of left and right invariant vector fields.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Solution 1</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Here we compute the left and right invariant 1-forms directly using the <Hyperlink linktarget="Help:DifferentialGeometry/Tools/MatrixOperations" hyperlink="true"><Font style="Hyperlink" size="14">MatrixMult</Font></Hyperlink> command from the <Hyperlink linktarget="Help:DifferentialGeometry/Tools" hyperlink="true"><Font style="Hyperlink" size="14">Tools</Font></Hyperlink> package.</Text-field>
+<Group labelreference="L80" drawlabel="true">
+<Input>
+<Text-field prompt="GR &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L81" drawlabel="true">
+<Input>
+<Text-field prompt="Q &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y, z], G0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5HMEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L82" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">A := Matrix([[x, y], [0, z]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2JS1JJ210YWJsZUdGJDY2LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1GLDYlUSJ4RidGL0YyLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0Zfby8lK2dyb3VwYWxpZ25HRl9vLyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRmZvLUZobjYoLUYsNiVRInlGJ0YvRjJGXW9GYG9GYm9GZG9GZ29GXW9GYG9GYm8tRmVuNictRmhuNigtSSNtbkdGJDYkUSIwRidGOUZdb0Zgb0Zib0Zkb0Znby1GaG42KC1GLDYlUSJ6RidGL0YyRl1vRmBvRmJvRmRvRmdvRl1vRmBvRmJvLyUmYWxpZ25HUSVheGlzRicvRl5vUSliYXNlbGluZUYnL0Zhb1EnY2VudGVyRicvRmNvUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGMS8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmhxLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRmNyLyUmZnJhbWVHRmNyLyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGPS8lLWVxdWFsY29sdW1uc0dGPS8lLWRpc3BsYXlzdHlsZUdGPS8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0Zgci8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5L0krbXNlbWFudGljc0dGJFEnTWF0cml4RicvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGaXMvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUSk4NzU2Mjg4OEYnRmZzRjk=">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciKSkpR2MoKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the left invariant forms.</Text-field>
+<Group labelreference="L83" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">B := (A^(-1)) &amp;MatrixMult ExteriorDerivative(A);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2JS1JJ210YWJsZUdGJDY2LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1JJm1mcmFjR0YkNigtRiM2JS1GLDYlUSNkeEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GIzYlLUYsNiVRInhGJ0YvRjJGYm9GOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGX3AvJSliZXZlbGxlZEdGPS8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGZnAvJStncm91cGFsaWduR0ZmcC8lKHJvd3NwYW5HRlxwLyUrY29sdW1uc3BhbkdGXHAtRmhuNigtRiM2Ji1GW282KC1GIzYlLUYsNiVRI2R5RidGL0YyRmJvRjlGZW9Gam9GXXBGYHBGYnAtRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZeci1GW282KC1GIzYnLUYsNiVRInlGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZbcy1GLDYlUSNkekYnRi9GMkZib0Y5LUYjNidGZ29GZ3ItRiw2JVEiekYnRi9GMkZib0Y5RmpvRl1wRmBwRmJwRjlGZHBGZ3BGaXBGW3FGXXFGZHBGZ3BGaXAtRmVuNictRmhuNigtRiM2Ji1GLDYlUSIwRidGL0YyRmdyRl9vRjlGZHBGZ3BGaXBGW3FGXXEtRmhuNigtRltvNigtRiM2JUZdc0Zib0Y5LUYjNiVGYnNGYm9GOUZqb0ZdcEZgcEZicEZkcEZncEZpcEZbcUZdcUZkcEZncEZpcC8lJmFsaWduR1ElYXhpc0YnL0ZlcFEpYmFzZWxpbmVGJy9GaHBGX3AvRmpwUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGMS8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmJ1LyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRl12LyUmZnJhbWVHRl12LyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGPS8lLWVxdWFsY29sdW1uc0dGPS8lLWRpc3BsYXlzdHlsZUdGPS8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0ZqdUZib0Y5RjkvSSttc2VtYW50aWNzR0YkUSdNYXRyaXhGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zgdy8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRKTg3NTY1ODk2RidGYm9GOQ==">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciKScqZWMoKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L84" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">OmegaLeft := [B[1, 1], B[1, 2], B[2, 2]];</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEqT21lZ2FMZWZ0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUkmbWZyYWNHRiQ2KC1GIzYlLUYsNiVRI2R4RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUYjNiUtRiw2JVEieEYnRi9GMkZmbkY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zjby8lKWJldmVsbGVkR0Y9LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiM2Ji1GVTYoLUYjNiUtRiw2JVEjZHlGJ0YvRjJGZm5GOUZpbkZeb0Zhb0Zkb0Zmby1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1xLUZVNigtRiM2Jy1GLDYlUSJ5RidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGXHAvRk5GXXAtRiw2JVEjZHpGJ0YvRjJGZm5GOS1GIzYnRltvRmZxLUYsNiVRInpGJ0YvRjJGZm5GOUZeb0Zhb0Zkb0Zmb0Y5RmhvLUZVNigtRiM2JUZqcUZmbkY5LUYjNiVGX3JGZm5GOUZeb0Zhb0Zkb0Zmb0ZmbkY5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGZm5GOQ==">NyUtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkjRzBHRiUiIiI3IzckNyNGKyokSSJ4RyUqcHJvdGVjdGVkRyEiIi1GJDYjNyRGKDckNyQ3IyIiI0YvNyQ3IyIiJCwkKihJInlHRjFGK0YwRjJJInpHRjFGMkYyLUYkNiM3JEYoNyM3JEY7KiRGQEYy</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L85" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEqLeft := FrameData(OmegaLeft, GL);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEwU3RydWN0dXJlRXFMZWZ0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUYjNictRiM2Ji1GLDYlUSJkRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GaW4tRiw2JVEoJiM5MjA7MUYnRi9GMkY5LUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEiMEYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZobi9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUYjNiZGWEZlbi1GLDYlUSgmIzkyMDsyRidGL0YyRjlGXm8tRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GW3EtRiM2KEZbb0Zlbi1GLDYlUSRgXmBGJ0YvRjJGZW5GYnBGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmpwRlxxLUYjNihGYnBGZW5GX3FGZW4tRiw2JVEoJiM5MjA7M0YnRi9GMkY5RjlGZW9GOUZoby1GIzYnLUYjNiZGWEZlbkZncUY5Rl5vRmFvRmVvRjlGZW9GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmVvRjk=">LUkkX0RHRzYiNiM3JTcoUS1tb3ZpbmdfZnJhbWVGJEkjR0xHRiQ3IyIiJEkjRzBHRiQ3JUkieEclKnByb3RlY3RlZEdJInlHRi9JInpHRi9RJWZvcm1GJDcmNyQ3JCIiIkY2Ri43JDckIiIjRjlGLjckNyRGK0Y5RjA3JDckRitGK0YxNyQ3JDclRjZGOUY5RjY3JDclRjlGK0Y5RjY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L86" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEqLeft, [L], [theta]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5HTEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the right invariant forms.</Text-field>
+<Group labelreference="L87" drawlabel="true">
+<Input>
+<Text-field prompt="GL &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">ChangeFrame(G0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSNHTEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L88" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">C := ExteriorDerivative(A) &amp;MatrixMult (A^(-1));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2JS1JJ210YWJsZUdGJDY2LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1JJm1mcmFjR0YkNigtRiM2JS1GLDYlUSNkeEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GIzYlLUYsNiVRInhGJ0YvRjJGYm9GOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGX3AvJSliZXZlbGxlZEdGPS8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGZnAvJStncm91cGFsaWduR0ZmcC8lKHJvd3NwYW5HRlxwLyUrY29sdW1uc3BhbkdGXHAtRmhuNigtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZ3EtRltvNigtRiM2Jy1GLDYlUSJ5RidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZHJGX29GYm9GOS1GIzYnRmdvRmByLUYsNiVRInpGJ0YvRjJGYm9GOUZqb0ZdcEZgcEZicC1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRmZxRmhxLUZbbzYoLUYjNiUtRiw2JVEjZHlGJ0YvRjJGYm9GOS1GIzYlRmhyRmJvRjlGam9GXXBGYHBGYnBGOUZkcEZncEZpcEZbcUZdcUZkcEZncEZpcC1GZW42Jy1GaG42KC1GIzYmLUYsNiVRIjBGJ0YvRjJGYHJGX29GOUZkcEZncEZpcEZbcUZdcS1GaG42KC1GW282KC1GIzYlLUYsNiVRI2R6RidGL0YyRmJvRjlGZXNGam9GXXBGYHBGYnBGZHBGZ3BGaXBGW3FGXXFGZHBGZ3BGaXAvJSZhbGlnbkdRJWF4aXNGJy9GZXBRKWJhc2VsaW5lRicvRmhwRl9wL0ZqcFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjEvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0ZldS8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0Zgdi8lJmZyYW1lR0Zgdi8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRj0vJS1lcXVhbGNvbHVtbnNHRj0vJS1kaXNwbGF5c3R5bGVHRj0vJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGXXZGYm9GOUY5L0krbXNlbWFudGljc0dGJFEnTWF0cml4RicvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGY3cvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUSk4ODc5Nzc2MEYnRmJvRjk=">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciKWd4eikp</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L89" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">OmegaRight := [C[1, 1], C[1, 2], C[2, 2]];</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVErT21lZ2FSaWdodEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2KS1JJm1mcmFjR0YkNigtRiM2JS1GLDYlUSNkeEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GIzYlLUYsNiVRInhGJ0YvRjJGZm5GOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGY28vJSliZXZlbGxlZEdGPS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmZwLUZVNigtRiM2Jy1GLDYlUSJ5RidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGXHAvRk5GXXBGWUZmbkY5LUYjNidGW29GX3EtRiw2JVEiekYnRi9GMkZmbkY5Rl5vRmFvRmRvRmZvLUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGZXBGZ3AtRlU2KC1GIzYlLUYsNiVRI2R5RidGL0YyRmZuRjktRiM2JUZlcUZmbkY5Rl5vRmFvRmRvRmZvRjlGaG8tRlU2KC1GIzYlLUYsNiVRI2R6RidGL0YyRmZuRjlGYnJGXm9GYW9GZG9GZm9GZm5GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmZuRjk=">NyUtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkjRzBHRiUiIiI3IzckNyNGKyokSSJ4RyUqcHJvdGVjdGVkRyEiIi1GJDYjNyRGKDckNyRGLiwkKihJInlHRjFGK0YwRjJJInpHRjFGMkYyNyQ3IyIiIyokRjtGMi1GJDYjNyRGKDcjNyQ3IyIiJEY/</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L90" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEqRight := FrameData(OmegaRight, GR);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVExU3RydWN0dXJlRXFSaWdodEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2KS1GIzYnLUYjNiYtRiw2JVEiZEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmluLUYsNiVRKCYjOTIwOzFGJ0YvRjJGOS1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1JI21uR0YkNiRRIjBGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaG4vRk5RLDAuMzMzMzMzM2VtRictRiM2Jy1GIzYmRlhGZW4tRiw2JVEoJiM5MjA7MkYnRi9GMkY5Rl5vLUYjNiYtRiM2KEZbb0Zlbi1GLDYlUSRgXmBGJ0YvRjJGZW5GYnBGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmBxLUYjNihGYnBGZW5GaXBGZW4tRiw2JVEoJiM5MjA7M0YnRi9GMkY5RjlGZW9GOUZoby1GIzYnLUYjNiZGWEZlbkZkcUY5Rl5vRmFvRmVvRjlGZW9GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmVvRjk=">LUkkX0RHRzYiNiM3JTcoUS1tb3ZpbmdfZnJhbWVGJEkjR1JHRiQ3IyIiJEkjRzBHRiQ3JUkieEclKnByb3RlY3RlZEdJInlHRi9JInpHRi9RJWZvcm1GJDcmNyQ3JCIiIkY2Ri43JDckRjYiIiNGMDckNyRGOUY5RjE3JDckRitGK0YxNyQ3JDclRjZGOUY5ISIiNyQ3JUY5RitGOUZB</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L91" drawlabel="true">
+<Input>
+<Text-field prompt="G0 &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEqRight, [R], [sigma]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5HUkc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Solution 2</Text-field></Title>
+<Text-field style="Normal" layout="Normal">This time we use the commands <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/LieGroup" hyperlink="true"><Font style="Hyperlink" size="14">LieGroup</Font></Hyperlink> and <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/InvariantVectorsAndForms" hyperlink="true"><Font style="Hyperlink" size="14">InvariantVectorsAndForms</Font></Hyperlink> from the <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions" hyperlink="true"><Font style="Hyperlink" size="14">GroupActions</Font></Hyperlink> package.</Text-field>
+<Group labelreference="L92" drawlabel="true">
+<Input>
+<Text-field prompt="GR &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">restart: with(DifferentialGeometry): with(GroupActions):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L93" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y, z], G);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5HRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L94" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">A := Matrix([[x, y], [0, z]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2JS1JJ210YWJsZUdGJDY2LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1GLDYlUSJ4RidGL0YyLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0Zfby8lK2dyb3VwYWxpZ25HRl9vLyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRmZvLUZobjYoLUYsNiVRInlGJ0YvRjJGXW9GYG9GYm9GZG9GZ29GXW9GYG9GYm8tRmVuNictRmhuNigtSSNtbkdGJDYkUSIwRidGOUZdb0Zgb0Zib0Zkb0Znby1GaG42KC1GLDYlUSJ6RidGL0YyRl1vRmBvRmJvRmRvRmdvRl1vRmBvRmJvLyUmYWxpZ25HUSVheGlzRicvRl5vUSliYXNlbGluZUYnL0Zhb1EnY2VudGVyRicvRmNvUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGMS8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmhxLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRmNyLyUmZnJhbWVHRmNyLyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGPS8lLWVxdWFsY29sdW1uc0dGPS8lLWRpc3BsYXlzdHlsZUdGPS8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0Zgci8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5L0krbXNlbWFudGljc0dGJFEnTWF0cml4RicvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGaXMvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUSk4NzAzMjQzNkYnRmZzRjk=">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciKU9DLigp</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L95" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LG := LieGroup(A, G);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjTEdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNistRjY2L1EnbW9kdWxlRicvJSVib2xkR0YxL0YzUSVib2xkRicvJStmb250d2VpZ2h0R0ZXRjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW4tSShtZmVuY2VkR0YkNiQtRiM2JS1GLDYlUSFGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS1JJ21zcGFjZUdGJDYmLyUnaGVpZ2h0R1EmMC4wZXhGJy8lJndpZHRoR1EmMC41ZW1GJy8lJmRlcHRoR0Znby8lKmxpbmVicmVha0dRMWZpcnN0cHJvY25ld2xpbmVGJy1GIzYpLUY2Ni9RJ2V4cG9ydEYnRlRGVkZYRjtGPkZARkJGREZGRkhGWkZmbi1GY282JkZlb0Zob0ZbcC9GXnBRJWF1dG9GJy1GIzYtLUYsNiVRJkZyYW1lRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGWi9GTlEsMC4zMzMzMzMzZW1GJy1GLDYlUSlJZGVudGl0eUYnRi9GMkZecS1GLDYlUTNMZWZ0TXVsdGlwbGljYXRpb25GJ0YvRjJGXnEtRiw2JVE0UmlnaHRNdWx0aXBsaWNhdGlvbkYnRi9GMkZecS1GLDYlUShJbnZlcnNlRidGL0YyRl9vRjktRjY2LVEiO0YnRjlGO0ZhcUZARkJGREZGRkhGWkZNRmJvRl9vRjlGam4tRmNvNiZGZW9GaG9GW3AvRl5wUTZkZWNyZWFzZWluZGVudG5ld2xpbmVGJy1GNjYvUStlbmR+bW9kdWxlRidGVEZWRlhGO0Y+RkBGQkZERkZGSEZaRmZuRl9vRjlGX29GOQ==">YDYnSSZGcmFtZUc2IkkpSWRlbnRpdHlHRiVJM0xlZnRNdWx0aXBsaWNhdGlvbkdGJUk0UmlnaHRNdWx0aXBsaWNhdGlvbkdGJUkoSW52ZXJzZUdGJWI2I0krdGhpc21vZHVsZUdGJUYlRiVGI0YlRiVGJUYlSStfbTg4NzU0ODgwR0YlRiU=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L96" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">type(LG, `module`);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L97" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">OmegaLeft, OmegaRight := InvariantVectorsAndForms(LG, output= [&quot;LeftForms&quot;, &quot;RightForms&quot;]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUYjNictSSNtaUdGJDYlUSpPbWVnYUxlZnRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0YzLyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYuNiVRK09tZWdhUmlnaHRGJ0YxRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjstRjg2LVEjOj1GJ0Y7Rj0vRkFGP0ZCRkRGRkZIRkovRk1RLDAuMjc3Nzc3OGVtRicvRlBGZ24tRiM2Jy1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUkmbWZyYWNHRiQ2KC1GIzYlLUYuNiVRI2R4RidGMUY0RlVGOy1GIzYlLUYuNiVRInhGJ0YxRjRGVUY7LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZicC8lKWJldmVsbGVkR0Y/RjctRiM2Ji1GYW82KC1GIzYlLUYuNiVRI2R5RidGMUY0RlVGO0Zob0ZdcEZgcEZjcEZlcC1GODYtUSgmbWludXM7RidGO0Y9RmVuRkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZkcS1GYW82KC1GIzYnLUYuNiVRInlGJ0YxRjQtRjg2LVExJkludmlzaWJsZVRpbWVzO0YnRjtGPUZlbkZCRkRGRkZIRkpGTC9GUEZOLUYuNiVRI2R6RidGMUY0RlVGOy1GIzYnRmpvRl1yLUYuNiVRInpGJ0YxRjRGVUY7Rl1wRmBwRmNwRmVwRjtGNy1GYW82KC1GIzYlRmFyRlVGOy1GIzYlRmZyRlVGO0ZdcEZgcEZjcEZlcEZVRjtGOy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Y3LUZcbzYmLUYjNilGYG9GNy1GIzYnLUY4Ni1RKiZ1bWludXMwO0YnRjtGPUZlbkZCRkRGRkZIRkpGY3FGZXEtRmFvNigtRiM2J0ZqcUZdckZlb0ZVRjtGZHJGXXBGYHBGY3BGZXAtRjg2LVEiK0YnRjtGPUZlbkZCRkRGRkZIRkpGY3FGZXEtRmFvNihGW3FGXXNGXXBGYHBGY3BGZXBGO0Y3RmlyRlVGO0Y7Rl9zRmJzRlVGO0ZVRjs=">NiQ3JS1JJF9ER0c2IjYjNyQ3JVElZm9ybUYmSSJHR0YmIiIiNyM3JDcjRiwqJEkieEclKnByb3RlY3RlZEchIiItRiU2IzckRik3JDckNyMiIiNGMDckNyMiIiQsJCooSSJ5R0YyRixGMUYzSSJ6R0YyRjNGMy1GJTYjNyRGKTcjNyRGPCokRkFGMzclRiQtRiU2IzckRik3JDckRi9GPjckRjlGR0ZC</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L98" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEqLeft := FrameData(OmegaLeft, GL);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEwU3RydWN0dXJlRXFMZWZ0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUYjNictRiM2Ji1GLDYlUSJkRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GaW4tRiw2JVEoJiM5MjA7MUYnRi9GMkY5LUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEiMEYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZobi9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUYjNiZGWEZlbi1GLDYlUSgmIzkyMDsyRidGL0YyRjlGXm8tRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GW3EtRiM2KEZbb0Zlbi1GLDYlUSRgXmBGJ0YvRjJGZW5GYnBGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmpwRlxxLUYjNihGYnBGZW5GX3FGZW4tRiw2JVEoJiM5MjA7M0YnRi9GMkY5RjlGZW9GOUZoby1GIzYnLUYjNiZGWEZlbkZncUY5Rl5vRmFvRmVvRjlGZW9GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmVvRjk=">LUkkX0RHRzYiNiM3JTcoUS1tb3ZpbmdfZnJhbWVGJEkjR0xHRiQ3IyIiJEkiR0dGJDclSSJ4RyUqcHJvdGVjdGVkR0kieUdGL0kiekdGL1ElZm9ybUYkNyY3JDckIiIiRjZGLjckNyQiIiNGOUYuNyQ3JEYrRjlGMDckNyRGK0YrRjE3JDckNyVGNkY5RjlGNjckNyVGOUYrRjlGNg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L99" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEqLeft);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5HTEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L100" drawlabel="true">
+<Input>
+<Text-field prompt="GL &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">StructureEqRight := FrameData(OmegaRight, GR);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVExU3RydWN0dXJlRXFSaWdodEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2KS1GIzYnLUYjNiYtRiw2JVEiZEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmluLUYsNiVRKCYjOTIwOzFGJ0YvRjJGOS1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1JI21uR0YkNiRRIjBGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaG4vRk5RLDAuMzMzMzMzM2VtRictRiM2Jy1GIzYmRlhGZW4tRiw2JVEoJiM5MjA7MkYnRi9GMkY5Rl5vLUYjNiYtRiM2KEZbb0Zlbi1GLDYlUSRgXmBGJ0YvRjJGZW5GYnBGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmBxLUYjNihGYnBGZW5GaXBGZW4tRiw2JVEoJiM5MjA7M0YnRi9GMkY5RjlGZW9GOUZoby1GIzYnLUYjNiZGWEZlbkZkcUY5Rl5vRmFvRmVvRjlGZW9GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmVvRjk=">LUkkX0RHRzYiNiM3JTcoUS1tb3ZpbmdfZnJhbWVGJEkjR1JHRiQ3IyIiJEkiR0dGJDclSSJ4RyUqcHJvdGVjdGVkR0kieUdGL0kiekdGL1ElZm9ybUYkNyY3JDckIiIiRjZGLjckNyRGNiIiI0YwNyQ3JEY5RjlGMTckNyRGK0YrRjE3JDckNyVGNkY5RjkhIiI3JDclRjlGK0Y5RkE=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L101" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(StructureEqRight);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5HUkc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+</Section>
+<Text-field style="Text" size="10" foreground="[128,0,128]" layout="Normal"></Text-field>
+<Text-field style="Text" size="10" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]" size="10">Ian M. Anderson 2006</Font></Text-field><RTable handle="87032436">TTdSMApJNVJUQUJMRV9TQVZFLzg3MDMyNDM2WCwlKWFueXRoaW5nRzYiRiVbZ2whIiUhISEjJSIjIiMlInhHIiIhJSJ5RyUiekdGJQ==</RTable>
+</Worksheet>

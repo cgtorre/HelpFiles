@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="17" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="E &gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal256" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal256" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value=""/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/JetCalculus/AssignVectorType"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field style="Heading 1" layout="Heading 1">JetCalculus[AssignVectorType]<Font bold="true" style="Help Normal"> - assign a type (one of contact, evolutionary, generalized, generic, point, projectable, total) to a vector field</Font></Text-field>
+<Text-field bookmark="usage" style="Heading 2" layout="Heading 2">Calling Sequences</Text-field>
+<Text-field style="Normal" layout="Normal">     AssignVectorType(<Font bold="true" style="Text" foreground="[104,64,92]">X</Font>) </Text-field>
+<Text-field style="Heading 2" layout="Heading 2">Parameters</Text-field>
+<Text-field style="Normal" layout="Normal">     <Font style="Text" family="Monospaced" size="10">X         - </Font>a vector field on a jet space</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="info" style="Heading 2" layout="Heading 2">Description</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">Let <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJFRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEoJnNyYXJyO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUYsNiVRIk1GJ0ZPRlEtRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRUZWRlhGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJFRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEoJnNyYXJyO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUYsNiVRIk1GJ0ZPRlEtRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRUZWRlhGMg==</Equation> be a fiber bundle and let <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlLUYvNiVRImtGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJ0Y9Rj8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiOkYnRjUvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZYLUYsNiUtRi82JVEiSkYnRj1GP0Y4RkEtSShtZmVuY2VkR0YkNiQtRiM2JC1GLzYlUSJFRidGPUY/RjVGNS1GRTYtUSgmc3JhcnI7RidGNUZIRkpGTEZORlBGUkZUL0ZXUSYwLjBlbUYnL0ZaRmZvLUZFNi1RIn5GJ0Y1RkhGSkZMRk5GUEZSRlRGZW9GZ28tRi82JVEiTUYnRj1GP0Zob0Y1">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlLUYvNiVRImtGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJ0Y9Rj8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiOkYnRjUvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZYLUYsNiUtRi82JVEiSkYnRj1GP0Y4RkEtSShtZmVuY2VkR0YkNiQtRiM2JC1GLzYlUSJFRidGPUY/RjVGNS1GRTYtUSgmc3JhcnI7RidGNUZIRkpGTEZORlBGUkZUL0ZXUSYwLjBlbUYnL0ZaRmZvLUZFNi1RIn5GJ0Y1RkhGSkZMRk5GUEZSRlRGZW9GZ28tRi82JVEiTUYnRj1GP0Zob0Y1</Equation><Font style="Text">be </Font>the associated bundle of <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEia0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKiZ1bWludXMwO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZMRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEia0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKiZ1bWludXMwO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZMRjk=</Equation>jets.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none">[<Font bold="true">i] </Font>A vector field <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is called a <Font style="Text" underline="true">point</Font><Font style="Help Normal"> vector field.</Font></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true" style="Help Normal">[ii]</Font><Font style="Help Normal"> </Font>If <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>is a point vector field which projects under <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJ0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJ0Yy</Equation><Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnL0YzUSdub3JtYWxGJw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0Yn</Equation>to a vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>, then <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5</Equation>is called a <Font style="Text" underline="true">projectable</Font><Font style="Help Normal"> vector field.</Font></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true" style="Help Normal">[iii]</Font><Font style="Help Normal"> If the fiber dimension of </Font><Equation executable="false" style="Help Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Help Normal"> is 1 and </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>is a vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkobWZlbmNlZEdGJDYkLUYjNiQtRi82JVEiRUYnRjJGNUY+Rj4tSSNtb0dGJDYtUSJ+RidGPi8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGUS8lKXN0cmV0Y2h5R0ZRLyUqc3ltbWV0cmljR0ZRLyUobGFyZ2VvcEdGUS8lLm1vdmFibGVsaW1pdHNHRlEvJSdhY2NlbnRHRlEvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZqbkY+">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkobWZlbmNlZEdGJDYkLUYjNiQtRi82JVEiRUYnRjJGNUY+Rj4tSSNtb0dGJDYtUSJ+RidGPi8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGUS8lKXN0cmV0Y2h5R0ZRLyUqc3ltbWV0cmljR0ZRLyUobGFyZ2VvcEdGUS8lLm1vdmFibGVsaW1pdHNHRlEvJSdhY2NlbnRHRlEvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZqbkY+</Equation>which preserves the contact 1-form on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkobWZlbmNlZEdGJDYkLUYjNiQtRi82JVEiRUYnRjJGNUY+Rj5GPg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMUYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkobWZlbmNlZEdGJDYkLUYjNiQtRi82JVEiRUYnRjJGNUY+Rj5GPg==</Equation> (under Lie differentiation), then<Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0Yv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0Yv</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font><Font style="Help Normal">is a </Font><Font style="Text" underline="true">contact</Font><Font style="Help Normal"> </Font>vector field.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true" style="Help Normal">[iv]</Font><Font style="Help Normal"> </Font>If <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is a vector field on <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==</Equation> which takes values in the tangent space of <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>, then <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is called a <Font style="Text" underline="true">generalized</Font> vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> (also called a Lie-Backlund vector field or a dynamical vector field). </Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true">[v]</Font> If <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is a generalized vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>which projects under <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJ0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJ0Yy</Equation> to the zero vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>, then <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5</Equation>is called a vertical generalized vector field or an <Font style="Text" underline="true">evolutionary</Font> vector on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIi5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIi5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5</Equation></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true">[vi]</Font> A generalized vector field which annihilates the contact ideal on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRImtGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkhGSA==</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>is called a <Font style="Text" underline="true">total vector field</Font>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"><Font bold="true">[vii]</Font> A vector field not of the types <Font bold="true">[i]</Font>--[<Font bold="true">vi]</Font> or a prolongation of such is labeled <Font underline="true">generic</Font>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"> The command <Font bold="true" style="Text" foreground="[104,64,92]">AssignVectorType(X</Font>) returns the vector field <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Text">, but with internal representation of </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font><Font style="Text">changed to encode its vector type. </Font>The type of a vector and its prolongation order can be determined by the command <Hyperlink linktarget="Help:DifferentialGeometry/Tools/DGinfo" hyperlink="true"><Font style="Hyperlink">DGinfo</Font></Hyperlink> with the keyword <Font bold="true" style="Text" foreground="[104,64,92]">&quot;VectorType&quot;</Font>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Any of the vector fields<Font bold="true"> [i]</Font>--[<Font bold="true">vi]</Font> admit a unique lift to a vector field with values in <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRInBGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkgtRi82JVEhRidGMkY1Rkg=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRInBGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkgtRi82JVEhRidGMkY1Rkg=</Equation>by the Lie prolongation formula. We call, for example, a vector field on <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRInBGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkgtSSNtb0dGJDYtUSJ+RidGSC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGUC8lKXN0cmV0Y2h5R0ZQLyUqc3ltbWV0cmljR0ZQLyUobGFyZ2VvcEdGUC8lLm1vdmFibGVsaW1pdHNHRlAvJSdhY2NlbnRHRlAvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZpbkZI">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEiSkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRInBGJ0YyRjVGMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYvNiVRIkVGJ0YyRjUvRjZRJ25vcm1hbEYnRkgtSSNtb0dGJDYtUSJ+RidGSC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGUC8lKXN0cmV0Y2h5R0ZQLyUqc3ltbWV0cmljR0ZQLyUobGFyZ2VvcEdGUC8lLm1vdmFibGVsaW1pdHNHRlAvJSdhY2NlbnRHRlAvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZpbkZI</Equation>obtained from the prolongation of a point vector field a prolonged point vector field. See <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus/Prolong" hyperlink="true"><Font style="Hyperlink">Prolong</Font></Hyperlink><Hyperlink linktarget="http://" hyperlink="true"></Hyperlink> for further information.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Explicit coordinate formulas for each of these types of vector fields in the case <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtSSVtc3VwR0YkNiUtRiw2JVEoJiM4NDc3O0YnL0YwRj1GOS1GIzYlLUkjbW5HRiQ2JFEiMkYnRjlGL0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUSgmdGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmNvLUYsNiVGWkYvRjJGNS1GNjYtUSgmc3JhcnI7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GVjYlRmVvRmZuRlxvRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtSSVtc3VwR0YkNiUtRiw2JVEoJiM4NDc3O0YnL0YwRj1GOS1GIzYlLUkjbW5HRiQ2JFEiMkYnRjlGL0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUSgmdGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmNvLUYsNiVGWkYvRjJGNS1GNjYtUSgmc3JhcnI7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GVjYlRmVvRmZuRlxvRjk=</Equation> are presented in <Font bold="true">Example 1</Font>. </Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">The type of a vector field and its prolongation order can be determined by the command <Hyperlink linktarget="Help:DifferentialGeometry/Tools/DGinfo" hyperlink="true"><Font style="Hyperlink">DGinfo</Font></Hyperlink> with keyword <Font bold="true" style="Text" foreground="[104,64,92]">&quot;VectorType&quot;</Font>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">The command AssignVectorType is part of the DifferentialGeometry:-JetCalculus package. It can be used in the form AssignVectorType(...) only after executing the commands with(DifferentialGeometry) and with(JetCalculus), but can always be used by executing DifferentialGeometry:-JetCalculus:-AssignVectorType(...).</Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="examples" style="Heading 2" layout="Heading 2">Examples</Text-field></Title>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DifferentialGeometry): with(JetCalculus):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 1.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">First initialize the jet space for two independent variables and one dependent variable and prolong it to order 4.</Text-field>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup([x, y], [u], J22, 4):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 1</Font><Font style="Text">. </Font>Point vector fields:</Text-field>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X1 := evalDG(A(x, y, u[])*D_x + B(x, y, u[])*D_y + C(x, y, u[])*D_u[]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GIzYmLUYsNiVRIkFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUkobWZlbmNlZEdGJDYkLUYjNiktRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmVuL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInlGJ0YvRjJGYG8tSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GaW42JUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjlGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUYsNiVRJERfeEYnRi9GMkY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZ3EtRiM2Ji1GIzYmLUYsNiVRIkJGJ0YvRjJGWEZobkY5Rl1xLUYsNiVRJERfeUYnRi9GMkY5RmNxLUYjNiYtRiM2Ji1GLDYlUSJDRidGL0YyRlhGaG5GOUZdcS1Gam82JS1GLDYlUSREX3VGJ0YvRjJGX3BGZ3BGOUY5RmpwRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3JTckNyMiIiItSSJBR0YkNiVJInhHJSpwcm90ZWN0ZWRHSSJ5R0YzJkkidUdGJEYkNyQ3IyIiIy1JIkJHRiRGMTckNyMiIiQtSSJDR0YkRjE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">When a vector field is first defined, it is not given a type.</Text-field>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(X1, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Now assign the vector field a type.</Text-field>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX1 := AssignVectorType(X1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEmbmV3WDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GIzYmLUYsNiVRIkFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUkobWZlbmNlZEdGJDYkLUYjNiktRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmVuL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInlGJ0YvRjJGYG8tSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GaW42JUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjlGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUYsNiVRJERfeEYnRi9GMkY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZ3EtRiM2Ji1GIzYmLUYsNiVRIkJGJ0YvRjJGWEZobkY5Rl1xLUYsNiVRJERfeUYnRi9GMkY5RmNxLUYjNiYtRiM2Ji1GLDYlUSJDRidGL0YyRlhGaG5GOUZdcS1Gam82JS1GLDYlUSREX3VGJ0YvRjJGX3BGZ3BGOUY5RmpwRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyRRJnBvaW50RiQiIiE3JTckNyMiIiItSSJBR0YkNiVJInhHJSpwcm90ZWN0ZWRHSSJ5R0Y1JkkidUdGJEYkNyQ3IyIiIy1JIkJHRiRGMzckNyMiIiQtSSJDR0YkRjM=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX1, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRJnBvaW50NiIiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">This indicates that the vector field is a point vector field, the 0 indicates that the vector field has not been prolonged to a jet space.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 2</Font><Font style="Text">.</Font> Projectable vector fields:</Text-field>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X2 := evalDG(A(x, y)*D_x + B(x, y)*D_y + C(x, y, u[])*D_u[]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GIzYmLUYsNiVRIkFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUkobWZlbmNlZEdGJDYkLUYjNictRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmVuL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInlGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ24tRiw2JVEkRF94RidGL0YyRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZmcC1GIzYmLUYjNiYtRiw2JVEiQkYnRi9GMkZYRmhuRjlGXHAtRiw2JVEkRF95RidGL0YyRjlGYnAtRiM2Ji1GIzYmLUYsNiVRIkNGJ0YvRjJGWC1GaW42JC1GIzYpRl1vRmBvRmZvRmBvLUklbXN1YkdGJDYlLUYsNiVRInVGJ0YvRjItRmluNiVGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RicvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0Zpb0Y5RjlGOUZccC1GXnI2JS1GLDYlUSREX3VGJ0YvRjJGY3JGW3NGOUY5RmlvRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3JTckNyMiIiItSSJBR0YkNiRJInhHJSpwcm90ZWN0ZWRHSSJ5R0YzNyQ3IyIiIy1JIkJHRiRGMTckNyMiIiQtSSJDR0YkNiVGMkY0JkkidUdGJEYk</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX2 := AssignVectorType(X2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEmbmV3WDJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GIzYmLUYsNiVRIkFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUkobWZlbmNlZEdGJDYkLUYjNictRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmVuL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInlGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ24tRiw2JVEkRF94RidGL0YyRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZmcC1GIzYmLUYjNiYtRiw2JVEiQkYnRi9GMkZYRmhuRjlGXHAtRiw2JVEkRF95RidGL0YyRjlGYnAtRiM2Ji1GIzYmLUYsNiVRIkNGJ0YvRjJGWC1GaW42JC1GIzYpRl1vRmBvRmZvRmBvLUklbXN1YkdGJDYlLUYsNiVRInVGJ0YvRjItRmluNiVGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RicvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0Zpb0Y5RjlGOUZccC1GXnI2JS1GLDYlUSREX3VGJ0YvRjJGY3JGW3NGOUY5RmlvRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyRRLHByb2plY3RhYmxlRiQiIiE3JTckNyMiIiItSSJBR0YkNiRJInhHJSpwcm90ZWN0ZWRHSSJ5R0Y1NyQ3IyIiIy1JIkJHRiRGMzckNyMiIiQtSSJDR0YkNiVGNEY2JkkidUdGJEYk</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX2, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRLHByb2plY3RhYmxlNiIiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal256" layout="Normal256">Case 3<Font style="Text">. Contact vector fields:</Font></Text-field>
+<Text-field style="Normal" layout="Normal">The command <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus/GeneratingFunctionToContactVector" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">GeneratingFunctionToContactVector</Font></Hyperlink> always returns a contact vector field.</Text-field>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">PDEtools[declare](S(x, y, u[], u[1], u[2]), quiet);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X3 := GeneratingFunctionToContactVector(S(x, y, u[], u[1], u[2]));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNi0tRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORlUtRiM2Ji1JJW1zdWJHRiQ2JS1GLDYlUSJTRidGL0YyLUZaNiUtRiw2JVEidUYnRi9GMi1JI21uR0YkNiRRIjFGJ0Y5LyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGYm8tRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZpby1GLDYlUSREX3hGJ0YvRjJGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlRGVi1GIzYmLUZaNiVGZm4tRlo2JUZbby1GX282JFEiMkYnRjlGYm9GYm9GZW8tRiw2JVEkRF95RidGL0YyRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZURlYtRiM2Ji1JKG1mZW5jZWRHRiQ2JC1GIzYpRlEtRiM2JkZpbkZlb0ZZRjlGXnAtRiM2JkZlcEZlb0ZjcEY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZURlZGZm5GOUY5RmVvLUZaNiUtRiw2JVEkRF91RidGL0YyLUZjcTYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmJvRjlGXXEtRiM2Ji1GY3E2JC1GIzYmLUYjNiZGaW5GZW8tRlo2JUZmbi1GWjYlRltvRmNyRmJvRmJvRjlGW3ItRlo2JUZmbi1GLDYlUSJ4RidGL0YyRmJvRjlGOUZlby1GWjYlRmByRl5vRmJvRjlGXXEtRiM2Ji1GY3E2JC1GIzYmLUYjNiZGZXBGZW9GY3NGOUZbci1GWjYlRmZuLUYsNiVRInlGJ0YvRjJGYm9GOUY5RmVvLUZaNiVGYHJGZ3BGYm9GOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3JzckNyMiIiIsJC1JJWRpZmZHJSpwcm90ZWN0ZWRHNiQtSSJTR0YkNidJInhHRjJJInlHRjImSSJ1R0YkRiQmRjo2I0YuJkY6NiMiIiNGOyEiIjckNyNGPywkLUYxNiRGNEY9RkA3JDcjIiIkLCgqJkY9Ri5GREYuRkAqJkY7Ri5GMEYuRkBGNEYuNyQ3IyIiJSwmLUYxNiRGNEY3Ri4qJkY7Ri4tRjE2JEY0RjlGLkYuNyQ3IyIiJiwmLUYxNiRGNEY4Ri4qJkY9Ri5GU0YuRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(X3, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX3 := AssignVectorType(X3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX3, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRKGNvbnRhY3Q2IiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 4</Font><Font style="Text">. </Font>Generalized vector fields:</Text-field>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">vars := x, y, u[], u[1], u[2]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X4 := evalDG(A(vars)*D_x + B(vars)*D_y + C(vars)*D_u[]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GIzYmLUYsNiVRIkFGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUkobWZlbmNlZEdGJDYkLUYjNi0tRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmVuL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInlGJ0YvRjJGYG8tSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GaW42JUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRmBvLUZqbzYlRlxwLUkjbW5HRiQ2JFEiMUYnRjlGZ3BGYG8tRmpvNiVGXHAtRl1xNiRRIjJGJ0Y5RmdwLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjlGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUYsNiVRJERfeEYnRi9GMkY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GYnItRiM2Ji1GIzYmLUYsNiVRIkJGJ0YvRjJGWEZobkY5RmhxLUYsNiVRJERfeUYnRi9GMkY5Rl5yLUYjNiYtRiM2Ji1GLDYlUSJDRidGL0YyRlhGaG5GOUZocS1Gam82JS1GLDYlUSREX3VGJ0YvRjJGX3BGZ3BGOUY5RmVxRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3JTckNyMiIiItSSJBR0YkNidJInhHJSpwcm90ZWN0ZWRHSSJ5R0YzJkkidUdGJEYkJkY2NiNGLiZGNjYjIiIjNyQ3I0Y7LUkiQkdGJEYxNyQ3IyIiJC1JIkNHRiRGMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX4 := AssignVectorType(X4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX4, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRLGdlbmVyYWxpemVkNiIiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Generalized vector fields may depend upon higher order jet variables. For example:</Text-field>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">vars := x, y, u[], u[1], u[2], u[1, 1], u[1, 1, 1], u[1, 1, 1, 1]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X4 := evalDG(A(vars)*D_x);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiM2Ji1GLDYlUSJBRidGL0YyLUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUkobWZlbmNlZEdGJDYkLUYjNjMtRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRlkvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEieUYnRi9GMkZeby1JJW1zdWJHRiQ2JS1GLDYlUSJ1RidGL0YyLUZnbjYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnLyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGXm8tRmhvNiVGam8tSSNtbkdGJDYkUSIxRidGOUZlcEZeby1GaG82JUZqby1GW3E2JFEiMkYnRjlGZXBGXm8tRmhvNiVGam8tRiM2JkZqcC1GNjYtUSgmY29tbWE7RidGOUY7RmFvRkBGQkZERkZGSEZZRmJvRmpwRjlGZXBGXm8tRmhvNiVGam8tRiM2KEZqcEZncUZqcEZncUZqcEY5RmVwRl5vLUZobzYlRmpvLUYjNipGanBGZ3FGanBGZ3FGanBGZ3FGanBGOUZlcC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZZRmVuLUYsNiVRJERfeEYnRi9GMkY5RmJyRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3IzckNyMiIiItSSJBR0YkNipJInhHJSpwcm90ZWN0ZWRHSSJ5R0YzJkkidUdGJEYkJkY2NiNGLiZGNjYjIiIjJkY2NiRGLkYuJkY2NiVGLkYuRi4mRjY2JkYuRi5GLkYu</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX4 := AssignVectorType(X4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX4, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRLGdlbmVyYWxpemVkNiIiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 5</Font><Font style="Text">. </Font>Evolutionary vector fields:</Text-field>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="J22    &gt; " style="Maple Input" layout="Normal">vars := x, y, u[], u[1], u[2], u[1, 1], u[1, 2], u[2, 2]:</Text-field>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X5 := evalDG(C(vars)*D_u[]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiM2Ji1GLDYlUSJDRidGL0YyLUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUkobWZlbmNlZEdGJDYkLUYjNjMtRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRlkvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEieUYnRi9GMkZeby1JJW1zdWJHRiQ2JS1GLDYlUSJ1RidGL0YyLUZnbjYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnLyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGXm8tRmhvNiVGam8tSSNtbkdGJDYkUSIxRidGOUZlcEZeby1GaG82JUZqby1GW3E2JFEiMkYnRjlGZXBGXm8tRmhvNiVGam8tRiM2JkZqcC1GNjYtUSgmY29tbWE7RidGOUY7RmFvRkBGQkZERkZGSEZZRmJvRmpwRjlGZXBGXm8tRmhvNiVGam8tRiM2JkZqcEZncUZgcUY5RmVwRl5vLUZobzYlRmpvLUYjNiZGYHFGZ3FGYHFGOUZlcC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZZRmVuLUZobzYlLUYsNiVRJERfdUYnRi9GMkZdcEZlcEY5RmJyRjk=">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3IzckNyMiIiQtSSJDR0YkNipJInhHJSpwcm90ZWN0ZWRHSSJ5R0YzJkkidUdGJEYkJkY2NiMiIiImRjY2IyIiIyZGNjYkRjlGOSZGNjYkRjlGPCZGNjYkRjxGPA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX5 := AssignVectorType(X5):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX5, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRLWV2b2x1dGlvbmFyeTYiIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 6</Font><Font mathsize="12" mathvariant="normal" style="Text" mathbackground="[255,255,255]" mathcolor="[0,0,0]" fontfamily="Times New Roman">. </Font>Total vector fields:</Text-field>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X6 := evalDG(A*D_x + B*D_y + (A*u[1] + B*u[2])*D_u[]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GLDYlUSJBRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWi1GLDYlUSREX3hGJ0YvRjJGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1vLUYjNiYtRiw2JVEiQkYnRi9GMkZWLUYsNiVRJERfeUYnRi9GMkY5RmluLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2Ji1GIzYmRlNGVi1JJW1zdWJHRiQ2JS1GLDYlUSJ1RidGL0YyLUkjbW5HRiQ2JFEiMUYnRjkvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZcb0Zeby1GIzYmRmFvRlYtRmFwNiVGY3AtRmdwNiRRIjJGJ0Y5RmpwRjlGOUY5RlYtRmFwNiUtRiw2JVEkRF91RidGL0YyLUZqbzYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmpwRjlGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOQ==">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkkSjIyR0YkNyI3JTckNyMiIiJJIkFHRiQ3JDcjIiIjSSJCR0YkNyQ3IyIiJCwmKiZGL0YuJkkidUdGJDYjRi5GLkYuKiZGM0YuJkY6NiNGMkYuRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX6 := AssignVectorType(X6):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX6, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EmdG90YWxGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIwRidGNi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGNkY2LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJw==">NyRRJnRvdGFsNiIiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 7</Font><Font style="Text">. </Font>Generic vector fields:</Text-field>
+<Text-field style="Normal" layout="Normal">A generic vector field cannot be prolonged--the order of prolongation is therefore declared to be &quot;<Font bold="true" style="Text" foreground="[104,64,92]">NA</Font>&quot; (Not Applicable).</Text-field>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">X7 := evalDG(D_u[1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWDdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUklbXN1YkdGJDYlLUYsNiVRJERfdUYnRi9GMi1JI21uR0YkNiRRIjFGJ0Y5LyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYN0dGKCZJJERfdUdGKDYjIiIiNyMtSSRfREdHRig2IzckNyVRJ3ZlY3RvckYoSSRKMjJHRig3IjcjNyQ3IyIiJUYx</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">newX7 := AssignVectorType(X7):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX7, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EoZ2VuZXJpY0YnLUkjbW9HRiQ2LVEiLEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y7LyUqc3ltbWV0cmljR0Y7LyUobGFyZ2VvcEdGOy8lLm1vdmFibGVsaW1pdHNHRjsvJSdhY2NlbnRHRjsvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLzYjUSNOQUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y2RjYvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0Yn">NyRRKGdlbmVyaWM2IlEjTkFGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 2.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Here we give examples of prolonged vector fields of the various types. First initialize the jet space for one independent variable and one dependent variable and prolong it to order 4.</Text-field>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="J22 &gt; " style="Maple Input" layout="Normal">DGsetup([x], [u], E, 7):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 1</Font><Font style="Text">. </Font>A prolonged point vector field.</Text-field>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X1 := evalDG(u[]*D_x - x*D_u[] + (- 1 - u[1]^2)*D_u[1] - 3*u[1]*u[1,1]*D_u[1, 1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEjWDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1JKG1mZW5jZWRHRiQ2JUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYW8tRiw2JVEkRF94RidGL0YyRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqby1GIzYmLUYsNiVRInhGJ0YvRjJGXW8tRlI2JS1GLDYlUSREX3VGJ0YvRjJGV0ZqbkY5RmZvLUYjNiYtRlg2JC1GIzYmLUkobXN1YnN1cEdGJDYnRlQtSSNtbkdGJDYkUSIxRidGOS1GYHE2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R0Zcb0Zqbi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGaW9GW3BGX3FGOUY5Rl1vLUZSNiVGY3BGX3FGam5GOUZmby1GIzYmLUYjNigtRmBxNiRRIjNGJ0Y5Rl1vLUZSNiVGVEZfcUZqbkZdby1GUjYlRlQtRiM2JkZfcS1GNjYtUSgmY29tbWE7RidGOUY7L0Y/RjFGQEZCRkRGRkZIRmBvL0ZOUSwwLjMzMzMzMzNlbUYnRl9xRjlGam5GOUZdby1GUjYlRmNwRmhyRmpuRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYMUdGKCwqLUkiKkdGJjYkJkkidUdGKEYoSSREX3hHRigiIiItRjA2JEkieEdGJiZJJERfdUdGKEYoISIiLUYwNiQsJiokKSZGMzYjRjUiIiNGNUY1RjVGNSZGOkZCRjstRjA2JCwkKigiIiRGNUZBRjUmRjM2JEY1RjVGNUY1JkY6RktGOzcjLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiRUdGKDciNyY3JDcjRjVGMjckNyNGQywkRjhGOzckNyNGSSwmRj9GO0Y1Rjs3JDcjIiIlLCRGSEY7</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">When a vector field is first defined, it is not given a type.</Text-field>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(X1, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2JCUqcHJvdGVjdGVkRy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nRzYkRiVJKF9zeXNsaWJHRig2JC9JJW9wZW5HRipRJyZsc3FiO0YoL0kmY2xvc2VHRipRJyZyc3FiO0Yo">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Now assign the vector field a type.</Text-field>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX1 := AssignVectorType(X1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEmbmV3WDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1JKG1mZW5jZWRHRiQ2JUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYW8tRiw2JVEkRF94RidGL0YyRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqby1GIzYmLUYsNiVRInhGJ0YvRjJGXW8tRlI2JS1GLDYlUSREX3VGJ0YvRjJGV0ZqbkY5RmZvLUYjNiYtRlg2JC1GIzYmLUkobXN1YnN1cEdGJDYnRlQtSSNtbkdGJDYkUSIxRidGOS1GYHE2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R0Zcb0Zqbi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGaW9GW3BGX3FGOUY5Rl1vLUZSNiVGY3BGX3FGam5GOUZmby1GIzYmLUYjNigtRmBxNiRRIjNGJ0Y5Rl1vLUZSNiVGVEZfcUZqbkZdby1GUjYlRlQtRiM2JkZfcS1GNjYtUSgmY29tbWE7RidGOUY7L0Y/RjFGQEZCRkRGRkZIRmBvL0ZOUSwwLjMzMzMzMzNlbUYnRl9xRjlGam5GOUZdby1GUjYlRmNwRmhyRmpuRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZuZXdYMUdGKCwqLUkiKkdGJjYkJkkidUdGKEYoSSREX3hHRigiIiItRjA2JEkieEdGJiZJJERfdUdGKEYoISIiLUYwNiQsJiokKSZGMzYjRjUiIiNGNUY1RjVGNSZGOkZCRjstRjA2JCwkKigiIiRGNUZBRjUmRjM2JEY1RjVGNUY1JkY6RktGOzcjLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiRUdGKDckUSZwb2ludEYoRkM3JjckNyNGNUYyNyQ3I0ZDLCRGOEY7NyQ3I0ZJLCZGP0Y7RjVGOzckNyMiIiUsJEZIRjs=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX1, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EmcG9pbnRGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIyRidGNi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGNkY2LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJw==">NyRRJnBvaW50NiIiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">This indicates that the vector field is a prolonged point vector field, the 2 indicates that the vector field has been prolonged from the space <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> (of independent and dependent variables) to the 2nd jet space.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 2</Font><Font style="Text">. </Font>A prolonged projectable vector field: ???XXX  I get &quot;generic&quot;</Text-field>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X2 := evalDG(x*D_x + u[0]*D_u[] - u[2]*D_u[1] - 2*u[1,1,1]*D_u[1,1,1] - 3*u[1,1,1,1]*D_u[1,1,1,1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbWlHRiQ2JVEjWDJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiw2JVEieEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlgtRiw2JVEkRF94RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORltvLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1JI21uR0YkNiRRIjBGJ0Y5LyUvc3Vic2NyaXB0c2hpZnRHRmhvRlQtRmBvNiUtRiw2JVEkRF91RidGL0YyLUkobWZlbmNlZEdGJDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmlvRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZqbkZcby1GIzYmLUZgbzYlRmJvLUZmbzYkUSIyRidGOUZpb0ZULUZgbzYlRl1wLUZmbzYkUSIxRidGOUZpb0Y5RmlwLUYjNiYtRiM2JkZgcUZULUZgbzYlRmJvLUYjNihGZXEtRjY2LVEoJmNvbW1hO0YnRjlGOy9GP0YxRkBGQkZERkZGSEZXL0ZOUSwwLjMzMzMzMzNlbUYnRmVxRmByRmVxRjlGaW9GOUZULUZgbzYlRl1wRl5yRmlvRjlGaXAtRiM2Ji1GIzYmLUZmbzYkUSIzRidGOUZULUZgbzYlRmJvLUYjNipGZXFGYHJGZXFGYHJGZXFGYHJGZXFGOUZpb0Y5RlQtRmBvNiVGXXBGYXNGaW9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYMkdGKCwsLUkiKkdGJjYkSSJ4R0YmSSREX3hHRigiIiItRjA2JCZJInVHRig2IyIiISZJJERfdUdGKEYoRjQtRjA2JCZGODYjIiIjJkY8NiNGNCEiIi1GMDYkLCQqJkZBRjQmRjg2JUY0RjRGNEY0RjQmRjxGSkZELUYwNiQsJComIiIkRjQmRjg2JkY0RjRGNEY0RjRGNCZGPEZSRkQ3Iy1JJF9ER0dGKDYjNyQ3JVEndmVjdG9yRihJIkVHRig3IjcnNyQ3I0Y0RjI3JDcjRkFGNzckNyNGUCwkRj9GRDckNyMiIiYsJEZIRkQ3JDcjIiInLCRGT0ZE</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX2 := AssignVectorType(X2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbWlHRiQ2JVEmbmV3WDJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiw2JVEieEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlgtRiw2JVEkRF94RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORltvLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1JI21uR0YkNiRRIjBGJ0Y5LyUvc3Vic2NyaXB0c2hpZnRHRmhvRlQtRmBvNiUtRiw2JVEkRF91RidGL0YyLUkobWZlbmNlZEdGJDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmlvRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZqbkZcby1GIzYmLUZgbzYlRmJvLUZmbzYkUSIyRidGOUZpb0ZULUZgbzYlRl1wLUZmbzYkUSIxRidGOUZpb0Y5RmlwLUYjNiYtRiM2JkZgcUZULUZgbzYlRmJvLUYjNihGZXEtRjY2LVEoJmNvbW1hO0YnRjlGOy9GP0YxRkBGQkZERkZGSEZXL0ZOUSwwLjMzMzMzMzNlbUYnRmVxRmByRmVxRjlGaW9GOUZULUZgbzYlRl1wRl5yRmlvRjlGaXAtRiM2Ji1GIzYmLUZmbzYkUSIzRidGOUZULUZgbzYlRmJvLUYjNipGZXFGYHJGZXFGYHJGZXFGYHJGZXFGOUZpb0Y5RlQtRmBvNiVGXXBGYXNGaW9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZuZXdYMkdGKCwsLUkiKkdGJjYkSSJ4R0YmSSREX3hHRigiIiItRjA2JCZJInVHRig2IyIiISZJJERfdUdGKEYoRjQtRjA2JCZGODYjIiIjJkY8NiNGNCEiIi1GMDYkLCQqJkZBRjQmRjg2JUY0RjRGNEY0RjQmRjxGSkZELUYwNiQsJComIiIkRjQmRjg2JkY0RjRGNEY0RjRGNCZGPEZSRkQ3Iy1JJF9ER0dGKDYjNyQ3JVEndmVjdG9yRihJIkVHRig3JFEoZ2VuZXJpY0YoUSNOQUYoNyc3JDcjRjRGMjckNyNGQUY3NyQ3I0ZQLCRGP0ZENyQ3IyIiJiwkRkhGRDckNyMiIicsJEZPRkQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX2, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EoZ2VuZXJpY0YnLUkjbW9HRiQ2LVEiLEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y7LyUqc3ltbWV0cmljR0Y7LyUobGFyZ2VvcEdGOy8lLm1vdmFibGVsaW1pdHNHRjsvJSdhY2NlbnRHRjsvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLzYjUSNOQUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y2RjYvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0Yn">NyRRKGdlbmVyaWM2IlEjTkFGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal256" layout="Normal256">Case 3<Font style="Text">. A prolonged contact vector field: ???XXX</Font></Text-field>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X3 := evalDG(- 2*u[1]*D_x + (- u[1]^2 + x^2)*D_u[] + 2*x*D_u[1] + (2 + 2*u[1,1]^2)*D_u[1, 1] + 6*u[2]*u[1, 1, 1]*D_u[1, 1, 1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEjWDNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZTLUYjNiYtRiM2Ji1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GW28tSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GWjYkUSIxRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRjlGZ24tRiw2JVEkRF94RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRlJGVC1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMkZZLyUxc3VwZXJzY3JpcHRzaGlmdEdGaG8tRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZSRlQtSShtc3Vic3VwR0YkNidGYG9GY29GWUZccUZmb0Y5RjlGZ24tRl5vNiUtRiw2JVEkRF91RidGL0YyLUZicDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmZvRjlGXHAtRiM2Ji1GIzYmRllGZ25GaXBGOUZnbi1GXm82JUZmcUZjb0Zmb0Y5RlxwLUYjNiYtRmJwNiQtRiM2Ji1GIzYmRllGZ24tRmJxNidGYG8tRiM2JkZjby1GNjYtUSgmY29tbWE7RidGOUY7L0Y/RjFGQEZCRkRGRkZIRmpuL0ZOUSwwLjMzMzMzMzNlbUYnRmNvRjlGWUZccUZmb0Y5RlxwRllGOUY5RmduLUZebzYlRmZxRmFzRmZvRjlGXHAtRiM2Ji1GIzYoLUZaNiRRIjZGJ0Y5RmduLUZebzYlRmBvRllGZm9GZ24tRl5vNiVGYG8tRiM2KEZjb0Zjc0Zjb0Zjc0Zjb0Y5RmZvRjlGZ24tRl5vNiVGZnFGZnRGZm9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYM0dGKCwsLUkiKkdGJjYkLCQqJiIiIyIiIiZJInVHRig2I0Y1RjVGNUkkRF94R0YoISIiLUYwNiQsJiokKUkieEdGJkY0RjVGNSokKUY2RjRGNUY6JkkkRF91R0YoRihGNS1GMDYkLCQqJkY0RjVGQEY1RjUmRkRGOEY1LUYwNiQsJiomRjRGNSkmRjc2JEY1RjVGNEY1RjVGNEY1JkZERlBGNS1GMDYkLCQqKCIiJ0Y1JkY3NiNGNEY1JkY3NiVGNUY1RjVGNUY1JkZERlpGNTcjLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiRUdGKDciNyc3JDcjRjUsJEYzRjo3JDcjRjRGPTckNyMiIiRGRzckNyMiIiVGTDckNyMiIiZGVA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX3 := AssignVectorType(X3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEmbmV3WDNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZTLUYjNiYtRiM2Ji1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GW28tSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GWjYkUSIxRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRjlGZ24tRiw2JVEkRF94RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRlJGVC1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMkZZLyUxc3VwZXJzY3JpcHRzaGlmdEdGaG8tRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZSRlQtSShtc3Vic3VwR0YkNidGYG9GY29GWUZccUZmb0Y5RjlGZ24tRl5vNiUtRiw2JVEkRF91RidGL0YyLUZicDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmZvRjlGXHAtRiM2Ji1GIzYmRllGZ25GaXBGOUZnbi1GXm82JUZmcUZjb0Zmb0Y5RlxwLUYjNiYtRmJwNiQtRiM2Ji1GIzYmRllGZ24tRmJxNidGYG8tRiM2JkZjby1GNjYtUSgmY29tbWE7RidGOUY7L0Y/RjFGQEZCRkRGRkZIRmpuL0ZOUSwwLjMzMzMzMzNlbUYnRmNvRjlGWUZccUZmb0Y5RlxwRllGOUY5RmduLUZebzYlRmZxRmFzRmZvRjlGXHAtRiM2Ji1GIzYoLUZaNiRRIjZGJ0Y5RmduLUZebzYlRmBvRllGZm9GZ24tRl5vNiVGYG8tRiM2KEZjb0Zjc0Zjb0Zjc0Zjb0Y5RmZvRjlGZ24tRl5vNiVGZnFGZnRGZm9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZuZXdYM0dGKCwsLUkiKkdGJjYkLCQqJiIiIyIiIiZJInVHRig2I0Y1RjVGNUkkRF94R0YoISIiLUYwNiQsJiokKUkieEdGJkY0RjVGNSokKUY2RjRGNUY6JkkkRF91R0YoRihGNS1GMDYkLCQqJkY0RjVGQEY1RjUmRkRGOEY1LUYwNiQsJiomRjRGNSkmRjc2JEY1RjVGNEY1RjVGNEY1JkZERlBGNS1GMDYkLCQqKCIiJ0Y1JkY3NiNGNEY1JkY3NiVGNUY1RjVGNUY1JkZERlpGNTcjLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiRUdGKDckUShnZW5lcmljRihRI05BRig3JzckNyNGNSwkRjNGOjckNyNGNEY9NyQ3IyIiJEZHNyQ3IyIiJUZMNyQ3IyIiJkZU</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX3, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EoZ2VuZXJpY0YnLUkjbW9HRiQ2LVEiLEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y7LyUqc3ltbWV0cmljR0Y7LyUobGFyZ2VvcEdGOy8lLm1vdmFibGVsaW1pdHNHRjsvJSdhY2NlbnRHRjsvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLzYjUSNOQUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y2RjYvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0Yn">NyRRKGdlbmVyaWM2IlEjTkFGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 4</Font><Font style="Text">.</Font> A prolonged generalized vector field:</Text-field>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X4 := evalDG(u[1,1]*D_x - u[1, 1, 1]*D_u[] + (- u[1, 1, 1, 1] - u[1]*u[1, 1, 1])*D_u[1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEjWDRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtSSVtc3ViR0YkNiUtRiw2JVEidUYnRi9GMi1GIzYmLUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEoJmNvbW1hO0YnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJ0ZZRjkvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRltvL0ZORlxvLUYsNiVRJERfeEYnRi9GMkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXXAtRiM2Ji1GUjYlRlQtRiM2KEZZRmduRllGZ25GWUY5Rl9vRmJvLUZSNiUtRiw2JVEkRF91RidGL0YyLUkobWZlbmNlZEdGJDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRl9vRjlGaW8tRiM2Ji1GW3E2JC1GIzYmLUYjNiYtRlI2JUZURllGX29GYm9GYXBGOS1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGXHBGXnAtRlI2JUZULUYjNipGWUZnbkZZRmduRllGZ25GWUY5Rl9vRjlGOUZiby1GUjYlRmdwRllGX29GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYNEdGKCwoLUkiKkdGJjYkJkkidUdGKDYkIiIiRjVJJERfeEdGKEY1LUYwNiQmRjM2JUY1RjVGNSZJJERfdUdGKEYoISIiLUYwNiQsJiomJkYzNiNGNUY1RjlGNUY1JkYzNiZGNUY1RjVGNUY1JkY8RkNGPTcjLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiRUdGKDciNyU3JDcjRjVGMjckNyMiIiMsJEY5Rj03JDcjIiIkLCZGQUY9RkRGPQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX4 := AssignVectorType(X4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX4, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbXNHRiQ2I1EsZ2VuZXJhbGl6ZWRGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIxRidGNi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGNkY2LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJw==">NyRRLGdlbmVyYWxpemVkNiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 5</Font><Font style="Text">.</Font> A prolonged evolutionary vector field: </Text-field>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X5 := evalDG(u[1, 1]*D_u[] + u[1 ,1, 1]*D_u[1] + u[1, 1, 1, 1]*D_u[1,1] + u[1,1,1,1,1]*D_u[1, 1, 1] + u[1, 1, 1, 1, 1, 1]*D_u[1, 1, 1, 1] + u[1, 1, 1, 1, 1, 1, 1]*D_u[1, 1, 1, 1, 1, 1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNi4tRiM2Ji1JJW1zdWJHRiQ2JS1GLDYlUSJ1RidGL0YyLUYjNiYtSSNtbkdGJDYkUSIxRidGOS1GNjYtUSgmY29tbWE7RidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnRmVuRjkvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRl1vL0ZORl5vLUZUNiUtRiw2JVEkRF91RidGL0YyLUkobWZlbmNlZEdGJDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmFvRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqcC1GIzYmLUZUNiVGVi1GIzYoRmVuRmluRmVuRmluRmVuRjlGYW9GZG8tRlQ2JUZqb0ZlbkZhb0Y5RmZwLUYjNiYtRlQ2JUZWLUYjNipGZW5GaW5GZW5GaW5GZW5GaW5GZW5GOUZhb0Zkby1GVDYlRmpvRllGYW9GOUZmcC1GIzYmLUZUNiVGVi1GIzYsRmVuRmluRmVuRmluRmVuRmluRmVuRmluRmVuRjlGYW9GZG8tRlQ2JUZqb0ZgcUZhb0Y5RmZwLUYjNiYtRlQ2JUZWLUYjNi5GZW5GaW5GZW5GaW5GZW5GaW5GZW5GaW5GZW5GaW5GZW5GOUZhb0Zkby1GVDYlRmpvRmhxRmFvRjlGZnAtRiM2Ji1GVDYlRlYtRiM2MEZlbkZpbkZlbkZpbkZlbkZpbkZlbkZpbkZlbkZpbkZlbkZpbkZlbkY5RmFvRmRvLUZUNiVGam9GaHJGYW9GOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkiRUdGJDciNyg3JDcjIiIjJkkidUdGJDYkIiIiRjI3JDcjIiIkJkYwNiVGMkYyRjI3JDcjIiIlJkYwNiZGMkYyRjJGMjckNyMiIiYmRjA2J0YyRjJGMkYyRjI3JDcjIiInJkYwNihGMkYyRjJGMkYyRjI3JDcjIiIpJkYwNilGMkYyRjJGMkYyRjJGMg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX5 := AssignVectorType(X5):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX5, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRKGdlbmVyaWM2IlEjTkFGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" underline="true">Case 6</Font><Font style="Text">. </Font> A prolonged total vector field:</Text-field>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">X6 := Prolong(D_x + u[1]*D_u[], 3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjWDZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiwtRiw2JVEkRF94RidGL0YyLUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GWC1GIzYmLUklbXN1YkdGJDYlLUYsNiVRInVGJ0YvRjItSSNtbkdGJDYkUSIxRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZ28tRmduNiUtRiw2JVEkRF91RidGL0YyLUkobWZlbmNlZEdGJDYlRjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmBvRjlGVC1GIzYmLUZnbjYlRmluLUYjNiZGXG8tRjY2LVEoJmNvbW1hO0YnRjlGOy9GP0YxRkBGQkZERkZGSEZmby9GTlEsMC4zMzMzMzMzZW1GJ0Zcb0Y5RmBvRmNvLUZnbjYlRltwRlxvRmBvRjlGVC1GIzYmLUZnbjYlRmluLUYjNihGXG9GXXFGXG9GXXFGXG9GOUZgb0Zjby1GZ242JUZbcEZbcUZgb0Y5RlQtRiM2Ji1GZ242JUZpbi1GIzYqRlxvRl1xRlxvRl1xRlxvRl1xRlxvRjlGYG9GY28tRmduNiVGW3BGaXFGYG9GOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkiRUdGJDckUSZ0b3RhbEYkIiIkNyc3JDcjIiIiRjA3JDcjIiIjJkkidUdGJDYjRjA3JDcjRiwmRjU2JEYwRjA3JDcjIiIlJkY1NiVGMEYwRjA3JDcjIiImJkY1NiZGMEYwRjBGMA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L53" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">newX6 := AssignVectorType(X5):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L52" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal">Tools:-DGinfo(newX6, &quot;VectorType&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyRRKGdlbmVyaWM2IlEjTkFGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="E &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="seealso" style="Heading 2" layout="Heading 2">See Also</Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus" hyperlink="true"><Font style="Hyperlink">JetCalculus</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus/AssignTransformationType" hyperlink="true"><Font style="Hyperlink">AssignTransformationType</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tools/DGinfo" hyperlink="true"><Font style="Hyperlink">DGinfo</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus/GeneratingFunctionToContactVector" hyperlink="true"><Font style="Hyperlink">GeneratingFunctionToContactVector</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/JetCalculus/Prolong" hyperlink="true"><Font style="Hyperlink">Prolong</Font></Hyperlink></Text-field>
+</Section>
+</Worksheet>

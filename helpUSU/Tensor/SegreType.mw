@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="17" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/Tensor/SegreType"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Text-field style="Heading 1" layout="Heading 1">Tensor[SegreType]<Font bold="true" style="Help Normal"> - determine the Segre type of the trace-free Ricci tensor</Font></Text-field>
+<Text-field bookmark="usage" style="Heading 2" layout="Heading 2">Calling Sequences</Text-field>
+<Text-field style="Normal" layout="Normal">     SegreType(<Font bold="true" style="Text" foreground="[104,64,92]">g</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>)</Text-field>
+<Text-field style="Normal" layout="Normal">     SegreType(<Font bold="true" style="Text" foreground="[104,64,92]">NTetrad</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>)</Text-field>
+<Text-field style="Normal" layout="Normal">     SegreType(<Font bold="true" style="Text" foreground="[104,64,92]">NTetrad</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">g</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">R</Font> , <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>)</Text-field>
+<Text-field style="Normal" layout="Normal">     SegreType(<Font bold="true" style="Text" foreground="[104,64,92]">NPRicci</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>)</Text-field>
+<Text-field style="Normal" layout="Normal">     SegreType(<Font bold="true" style="Text" foreground="[104,64,92]">Fr</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>)</Text-field>
+<Text-field style="Heading 2" layout="Heading 2">Parameters</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   g       - </Font>a metric tensor <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> of signature <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkobWZlbmNlZEdGJDYmLUYjNi0tSSNtbkdGJDYkUSIxRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiLEYnRjQvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjg2LVEqJnVtaW51czA7RidGNEY7L0Y/Rj1GQUZDRkVGR0ZJL0ZMUSwwLjIyMjIyMjJlbUYnL0ZPRlZGMEY3RlFGMEY3RlFGMEY0RjQvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGNA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkobWZlbmNlZEdGJDYmLUYjNi0tSSNtbkdGJDYkUSIxRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiLEYnRjQvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjg2LVEqJnVtaW51czA7RidGNEY7L0Y/Rj1GQUZDRkVGR0ZJL0ZMUSwwLjIyMjIyMjJlbUYnL0ZPRlZGMEY3RlFGMEY3RlFGMEY0RjQvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGNA==</Equation> on a manifold<Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0Yv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0Yv</Equation></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   Fr      - </Font>the name of initialized anholonomic frame, created from a null tetrad</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   NTetrad - </Font>a list of 4 vectors defining a null tetrad</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   R       - </Font>a rank 2, symmetric tensor</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   NPRicci - </Font>a table, the Newman-Penrose Ricci scalars</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   pt      - </Font>(option) a list of equations specifying the coordinates of a point on <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="info" style="Heading 2" layout="Heading 2">Description</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">The Segre classification of the <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/RicciTensor" hyperlink="true"><Font style="Hyperlink">Ricci tensor</Font></Hyperlink> of the metric <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is an algebraic classification based upon the eigenvalues-eigenvectors for the trace-free Ricci tensor. These types are designated as <Font bold="true" style="Text" foreground="[104,64,92]">[(1,111)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[1,(111)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[(1,11),1]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[(1,1)11]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[1,1(11)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[(1,1)(11)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[1,111]</Font>,<Font bold="true" style="Text" foreground="[104,64,92]"> [(2,11)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[(1,1)2]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[2,(11)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[2,11]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[(3,1)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[3,1]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[ZZ,(11)]</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">[ZZ11]</Font>. See <Hyperlink linktarget="Help:DifferentialGeometry/References#General Relativity" hyperlink="true"><Font style="Hyperlink">Stephani, Kramer, et al</Font></Hyperlink> for details.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Closely related to the Segre classification is the Plebanski-Petrov classification of the trace-free Ricci tensor. Here the trace-free Ricci tensor is used to construct the Plebanski tensor, a rank 4 tensor with the same algebraic symmetries as the Weyl tensor. Accordingly, the Plebanski tensor may be assigned one of the following types <Font bold="true" style="Text" foreground="[104,64,92]">&quot;O&quot;</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">&quot;N&quot;</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">&quot;D&quot;</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">&quot;I&quot;</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">&quot;II&quot;</Font>, <Font bold="true" style="Text" foreground="[104,64,92]">&quot;III&quot;</Font> -- these are called the Plebanski-Petrov types of the trace-free Ricci tensor. See <Hyperlink linktarget="Help:DifferentialGeometry/References#General Relativity" hyperlink="true"><Font style="Hyperlink">Stephani, Kramer, et al</Font></Hyperlink> for details.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">The command <Font bold="true" style="Text" foreground="[104,64,92]">SegreType </Font>returns a sequence <Font bold="true" style="Text" foreground="[104,64,92]">PP, S</Font>, where <Font bold="true" style="Text" foreground="[104,64,92]">PP</Font> is the Plebanski-Petrov classification and <Font bold="true" style="Text" foreground="[104,64,92]">S</Font> is the Segre classification.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">See <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SegreTypeDetails" hyperlink="true"><Font style="Hyperlink">Details for SegreType</Font></Hyperlink> for a complete description of the algorithm used. </Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Because the algorithm is based upon the calculation of the Newman-Penrose Ricci scalars, <Font style="Text" underline="true">it is best to use one of the last 4 calling sequences</Font>. Note that the Ricci scalars can often be simplified through the application of an appropriate <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/NullTetradTransformation" hyperlink="true"><Font style="Bullet Item" underline="true" foreground="[0,128,128]">null tetrad transformation</Font></Hyperlink>. The first calling sequence <Font bold="true" style="Text" foreground="[104,64,92]">SegreType(g, pt)</Font> will automatically generate a null tetrad (if possible) but the result may not be optimal for calculating all the invariants needed to determine the Plebanski-Petrov and the Segre types.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">The Segre type of an arbitrary rank 2 symmetric tensor <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>can be calculated using the third calling sequence. From the tensor <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>, a trace-free tensor <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" foreground="[104,64,92]"> </Font><Font style="Text">is calculated using the metric </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Text">. The Newman-Penrose coefficients of </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Text"> </Font>are determined and these are subsequently used to calculate the Segre type.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">It is possible that the algebraic classification can vary from point to point on the manifold <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]">. </Font>The command <Font bold="true" style="Text" foreground="[104,64,92]">SegreType</Font> returns, if possible, the algebraic classification at a generic point. If the command fails, try the classification at a specific point with the optional argument <Font bold="true" style="Text" foreground="[104,64,92]">pt</Font>. Constraints on the coordinate values can be imposed with <Hyperlink linktarget="Help:assuming" hyperlink="true"><Font style="Hyperlink">assuming</Font></Hyperlink>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">The branching performed by the program <Font bold="true" style="Text" foreground="[104,64,92]">SegreType </Font>can be tracked by setting <Font bold="true" style="Text" foreground="[104,64,92]">infolevel[SegreType] = 2</Font>.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">This command is part of the DifferentialGeometry:-Tensor package, and so can be used in the form SegreType(...) only after executing the commands with(DifferentialGeometry); with(Tensor); in that order. It can always be used in the long form DifferentialGeometry:-Tensor:-SegreType.</Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="examples" style="Heading 2" layout="Heading 2">Examples</Text-field></Title>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DifferentialGeometry): with(Tensor):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">For <Font bold="true" style="Text">Examples 1 -- 4 </Font>we use the following metric.</Text-field>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup([t, x, y, z], M);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEuZnJhbWV+bmFtZTp+TUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">g := evalDG(t^2/x^2*dt &amp;t dt - dx &amp;t dx - dy &amp;t dy - dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JS1GLDYlUSJ0RidGL0YyLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZXNiUtRiw2JVEieEYnRi9GMkZmbkZqbi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZ28vJSliZXZlbGxlZEdGPS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmBwLUYsNiVRI2R0RidGL0YyRjlGXHBGYnBGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmlwLUYjNiYtRiw2JVEjZHhGJ0YvRjJGXHBGXXFGOUZlcC1GIzYmLUYsNiVRI2R5RidGL0YyRlxwRmJxRjlGZXAtRiM2Ji1GLDYlUSNkekYnRi9GMkZccEZncUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJnR0YoLCotSSIqR0YmNiQtRjA2JComKUkidEdGJiIiIyIiIilJInhHRiZGNyEiIkkjZHRHRihGPEY4LUYwNiRJI2R4R0YoRj9GOy1GMDYkSSNkeUdGKEZCRjstRjA2JEkjZHpHRihGRUY7NyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRlA3IjcmNyQ3JEY4RjhGNDckNyRGN0Y3Rjs3JDckIiIkRllGOzckNyQiIiVGZm5GOw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 1.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the Segre type directly from the metric. </Text-field>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(g);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSxbKDEsMSkoMTEpXUYnRjM=">NiRRIkQ2IlEsWygxLDEpKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 2.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the Segre type from a null tetrad for the metric <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]">.  </Font>First use the command <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/DGGramSchmidt" hyperlink="true"><Font style="Hyperlink">DGGramSchmidt</Font></Hyperlink> to construct an orthonormal tetrad.</Text-field>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">OTetrad := DGGramSchmidt([D_t, D_x, D_y, D_z], g, signature = [1, -1, -1, -1]) assuming x &gt; 0, t &gt; 0;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoT1RldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYmLUkmbWZyYWNHRiQ2KC1GLDYlUSJ4RidGL0YyLUYsNiVRInRGJ0YvRjIvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl5vLyUpYmV2ZWxsZWRHRj0tRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZnby1GLDYlUSREX3RGJ0YvRjJGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmZvL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRJERfeEYnRi9GMkZccC1GLDYlUSREX3lGJ0YvRjJGXHAtRiw2JVEkRF96RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShPVGV0cmFkR0YoNyYtSSIqR0YmNiQqJkkidEdGJiEiIkkieEdGJiIiIkkkRF90R0YoSSREX3hHRihJJERfeUdGKEkkRF96R0YoNyM3Ji1JJF9ER0dGKDYjNyQ3JVEndmVjdG9yRihJIk1HRig3IjcjNyQ3I0Y2RjItRj42IzckRkE3IzckNyMiIiNGNi1GPjYjNyRGQTcjNyQ3IyIiJEY2LUY+NiM3JEZBNyM3JDcjIiIlRjY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">NTetrad := NullTetrad(OTetrad);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoTlRldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYmLUYjNiYtSSZtZnJhY0dGJDYoLUYjNiYtSSZtc3FydEdGJDYjLUkjbW5HRiQ2JFEiMkYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZiby1GLDYlUSJ4RidGL0YyRjktRiM2JkZqbkZeby1GLDYlUSJ0RidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmFwLyUpYmV2ZWxsZWRHRj1GXm8tRiw2JVEkRF90RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1xLUYjNiYtRlk2KEZnbkZqbkZccEZfcEZicEZkcEZeby1GLDYlUSREX3pGJ0YvRjJGOUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGYW8vRk5RLDAuMzMzMzMzM2VtRictRiM2JkZWLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGXHFGXnFGX3FGOUZmcS1GIzYmLUYjNiZGYXFGXm8tRiw2JVEkRF94RidGL0YyRjlGaXAtRiM2Ji1GIzYmLUZZNigtRltvNiRRLSZJbWFnaW5hcnlJO0YnRjlGam5GXHBGX3BGYnBGZHBGXm9GZ25GOUZeby1GLDYlUSREX3lGJ0YvRjJGOUY5RmZxLUYjNiZGY3JGXnJGaHJGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShOVGV0cmFkR0YoNyYsJi1JIipHRiY2JCwkKiojIiIiIiIjRjYpRjdGNUY2SSJ0R0YmISIiSSJ4R0YmRjZGNkkkRF90R0YoRjYtRjE2JCwkKiZGNUY2RjhGNkY2SSREX3pHRihGNiwmRjBGNkY9RjosJi1GMTYkRj9JJERfeEdGKEY2LUYxNiQqJiomRjVGNl4jRjZGNkY2RjhGNkkkRF95R0YoRjYsJkZERjZGR0Y6NyM3Ji1JJF9ER0dGKDYjNyQ3JVEndmVjdG9yRihJIk1HRig3IjckNyQ3I0Y2RjM3JDcjIiIlRj8tRlE2IzckRlQ3JEZZNyRGZm4sJEZARjotRlE2IzckRlQ3JDckNyNGN0Y/NyQ3IyIiJEZJLUZRNiM3JEZUNyRGYm83JEZlbywkKiYsJEZKRjZGNkY4RjZGOg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSxbKDEsMSkoMTEpXUYnRjM=">NiRRIkQ2IlEsWygxLDEpKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 3.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">If one intends to do a number of computations with the metric <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>, it is usually computationally advantageous to work explicitly with an orthonormal frame or a null tetrad frame. See <Hyperlink linktarget="Help:DifferentialGeometry/FrameData" hyperlink="true"><Font style="Hyperlink">FrameData</Font></Hyperlink>.</Text-field>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">FD := FrameData(NTetrad, AF);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjRkRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNistRiM2Ji1GUDYmLUYjNictRiw2JVEjRTFGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GLDYlUSNFM0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJy1GNjYtUSkmZXF1YWxzO0YnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZHAtSSZtZnJhY0dGJDYoLUYjNiYtSSZtc3FydEdGJDYjLUkjbW5HRiQ2JFEiMkYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZbby9GTkZcb0ZaRjktRiM2Ji1GX3E2JFEiNEYnRjlGYnEtRiw2JVEieEYnRi9GMkY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zjci8lKWJldmVsbGVkR0Y9LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGY3BGZXAtRmdwNigtRiM2JkZbcUZicS1GLDYlUSNFMkYnRi9GMkY5RmZxRl5yRmFyRmRyRmZyRjlGOUZnbi1GIzYmLUZQNiYtRiM2J0ZaRmduLUYsNiVRI0U0RidGL0YyRmJvRjlGOUZlb0Zob0ZbcEZecEY5RmduLUYjNiYtRlA2Ji1GIzYnRl9zRmduRl9vRmJvRjlGOUZlb0Zob0ZbcEZecEY5RmduLUYjNiYtRlA2Ji1GIzYnRl9zRmduRmhzRmJvRjlGOUZlb0Zob0ZbcEZecEY5RmJvRjlGOUZlb0Zob0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNGREdGKDcmLzckSSNFMUdGKEkjRTNHRigsJioqIyIiIiIiJUY2SSJ4R0YmISIiKSIiIyNGNkY7RjZGMUY2RjkqKkY1RjZGOEY5RjpGNkkjRTJHRihGNkY5LzckRjFJI0U0R0YoRjMvNyRGPkYyRjMvNyRGPkZBRjM3Iy1JJF9ER0dGKDYjNyU3KFEtbW92aW5nX2ZyYW1lRihJI0FGR0YoNyNGN0kiTUdGKDcmSSJ0R0YmRjhJInlHRiZJInpHRiZRJ3ZlY3RvckYoNyo3JDckRjZGNiwkKipGPEY2RjpGNkZRRjlGOEY2RjY3JDckRjtGNkZYNyQ3JCIiJEY7LCQqJkY8RjZGOkY2RjY3JDckRjdGO0ZpbjckNyRGaG5GaG4qJiomRjxGNl4jRjZGNkY2RjpGNjckNyRGN0ZobiwkKiYsJEZgb0Y2RjZGOkY2Rjk3JDckRjZGN0ZpbjckNyRGO0Y3LCRGam5GOTcqNyQ3JUY2RmhuRjYsJCooRjVGNkY4RjlGOkY2Rjk3JDclRjZGN0Y2Rl9wNyQ3JUY7RmhuRjZGX3A3JDclRjtGN0Y2Rl9wNyQ3JUY2RmhuRjtGX3A3JDclRjZGN0Y7Rl9wNyQ3JUY7RmhuRjtGX3A3JDclRjtGN0Y7Rl9w</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">DGsetup(FD);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEvZnJhbWV+bmFtZTp+QUZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SS9mcmFtZX5uYW1lOn5BRkc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L497" drawlabel="true">
+<Input>
+<Text-field prompt="AF &gt; " style="Maple Input" layout="Normal">SegreType(AF);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSxbKDEsMSkoMTEpXUYnRjM=">NiRRIkQ2IlEsWygxLDEpKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRRIkQ2IlEsWygxLDEpKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 4.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Here we determine the Segre type from the Newman-Penrose Ricci scalars (we continue with the null tetrad frame from the previous example). First calculate the Newman-Penrose Ricci scalars. This is <Font style="Text" underline="true">always the best way to proceed</Font> since one can simplify, if need be, the Ricci scalars, before proceeding to calculate the more complicated invariants needed by the algorithm to determine the Segre type.</Text-field>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="NP &gt; " style="Maple Input" layout="Normal">RS := NPCurvatureScalars(NTetrad, output = [&quot;AllRicciScalars&quot;]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjUlNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUY2Ni1RJnRhYmxlRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlMtRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRlJGVC1JKG1mZW5jZWRHRiQ2JC1GWTYmLUYjNjctRiM2Ji1JI21zR0YkNiNRJlBoaTEyRictRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEiMEYnRjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRlIvRk5RLDAuMzMzMzMzM2VtRictRiM2Ji1GXG82I1EmUGhpMTFGJ0Zfb0Zib0Y5RmZvLUYjNiYtRlxvNiNRJlBoaTEwRidGX29GYm9GOUZmby1GIzYmLUZcbzYjUSZQaGkwMEYnRl9vLUkmbWZyYWNHRiQ2KC1GY282JFEiMUYnRjktRiM2Ji1GY282JFEiMkYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZSRlQtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMkZjcS8lMXN1cGVyc2NyaXB0c2hpZnRHRmVvRjkvJS5saW5ldGhpY2tuZXNzR0ZgcS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zlci8lKWJldmVsbGVkR0Y9RjlGZm8tRiM2Ji1GXG82I1EmUGhpMDJGJ0Zfby1GIzYlLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZlc0ZbcUY5RjlGZm8tRiM2Ji1GXG82I1EmUGhpMDFGJ0Zfb0Zib0Y5RmZvLUYjNiYtRlxvNiNRJ0xhbWJkYUYnRl9vLUYjNiVGYXMtRlxxNihGXnEtRiM2Ji1GY282JFEiNkYnRjlGZnFGaXFGOUZhckZjckZmckZockY5RjlGZm8tRiM2Ji1GXG82I1EmUGhpMjJGJ0Zfb0ZbcUY5RmZvLUYjNiYtRlxvNiNRJlBoaTIxRidGX29GYm9GOUZmby1GIzYmLUZcbzYjUSZQaGkyMEYnRl9vRl9zRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNSU0dGKC1JJlRBQkxFR0YmNiM3LC9RJlBoaTEyRigiIiEvUSZQaGkxMUYoRjQvUSZQaGkxMEYoRjQvUSZQaGkwMEYoLCQqJiMiIiIiIiNGPilJInhHRiZGPyEiIkY+L1EmUGhpMDJGKCwkRjxGQi9RJlBoaTAxRihGNC9RJ0xhbWJkYUYoLCQqJiNGPiIiJ0Y+RkBGQkZCL1EmUGhpMjJGKEY7L1EmUGhpMjFGKEY0L1EmUGhpMjBGKEZFNyM9RihJJmZhbHNlR0YmRVxbbCtGM0Y0RjZGNEY4RjRGOkY7RkRGRUZHRjRGSUZKRk9GO0ZRRjRGU0ZF</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(RS);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSxbKDEsMSkoMTEpXUYnRjM=">NiRRIkQ2IlEsWygxLDEpKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 5.</Font></Text-field>
+<Text-field style="Text" layout="Normal">We give a simple example where the Segre type changes at exceptional coordinate values.</Text-field>
+<Group labelreference="L485" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">DGsetup([t, x, y, z], M);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEuZnJhbWV+bmFtZTp+TUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L484" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" layout="Normal">g := evalDG(dt &amp;t dt - dx &amp;t dx - dy &amp;t dy - dz &amp;t dz + y^2*dt &amp;s dx);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GLDYlUSNkdEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlhGUUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZobi1GIzYmLUYjNiYtSSVtc3VwR0YkNiUtRiw2JVEieUYnRi9GMi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZURlFGOUZULUYsNiVRI2R4RidGL0YyRjlGWi1GIzYmLUYjNiZGXm9GVEZbcEY5RlRGUUY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZ25GaW4tRiM2JkZbcEZURltwRjlGYnAtRiM2Ji1GLDYlUSNkeUYnRi9GMkZURmlwRjlGYnAtRiM2Ji1GLDYlUSNkekYnRi9GMkZURl5xRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJnR0YoLC4tSSIqR0YmNiRJI2R0R0YoRjIiIiItRjA2JC1GMDYkKiQpSSJ5R0YmIiIjRjNGMkkjZHhHRihGMy1GMDYkLUYwNiRGOEY8RjJGMy1GMDYkRjxGPCEiIi1GMDYkSSNkeUdGKEZGRkMtRjA2JEkjZHpHRihGSUZDNyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRlQ3IjcoNyQ3JEYzRjNGMzckNyRGM0Y7Rjg3JDckRjtGM0Y4NyQ3JEY7RjtGQzckNyQiIiRGW29GQzckNyQiIiVGXm9GQw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" bold="true" layout="Normal"></Text-field>
+<Group labelreference="L483" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">OTetrad := DGGramSchmidt([D_t, D_x, D_y, D_z], g, signature = [1, -1, -1, -1]) assuming y &gt; 0;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoT1RldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GLDYlUSREX3RGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZfby1GIzYmLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JS1GLDYlUSJ5RidGL0YyLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkmbXNxcnRHRiQ2Iy1GIzYmLUZdcDYkUSIxRidGOS1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGXm9GYG8tRmdvNiVGaW8tRl1wNiRRIjRGJ0Y5RmBwRjkvJS5saW5ldGhpY2tuZXNzR0ZqcC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZncS8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGZW4vRk5GZm5GVEY5RltxLUYjNiYtRmRvNihGaHBGY3BGY3FGZXFGaHFGanFGXHItRiw2JVEkRF94RidGL0YyRjlGOUZXLUYsNiVRJERfeUYnRi9GMkZXLUYsNiVRJERfekYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShPVGV0cmFkR0YoNyZJJERfdEdGKCwmLUkiKkdGJjYkKiYpLCYiIiJGNyokKUkieUdGJiIiJUY3RjcjRjciIiMhIiIpRjpGPUY3Ri9GPi1GMjYkKiRGNUY+SSREX3hHRihGN0kkRF95R0YoSSREX3pHRig3IzcmLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiTUdGKDciNyM3JDcjRjdGNy1GSTYjNyRGTDckNyRGUiwkRjRGPjckNyNGPUZCLUZJNiM3JEZMNyM3JDcjIiIkRjctRkk2IzckRkw3IzckNyNGO0Y3</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L480" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">NTetrad := NullTetrad(OTetrad);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoTlRldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYmLUYjNiYtSSZtZnJhY0dGJDYoLUkmbXNxcnRHRiQ2Iy1JI21uR0YkNiRRIjJGJ0Y5RmhuLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zhby8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5Gam8tRiw2JVEkRF90RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmNwLUYjNiZGWEZmby1GLDYlUSREX3pGJ0YvRjJGOUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaW8vRk5RLDAuMzMzMzMzM2VtRictRiM2JkZWLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGYnBGZHBGZXBGOUZqcC1GIzYpLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSEZicEZkcC1GIzYmLUZZNigtRiM2JkZlbkZmby1JJW1zdXBHRiQ2JS1GLDYlUSJ5RidGL0YyRmhuLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUYjNiZGaG5GZm8tRmZuNiMtRiM2Ji1GaW42JEZeb0Y5Rl9wLUZhcjYlRmNyLUZpbjYkUSI0RidGOUZmckY5RjlGXG9GX29GYm9GZG9GZm9GXHBGOUZfcC1GIzYmLUZZNihGZW5GaXJGXG9GX29GYm9GZG9GZm8tRiw2JVEkRF94RidGL0YyRjlGX3AtRiM2Ji1GIzYmLUZZNigtRmluNiRRLSZJbWFnaW5hcnlJO0YnRjlGaG5GXG9GX29GYm9GZG9GZm9GZW5GOUZmby1GLDYlUSREX3lGJ0YvRjJGOUY5RmpwLUYjNilGZ3FGanFGX3BGZnNGYnFGXXRGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShOVGV0cmFkR0YoNyYsJi1JIipHRiY2JCwkKiYjIiIiIiIjRjYpRjdGNUY2RjZJJERfdEdGKEY2LUYxNiRGM0kkRF96R0YoRjYsJkYwRjZGOiEiIiwoLUYxNiQsJCoqRjVGNkY4RjYpLCZGNkY2KiQpSSJ5R0YmIiIlRjZGNkY1Rj4pRkhGN0Y2RjZGOUY+LUYxNiQsJCooRjVGNkY4RjZGREY+RjZJJERfeEdGKEY2LUYxNiQqJiomRjVGNl4jRjZGNkY2RjhGNkkkRF95R0YoRjYsKEZARj5GS0Y2RlBGPjcjNyYtSSRfREdHRig2IzckNyVRJ3ZlY3RvckYoSSJNR0YoNyI3JDckNyNGNkYzNyQ3I0ZJRjMtRlo2IzckRmduNyRGXG83JEZfbywkRjRGPi1GWjYjNyRGZ243JTckRl1vLCRGQ0Y+NyQ3I0Y3Rk03JDcjIiIkRlItRlo2IzckRmduNyVGam9GXHA3JEZfcCwkKiYsJEZTRjZGNkY4RjZGPg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L479" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">NP := NPCurvatureScalars(NTetrad, output = [&quot;AllRicciScalars&quot;]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjTlBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUY2Ni1RJnRhYmxlRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlMtRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRlJGVC1JKG1mZW5jZWRHRiQ2JC1GWTYmLUYjNjctRiM2Ji1JI21zR0YkNiNRJlBoaTEyRictRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNiUtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmhvLUkmbWZyYWNHRiQ2KC1GIzYnRmRvLUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmdvRmlvLUklbXN1cEdGJDYlLUYsNiVRInlGJ0YvRjItRmBwNiRRIjRGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUYjNiZGXHEtRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZSRlQtRmdwNiUtRlk2JC1GIzYmRl9wRmNwRmZwRjlGOS1GW3A2KC1GYHA2JFEiM0YnRjktRmBwNiRRIjJGJ0Y5LyUubGluZXRoaWNrbmVzc0dGYnAvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaXIvJSliZXZlbGxlZEdGMUZfcUY5RmVyRmdyRmpyL0Zdc0Y9RjlGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRlIvRk5RLDAuMzMzMzMzM2VtRictRiM2Ji1GXG82I1EmUGhpMTFGJ0Zfby1GW3A2KC1GIzYmLUZncDYlRmlwRmJyRl9xRmRxLUZZNiQtRiM2JkZmcC1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmdvRmlvRl9yRjlGOUY5LUYjNiZGXHFGZHEtRmdwNiVGaXFGYnJGX3FGOUZlckZnckZqckZec0Y5Rl9zLUYjNiYtRlxvNiNRJlBoaTEwRidGX29GYm9GOUZfcy1GIzYmLUZcbzYjUSZQaGkwMEYnRl9vLUZbcDYoRl50LUYjNiZGYnJGZHFGaXFGOUZlckZnckZqckZec0Y5Rl9zLUYjNiYtRlxvNiNRJlBoaTAyRidGX28tRmBwNiRGYXFGOUY5Rl9zLUYjNiYtRlxvNiNRJlBoaTAxRidGX29GYm9GOUZfcy1GIzYmLUZcbzYjUSdMYW1iZGFGJ0Zfby1GIzYlRmRvLUZbcDYoLUYjNiZGXnRGZHEtRlk2JC1GIzYmLUZgcDYkUSI1RidGOUZjcEZmcEY5RjlGOS1GIzYmLUZgcDYkUSMxMkYnRjlGZHFGaXRGOUZlckZnckZqckZec0Y5RjlGX3MtRiM2Ji1GXG82I1EmUGhpMjJGJ0Zfb0ZldUY5Rl9zLUYjNiYtRlxvNiNRJlBoaTIxRidGX29GYm9GOUZfcy1GIzYmLUZcbzYjUSZQaGkyMEYnRl9vRl52RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNOUEdGKC1JJlRBQkxFR0YmNiM3LC9RJlBoaTEyRigsJCooIyIiIiIiJUY3LCZGNyEiIiokKUkieUdGJkY4RjdGN0Y3KSwmRjdGN0Y7RjcjIiIkIiIjRjpGOi9RJlBoaTExRigsJCoqRjZGNylGPUZCRjcsJkY7RjdGQUY6RjcpRj9GQkY6RjcvUSZQaGkxMEYoRjQvUSZQaGkwMEYoLCQqKCNGN0ZCRjdGR0Y3Rj9GOkY3L1EmUGhpMDJGKCIiIS9RJlBoaTAxRihGNC9RJ0xhbWJkYUYoLCQqKiNGNyIjN0Y3RkdGNywmIiImRjdGO0Y3RjdGSUY6RjovUSZQaGkyMkYoRk4vUSZQaGkyMUYoRjQvUSZQaGkyMEYoRlM3Iz1GKEkmZmFsc2VHRiZFXFtsK0YzRjRGREZFRktGNEZNRk5GUkZTRlVGNEZXRlhGaW5GTkZbb0Y0Rl1vRlM=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L486" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L482" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">At generic coordinate values the Segre type is <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkMtSSNtc0dGJDYjUSJJRictRiw2LVEiLEYnRi9GMi9GNlEldHJ1ZUYnRjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRVEsMC4zMzMzMzMzZW1GJy1GRzYjUSdbWloxMV1GJ0YrRi8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkMtSSNtc0dGJDYjUSJJRictRiw2LVEiLEYnRi9GMi9GNlEldHJ1ZUYnRjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRVEsMC4zMzMzMzMzZW1GJy1GRzYjUSdbWloxMV1GJ0YrRi8=</Equation> but is type <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkMtSSNtc0dGJDYjUSJPRictRiw2LVEiLEYnRi9GMi9GNlEldHJ1ZUYnRjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRVEsMC4zMzMzMzMzZW1GJy1GRzYjUSpbKDEsMTEpMV1GJ0YrRi8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkMtSSNtc0dGJDYjUSJPRictRiw2LVEiLEYnRi9GMi9GNlEldHJ1ZUYnRjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRVEsMC4zMzMzMzMzZW1GJy1GRzYjUSpbKDEsMTEpMV1GJ0YrRi8=</Equation> at </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L499" drawlabel="true" redirect-target="L500">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSI9RidGMi9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkAvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTy1JI21uR0YkNiVRIjFGJ0YyRjwtRjk2LlEifkYnRjJGPEY+RkFGQ0ZFRkdGSUZLL0ZOUSYwLjBlbUYnL0ZRRlpGMi8lK2V4ZWN1dGFibGVHRkBGPA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSI9RidGMi9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkAvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTy1JI21uR0YkNiVRIjFGJ0YyRjwtRjk2LlEifkYnRjJGPEY+RkFGQ0ZFRkdGSUZLL0ZOUSYwLjBlbUYnL0ZRRlpGMi8lK2V4ZWN1dGFibGVHRkBGPA==</Equation><Font style="Text">and type &quot;D&quot;, [&quot;ZZ(11)]&quot; at</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkNGLw==">JSFH</Equation><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSJ+RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlNGOQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSJ+RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlNGOQ==</Equation><Font style="Text">0.</Font></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L490" drawlabel="true" redirect-target="L491">
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+<Group labelreference="L487" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NP) assuming y &gt; 1;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiSUYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSdbWloxMV1GJ0Yz">NiRRIkk2IlEnW1paMTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L481" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NP, [t = t0, x = x0, y = 1, z = z0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMTEpMV1GJ0Yz">NiRRIk82IlEqWygxLDExKTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L488" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NP, [t = t0, x = x0, y = 0, z = z0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSlbWlooMTEpXUYnRjM=">NiRRIkQ2IlEpW1paKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 6.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">The branching that occurs in the algorithm for <Font bold="true" foreground="[104,64,92]">SegreType</Font> can be followed by setting <Font bold="true" style="Text" foreground="[104,64,92]">infolevel[SegreType] := 2</Font>. In this example the spacetime metric is defined implicitly through the choice of the null tetrad.</Text-field>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">DGsetup([t, x, y, z], M);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEuZnJhbWV+bmFtZTp+TUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">NTetrad := evalDG([1/2/y*z*D_t + 1/2/y*z*D_x + 1/2*2^(1/2)*D_z, 1/2/y*z*D_t + 1/2/y*z*D_x - 1/2*2^(1/2)*D_z, 1/2/y*z*D_t - 1/2/y*z*D_x + 1/2*I*2^(1/2)*D_y, 1/2/y*z*D_t - 1/2/y*z*D_x - 1/2*I*2^(1/2)*D_y]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoTlRldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYoLUYjNiYtSSZtZnJhY0dGJDYoLUYsNiVRInpGJ0YvRjItRiM2Ji1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYm8tRiw2JVEieUYnRi9GMkY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZccC8lKWJldmVsbGVkR0Y9Rl5vLUYsNiVRJERfdEYnRi9GMkY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZocC1GIzYmRlhGXm8tRiw2JVEkRF94RidGL0YyRjlGZHAtRiM2Ji1GWTYoLUkmbXNxcnRHRiQ2I0ZqbkZqbkZnb0Zqb0ZdcEZfcEZeby1GLDYlUSREX3pGJ0YvRjJGOUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGYW8vRk5RLDAuMzMzMzMzM2VtRictRiM2KEZWRmRwRmpwLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZ3BGaXBGX3FGOUZpcS1GIzYoRlZGYXJGanBGZHAtRiM2Ji1GIzYmLUZZNigtRltvNiRRLSZJbWFnaW5hcnlJO0YnRjlGam5GZ29Gam9GXXBGX3BGXm9GY3FGOUZeby1GLDYlUSREX3lGJ0YvRjJGOUY5RmlxLUYjNihGVkZhckZqcEZhckZmckY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShOVGV0cmFkR0YoNyYsKC1JIipHRiY2JCwkKigjIiIiIiIjRjZJInlHRiYhIiJJInpHRiZGNkY2SSREX3RHRihGNi1GMTYkRjNJJERfeEdGKEY2LUYxNiQsJComRjVGNilGN0Y1RjZGNkkkRF96R0YoRjYsKEYwRjZGPEY2Rj9GOSwoRjBGNkY8RjktRjE2JComKiZGNUY2XiNGNkY2RjZGQ0Y2SSREX3lHRihGNiwoRjBGNkY8RjlGR0Y5NyM3Ji1JJF9ER0dGKDYjNyQ3JVEndmVjdG9yRihJIk1HRig3IjclNyQ3I0Y2RjM3JDcjRjdGMzckNyMiIiVGQS1GUTYjNyRGVDclRllGZW43JEZobiwkRkJGOS1GUTYjNyRGVDclRlk3JEZmbiwkRjRGOTckNyMiIiRGSS1GUTYjNyRGVDclRllGZG83JEZnbywkKiYsJEZKRjZGNkZDRjZGOQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVElRkFJTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSVGQUlMRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">To see why <Font bold="true" style="Text" foreground="[104,64,92]">SegreType</Font> failed, set <Font bold="true" style="Text" foreground="[104,64,92]">infolevel[SegreType] := 2</Font>.</Text-field>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">infolevel[SegreType] := 2;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEqaW5mb2xldmVsRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiVRKlNlZ3JlVHlwZUYnRjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkYvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGVS1JI21uR0YkNiRRIjJGJ0ZCRkI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkqaW5mb2xldmVsR0YnNiNJKlNlZ3JlVHlwZUc2JEYmL0krbW9kdWxlbmFtZUdGKEknVGVuc29yRzYkRiYvRjNJNURpZmZlcmVudGlhbEdlb21ldHJ5R0YnIiIjNyNGOA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">The NP Ricci coefficients are:</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">   Phi00: -1/4*(y^2-z^2)/z^2/y^2
+   Phi01: 1/2*I/z/y
+   Phi02: -1/4*(3*y^2+z^2)/z^2/y^2
+   Phi10: -1/2*I/z/y
+   Phi11: 1/2/z^2
+   Phi12: -1/2*I/z/y
+   Phi20: -1/4*(3*y^2+z^2)/z^2/y^2
+   Phi21: 1/2*I/z/y
+   Phi22: -1/4*(y^2-z^2)/z^2/y^2
+The NP coefficients of the Chi spinor are:
+   Chi0: 1/8*(3*y^4+2*z^2*y^2-z^4)/z^4/y^4
+   Chi1: 0
+   Chi2: -1/24*(3*y^4+2*z^2*y^2-z^4)/z^4/y^4
+   Chi3: 0
+   Chi4: 1/8*(3*y^4+2*z^2*y^2-z^4)/z^4/y^4
+The Petrov-Plebanski type of the given symmetric tensor is &quot;D&quot;
+The NP coefficients of the E spinor are:
+   E00: -1/2*(y^2+z^2)/z^4/y^2
+   E01: -1/2*I*(y^2+z^2)/z^3/y^3
+   E02: 3/4*(y^2+z^2)/z^4/y^2
+   E11: -1/2*(y^2+z^2)/z^4/y^2
+   E12: 1/2*I*(y^2+z^2)/z^3/y^3
+   E22: -1/2*(y^2+z^2)/z^4/y^2
+The r1 invariant is:
+   1/12*(9*y^4+10*z^2*y^2+z^4)/z^4/y^4
+   If r1 = 0, then the Segre invariant is [ZZ(11)]
+   If r1 &lt;&gt; 0, and the E spinor is 0, then the Segre invariant is [(1,1)(11)]
+The tildeChi0 invariant is:
+   -1/4*(y^2+z^2)^2*(3*y^2-2*z^2)/z^8/y^6
+   If r1 &lt;&gt; 0, if Chi0 &lt;&gt; 0 and if tildeChi0 = 0, then the Segre invariant is [2,(11)]
+The Ip invariant is:
+   1/144*(3*y^4+2*z^2*y^2-z^4)^2/z^8/y^8
+The Jp invariant is:
+   -1/1728*(3*y^4+2*z^2*y^2-z^4)^3/z^12/y^12
+The H invariant is:
+   1/144*(3*y^4+2*z^2*y^2-z^4)^2/y^10*(y^2+z^2)/z^12
+   If H = 0, then the Segre invariant is [2,(11)]
+   If H &lt; 0, then the Segre invariant is [ZZ,(11)]
+Unable to evaluate the sign of H</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVElRkFJTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSVGQUlMRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">So we see that the invariant <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>vanishes when <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbW5HRiQ2JFEiM0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ5RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUYjNiUtRiw2JFEiNEYnRi9GUUZULyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GMzYtUSIrRidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjIyMjIyMjJlbUYnL0ZJRlxvLUYsNiRRIjJGJ0YvRjItRks2JUZNLUYjNiVGXm9GUUZURmVuLUZLNiUtRk42JVEiekYnRlFGVEZjb0Zlbi1GMzYtUSgmbWludXM7RidGL0Y2RjlGO0Y9Rj9GQUZDRltvRl1vLUZLNiVGZ29GVkZlbi1GMzYtUSI9RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjI3Nzc3NzhlbUYnL0ZJRmNwLUYsNiRGZ25GL0Yv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbW5HRiQ2JFEiM0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ5RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUYjNiUtRiw2JFEiNEYnRi9GUUZULyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GMzYtUSIrRidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjIyMjIyMjJlbUYnL0ZJRlxvLUYsNiRRIjJGJ0YvRjItRks2JUZNLUYjNiVGXm9GUUZURmVuLUZLNiUtRk42JVEiekYnRlFGVEZjb0Zlbi1GMzYtUSgmbWludXM7RidGL0Y2RjlGO0Y9Rj9GQUZDRltvRl1vLUZLNiVGZ29GVkZlbi1GMzYtUSI9RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjI3Nzc3NzhlbUYnL0ZJRmNwLUYsNiRGZ25GL0Yv</Equation>.  Find the <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiekYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiekYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> values for which <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font bold="true" style="Text" foreground="[104,64,92]"> </Font>vanishes.</Text-field>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">solve(3*y^4 + 2*y^2*z^2 - z^4, z);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiYtSSZtc3FydEdGJDYjLUkjbW5HRiQ2JFEiM0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y0LyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtSSNtaUdGJDYlUSJ5RicvJSdpdGFsaWNHUSV0cnVlRicvRjVRJ2l0YWxpY0YnRjQtRjg2LVEoJmNvbW1hO0YnRjRGOy9GP0ZVRkBGQkZERkZGSEZKL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNiUtRjg2LVEqJnVtaW51czA7RidGNEY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl5vRitGNEZYLUYjNiYtRjE2JFEtJkltYWdpbmFyeUk7RidGNEY3Rk9GNEZYLUYjNiYtRjE2JFE2JnVtaW51czA7JkltYWdpbmFyeUk7RidGNEY3Rk9GNEY0">NiYqJikiIiQjIiIiIiIjRidJInlHJSpwcm90ZWN0ZWRHRicsJEYjISIiKiZeI0YnRidGKUYnLCQqJiwkRi5GJ0YnRilGJ0Ys</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">infolevel[SegreType] := 0;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEqaW5mb2xldmVsRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiVRKlNlZ3JlVHlwZUYnRjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkYvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGVS1JI21uR0YkNiRGPUZCRkI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+JkkqaW5mb2xldmVsR0YnNiNJKlNlZ3JlVHlwZUc2JEYmL0krbW9kdWxlbmFtZUdGKEknVGVuc29yRzYkRiYvRjNJNURpZmZlcmVudGlhbEdlb21ldHJ5R0YnIiIhNyNGOA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Re-calculate the Segre type at points where <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=</Equation>.</Text-field>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, [x = a, y = b, z = sqrt(3)*b, t = c]) assuming b::real;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMTEpMV1GJ0Yz">NiRRIk82IlEqWygxLDExKTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Re-calculate the Segre type at some choice of points where <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJSZuZTtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiSEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJSZuZTtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=</Equation>.</Text-field>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, [x = a, y = b, z = b, t = d]) assuming b &gt; 0; </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMSkxMV1GJ0Yz">NiRRIkQ2IlEqWygxLDEpMTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 6.</Font></Text-field>
+<Text-field style="Normal" layout="Normal">With the third calling sequence we can verify algebraic normal forms for the Ricci tensors of each Segre type.</Text-field>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">g := evalDG( dt &amp;t dt - dx &amp;t dx - dy&amp;t dy - dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GLDYlUSNkdEYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlhGUUY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaG4tRiM2Ji1GLDYlUSNkeEYnRi9GMkZURlxvRjlGWi1GIzYmLUYsNiVRI2R5RidGL0YyRlRGYW9GOUZaLUYjNiYtRiw2JVEjZHpGJ0YvRjJGVEZmb0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJnR0YoLCotSSIqR0YmNiRJI2R0R0YoRjIiIiItRjA2JEkjZHhHRihGNiEiIi1GMDYkSSNkeUdGKEY6RjctRjA2JEkjZHpHRihGPUY3NyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRkg3IjcmNyQ3JEYzRjNGMzckNyQiIiNGT0Y3NyQ3JCIiJEZSRjc3JDckIiIlRlVGNw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">NTetrad := evalDG([1/2*2^(1/2)*D_t + 1/2*2^(1/2)*D_z, 1/2*2^(1/2)*D_t - 1/2*2^(1/2)*D_z, 1/2*2^(1/2)*D_x + 1/2*I*2^(1/2)*D_y, 1/2*2^(1/2)*D_x - 1/2*I*2^(1/2)*D_y]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoTlRldHJhZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYmLUYjNiYtSSZtZnJhY0dGJDYoLUkmbXNxcnRHRiQ2Iy1JI21uR0YkNiRRIjJGJ0Y5RmhuLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zhby8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5Gam8tRiw2JVEkRF90RidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmNwLUYjNiZGWEZmby1GLDYlUSREX3pGJ0YvRjJGOUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaW8vRk5RLDAuMzMzMzMzM2VtRictRiM2JkZWLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGYnBGZHBGZXBGOUZqcC1GIzYmLUYjNiZGWEZmby1GLDYlUSREX3hGJ0YvRjJGOUZfcC1GIzYmLUYjNiYtRlk2KC1GaW42JFEtJkltYWdpbmFyeUk7RidGOUZobkZcb0Zfb0Zib0Zkb0Zmb0ZlbkY5RmZvLUYsNiVRJERfeUYnRi9GMkY5RjlGanAtRiM2JkZncUZicUZcckY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShOVGV0cmFkR0YoNyYsJi1JIipHRiY2JCwkKiYjIiIiIiIjRjYpRjdGNUY2RjZJJERfdEdGKEY2LUYxNiRGM0kkRF96R0YoRjYsJkYwRjZGOiEiIiwmLUYxNiRGM0kkRF94R0YoRjYtRjE2JComKiZGNUY2XiNGNkY2RjZGOEY2SSREX3lHRihGNiwmRkBGNkZDRj43IzcmLUkkX0RHR0YoNiM3JDclUSd2ZWN0b3JGKEkiTUdGKDciNyQ3JDcjRjZGMzckNyMiIiVGMy1GTTYjNyRGUDckRlU3JEZYLCRGNEY+LUZNNiM3JEZQNyQ3JDcjRjdGMzckNyMiIiRGRS1GTTYjNyRGUDckRl5vNyRGYW8sJComLCRGRkY2RjZGOEY2Rj4=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">1. Petrov-Plebanski type: &quot;O&quot;, Segre Type: &quot;[(1,111)]&quot;</Font></Text-field>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - a*dx &amp;t dx - a*dy &amp;t dy - a*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmRlNGVi1GLDYlUSNkeEYnRi9GMkY5RlZGY29GOUZpbi1GIzYmLUYjNiZGU0ZWLUYsNiVRI2R5RidGL0YyRjlGVkZqb0Y5RmluLUYjNiYtRiM2JkZTRlYtRiw2JVEjZHpGJ0YvRjJGOUZWRmFwRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCotSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRGNEkjZHhHRihGOyEiIi1GMDYkLUYwNiRGNEkjZHlHRihGQUY8LUYwNiQtRjA2JEY0SSNkekdGKEZGRjw3Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGUTciNyY3JDckRjZGNkY0NyQ3JCIiI0ZYLCRGNEY8NyQ3JCIiJEZmbkZZNyQ3JCIiJUZpbkZZ</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMTExKV1GJ0Yz">NiRRIk82IlEqWygxLDExMSldRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">2. Petrov-Plebanski type: &quot;O&quot;, Segre Type: &quot;[1,(111)]&quot;</Font></Text-field>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - b*dx &amp;t dx - b*dy &amp;t dy - b*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmLUYsNiVRImJGJ0YvRjJGVi1GLDYlUSNkeEYnRi9GMkY5RlZGZm9GOUZpbi1GIzYmLUYjNiZGY29GVi1GLDYlUSNkeUYnRi9GMkY5RlZGXXBGOUZpbi1GIzYmLUYjNiZGY29GVi1GLDYlUSNkekYnRi9GMkY5RlZGZHBGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCotSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRJImJHRihJI2R4R0YoRjwhIiItRjA2JC1GMDYkRjtJI2R5R0YoRkJGPS1GMDYkLUYwNiRGO0kjZHpHRihGR0Y9NyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRlI3IjcmNyQ3JEY2RjZGNDckNyQiIiNGWSwkRjtGPTckNyQiIiRGZ25GWjckNyQiIiVGam5GWg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbMSwoMTExKV1GJ0Yz">NiRRIk82IlEqWzEsKDExMSldRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">3. Petrov-Plebanski type: &quot;O&quot;, Segre Type: &quot;[(1,11)1]&quot;</Font></Text-field>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt-a*dx &amp;t dx-a*dy &amp;t dy-b*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmRlNGVi1GLDYlUSNkeEYnRi9GMkY5RlZGY29GOUZpbi1GIzYmLUYjNiZGU0ZWLUYsNiVRI2R5RidGL0YyRjlGVkZqb0Y5RmluLUYjNiYtRiM2Ji1GLDYlUSJiRidGL0YyRlYtRiw2JVEjZHpGJ0YvRjJGOUZWRmRwRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCotSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRGNEkjZHhHRihGOyEiIi1GMDYkLUYwNiRGNEkjZHlHRihGQUY8LUYwNiQtRjA2JEkiYkdGKEkjZHpHRihGR0Y8NyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRlI3IjcmNyQ3JEY2RjZGNDckNyQiIiNGWSwkRjRGPDckNyQiIiRGZ25GWjckNyQiIiVGam4sJEZGRjw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMTEpMV1GJ0Yz">NiRRIk82IlEqWygxLDExKTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">4. Petrov-Plebanski type: &quot;O&quot;, Segre Type: &quot;[2,(11)]&quot;</Font></Text-field>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Normal" layout="Normal"><Font style="Maple Input">R := evalDG((a + 1)*dt &amp;t dt +</Font> <Font style="Maple Input">dt &amp;t dx + dx &amp;t dt + (-a + 1)*dx &amp;t dx - a*dy &amp;t dy - a*dz &amp;t dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEiYUYnRi9GMi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaW4tSSNtbkdGJDYkUSIxRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZjby1GLDYlUSNkdEYnRi9GMkY5Rl9vRmVvRjlGZW4tRiM2JkZlb0Zfby1GLDYlUSNkeEYnRi9GMkY5RmVuLUYjNiZGam9GX29GZW9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmhuRmpuLUYjNiYtRiM2Ji1GVDYkLUYjNiZGWEZfcEZbb0Y5RjlGX29Gam9GOUZfb0Zqb0Y5Rl9wLUYjNiYtRiM2JkZYRl9vLUYsNiVRI2R5RidGL0YyRjlGX29GXnFGOUZfcC1GIzYmLUYjNiZGWEZfby1GLDYlUSNkekYnRi9GMkY5Rl9vRmVxRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JCwmSSJhR0YoIiIiRjZGNkkjZHRHRihGN0Y2LUYwNiRGN0kjZHhHRihGNi1GMDYkRjpGN0Y2LUYwNiQtRjA2JCwmRjVGNkY2ISIiRjpGOkZCLUYwNiQtRjA2JEY1SSNkeUdGKEZHRkItRjA2JC1GMDYkRjVJI2R6R0YoRkxGQjcjLUkkX0RHR0YoNiM3JDclUSd0ZW5zb3JGKEkiTUdGKDckNyRRKGNvdl9iYXNGKEZXNyI3KDckNyRGNkY2RjQ3JDckRjYiIiNGNjckNyRGaG5GNkY2NyQ3JEZobkZobiwmRjVGQkY2RjY3JDckIiIkRmBvLCRGNUZCNyQ3JCIiJUZkb0Zhbw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiT0YnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSlbKDIsMTEpXUYnRjM=">NiRRIk82IlEpWygyLDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">5. Petrov-Plebanski type: &quot;N&quot;, Segre Type: &quot;[(2,1)1]&quot;</Font></Text-field>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG((a + 1)*dt &amp;t dt + dt &amp;t dx + dx &amp;t dt+(-a + 1)*dx &amp;t dx - a*dy &amp;t dy - b*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEiYUYnRi9GMi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaW4tSSNtbkdGJDYkUSIxRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZjby1GLDYlUSNkdEYnRi9GMkY5Rl9vRmVvRjlGZW4tRiM2JkZlb0Zfby1GLDYlUSNkeEYnRi9GMkY5RmVuLUYjNiZGam9GX29GZW9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmhuRmpuLUYjNiYtRiM2Ji1GVDYkLUYjNiZGWEZfcEZbb0Y5RjlGX29Gam9GOUZfb0Zqb0Y5Rl9wLUYjNiYtRiM2JkZYRl9vLUYsNiVRI2R5RidGL0YyRjlGX29GXnFGOUZfcC1GIzYmLUYjNiYtRiw2JVEiYkYnRi9GMkZfby1GLDYlUSNkekYnRi9GMkY5Rl9vRmhxRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JCwmSSJhR0YoIiIiRjZGNkkjZHRHRihGN0Y2LUYwNiRGN0kjZHhHRihGNi1GMDYkRjpGN0Y2LUYwNiQtRjA2JCwmRjVGNkY2ISIiRjpGOkZCLUYwNiQtRjA2JEY1SSNkeUdGKEZHRkItRjA2JC1GMDYkSSJiR0YoSSNkekdGKEZNRkI3Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGWDciNyg3JDckRjZGNkY0NyQ3JEY2IiIjRjY3JDckRmluRjZGNjckNyRGaW5GaW4sJkY1RkJGNkY2NyQ3JCIiJEZhbywkRjVGQjckNyQiIiVGZW8sJEZMRkI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiTkYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSlbKDIsMSkxXUYnRjM=">NiRRIk42IlEpWygyLDEpMV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">6. Petrov-Plebanski type: &quot;N&quot;, Segre Type: &quot;[(3,1)]&quot;</Font></Text-field>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt + dt &amp;t dy - a*dx &amp;t dx- dx &amp;t dy + dy &amp;t dt-dy &amp;t dx-a*dy &amp;t dy-a*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY0LUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZdby1GIzYmRmZuRlYtRiw2JVEjZHlGJ0YvRjJGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlxvRl5vLUYjNiYtRiM2JkZTRlYtRiw2JVEjZHhGJ0YvRjJGOUZWRltwRjlGZG8tRiM2JkZbcEZWRmFvRjlGaW4tRiM2JkZhb0ZWRmZuRjlGZG8tRiM2JkZhb0ZWRltwRjlGZG8tRiM2Ji1GIzYmRlNGVkZhb0Y5RlZGYW9GOUZkby1GIzYmLUYjNiZGU0ZWLUYsNiVRI2R6RidGL0YyRjlGVkZccUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLDItSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkRjVJI2R5R0YoRjYtRjA2JC1GMDYkRjRJI2R4R0YoRj4hIiItRjA2JEY+RjlGPy1GMDYkRjlGNUY2LUYwNiRGOUY+Rj8tRjA2JC1GMDYkRjRGOUY5Rj8tRjA2JC1GMDYkRjRJI2R6R0YoRk5GPzcjLUkkX0RHR0YoNiM3JDclUSd0ZW5zb3JGKEkiTUdGKDckNyRRKGNvdl9iYXNGKEZZNyI3KjckNyRGNkY2RjQ3JDckRjYiIiRGNjckNyQiIiNGXW8sJEY0Rj83JDckRl1vRmpuRj83JDckRmpuRjZGNjckNyRGam5GXW9GPzckNyRGam5Gam5GXm83JDckIiIlRmlvRl5v</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a; </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiTkYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUShbKDMsMSldRidGMw==">NiRRIk42IlEoWygzLDEpXUYk</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">7. Petrov-Plebanski type: &quot;D&quot;, Segre Type: &quot;[(1,1)11]&quot;</Font></Text-field>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - a*dx &amp;t dx - b*dy &amp;t dy);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmRlNGVi1GLDYlUSNkeEYnRi9GMkY5RlZGY29GOUZpbi1GIzYmLUYjNiYtRiw2JVEiYkYnRi9GMkZWLUYsNiVRI2R5RidGL0YyRjlGVkZdcEY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCgtSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRGNEkjZHhHRihGOyEiIi1GMDYkLUYwNiRJImJHRihJI2R5R0YoRkJGPDcjLUkkX0RHR0YoNiM3JDclUSd0ZW5zb3JGKEkiTUdGKDckNyRRKGNvdl9iYXNGKEZNNyI3JTckNyRGNkY2RjQ3JDckIiIjRlQsJEY0Rjw3JDckIiIkRlgsJEZBRjw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming a &gt; 0, b &gt; a; </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMSkxMV1GJ0Yz">NiRRIkQ2IlEqWygxLDEpMTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">8.  Petrov-Plebanski type: &quot;D&quot;, Segre Type: &quot;[1,1(11)]&quot;</Font></Text-field>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - b*dx &amp;t dx);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmLUYsNiVRImJGJ0YvRjJGVi1GLDYlUSNkeEYnRi9GMkY5RlZGZm9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCYtSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRJImJHRihJI2R4R0YoRjwhIiI3Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGSDciNyQ3JDckRjZGNkY0NyQ3JCIiI0ZPLCRGO0Y9</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming a &gt;0, b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbMSwxKDExKV1GJ0Yz">NiRRIkQ2IlEqWzEsMSgxMSldRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">9. Petrov-Plebanski type: &quot;D&quot;, Segre Type: &quot;[ZZ(11)]&quot;</Font></Text-field>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt + b*dt &amp;t dx+b*dx &amp;t dt - a*dx &amp;t dx - c*dy &amp;t dy - c*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZdby1GIzYmLUYjNiYtRiw2JVEiYkYnRi9GMkZWRmZuRjlGVi1GLDYlUSNkeEYnRi9GMkY5RmluLUYjNiYtRiM2JkZjb0ZWRmZvRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGXG9GXm8tRiM2Ji1GIzYmRlNGVkZmb0Y5RlZGZm9GOUZdcC1GIzYmLUYjNiYtRiw2JVEiY0YnRi9GMkZWLUYsNiVRI2R5RidGL0YyRjlGVkZbcUY5Rl1wLUYjNiYtRiM2JkZocEZWLUYsNiVRI2R6RidGL0YyRjlGVkZicUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRJImJHRihGNUkjZHhHRihGNi1GMDYkLUYwNiRGO0Y8RjVGNi1GMDYkLUYwNiRGNEY8RjwhIiItRjA2JC1GMDYkSSJjR0YoSSNkeUdGKEZLRkUtRjA2JC1GMDYkRkpJI2R6R0YoRlBGRTcjLUkkX0RHR0YoNiM3JDclUSd0ZW5zb3JGKEkiTUdGKDckNyRRKGNvdl9iYXNGKEZlbjciNyg3JDckRjZGNkY0NyQ3JEY2IiIjRjs3JDckRlxvRjZGOzckNyRGXG9GXG8sJEY0RkU3JDckIiIkRmRvLCRGSkZFNyQ3JCIiJUZob0Zlbw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming a &gt; 0, b &gt; 0, c &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSlbWlooMTEpXUYnRjM=">NiRRIkQ2IlEpW1paKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">10. Petrov-Plebanski type: &quot;D&quot;, Segre Type: &quot;[(1,1)(11)]&quot;</Font></Text-field>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - a*dx &amp;t dx - b*dy &amp;t dy);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmRlNGVi1GLDYlUSNkeEYnRi9GMkY5RlZGY29GOUZpbi1GIzYmLUYjNiYtRiw2JVEiYkYnRi9GMkZWLUYsNiVRI2R5RidGL0YyRjlGVkZdcEY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCgtSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRGNEkjZHhHRihGOyEiIi1GMDYkLUYwNiRJImJHRihJI2R5R0YoRkJGPDcjLUkkX0RHR0YoNiM3JDclUSd0ZW5zb3JGKEkiTUdGKDckNyRRKGNvdl9iYXNGKEZNNyI3JTckNyRGNkY2RjQ3JDckIiIjRlQsJEY0Rjw3JDckIiIkRlgsJEZBRjw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming a &gt; 0, b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSpbKDEsMSkxMV1GJ0Yz">NiRRIkQ2IlEqWygxLDEpMTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">11. Petrov-Plebanski type: &quot;D&quot;, Segre Type: &quot;[2,(11)]&quot;</Font></Text-field>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG((a + 1)*dt &amp;t dt + dt &amp;t dx + dx &amp;t dt + (-a + 1)*dx &amp;t dx - b*dy &amp;t dy - b*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEiYUYnRi9GMi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaW4tSSNtbkdGJDYkUSIxRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZjby1GLDYlUSNkdEYnRi9GMkY5Rl9vRmVvRjlGZW4tRiM2JkZlb0Zfby1GLDYlUSNkeEYnRi9GMkY5RmVuLUYjNiZGam9GX29GZW9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmhuRmpuLUYjNiYtRiM2Ji1GVDYkLUYjNiZGWEZfcEZbb0Y5RjlGX29Gam9GOUZfb0Zqb0Y5Rl9wLUYjNiYtRiM2Ji1GLDYlUSJiRidGL0YyRl9vLUYsNiVRI2R5RidGL0YyRjlGX29GYXFGOUZfcC1GIzYmLUYjNiZGXnFGX28tRiw2JVEjZHpGJ0YvRjJGOUZfb0ZocUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JCwmSSJhR0YoIiIiRjZGNkkjZHRHRihGN0Y2LUYwNiRGN0kjZHhHRihGNi1GMDYkRjpGN0Y2LUYwNiQtRjA2JCwmRjVGNkY2ISIiRjpGOkZCLUYwNiQtRjA2JEkiYkdGKEkjZHlHRihGSEZCLUYwNiQtRjA2JEZHSSNkekdGKEZNRkI3Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGWDciNyg3JDckRjZGNkY0NyQ3JEY2IiIjRjY3JDckRmluRjZGNjckNyRGaW5GaW4sJkY1RkJGNkY2NyQ3JCIiJEZhbywkRkdGQjckNyQiIiVGZW9GYm8=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiREYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSlbMiwoMTEpXUYnRjM=">NiRRIkQ2IlEpWzIsKDExKV1GJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">12. Petrov-Plebanski type: &quot;II&quot;, Segre Type: &quot;[2,(11)]&quot;</Font></Text-field>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG((a + 1)*dt &amp;t dt + dt &amp;t dx + dx &amp;t dt + (-a + 1)*dx &amp;t dx - b*dy &amp;t dy - c*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEiYUYnRi9GMi1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaW4tSSNtbkdGJDYkUSIxRidGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZjby1GLDYlUSNkdEYnRi9GMkY5Rl9vRmVvRjlGZW4tRiM2JkZlb0Zfby1GLDYlUSNkeEYnRi9GMkY5RmVuLUYjNiZGam9GX29GZW9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmhuRmpuLUYjNiYtRiM2Ji1GVDYkLUYjNiZGWEZfcEZbb0Y5RjlGX29Gam9GOUZfb0Zqb0Y5Rl9wLUYjNiYtRiM2Ji1GLDYlUSJiRidGL0YyRl9vLUYsNiVRI2R5RidGL0YyRjlGX29GYXFGOUZfcC1GIzYmLUYjNiYtRiw2JVEiY0YnRi9GMkZfby1GLDYlUSNkekYnRi9GMkY5Rl9vRltyRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JCwmSSJhR0YoIiIiRjZGNkkjZHRHRihGN0Y2LUYwNiRGN0kjZHhHRihGNi1GMDYkRjpGN0Y2LUYwNiQtRjA2JCwmRjVGNkY2ISIiRjpGOkZCLUYwNiQtRjA2JEkiYkdGKEkjZHlHRihGSEZCLUYwNiQtRjA2JEkiY0dGKEkjZHpHRihGTkZCNyMtSSRfREdHRig2IzckNyVRJ3RlbnNvckYoSSJNR0YoNyQ3JFEoY292X2Jhc0YoRlk3IjcoNyQ3JEY2RjZGNDckNyRGNiIiI0Y2NyQ3JEZqbkY2RjY3JDckRmpuRmpuLCZGNUZCRjZGNjckNyQiIiRGYm8sJEZHRkI3JDckIiIlRmZvLCRGTUZC</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EjSUlGJy1JI21vR0YkNi1RKCZjb21tYTtGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2I1EnWzIsMTFdRidGMw==">NiRRI0lJNiJRJ1syLDExXUYk</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">13. Petrov-Plebanski type: &quot;I&quot;, Segre Type: &quot;[1,111]&quot;</Font></Text-field>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt - b*dx &amp;t dx - c*dy &amp;t dy - d*dz &amp;t dz); </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2Ji1GIzYmLUYsNiVRImJGJ0YvRjJGVi1GLDYlUSNkeEYnRi9GMkY5RlZGZm9GOUZpbi1GIzYmLUYjNiYtRiw2JVEiY0YnRi9GMkZWLUYsNiVRI2R5RidGL0YyRjlGVkZgcEY5RmluLUYjNiYtRiM2Ji1GLDYlUSJkRidGL0YyRlYtRiw2JVEjZHpGJ0YvRjJGOUZWRmpwRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLCotSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRJImJHRihJI2R4R0YoRjwhIiItRjA2JC1GMDYkSSJjR0YoSSNkeUdGKEZDRj0tRjA2JC1GMDYkSSJkR0YoSSNkekdGKEZJRj03Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGVDciNyY3JDckRjZGNkY0NyQ3JCIiI0ZlbiwkRjtGPTckNyQiIiRGaW4sJEZCRj03JDckIiIlRl1vLCRGSEY9</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a, c &gt; b, d &gt; c, a &gt; 0;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiSUYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUShbMSwxMTFdRidGMw==">NiRRIkk2IlEoWzEsMTExXUYk</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" foreground="[104,64,92]" layout="Normal"><Font bold="true" foreground="[104,64,92]">14. Petrov-Plebanski type: &quot;I&quot;, Segre Type: &quot;[ZZ11]&quot;</Font></Text-field>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R := evalDG(a*dt &amp;t dt + b*dt &amp;t dx + b*dx &amp;t dt - a*dx &amp;t dx - b*dy &amp;t dy + (b + 2*a)*dz &amp;t dz);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRI2R0RidGL0YyRjlGVkZmbkY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZdby1GIzYmLUYjNiYtRiw2JVEiYkYnRi9GMkZWRmZuRjlGVi1GLDYlUSNkeEYnRi9GMkY5RmluLUYjNiYtRiM2JkZjb0ZWRmZvRjlGVkZmbkY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGXG9GXm8tRiM2Ji1GIzYmRlNGVkZmb0Y5RlZGZm9GOUZdcC1GIzYmLUYjNiZGY29GVi1GLDYlUSNkeUYnRi9GMkY5RlZGaHBGOUZpbi1GIzYmLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2JkZjb0Zpbi1GIzYmLUkjbW5HRiQ2JFEiMkYnRjlGVkZTRjlGOUY5RlYtRiw2JVEjZHpGJ0YvRjJGOUZWRmpxRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJSR0YoLC4tSSIqR0YmNiQtRjA2JEkiYUdGKEkjZHRHRihGNSIiIi1GMDYkLUYwNiRJImJHRihGNUkjZHhHRihGNi1GMDYkLUYwNiRGO0Y8RjVGNi1GMDYkLUYwNiRGNEY8RjwhIiItRjA2JC1GMDYkRjtJI2R5R0YoRkpGRS1GMDYkLUYwNiQsJkY7RjYqJiIiI0Y2RjRGNkY2SSNkekdGKEZSRjY3Iy1JJF9ER0dGKDYjNyQ3JVEndGVuc29yRihJIk1HRig3JDckUShjb3ZfYmFzRihGZ243IjcoNyQ3JEY2RjZGNDckNyRGNkZRRjs3JDckRlFGNkY7NyQ3JEZRRlEsJEY0RkU3JDckIiIkRmVvLCRGO0ZFNyQ3JCIiJUZpb0ZP</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">SegreType(NTetrad, g, R) assuming b &gt; a, a&gt; 0;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbXNHRiQ2I1EiSUYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYjUSdbWloxMV1GJ0Yz">NiRRIkk2IlEnW1paMTFdRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Text" size="14" bold="true" layout="Normal"><Font bold="true" size="14">See Also</Font></Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor" hyperlink="true"><Font style="Hyperlink">Tensor</Font></Hyperlink>, <Hyperlink linktarget="Help:assuming" hyperlink="true"><Font style="Hyperlink">assuming</Font></Hyperlink>, <Hyperlink linktarget="Help:infolevel" hyperlink="true"><Font style="Hyperlink">infolevel</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/FrameData" hyperlink="true"><Font style="Hyperlink">FrameData</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/NullTetrad" hyperlink="true"><Font style="Hyperlink">NullTetrad</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/NPCurvatureScalars" hyperlink="true"><Font style="Hyperlink">NPCurvatureScalars</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"><Font style="Hyperlink">PetrovType</Font></Hyperlink></Text-field>
+</Section>
+</Worksheet>

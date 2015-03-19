@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal260" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal262" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1261" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="NormalBlue" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Arial" foreground="[128,0,64]" italic="false" name="Vess_Title2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1259" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Arial" foreground="[0,0,0]" italic="false" name="Vess_IO" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="DG_Text" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1261" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="NormalBlue" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Vess_Title2" pagebreak-before="false" rightmargin="0" spaceabove="4" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal260" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="30" linebreak="space" linespacing="0.0" name="Vess_IO" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1259" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal262" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/Tutorials/RecursionOperators"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Heading 1261" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">DifferentialGeometry Tutorials </Text-field>
+<Text-field layout="Heading 1259" style="Heading 1259"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 1259" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="18" style="Text" subscript="false" superscript="false" underline="false">Recursion Operators for Integrable Equations.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In the subject of integrable systems of differential equations there are many different definitions of  integrability.  One definition declares a system of pde to be integrable if the equation admits an infinite hierarchy of higher order symmetries.  For evolution equations, these higher order symmetries can be viewed as higher order evolution equations who (local) flows commute with the flow of the given  evolution equation.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The higher order symmetries of an integrable equation can be generated inductively by a recursion operator which maps one higher order symmetry to the next one in the hierarchy.  Recursion operators for integrable equations typically involve the formal inverse of the total derivative operator</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this application you will learn to create the recursion operators for some well-known integrable equations and to use these operators to generate higher order generalized symmetries. We shall also verify directly that the higher order symmetries so constructed are indeed symmetries.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">For a detailed discussion of higher order or generalized symmetries and recursion operators, see P. J. Olver,  Applications of Lie Groups to Differential Equations</Text-field>
+<Text-field layout="Normal" style="Normal">(2nd Edition)  Chapter 5.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Maple code in the section "The program InverseTotalDiff must be executed prior to executing the the examples.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Procedures Illustrated</Text-field></Title>
+<Text-field layout="Normal" style="Normal">This tutorial illustrates the use of the following packages and procedures</Text-field>
+<Text-field layout="Normal" style="Normal"><Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>,<Hyperlink hyperlink="true" linktarget="Help:DifferentialGeomety/JetCalculus"><Font style="Hyperlink"> JetCalculus</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGsetup"><Font style="Hyperlink">DGsetup</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/TotalDiff"><Font style="Hyperlink">TotalDiff</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/HorizontalHomotopy"><Font style="Hyperlink">HorizontalHomotopy</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/GeneralizedLieBracket"><Font style="Hyperlink">GeneralizedLieBracket</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Transformation"><Font style="Hyperlink">Transformation</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/DifferentialEquationData"><Font style="Hyperlink">DifferentialEquationData</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/Prolong"><Font style="Hyperlink">Prolong</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieDerivative"><Font style="Hyperlink">LieDerivative</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeomety/JetCalculus/EulerLagrange"><Font style="Hyperlink">EulerLagrange</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/Noether"><Font style="Hyperlink">Noether</Font></Hyperlink>,  <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/HorizontalExteriorDerivative"><Font style="Hyperlink">HorizontalExteriorDerivative</Font></Hyperlink></Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 1" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">The program InverseTotalDiff</Text-field></Title>
+<Text-field layout="Normal" style="Normal">Let <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">g = g(x, u, ux, u_xx.. )</Font> is a function of a single independent variable <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">x,</Font> a dependent variable <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">u</Font> and its derivatives <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">ux, u_xx.. </Font> to some order <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">k</Font>(that is, a function on the jet space <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">J^k(R,R) </Font>) and let <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">f= D_x(g)</Font>, where <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">D_x</Font> is <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/TotalDiff"><Font style="Hyperlink">total differentiation</Font></Hyperlink> with respect to <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">x</Font>. Then the program <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">InverseTotalDiff(f)</Font> given below reproduces <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">g</Font> (up to an additive constant). This command is easily constructed from the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/HorizontalHomotopy"><Font style="Hyperlink">horizonal homotopy operator </Font></Hyperlink>in the variational bicomplex which is implemented in the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus"><Font style="Hyperlink">JetCalculus </Font></Hyperlink>package.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="euclid&gt;" style="Maple Input">with(DifferentialGeometry): with(JetCalculus):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">Preferences("JetNotation", "JetNotation2");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiNRLUpldE5vdGF0aW9uMTYi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">InverseTotalDiff := proc(f)</Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">local L;</Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">if  Tools:-DGinfo("FrameBaseDimension") &lt;&gt; 1 then </Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">error("Number of Independent Variables in Current Frame  Must Be 1");</Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">fi;     </Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">L := f &amp;mult Tools:-DGvolume("biform");</Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">HorizontalHomotopy(L);</Text-field>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">end:
+</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We test the program InverseTotalDiff with an example:</Text-field>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">DGsetup([x], [u], E, 1);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fkVH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " style="Maple Input">g:= u[1]*u[2]^2;</Text-field>
+<Text-field layout="Normal" prompt="E &gt; " style="Maple Input"></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRyomJiUidUc2IyIiIiIiIikmJSJ1RzYjIiIjIiIjIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " style="Maple Input">f := TotalDiff(u[1]*u[2]^2,x);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJmRywmKiQpJiUidUc2IyIiIyIiJCIiIiIiIioqIiIjIiIiJiUidUc2IyIiIiIiIiYlInVHNiMiIiMiIiImJSJ1RzYjIiIkIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " style="Maple Input">InverseTotalDiff(f);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiYlInVHNiMiIiIiIiIpJiUidUc2IyIiIyIiIyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " style="Maple Input"></Text-field>
+</Input>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">The  KdV Equation</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The KdV equation is the evolution equation <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">u_t = u_xxx + u*u_x</Font>.  The recursion operator is  for the  KdV equation is: </Text-field>
+<Text-field layout="Normal262" style="Help Math">R(f) = D_xx(f) + 2/3*u[0]*f +1/3*u_x*D_x^(-1)(f).</Text-field>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">DGsetup([x], [u], M, 1):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the KdV flow by the  right-hand side of the KdV equation.</Text-field>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">KdVFlow := u[3] + u[0]*u[1];
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JShLZFZGbG93RywmJiUidUc2IyIiJCIiIiomJiUidUc2IyIiISIiIiYlInVHNiMiIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the KdV recursion operator:</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">KdVRecursion := exp -&gt;  expand(TotalDiff(exp,[2]) +2/3*u[0]*exp +1/3*u[1]*InverseTotalDiff(exp));
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS1LZFZSZWN1cnNpb25HZio2IyUkZXhwRzYiNiQlKW9wZXJhdG9yRyUmYXJyb3dHNiItJSdleHBhbmRHNiMsKC1fJSxKZXRDYWxjdWx1c0clKlRvdGFsRGlmZkc2JDkkNyMiIiMiIiIqJiMiIiMiIiQiIiIqJiYlInVHNiMiIiEiIiI5JCIiIiIiIiIiIiomIyIiIiIiJCIiIiomJiUidUc2IyIiIiIiIi0lMUludmVyc2VUb3RhbERpZmZHNiM5JCIiIiIiIiIiIjYiNiI2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the first generalized symmetry Q_0 for the KdV equation and generate the higher symmetries using the recursion operator.</Text-field>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">Q0 := u[1];
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNRMEcmJSJ1RzYjIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">3rd order (the KdV flow itself)</Text-field>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">Q1:= KdVRecursion(Q_0);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNRMUcsJiomIyIiIyIiJCIiIiomJiUidUc2IyIiISIiIiUkUV8wRyIiIiIiIiIiIiomIyIiIiIiJCIiIiooJiUidUc2IyIiIiIiIiUieEciIiIlJFFfMEciIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">5th order:</Text-field>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">Q2:= KdVRecursion(Q_1);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNRMkcsJiomIyIiIyIiJCIiIiomJiUidUc2IyIiISIiIiUkUV8xRyIiIiIiIiIiIiomIyIiIiIiJCIiIiooJiUidUc2IyIiIiIiIiUieEciIiIlJFFfMUciIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">7th order:</Text-field>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">Q3:= KdVRecursion(Q_2);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNRM0csJiomIyIiIyIiJCIiIiomJiUidUc2IyIiISIiIiUkUV8yRyIiIiIiIiIiIiomIyIiIiIiJCIiIiooJiUidUc2IyIiIiIiIiUieEciIiIlJFFfMkciIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">9th order:</Text-field>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">Q4 := KdVRecursion(Q_3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNRNEcsJiomIyIiIyIiJCIiIiomJiUidUc2IyIiISIiIiUkUV8zRyIiIiIiIiIiIiomIyIiIiIiJCIiIiooJiUidUc2IyIiIiIiIiUieEciIiIlJFFfM0ciIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check that each of the flows Q0, Q1, Q2, Q3 commute with the KdV flow using the generalized Lie bracket command. For this we use the functions KdVFlow, Q0, Q1, ... to define generalized vector fields:</Text-field>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">GeneralizedLieBracket( KdVFlow*D_u[0], Q0*D_u[0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">GeneralizedLieBracket( KdVFlow*D_u[0], Q1*D_u[0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiwmKigmJSJ1RzYjIiIiIiIiJiUidUc2IyIiISIiIiUkUV8wRyIiIiEiIiomJSRRXzBHIiIiJiUidUc2IyIiJCIiIiEiIiIiIiYlJERfdUc2IyIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">GeneralizedLieBracket( KdVFlow*D_u[0], Q2*D_u[0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiwmKigmJSJ1RzYjIiIiIiIiJiUidUc2IyIiISIiIiUkUV8xRyIiIiEiIiomJSRRXzFHIiIiJiUidUc2IyIiJCIiIiEiIiIiIiYlJERfdUc2IyIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">GeneralizedLieBracket( KdVFlow*D_u[0], Q3*D_u[0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiwmKigmJSJ1RzYjIiIiIiIiJiUidUc2IyIiISIiIiUkUV8yRyIiIiEiIiomJSRRXzJHIiIiJiUidUc2IyIiJCIiIiEiIiIiIiYlJERfdUc2IyIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">GeneralizedLieBracket( KdVFlow*D_u[0], Q4*D_u[0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiwmKigmJSJ1RzYjIiIiIiIiJiUidUc2IyIiISIiIiUkUV8zRyIiIiEiIiomJSRRXzNHIiIiJiUidUc2IyIiJCIiIiEiIiIiIiYlJERfdUc2IyIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">The  Sine-Gordon Equation </Text-field></Title>
+<Text-field layout="Normal" style="Normal">For the Sine-Gordon equation <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">u_xt = sin(u), </Font>the recursion operator is: </Text-field>
+<Text-field layout="Normal262" style="Help Math">R(f) = D_xx(f) + u_x*f -u_xD_x^(-1)(u_xx*f).</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use this operator to generate the first few higher order symmetries in the Sine-Gordon hierarchy.</Text-field>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">with(DifferentialGeometry):with(JetCalculus):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">DGsetup([x], [u], M, 1):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the Sine-Gordon recursion operator:</Text-field>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">SGRecursion := exp -&gt;expand(TotalDiff(exp,[2]) + u[1]^2*exp - u[1]*InverseTotalDiff(u[2] *exp));
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSxTR1JlY3Vyc2lvbkdmKjYjJSRleHBHNiI2JCUpb3BlcmF0b3JHJSZhcnJvd0c2Ii0lJ2V4cGFuZEc2IywoLV8lLEpldENhbGN1bHVzRyUqVG90YWxEaWZmRzYkOSQ3IyIiIyIiIiomKSYlInVHNiMiIiIiIiMiIiI5JCIiIiIiIiomJiUidUc2IyIiIiIiIi0lMUludmVyc2VUb3RhbERpZmZHNiMqJiYlInVHNiMiIiMiIiI5JCIiIiIiIiEiIjYiNiI2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the first generalized symmetry P0 and generate the higher symmetries.</Text-field>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">P0 := u[1];
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNQMEcmJSJ1RzYjIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">3rd order</Text-field>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">P1 := SGRecursion(P0);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNQMUcsJiYlInVHNiMiIiQiIiIqJiMiIiIiIiMiIiIqJCkmJSJ1RzYjIiIiIiIkIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">5th order</Text-field>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">P2 := SGRecursion(P1);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNQMkcsKiomIyIiJiIiIyIiIiomJiUidUc2IyIiIiIiIikmJSJ1RzYjIiIjIiIjIiIiIiIiIiIiKiYjIiImIiIjIiIiKiYpJiUidUc2IyIiIiIiIyIiIiYlInVHNiMiIiQiIiIiIiIiIiImJSJ1RzYjIiImIiIiKiYjIiIkIiIpIiIiKiQpJiUidUc2IyIiIiIiJiIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">7th order</Text-field>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input">P3 := SGRecursion(P2);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNQM0csMiomIyIjTiIiIyIiIiomKSYlInVHNiMiIiMiIiMiIiImJSJ1RzYjIiIkIiIiIiIiIiIiKiYjIiNOIiIlIiIiKiYpJiUidUc2IyIiIyIiIyIiIikmJSJ1RzYjIiIiIiIkIiIiIiIiIiIiKioiIzkiIiImJSJ1RzYjIiIiIiIiJiUidUc2IyIiIyIiIiYlInVHNiMiIiUiIiIiIiIqJiMiI0AiIiMiIiIqJiYlInVHNiMiIiIiIiIpJiUidUc2IyIiJCIiIyIiIiIiIiIiIiomIyIjTiIiKSIiIiomJiUidUc2IyIiJCIiIikmJSJ1RzYjIiIiIiIlIiIiIiIiIiIiJiUidUc2IyIiKCIiIiomIyIiKCIiIyIiIiomKSYlInVHNiMiIiIiIiMiIiImJSJ1RzYjIiImIiIiIiIiIiIiKiYjIiImIiM7IiIiKiQpJiUidUc2IyIiIiIiKCIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" style="Normal">Now we change these into evolutionary vector fields on the jet space for u, viewed as function of the two variables x, t. For this we need the transformation phi</Text-field>
+<Text-field layout="Normal" style="Normal">defined below.</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">DGsetup([x,t], [u], SG,1);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlL2ZyYW1lfm5hbWU6flNHRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">phi := Transformation(SG, M,[x=x, u[0]=u[0,0]]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyQvJSJ4RyUieEcvJiUidUc2IyIiISYlInVHNiQiIiEiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">phi7 := Prolong(phi,7,Matrix([[1,0],[0,0]]));
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGk3RzcrLyUieEclInhHLyYlInVHNiMiIiEmJSJ1RzYkIiIhIiIhLyYlInVHNiMiIiImJSJ1RzYkIiIiIiIhLyYlInVHNiMiIiMmJSJ1RzYkIiIjIiIhLyYlInVHNiMiIiQmJSJ1RzYkIiIkIiIhLyYlInVHNiMiIiUmJSJ1RzYkIiIlIiIhLyYlInVHNiMiIiYmJSJ1RzYkIiImIiIhLyYlInVHNiMiIicmJSJ1RzYkIiInIiIhLyYlInVHNiMiIigmJSJ1RzYkIiIoIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Y[0] := evalDG(Pullback(phi7,P0)*D_u[0,0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUiWUc2IyIiISomJiUidUc2JCIiIiIiISIiIiYlJERfdUc2JCIiISIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Y[1] := evalDG( Pullback(phi7,P1) * D_u[0,0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUiWUc2IyIiIiomLCYmJSJ1RzYkIiIkIiIhIiIiKiYjIiIiIiIjIiIiKiQpJiUidUc2JCIiIiIiISIiJCIiIiIiIiIiIiIiIiYlJERfdUc2JCIiISIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Y[2] := evalDG( Pullback(phi7,P2) * D_u[0,0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUiWUc2IyIiIyomLCoqJiMiIiYiIiMiIiIqJiYlInVHNiQiIiIiIiEiIiIpJiUidUc2JCIiIyIiISIiIyIiIiIiIiIiIiomIyIiJiIiIyIiIiomKSYlInVHNiQiIiIiIiEiIiMiIiImJSJ1RzYkIiIkIiIhIiIiIiIiIiIiJiUidUc2JCIiJiIiISIiIiomIyIiJCIiKSIiIiokKSYlInVHNiQiIiIiIiEiIiYiIiIiIiIiIiIiIiImJSREX3VHNiQiIiEiIiEiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Y[3] := evalDG( Pullback(phi7,P3) * D_u[0,0]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUiWUc2IyIiJComLDIqJiMiI04iIiMiIiIqJikmJSJ1RzYkIiIjIiIhIiIjIiIiJiUidUc2JCIiJCIiISIiIiIiIiIiIiomIyIjTiIiJSIiIiomKSYlInVHNiQiIiMiIiEiIiMiIiIpJiUidUc2JCIiIiIiISIiJCIiIiIiIiIiIioqIiM5IiIiJiUidUc2JCIiIiIiISIiIiYlInVHNiQiIiMiIiEiIiImJSJ1RzYkIiIlIiIhIiIiIiIiKiYjIiNAIiIjIiIiKiYmJSJ1RzYkIiIiIiIhIiIiKSYlInVHNiQiIiQiIiEiIiMiIiIiIiIiIiIqJiMiI04iIikiIiIqJiYlInVHNiQiIiQiIiEiIiIpJiUidUc2JCIiIiIiISIiJSIiIiIiIiIiIiYlInVHNiQiIigiIiEiIiIqJiMiIigiIiMiIiIqJikmJSJ1RzYkIiIiIiIhIiIjIiIiJiUidUc2JCIiJiIiISIiIiIiIiIiIiomIyIiJiIjOyIiIiokKSYlInVHNiQiIiIiIiEiIigiIiIiIiIiIiIiIiImJSREX3VHNiQiIiEiIiEiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" style="Normal">To check that these are symmetries, first construct the differential equation data structure for the Sine-Gordon equation, prolong this to the 7 jet, and convert to a transformation. </Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" style="Normal"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">Delta0 := [u[1,1] -sin(u[0,0])];</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdEZWx0YTBHNyMsJiYlInVHNiQiIiIiIiIiIiItJSRzaW5HNiMmJSJ1RzYkIiIhIiIhISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Delta:= DifferentialEquationData(Delta0, [u[1,1]]);
+</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZEZWx0YUc3JDwjJiUidUc2JCIiIiIiIjcjLCYmJSJ1RzYkIiIiIiIiIiIiLSUkc2luRzYjJiUidUc2JCIiISIiISEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Phi := Transformation(Delta, 7):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We now apply the test for a generalized vector field  X to be be higher order symmetries. We prolong the vector X to order 2, Lie differentiate the Sine Gordon equation with respect to the prolonged vector field, and  substitute from the differential equation and its derivatives (via the Pullback command)</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">CheckSymmetry := X-&gt; simplify(Pullback(Phi,LieDerivative(Prolong(X,2), Delta0[1]))):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">seq(CheckSymmetry(Y[i]), i =0..3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiFGI0YjRiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Vess_Title2" style="Vess_Title2"></Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Conservation Laws for the Sine-Gordon Equation</Text-field></Title>
+<Text-field layout="Normal" style="Normal">This is a continuation of the  previous section.  First we show that each of the generalized symmetries of the Sine-Gordon equation actually a variational symmetry. We recall that a vector field  X is a variational symmetry of  a Lagrangian if the Lie derivative of the Lagrangian with respect to the prolongation of the vector field is a total derivative. This latter condition may be checked by applying the EulerLagrange and checking that the result is zero</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">lambda := evalDG((1/2*u[1,0]*u[0,1] - cos(u[0,0]) )*Dx &amp;w Dt); </Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdsYW1iZGFHKiosJiomIyIiIiIiIyIiIiomJiUidUc2JCIiIiIiISIiIiYlInVHNiQiIiEiIiIiIiIiIiIiIiItJSRjb3NHNiMmJSJ1RzYkIiIhIiIhISIiIiIiJSNEeEciIiIlIl5HIiIiJSNEdEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Euler-Lagrange form  for lambda yields the sine-Gordon equations.</Text-field>
+<Group drawlabel="true" labelreference="L47">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">Delta := EulerLagrange(lambda);</Text-field>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input"></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZEZWx0YUcqLiwmLSUkc2luRzYjJiUidUc2JCIiISIiISIiIiYlInVHNiQiIiIiIiIhIiIiIiIlI0R4RyIiIiUiXkciIiIlI0R0RyIiIiUiXkciIiImJSNDdUc2JCIiISIiISIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L48">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">CheckVariationalSymmetry := EulerLagrange @ LieDerivative;</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTlDaGVja1ZhcmlhdGlvbmFsU3ltbWV0cnlHLSUiQEc2JCUuRXVsZXJMYWdyYW5nZUclLkxpZURlcml2YXRpdmVH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L49">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">seq(CheckVariationalSymmetry(Prolong(Y[i],1), lambda), i=0..3);</Text-field>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input"></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiYqLiUiMEciIiIlI0R4R0YlJSJeR0YlJSNEdEdGJUYnRiUmJSNDdUc2JCIiIUYsRiVGI0YjRiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The conservation laws for these higher order symmetries can be found using from Noether's theorem which is implemented in the command Noether. We check that the horizontal exterior derivative of these forms vanish on solutions to the sine-Gordn equation -- as required.</Text-field>
+<Group drawlabel="true" labelreference="L50">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">omega[0] := Noether(Y[0],Delta);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUmb21lZ2FHNiMiIiEsJiomLCYqJiMiIiIiIiUiIiIqJCkmJSJ1RzYkIiIiIiIhIiIjIiIiIiIiIiIiKiYjIiIiIiIlIiIiKiYmJSJ1RzYkIiIhIiIhIiIiJiUidUc2JCIiIyIiISIiIiIiIiEiIiIiIiUjRHhHIiIiIiIiKiYsKiIiIiIiIiomIyIiIiIiJSIiIiomJiUidUc2JCIiIiIiISIiIiYlInVHNiQiIiEiIiIiIiIiIiIhIiIqJiMiIiIiIiUiIiIqJiYlInVHNiQiIiEiIiEiIiImJSJ1RzYkIiIiIiIiIiIiIiIiISIiLSUkY29zRzYjJiUidUc2JCIiISIiISEiIiIiIiUjRHRHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L51">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">HorizontalExteriorDerivative(omega[0]);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJCosJiUidUc2JCIiIiIiISIiIiwmJiUidUc2JCIiIiIiIiIiIi0lJHNpbkc2IyYlInVHNiQiIiEiIiEhIiIiIiIlI0R4RyIiIiUiXkciIiIlI0R0RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L52">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">omega[1] := Noether(Y[1],Delta);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JiUmb21lZ2FHNiMiIiIsJiomLCoqJiMiIiIiIzsiIiIqJCkmJSJ1RzYkIiIiIiIhIiIlIiIiIiIiIiIiKiYjIiIkIiM7IiIiKigmJSJ1RzYkIiIhIiIhIiIiKSYlInVHNiQiIiIiIiEiIiMiIiImJSJ1RzYkIiIjIiIhIiIiIiIiISIiKiYjIiIiIiIlIiIiKiYmJSJ1RzYkIiIiIiIhIiIiJiUidUc2JCIiJCIiISIiIiIiIiIiIiomIyIiIiIiJSIiIiomJiUidUc2JCIiISIiISIiIiYlInVHNiQiIiUiIiEiIiIiIiIhIiIiIiIlI0R4RyIiIiIiIiomLDIqJiMiIiQiIzsiIiIqKCYlInVHNiQiIiEiIiEiIiIpJiUidUc2JCIiIiIiISIiIyIiIiYlInVHNiQiIiIiIiIiIiIiIiIhIiIqJiMiIiIiIiMiIiIqJi0lJGNvc0c2IyYlInVHNiQiIiEiIiEiIiIpJiUidUc2JCIiIiIiISIiIyIiIiIiIiEiIiomLSUkc2luRzYjJiUidUc2JCIiISIiISIiIiYlInVHNiQiIiMiIiEiIiIiIiIqJiMiIiIiIiUiIiIqJiYlInVHNiQiIiEiIiEiIiImJSJ1RzYkIiIkIiIiIiIiIiIiISIiKiYjIiIiIiIjIiIiKiYmJSJ1RzYkIiIiIiIhIiIiJiUidUc2JCIiIyIiIiIiIiIiIiIiIiomIyIiIiIiJSIiIiomJiUidUc2JCIiISIiIiIiIiYlInVHNiQiIiQiIiEiIiIiIiIhIiIqJiMiIiIiIzsiIiIqJiYlInVHNiQiIiEiIiIiIiIpJiUidUc2JCIiIiIiISIiJCIiIiIiIiEiIiomIyIiIiIiIyIiIiomJiUidUc2JCIiIyIiISIiIiYlInVHNiQiIiIiIiIiIiIiIiIhIiIiIiIlI0R0RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L53">
+<Input>
+<Text-field layout="Normal" prompt="SG &gt; " style="Maple Input">factor(HorizontalExteriorDerivative(omega[1]));</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJComIyIiIiIiIyIiIiosLCYqJiIiIyIiIiYlInVHNiQiIiQiIiEiIiIiIiIqJCkmJSJ1RzYkIiIiIiIhIiIkIiIiIiIiIiIiLCYtJSRzaW5HNiMmJSJ1RzYkIiIhIiIhIiIiJiUidUc2JCIiIiIiIiEiIiIiIiUjRHhHIiIiJSJeRyIiIiUjRHRHIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">We remark that the formulas for this conservations can be simplified by the addition of an exact 1-form. </Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+</Worksheet>

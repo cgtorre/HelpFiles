@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output257" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal258" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal259" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal260" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal261" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1262" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="NormalBlue" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1262" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="NormalBlue" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output257" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal258" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal259" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal260" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal261" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="10" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/DifferentialGeometry/Pushforward"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field layout="Normal261" style="Normal261"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Normal259" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">DifferentialGeometry Lessons</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Heading 1" style="Heading 1">Lesson 7: The Pushforward of a Vector by a Transformation</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this lesson, you will learn to do the following:</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Pushforward a vector pointwise.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Pushforward a vector field under a diffeomorphism.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Check the definition of Lie bracket in terms of flows.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Apply the straightening theorem for vector fields and systems of commuting vector fields.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Pushforward 1 - definitions</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Recall that if <Font style="Help Math">phi : M -&gt;N</Font>, then the pushforward map is the linear transformation between tangent spaces<Font style="Help Math"> phi_* : T_pM -&gt; T_qN</Font>, where <Font style="Help Math">q = phi(p)</Font>.  In general,  the map<Font style="Help Math"> phi_*</Font> can only be applied to a vector at a given point ; only in special situations, it can be applied to a vector field on <Font style="Help Math">M </Font>to obtain a vector field on <Font style="Help Math">N</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this section, we shall illustrate three methods for computing the pushforward <Font style="Help Math">phi_*(X)</Font>:</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">from the Jacobian matrix of <Font style="Help Math">phi</Font>.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">using a curve tangent to the vector <Font style="Help Math">X</Font>.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">using the definition of<Font style="Help Math"> phi_*</Font> in terms of  its action on the space of derivations.</Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="&gt;" size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M3):</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a transformation <Font style="Help Math">phi </Font>from <Font style="Help Math">N</Font> to <Font style="Help Math">M3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(N, M3, [x = 2*u/(1 + u^2 + v^2), y = 2*v/(1 + u^2 + v^2), z = (u^2 + v^2 - 1)/(1 + u^2 + v^2)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ4RywkKigiIiMiIiIlInVHIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIiIiIi8lInlHLCQqKCIiIyIiIiUidkciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiLyUiekcqJiwoKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIiIiIhIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The map <Font style="Help Math">ph</Font>i defines stereographic coordinates on the 2-sphere <Font style="Help Math">x^2 + y^2 + z^2 = 1</Font>.  We check this by noting that  the image of <Font style="Help Math">phi</Font> lies on the sphere.</Text-field>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">P := ApplyTransformation(phi, [u, v]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJQRzclLCQqKCIiIyIiIiUidUciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiLCQqKCIiIyIiIiUidkciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiKiYsKCokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiIiIiISIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">simplify(P[1]^2 + P[2]^2 + P[3]^2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a vector <Font style="Help Math">X</Font> in the <Font style="Help Math">uv</Font>-plane at the point <Font style="Help Math">[u =1, v=2]</Font> and push it forward to a vector <Font style="Help Math">Y1</Font> on the sphere.</Text-field>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(a*D_u + b*D_v);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywmKiYlImFHIiIiJSREX3VHIiIiIiIiKiYlImJHIiIiJSREX3ZHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Y1 := Pushforward(phi, X, [u = 1, v = 2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMUcsKComLCYqKCIiIyIiIiIiKiEiIiUiYkciIiIhIiIqKCIiIyIiIiIiKiEiIiUiYUciIiIiIiIiIiIlJERfeEciIiIiIiIqJiwmKiYiIiohIiIlImJHIiIiISIiKigiIiMiIiIiIiohIiIlImFHIiIiISIiIiIiJSREX3lHIiIiIiIiKiYsJiooIiIjIiIiIiIqISIiJSJiRyIiIiIiIiomIiIqISIiJSJhRyIiIiIiIiIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">The vector <Font style="Help Math">Y1</Font> is a tangent vector to the sphere at the point <Font style="Help Math">[1/3, 2/3, 2/3]</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We recall that the pushforward can be computed from the matrix product of the Jacobian of <Font style="Help Math">phi</Font> with the components of the vector <Font style="Help Math">X</Font>.  To check this, we find the Jacobian of <Font style="Help Math">Phi</Font> at the point <Font style="Help Math">[u =1, v=2]</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">J := Tools:-DGinfo(phi, "JacobianMatrix");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRy0lJ1JUQUJMRUc2JSIqYy8kSDotJSdNQVRSSVhHNiM3JTckLCYqJiIiIyIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiIiIiIqKCIiJSIiIiUidUciIiMsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjISIiLCQqKiIiJSIiIiUidUciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSJ2RyIiIiEiIjckLCQqKiIiJSIiIiUidUciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSJ2RyIiIiEiIiwmKiYiIiMiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiKigiIiUiIiIlInZHIiIjLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyEiIjckLCYqKCIiIyIiIiUidUciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiKioiIiMiIiIsKCokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiIiIiISIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUidUciIiIhIiIsJiooIiIjIiIiJSJ2RyIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiIiIiIqKiIiIyIiIiwoKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIiIiIhIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSJ2RyIiIiEiIiUnTWF0cml4Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Jpt := eval(J, [u = 1, v = 2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRKcHRHLSUnUlRBQkxFRzYlIipvP2dgIi0lJ01BVFJJWEc2IzclNyQjIiIjIiIqIyEiIyIiKjckIyEiIyIiKiMhIiIiIio3JCMiIiIiIiojIiIjIiIqJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">B := Jpt.Vector([a, b]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJCRy0lJ1JUQUJMRUc2JSIqX25eYCItJSdNQVRSSVhHNiM3JTcjLCYqKCIiIyIiIiIiKiEiIiUiYkciIiIhIiIqKCIiIyIiIiIiKiEiIiUiYUciIiIiIiI3IywmKiYiIiohIiIlImJHIiIiISIiKigiIiMiIiIiIiohIiIlImFHIiIiISIiNyMsJiooIiIjIiIiIiIqISIiJSJiRyIiIiIiIiomIiIqISIiJSJhRyIiIiIiIiYlJ1ZlY3Rvckc2IyUnY29sdW1uRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Z1 := DGzip(convert(B, list), [D_x, D_y, D_z], "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNaMUcsKComLCYqKCIiIyIiIiIiKiEiIiUiYkciIiIhIiIqKCIiIyIiIiIiKiEiIiUiYUciIiIiIiIiIiIlJERfeEciIiIiIiIqJiwmKiYiIiohIiIlImJHIiIiISIiKigiIiMiIiIiIiohIiIlImFHIiIiISIiIiIiJSREX3lHIiIiIiIiKiYsJiooIiIjIiIiIiIqISIiJSJiRyIiIiIiIiomIiIqISIiJSJhRyIiIiIiIiIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">The vectors <Font style="Help Math">Y1 </Font>and <Font style="Help Math">Z1</Font> coincide.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">To pushforward the vector <Font style="Help Math">X</Font> at a generic point <Font style="Help Math">[u, v]</Font>, we can use <Font style="Help Math">Pushforward</Font> with 2 arguments.</Text-field>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Y2 := Pushforward(phi, X);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMkcsKCoqIiIjIiIiLCoqKiIiIyIiIiUiYkciIiIlInVHIiIiJSJ2RyIiIiEiIiUiYUciIiIqJiUiYUciIiIpJSJ1RyIiIyIiIiEiIiomJSJhRyIiIiklInZHIiIjIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUkRF94RyIiIiIiIioqIiIjIiIiLColImJHISIiKiYlImJHIiIiKSUidUciIiMiIiIhIiIqJiUiYkciIiIpJSJ2RyIiIyIiIiIiIioqIiIjIiIiJSJhRyIiIiUidUciIiIlInZHIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUkRF95RyIiIiEiIioqIiIlIiIiLCYqJiUiYkciIiIlInZHIiIiIiIiKiYlImFHIiIiJSJ1RyIiIiIiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiMlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We can arrive at the vector <Font style="Help Math">Y2</Font> using the definition of <Font style="Help Math">phi_*</Font> in terms of the curves.  Start with a curve <Font style="Help Math">sigma1</Font> in the <Font style="Help Math">uv</Font>-plane whose tangent vector is <Font style="Help Math">X</Font>, use the map <Font style="Help Math">phi</Font> to map <Font style="Help Math">sigma1</Font> to a curve <Font style="Help Math">sigma2</Font> on the sphere, and then take the derivative of <Font style="Help Math">sigma2</Font> at <Font style="Help Math">t = 0</Font>.  The result is the pushforward vector <Font style="Help Math">Y2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">sigma1 := Flow(X, t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdzaWdtYTFHNyQvJSJ1RywmKiYlImFHIiIiJSJ0RyIiIiIiIiUidUciIiIvJSJ2RywmKiYlImJHIiIiJSJ0RyIiIiIiIiUidkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">sigma2 := ComposeTransformations(phi, sigma1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdzaWdtYTJHNyUvJSJ4RywkKigiIiMiIiIsJiomJSJhRyIiIiUidEciIiIiIiIlInVHIiIiIiIiLCgiIiIiIiIqJCksJiomJSJhRyIiIiUidEciIiIiIiIlInVHIiIiIiIjIiIiIiIiKiQpLCYqJiUiYkciIiIlInRHIiIiIiIiJSJ2RyIiIiIiIyIiIiIiIiEiIiIiIi8lInlHLCQqKCIiIyIiIiwmKiYlImJHIiIiJSJ0RyIiIiIiIiUidkciIiIiIiIsKCIiIiIiIiokKSwmKiYlImFHIiIiJSJ0RyIiIiIiIiUidUciIiIiIiMiIiIiIiIqJCksJiomJSJiRyIiIiUidEciIiIiIiIlInZHIiIiIiIjIiIiIiIiISIiIiIiLyUiekcqJiwoKiQpLCYqJiUiYUciIiIlInRHIiIiIiIiJSJ1RyIiIiIiIyIiIiIiIiokKSwmKiYlImJHIiIiJSJ0RyIiIiIiIiUidkciIiIiIiMiIiIiIiIiIiIhIiIiIiIsKCIiIiIiIiokKSwmKiYlImFHIiIiJSJ0RyIiIiIiIiUidUciIiIiIiMiIiIiIiIqJCksJiomJSJiRyIiIiUidEciIiIiIiIlInZHIiIiIiIjIiIiIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Z2 := InfinitesimalTransformation(sigma2, [t]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNaMkc3IywoKioiIiMiIiIsKioqIiIjIiIiJSJiRyIiIiUidUciIiIlInZHIiIiISIiJSJhRyIiIiomJSJhRyIiIiklInVHIiIjIiIiISIiKiYlImFHIiIiKSUidkciIiMiIiIiIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSREX3hHIiIiIiIiKioiIiMiIiIsKiUiYkchIiIqJiUiYkciIiIpJSJ1RyIiIyIiIiEiIiomJSJiRyIiIiklInZHIiIjIiIiIiIiKioiIiMiIiIlImFHIiIiJSJ1RyIiIiUidkciIiIiIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSREX3lHIiIiISIiKioiIiUiIiIsJiomJSJiRyIiIiUidkciIiIiIiIqJiUiYUciIiIlInVHIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Y2 &amp;minus Z2[1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We can also compute the components of the vector <Font style="Help Math">Y2</Font> by applying the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieDerivative"><Font size="14" style="Hyperlink">LieDerivative </Font></Hyperlink>command to the components of the map <Font style="Help Math">phi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">P;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSwkKigiIiMiIiIlInVHIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIiIiIiwkKigiIiMiIiIlInZHIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIiIiIiomLCgqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiIiIiEiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">C := simplify(map2(LieDerivative, X, P));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRzclLCQqKCIiIyIiIiwqKioiIiMiIiIlImJHIiIiJSJ1RyIiIiUidkciIiIhIiIlImFHIiIiKiYlImFHIiIiKSUidUciIiMiIiIhIiIqJiUiYUciIiIpJSJ2RyIiIyIiIiIiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiMiIiIsJCooIiIjIiIiLColImJHISIiKiYlImJHIiIiKSUidUciIiMiIiIhIiIqJiUiYkciIiIpJSJ2RyIiIyIiIiIiIioqIiIjIiIiJSJhRyIiIiUidUciIiIlInZHIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyEiIiwkKigiIiUiIiIsJiomJSJiRyIiIiUidkciIiIiIiIqJiUiYUciIiIlInVHIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Z3 := DGzip(C, [D_x, D_y, D_z], "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNaM0csKCoqIiIjIiIiLCoqKiIiIyIiIiUiYkciIiIlInVHIiIiJSJ2RyIiIiEiIiUiYUciIiIqJiUiYUciIiIpJSJ1RyIiIyIiIiEiIiomJSJhRyIiIiklInZHIiIjIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUkRF94RyIiIiIiIioqIiIjIiIiLColImJHISIiKiYlImJHIiIiKSUidUciIiMiIiIhIiIqJiUiYkciIiIpJSJ2RyIiIyIiIiIiIioqIiIjIiIiJSJhRyIiIiUidUciIiIlInZHIiIiIiIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUkRF95RyIiIiEiIioqIiIlIiIiLCYqJiUiYkciIiIlInZHIiIiIiIiKiYlImFHIiIiJSJ1RyIiIiIiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiMlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Y2 &amp;minus Z3;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Pushforward 2</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Let<Font style="Help Math"> phi : M -&gt; N</Font>.  In this section, we examine two situations where it is possible to use <Font style="Help Math">phi</Font> to pushforward a vector field <Font style="Help Math">X</Font> on <Font style="Help Math">M</Font> to obtain a vector field <Font style="Help Math">Y</Font> on <Font style="Help Math">N</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 1.</Font>  If <Font style="Help Math">phi </Font>is a diffeomorphism (or a local diffeomorphism), then for each <Font style="Help Math">q</Font> in <Font style="Help Math">N</Font> there is a unique (locally unique) <Font style="Help Math">p</Font> in <Font style="Help Math">M</Font> such that <Font style="Help Math">phi(p) = q</Font> and the vector field</Text-field>
+<Text-field layout="Normal" style="Normal"><Font style="Help Math">Y</Font> on <Font style="Help Math">N</Font> can be defined by <Font style="Help Math">Y_q = phi_*(X_p)</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 2. </Font> Let <Font style="Help Math">Delta</Font> be a constant rank, integrable distribution on <Font style="Help Math">M</Font> and let <Font style="Help Math">N = M/Delta</Font>, the quotient of <Font style="Help Math">M</Font> by the integral manifolds or leaves of <Font style="Help Math">Delta</Font>.  If a vector <Font style="Help Math">X</Font> on <Font style="Help Math">M</Font> preserves <Font style="Help Math">Delta</Font>, that is, <Font style="Help Math">[X, Delta] subset Delta</Font>, then there is a vector field <Font style="Help Math">Y</Font> on <Font style="Help Math">N</Font> such that <Font style="Help Math">pi_*(X) = Y</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 1</Font>, the vector field <Font style="Help Math">Y = phi_*(X)</Font> can be computed by passing the command <Font style="Help Math">Pushforward</Font> the inverse of <Font style="Help Math">phi</Font> as a second argument.  In <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 2</Font>, pass <Font style="Help Math">Pushforward</Font> a (local) cross-section <Font style="Help Math">sigma: N -&gt; M </Font>to the projection map <Font style="Help Math">pi</Font> as a second argument, that is, a map such that <Font style="Help Math">pi o sigma</Font> is the identity on <Font style="Help Math">N</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z, w], M4):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([z], M1):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="M1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v], N2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 1.  </Font>Define a local diffeomorphism from <Font style="Help Math">M2</Font> to <Font style="Help Math">N2</Font> and a vector field <Font style="Help Math">X </Font>on <Font style="Help Math">M2</Font>.  Push the vector field <Font style="Help Math">X</Font> over to the vector field <Font style="Help Math">Y </Font>on the manifold <Font style="Help Math">N2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(M2, N2,[u = 1/2*(x^2 + y^2), v = 1/2*(x^2 - y^2)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyQvJSJ1RywmKiYiIiMhIiIlInhHIiIjIiIiKiYiIiMhIiIlInlHIiIjIiIiLyUidkcsJiomIiIjISIiJSJ4RyIiIyIiIiomIiIjISIiJSJ5RyIiIyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We need the inverse of <Font style="Help Math">phi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">_EnvExplicit := true;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS1fRW52RXhwbGljaXRHJSV0cnVlRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">psi := InverseTransformation(phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNyQvJSJ4RyokLCYlInZHIiIiJSJ1RyIiIiMiIiIiIiMvJSJ5RyokLCYlInVHIiIiJSJ2RyEiIiMiIiIiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(M2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG((1/x)*D_x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRyomJSJ4RyEiIiUkRF94RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="M2 &gt; " size="14" style="Maple Input"><Font size="14">Y := Pushforward(phi, psi, X);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJZRywmJSREX3VHIiIiJSREX3ZHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Maple Output257" style="Maple Output257"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Maple Output257" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 2.  Example 1.</Text-field>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(M3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">Delta := [D_x, D_y];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZEZWx0YUc3JCUkRF94RyUkRF95Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(z*D_x + z^2*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywmKiYlInpHIiIiJSREX3hHIiIiIiIiKiYpJSJ6RyIiIyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" style="Normal">The distribution <Font style="Help Math">Delta</Font> is clearly integrable with 2 dimensional integral manifolds.  The global quotient is the real line with projection map <Font style="Help Math">pi(x, y, z) = z</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal">A simple choice of cross-section is <Font style="Help Math">sigma(z) = (0, 0, z)</Font> or more generally s<Font style="Help Math">igma(z) = [a, b, z]</Font>, where <Font style="Help Math">a</Font> and <Font style="Help Math">b</Font> are constants.</Text-field>
+<Text-field layout="Normal" style="Normal">The distribution <Font style="Help Math">Delta</Font> is preserved by <Font style="Help Math">X</Font>.</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">pi := Transformation(M3, M1, [z = z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNwaUc3Iy8lInpHJSJ6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">sigma := Transformation(M1, M3, [x = a, y = b, z = z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZzaWdtYUc3JS8lInhHJSJhRy8lInlHJSJiRy8lInpHJSJ6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="M1 &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(pi, sigma, X);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiklInpHIiIjIiIiJSREX3pHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Case 2.  Example 2. </Font> This example is slightly more complicated.</Text-field>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="M1 &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(M4):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">Delta := evalDG([x*D_x + y*D_y + z*D_z + w*D_w, y*D_x - x*D_y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZEZWx0YUc3JCwqKiYlInhHIiIiJSREX3hHIiIiIiIiKiYlInlHIiIiJSREX3lHIiIiIiIiKiYlInpHIiIiJSREX3pHIiIiIiIiKiYlIndHIiIiJSREX3dHIiIiIiIiLCYqJiUieUciIiIlJERfeEciIiIiIiIqJiUieEciIiIlJERfeUciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieBracket"><Font size="14" style="Hyperlink">LieBracket</Font></Hyperlink> and <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/GetComponents"><Font size="14" style="Hyperlink">GetComponents</Font></Hyperlink> commands to check that <Font style="Help Math">Delta</Font> is a rank 2 integrable distribution.</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">GetComponents(LieBracket(Delta[1], Delta[2]), Delta);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCIiISIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The invariants for<Font style="Help Math"> Delta</Font> are the functions <Font style="Help Math">F1</Font> and <Font style="Help Math">F2</Font> and so the projection map is <Font style="Help Math">pi(x, y, z, w) = (u = F1, v = F2)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">F1 := z/sqrt(x^2 + y^2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">F2 := w/sqrt(x^2 + y^2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check that <Font style="Help Math">F1</Font> and <Font style="Help Math">F2 </Font>are the invariants.</Text-field>
+<Group drawlabel="true" labelreference="L47">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">Matrix(2, 2, (i, j) -&gt; simplify(LieDerivative(Delta[i], [F1, F2][j])));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKjdROmYiLSUnTUFUUklYRzYjNyQ3JCIiISIiITckIiIhIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the projection map.</Text-field>
+<Group drawlabel="true" labelreference="L48">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">pi := Transformation(M4, N2, [u = F1, v = F2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNwaUc3JC8lInVHKiYlInpHIiIiLCYqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiIiIiMhIiIiIiMvJSJ2RyomJSJ3RyIiIiwmKiQpJSJ4RyIiIyIiIiIiIiokKSUieUciIiMiIiIiIiIjISIiIiIj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the cross-section <Font style="Help Math">sigma </Font>and check that <Font style="Help Math">pi o sigma</Font> is the identity on <Font style="Help Math">N2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L49">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">sigma := Transformation(N2, M4, [x = 1, y = 0 , z = u, w = v]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZzaWdtYUc3Ji8lInhHIiIiLyUieUciIiEvJSJ6RyUidUcvJSJ3RyUidkc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L50">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">ComposeTransformations(pi, sigma);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JC8lInVHJSJ1Ry8lInZHJSJ2Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The following vector field preserves the distribution <Font style="Help Math">Delta</Font> and therefore projects under <Font style="Help Math">pi</Font> to a vector field on <Font style="Help Math">N2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L51">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">Z := evalDG(x*D_x + y*D_y + a*w*D_z + b*z^2*w/(x^2 + y^2)*D_w);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJaRywqKiYlInhHIiIiJSREX3hHIiIiIiIiKiYlInlHIiIiJSREX3lHIiIiIiIiKiglImFHIiIiJSJ3RyIiIiUkRF96RyIiIiIiIiosJSJiRyIiIiUiekciIiMlIndHIiIiLCYqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiIiIiEiIiUkRF93RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L52">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">map2(LieDerivative, Z, Delta);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JComJSIwRyIiIiUkRF94RyIiIiomJSIwRyIiIiUkRF94RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L53">
+<Input>
+<Text-field layout="Normal" prompt="M4 &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(pi, sigma, Z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiomLCYqJiUiYUciIiIlInZHIiIiIiIiJSJ1RyEiIiIiIiUkRF91RyIiIiIiIiooJSJ2RyIiIiwmKiYlImJHIiIiKSUidUciIiMiIiIiIiIiIiIhIiIiIiIlJERfdkciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">PullbackVector</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/PullbackVector"><Font size="14" style="Hyperlink">PullbackVector</Font></Hyperlink> is a more specialized command.  Let <Font style="Help Math">phi : M -&gt; N</Font> be a smooth map between manifolds and let <Font style="Help Math">Y</Font> be a vector field on <Font style="Help Math">N</Font>.  Suppose that for each <Font style="Help Math">x</Font> in <Font style="Help Math">M</Font>, <Font style="Help Math">Y_phi(x)</Font> belongs to <Font style="Help Math">phi_*(T_xM)</Font>.  Then there is a vector field <Font style="Help Math">X </Font>(not necessarily unique) on <Font style="Help Math">M</Font> such that <Font style="Help Math">phi_*(X) = Y</Font>.  If <Font style="Help Math">phi</Font> is an immersion, then <Font style="Help Math">X</Font> is unique.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In the following example, the map <Font style="Help Math">phi</Font> defines stereographic coordinates <Font style="Help Math">(u, v)</Font> on the unit sphere <Font style="Help Math">x^2 + y^2 + z^2 = 1</Font>.  The vector field <Font style="Help Math">Y</Font> on <Font style="Help Math">M</Font> is tangent to the unit sphere and therefore is a vector <Font style="Help Math">X</Font> in the <Font style="Help Math">uv</Font>-plane which pushes forward to the restriction of <Font style="Help Math">Y</Font> to the unit sphere.  The vector <Font style="Help Math">X</Font> can be found with the <Font style="Help Math">PullbackVector</Font> command.</Text-field>
+<Group drawlabel="true" labelreference="L54">
+<Input>
+<Text-field layout="Normal" prompt="N2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L55">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L56">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L57">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(N, M, [x = 2*u/(1 + u^2 + v^2), y = 2*v/(1 + u^2 + v^2), z = (u^2 + v^2 -1)/(1 + u^2 + v^2)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ4RywkKigiIiMiIiIlInVHIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIiIiIi8lInlHLCQqKCIiIyIiIiUidkciIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiIiIiLyUiekcqJiwoKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIiIiIhIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L58">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG((y*x - z^2)*D_x - x^2*D_y + z*x*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYsJiomJSJ5RyIiIiUieEciIiIiIiIqJCklInpHIiIjIiIiISIiIiIiJSREX3hHIiIiIiIiKiYpJSJ4RyIiIyIiIiUkRF95RyIiIiEiIiooJSJ6RyIiIiUieEciIiIlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The following calculation shows that <Font style="Help Math">X</Font> is tangent to the unit sphere.</Text-field>
+<Group drawlabel="true" labelreference="L59">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">expand(LieDerivative(X, x^2 + y^2 + z^2));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L60">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Y := PullbackVector(phi, X, [D_u, D_v]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJZRywmKioiIiMhIiIsLCIiIiEiIiomIiIjIiIiKSUidkciIiMiIiIiIiIqJCklInZHIiIlIiIiISIiKigiIiUiIiIlInVHIiIiJSJ2RyIiIiIiIiokKSUidUciIiUiIiIiIiIiIiIsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIiJSREX3VHIiIiIiIiKiolInVHIiIiLColInZHISIiKiYlInZHIiIiKSUidUciIiMiIiIiIiIqJCklInZHIiIkIiIiIiIiKiYiIiMiIiIlInVHIiIiISIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIiUkRF92RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We check that the pushforward of <Font style="Help Math">Y</Font> by <Font style="Help Math">phi </Font>(the vector <Font style="Help Math">Z1</Font>) and the restriction <Font style="Help Math">Z2</Font> of <Font style="Help Math">X</Font> to the image of <Font style="Help Math">phi</Font> coincide.</Text-field>
+<Group drawlabel="true" labelreference="L61">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Z1 := Pushforward(phi, Y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNaMUcsKCooLDAqKCIiJSIiIiUidUciIiIlInZHIiIiISIiKiQpJSJ1RyIiJSIiIiIiIiooIiIjIiIiKSUidUciIiMiIiIpJSJ2RyIiIyIiIiIiIiomIiIjIiIiKSUidUciIiMiIiIhIiIqJCklInZHIiIlIiIiIiIiKiYiIiMiIiIpJSJ2RyIiIyIiIiEiIiIiIiIiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiMlJERfeEciIiIhIiIqKiIiJSIiIiUidUciIiMsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSREX3lHIiIiISIiKiwiIiMiIiIsKCokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiIiIiISIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUidUciIiIlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L62">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Z2 := simplify(eval(X, [x = 2*u/(1 + u^2 + v^2), y = 2*v/(1 + u^2 + v^2), z = (u^2 + v^2 - 1)/(1 + u^2 + v^2)]));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNaMkcsKCooLDAqKCIiJSIiIiUidUciIiIlInZHIiIiISIiKiQpJSJ1RyIiJSIiIiIiIiooIiIjIiIiKSUidUciIiMiIiIpJSJ2RyIiIyIiIiIiIiomIiIjIiIiKSUidUciIiMiIiIhIiIqJCklInZHIiIlIiIiIiIiKiYiIiMiIiIpJSJ2RyIiIyIiIiEiIiIiIiIiIiIiIiwoIiIiIiIiKiQpJSJ1RyIiIyIiIiIiIiokKSUidkciIiMiIiIiIiIhIiMlJERfeEciIiIhIiIqKiIiJSIiIiUidUciIiMsKCIiIiIiIiokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiISIjJSREX3lHIiIiISIiKiwiIiMiIiIsKCokKSUidUciIiMiIiIiIiIqJCklInZHIiIjIiIiIiIiIiIiISIiIiIiLCgiIiIiIiIqJCklInVHIiIjIiIiIiIiKiQpJSJ2RyIiIyIiIiIiIiEiIyUidUciIiIlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L63">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Z1 &amp;minus Z2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Application: The definition of the Lie bracket in terms of flows</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Let <Font style="Help Math">X</Font> and <Font style="Help Math">Y</Font> be two vector fields with flows <Font style="Help Math">phi_t</Font> and <Font style="Help Math">psi_t</Font>.  Fix a point and define a curve <Font style="Help Math">sigma(t)</Font> by </Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal258" style="Normal258"><Font style="Help Math">sigma(t) = psi_(-s) o phi_(-s) o psi_(s) o phi_(s) (p),  where s = sqrt(t)</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Then the tangent vector to <Font style="Help Math">sigma(t)</Font> at <Font style="Help Math">t = 0</Font> coincides with the Lie bracket <Font style="Help Math">[X, Y](p)</Font>.  We verify this result with a example.</Text-field>
+<Group drawlabel="true" labelreference="L64">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L65">
+<Input>
+<Text-field layout="Normal" prompt="M3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define 2 vector fields, <Font style="Help Math">X</Font> and <Font style="Help Math">Y,</Font> and compute their Lie bracket using the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieBracket"><Font size="14" style="Hyperlink">LieBracket</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L66">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(x*D_x - 2*y*D_y + 3*z*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYlInhHIiIiJSREX3hHIiIiIiIiKigiIiMiIiIlInlHIiIiJSREX3lHIiIiISIiKigiIiQiIiIlInpHIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L67">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Y := evalDG(y*D_x + z*D_y + D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJZRywoKiYlInlHIiIiJSREX3hHIiIiIiIiKiYlInpHIiIiJSREX3lHIiIiIiIiJSREX3pHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L68">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Z := LieBracket(X, Y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJaRywoKigiIiQiIiIlInlHIiIiJSREX3hHIiIiISIiKigiIiYiIiIlInpHIiIiJSREX3lHIiIiIiIiKiYiIiQiIiIlJERfekciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Use the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Flow"><Font size="14" style="Hyperlink">Flow</Font></Hyperlink> command to find the flows for the vector fields <Font style="Help Math">X</Font> and <Font style="Help Math">Y</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L69">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi := Flow(X, s);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ4RyomJSJ4RyIiIi0lJGV4cEc2IyUic0ciIiIvJSJ5RyomJSJ5RyIiIi0lJGV4cEc2IywkKiYiIiMiIiIlInNHIiIiISIiIiIiLyUiekcqJiUiekciIiItJSRleHBHNiMsJComIiIkIiIiJSJzRyIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L70">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi1 := eval(phi, s = -s);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGkxRzclLyUieEcqJiUieEciIiItJSRleHBHNiMsJCUic0chIiIiIiIvJSJ5RyomJSJ5RyIiIi0lJGV4cEc2IywkKiYiIiMiIiIlInNHIiIiIiIiIiIiLyUiekcqJiUiekciIiItJSRleHBHNiMsJComIiIkIiIiJSJzRyIiIiEiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L71">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">psi := Flow(Y, s);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNyUvJSJ4RywqKiYiIichIiIlInNHIiIkIiIiKigiIiMhIiIlInpHIiIiJSJzRyIiIyIiIiomJSJ5RyIiIiUic0ciIiIiIiIlInhHIiIiLyUieUcsKComIyIiIiIiIyIiIiokKSUic0ciIiMiIiIiIiIiIiIqJiUiekciIiIlInNHIiIiIiIiJSJ5RyIiIi8lInpHLCYlInNHIiIiJSJ6RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L72">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">psi1 := eval(psi, s = -s);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwc2kxRzclLyUieEcsKiomIiInISIiJSJzRyIiJCEiIiooIiIjISIiJSJ6RyIiIiUic0ciIiMiIiIqJiUieUciIiIlInNHIiIiISIiJSJ4RyIiIi8lInlHLCgqJiMiIiIiIiMiIiIqJCklInNHIiIjIiIiIiIiIiIiKiYlInpHIiIiJSJzRyIiIiEiIiUieUciIiIvJSJ6RywmJSJzRyEiIiUiekciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L73">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">sigma0 := ComposeTransformations(psi1, phi1, psi, phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdzaWdtYTBHNyUvJSJ4RywqKiYiIichIiIlInNHIiIkISIiKiYjIiIiIiIjIiIiKigsJiUic0ciIiIqJiUiekciIiItJSRleHBHNiMsJComIiIkIiIiJSJzRyIiIiIiIiIiIiIiIiIiIi0lJGV4cEc2IywkKiYiIiQiIiIlInNHIiIiISIiIiIiKSUic0ciIiMiIiIiIiIiIiIqKCwoKiYiIiMhIiIlInNHIiIjIiIiKiglInpHIiIiLSUkZXhwRzYjLCQqJiIiJCIiIiUic0ciIiIiIiIiIiIlInNHIiIiIiIiKiYlInlHIiIiLSUkZXhwRzYjLCQqJiIiIyIiIiUic0ciIiIhIiIiIiIiIiIiIiItJSRleHBHNiMsJComIiIjIiIiJSJzRyIiIiIiIiIiIiUic0ciIiIhIiIqJiwqKiYiIichIiIlInNHIiIkIiIiKiYjIiIiIiIjIiIiKiglInpHIiIiLSUkZXhwRzYjLCQqJiIiJCIiIiUic0ciIiIiIiIiIiIpJSJzRyIiIyIiIiIiIiIiIiooJSJ5RyIiIi0lJGV4cEc2IywkKiYiIiMiIiIlInNHIiIiISIiIiIiJSJzRyIiIiIiIiomJSJ4RyIiIi0lJGV4cEc2IyUic0ciIiIiIiIiIiItJSRleHBHNiMsJCUic0chIiIiIiIiIiIvJSJ5RywoKiYiIiMhIiIlInNHIiIjIiIiKigsJiUic0ciIiIqJiUiekciIiItJSRleHBHNiMsJComIiIkIiIiJSJzRyIiIiIiIiIiIiIiIiIiIi0lJGV4cEc2IywkKiYiIiQiIiIlInNHIiIiISIiIiIiJSJzRyIiIiEiIiomLCgqJiIiIyEiIiUic0ciIiMiIiIqKCUiekciIiItJSRleHBHNiMsJComIiIkIiIiJSJzRyIiIiIiIiIiIiUic0ciIiIiIiIqJiUieUciIiItJSRleHBHNiMsJComIiIjIiIiJSJzRyIiIiEiIiIiIiIiIiIiIi0lJGV4cEc2IywkKiYiIiMiIiIlInNHIiIiIiIiIiIiIiIiLyUiekcsJiUic0chIiIqJiwmJSJzRyIiIiomJSJ6RyIiIi0lJGV4cEc2IywkKiYiIiQiIiIlInNHIiIiIiIiIiIiIiIiIiIiLSUkZXhwRzYjLCQqJiIiJCIiIiUic0ciIiIhIiIiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Use the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/ApplyTransformation"><Font size="14" style="Hyperlink">ApplyTransformation</Font></Hyperlink> command to define the curve <Font style="Help Math">sigma(t)</Font> (as a list).</Text-field>
+<Group drawlabel="true" labelreference="L74">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">sigma := simplify(eval(ApplyTransformation(sigma0, [x,y,z]), s = sqrt(t)));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZzaWdtYUc3JSw2KiYiIichIiIlInRHIyIiJCIiIyEiIiomIyIiIiIiIyIiIiomLSUkZXhwRzYjLCQqJiIiJCIiIiUidEcjIiIiIiIjISIiIiIiKSUidEcjIiIkIiIjIiIiIiIiIiIiKigiIiMhIiIlInRHIiIiJSJ6RyIiIiIiIiomIyIiIiIiIyIiIiomLSUkZXhwRzYjLCQqJiIiIyIiIiUidEcjIiIiIiIjIiIiIiIiKSUidEcjIiIkIiIjIiIiIiIiISIiKigtJSRleHBHNiMsJComIiImIiIiJSJ0RyMiIiIiIiMiIiIiIiIlInRHIiIiJSJ6RyIiIiEiIiomJSJ0RyMiIiIiIiMlInlHIiIiISIiKiYjIiIiIiInIiIiKiYtJSRleHBHNiMsJCokJSJ0RyMiIiIiIiMhIiIiIiIpJSJ0RyMiIiQiIiMiIiIiIiIiIiIqJiMiIiIiIiMiIiIqKC0lJGV4cEc2IywkKiYiIiMiIiIlInRHIyIiIiIiIyIiIiIiIiUiekciIiIlInRHIiIiIiIiIiIiKigtJSRleHBHNiMsJComIiIkIiIiJSJ0RyMiIiIiIiMhIiIiIiIlInlHIiIiJSJ0RyMiIiIiIiMiIiIlInhHIiIiLC4qJiIiIyEiIiUidEciIiIiIiIqJi0lJGV4cEc2IywkKiYiIiQiIiIlInRHIyIiIiIiIyEiIiIiIiUidEciIiIhIiIqJiUidEcjIiIiIiIjJSJ6RyIiIiEiIiomIyIiIiIiIyIiIiomLSUkZXhwRzYjLCQqJiIiIyIiIiUidEcjIiIiIiIjIiIiIiIiJSJ0RyIiIiIiIiIiIiooLSUkZXhwRzYjLCQqJiIiJiIiIiUidEcjIiIiIiIjIiIiIiIiJSJ6RyIiIiUidEcjIiIiIiIjIiIiJSJ5RyIiIiwoKiQlInRHIyIiIiIiIyEiIiomLSUkZXhwRzYjLCQqJiIiJCIiIiUidEcjIiIiIiIjISIiIiIiJSJ0RyMiIiIiIiMiIiIlInpHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Compute the derivative of the curve <Font style="Help Math">sigma(t) </Font>and evaluate it at <Font style="Help Math">t = 0</Font> by taking the limit as<Font style="Help Math"> t --&gt; 0</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L75">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">C := map(limit, diff(sigma, t), t=0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRzclLCQqJiIiJCIiIiUieUciIiIhIiIsJComIiImIiIiJSJ6RyIiIiIiIiEiJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">As claimed, these are the coefficients of the bracket vector field <Font style="Help Math">Z</Font>.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Application: The straightening theorem for vectors fields and systems of commuting vector fields</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The straightening theorem states that if <Font style="Help Math">X</Font> is a vector field which is nonzero at a point <Font style="Help Math">p</Font>, then there are coordinates <Font style="Help Math">(u1, u2, u3, ...)</Font> defined in a neighborhood of <Font style="Help Math">p</Font> such that in these new coordinates <Font style="Help Math">X = D_u1</Font>.  More generally, if <Font style="Help Math">X1</Font>,<Font style="Help Math"> X2</Font>,<Font style="Help Math"> X3</Font>, ... are commuting vector fields which are linearly independent at <Font style="Help Math">p</Font>, then there are coordinates <Font style="Help Math">(u1, u2, u3, ...)</Font> defined in a neighborhood of <Font style="Help Math">p</Font> such that in these new coordinates <Font style="Help Math">X1 = D_u1</Font>,<Font style="Help Math"> X2 = D_u2</Font>,<Font style="Help Math"> X3 = D_u3</Font>, ....</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">These straightening coordinates are easily found if the flows of the vector fields <Font style="Help Math">X1</Font>,<Font style="Help Math"> X2</Font>,<Font style="Help Math"> X3</Font>, ... can be found -- the desired coordinates are given by the flow variables and coordinates on any submanifold transverse to the distribution spanned by the vector fields <Font style="Help Math">X1</Font>,<Font style="Help Math"> X2</Font>,<Font style="Help Math"> X3</Font>,<Font style="Help Math">... </Font>.  For further details see, for example, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/References"><Font size="14" style="Hyperlink">Spivak</Font></Hyperlink>  pages 205 -- 206.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 1. </Font> Straighten out the vector field <Font style="Help Math">X1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L76">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L77">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, u, v], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L78">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u1, u2, u3, u4], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L79">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">X1 := evalDG((x - y)*D_x + u*D_y + D_u);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMUcsKComLCYlInhHIiIiJSJ5RyEiIiIiIiUkRF94RyIiIiIiIiomJSJ1RyIiIiUkRF95RyIiIiIiIiUkRF91RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the flow<Font style="Help Math"> phi </Font>of <Font style="Help Math">X1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L80">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi := Flow(X1, t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyYvJSJ4RywwJSJ5RyIiIiUidUciIiIiIiIiIiIqJiUidUciIiIlInRHIiIiIiIiJSJ0RyIiIiomIiIjISIiJSJ0RyIiIyIiIiomLSUkZXhwRzYjJSJ0RyIiIiwqJSJ5RyEiIiUidUchIiIiIiIhIiIlInhHIiIiIiIiIiIiLyUieUcsKComIyIiIiIiIyIiIiokKSUidEciIiMiIiIiIiIiIiIqJiUidUciIiIlInRHIiIiIiIiJSJ5RyIiIi8lInVHLCYlInRHIiIiJSJ1RyIiIi8lInZHJSJ2Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The surface <Font style="Help Math">u = 0</Font> is transverse to the vector field <Font style="Help Math">X</Font>.  Therefore our new coordinates are the flow parameter <Font style="Help Math">t = u1</Font> and the coordinates <Font style="Help Math">u2</Font>, <Font style="Help Math">u3</Font>, and <Font style="Help Math">u4</Font> for the surface <Font style="Help Math">u = 0</Font>.  We use the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/ApplyTransformation"><Font size="14" style="Hyperlink">ApplyTransformation</Font></Hyperlink> command to compute the flow with initial points on the surface <Font style="Help Math">u = 0</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L81">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">F := ApplyTransformation(eval(phi, t = u1), [u2, u3, 0, u4]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRzcmLCwlI3UzRyIiIiIiIiIiIiUjdTFHIiIiKiYiIiMhIiIlI3UxRyIiIyIiIiomLSUkZXhwRzYjJSN1MUciIiIsKCUjdTNHISIiIiIiISIiJSN1MkciIiIiIiIiIiIsJiomIiIjISIiJSN1MUciIiMiIiIlI3UzRyIiIiUjdTFHJSN1NEc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The transformation <Font style="Help Math">Phi</Font> gives us a coordinate transformation that straightens out the vector field <Font style="Help Math">X1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L82">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(N, M, [x = F[1], y = F[2], u = F[3], v = F[4]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyYvJSJ4RywsJSN1M0ciIiIiIiIiIiIlI3UxRyIiIiomIiIjISIiJSN1MUciIiMiIiIqJi0lJGV4cEc2IyUjdTFHIiIiLCglI3UzRyEiIiIiIiEiIiUjdTJHIiIiIiIiIiIiLyUieUcsJiomIiIjISIiJSN1MUciIiMiIiIlI3UzRyIiIi8lInVHJSN1MUcvJSJ2RyUjdTRH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use the <Font style="Help Math">Pushforward</Font> command to check this result.  For this we will need the inverse of the transformation <Font style="Help Math">Phi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L83">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">invPhi := InverseTransformation(Phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdpbnZQaGlHNyYvJSN1MUclInVHLyUjdTJHLCQqJiMiIiIiIiMiIiIqJiwwKiYiIiMiIiIlInhHIiIiISIiKiYiIiMiIiIlInlHIiIiIiIiIiIjIiIiKiYiIiMiIiIlInVHIiIiIiIiKigiIiMiIiItJSRleHBHNiMlInVHIiIiJSJ5RyIiIiEiIiomLSUkZXhwRzYjJSJ1RyIiIiklInVHIiIjIiIiIiIiKiYiIiMiIiItJSRleHBHNiMlInVHIiIiISIiIiIiLSUkZXhwRzYjJSJ1RyEiIiIiIiEiIi8lI3UzRywmJSJ5RyIiIiomIiIjISIiJSJ1RyIiIyEiIi8lI3U0RyUidkc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L84">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(invPhi, Phi, X1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJURfdTFH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 2.</Font>  Straighten out the vector fields <Font style="Help Math">X1</Font> and <Font style="Help Math">X2</Font>, where <Font style="Help Math">X1</Font> is the vector field from Example 1 and <Font style="Help Math">X2 </Font>is the vector field defined by</Text-field>
+<Group drawlabel="true" labelreference="L85">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">X2 := evalDG(exp(u)*D_x + (y - u^2/2)*D_v);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMkcsJiomLSUkZXhwRzYjJSJ1RyIiIiUkRF94RyIiIiIiIiomLCYlInlHIiIiKiYiIiMhIiIlInVHIiIjISIiIiIiJSREX3ZHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Let us check that the vector fields <Font style="Help Math">X1</Font> and <Font style="Help Math">X2</Font> commute.</Text-field>
+<Group drawlabel="true" labelreference="L86">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">LieBracket(X1, X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Compute the flow <Font style="Help Math">psi</Font> for <Font style="Help Math">X2</Font> and compose with the flow <Font style="Help Math">phi</Font> for <Font style="Help Math">X1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L87">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">psi := Flow(X2, s);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNyYvJSJ4RywmKiYtJSRleHBHNiMlInVHIiIiJSJzRyIiIiIiIiUieEciIiIvJSJ5RyUieUcvJSJ1RyUidUcvJSJ2RywmKiYsJiUieUciIiIqJiIiIyEiIiUidUciIiMhIiIiIiIlInNHIiIiIiIiJSJ2RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L88">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">chi := ComposeTransformations(psi, phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRjaGlHNyYvJSJ4RywyKiYtJSRleHBHNiMsJiUidEciIiIlInVHIiIiIiIiJSJzRyIiIiIiIiUieUciIiIlInVHIiIiIiIiIiIiKiYlInVHIiIiJSJ0RyIiIiIiIiUidEciIiIqJiIiIyEiIiUidEciIiMiIiIqJi0lJGV4cEc2IyUidEciIiIsKiUieUchIiIlInVHISIiIiIiISIiJSJ4RyIiIiIiIiIiIi8lInlHLCgqJiMiIiIiIiMiIiIqJCklInRHIiIjIiIiIiIiIiIiKiYlInVHIiIiJSJ0RyIiIiIiIiUieUciIiIvJSJ1RywmJSJ0RyIiIiUidUciIiIvJSJ2RywmKiYsKiomIiIjISIiJSJ0RyIiIyIiIiomJSJ1RyIiIiUidEciIiIiIiIlInlHIiIiKiYiIiMhIiIsJiUidEciIiIlInVHIiIiIiIjISIiIiIiJSJzRyIiIiIiIiUidkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use the combined (2 parameter) flow <Font style="Help Math">chi</Font>  with initial conditions on the 2 dimensional surface <Font style="Help Math">x = 0</Font>,<Font style="Help Math"> u = 0</Font> to find required the change of variables.</Text-field>
+<Group drawlabel="true" labelreference="L89">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">F := ApplyTransformation(eval(chi, {t = u1, s = u2}), [0, u3, 0, u4]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRzcmLC4qJi0lJGV4cEc2IyUjdTFHIiIiJSN1MkciIiIiIiIlI3UzRyIiIiIiIiIiIiUjdTFHIiIiKiYiIiMhIiIlI3UxRyIiIyIiIiomLSUkZXhwRzYjJSN1MUciIiIsJiUjdTNHISIiIiIiISIiIiIiIiIiLCYqJiIiIyEiIiUjdTFHIiIjIiIiJSN1M0ciIiIlI3UxRywmKiYlI3UzRyIiIiUjdTJHIiIiIiIiJSN1NEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The transformation <Font style="Help Math">Phi</Font> defines the change of variables needed to simultaneously straighten out both vector fields <Font style="Help Math">X1</Font> and <Font style="Help Math">X2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L90">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(N, M, [x = F[1], y = F[2], u = F[3], v = F[4]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyYvJSJ4RywuKiYtJSRleHBHNiMlI3UxRyIiIiUjdTJHIiIiIiIiJSN1M0ciIiIiIiIiIiIlI3UxRyIiIiomIiIjISIiJSN1MUciIiMiIiIqJi0lJGV4cEc2IyUjdTFHIiIiLCYlI3UzRyEiIiIiIiEiIiIiIiIiIi8lInlHLCYqJiIiIyEiIiUjdTFHIiIjIiIiJSN1M0ciIiIvJSJ1RyUjdTFHLyUidkcsJiomJSN1M0ciIiIlI3UyRyIiIiIiIiUjdTRHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use the <Font style="Help Math">Pushforward</Font> command to check this result.</Text-field>
+<Group drawlabel="true" labelreference="L91">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">invPhi := InverseTransformation(Phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdpbnZQaGlHNyYvJSN1MUclInVHLyUjdTJHLCQqJiMiIiIiIiMiIiIqJiwwKiYiIiMiIiIlInhHIiIiISIiKiYiIiMiIiIlInlHIiIiIiIiIiIjIiIiKiYiIiMiIiIlInVHIiIiIiIiKigiIiMiIiItJSRleHBHNiMlInVHIiIiJSJ5RyIiIiEiIiomLSUkZXhwRzYjJSJ1RyIiIiklInVHIiIjIiIiIiIiKiYiIiMiIiItJSRleHBHNiMlInVHIiIiISIiIiIiLSUkZXhwRzYjJSJ1RyEiIiIiIiEiIi8lI3UzRywmJSJ5RyIiIiomIiIjISIiJSJ1RyIiIyEiIi8lI3U0RywkKiYjIiIiIiIlIiIiKiYsPiooIiIlIiIiJSJ2RyIiIi0lJGV4cEc2IyUidUciIiIhIiIqKCIiJSIiIiUieUciIiIlInhHIiIiIiIiKiYiIiUiIiIpJSJ5RyIiIyIiIiEiIiomIiIlIiIiJSJ5RyIiIiEiIiooIiIlIiIiJSJ5RyIiIiUidUciIiIhIiIqKCIiJSIiIi0lJGV4cEc2IyUidUciIiIpJSJ5RyIiIyIiIiIiIioqIiIlIiIiJSJ5RyIiIi0lJGV4cEc2IyUidUciIiIpJSJ1RyIiIyIiIiEiIiooIiIlIiIiLSUkZXhwRzYjJSJ1RyIiIiUieUciIiIiIiIqKCIiIyIiIiklInVHIiIjIiIiJSJ4RyIiIiEiIiooIiIjIiIiKSUidUciIiMiIiIlInlHIiIiIiIiKiYiIiMiIiIpJSJ1RyIiIyIiIiIiIiomIiIjIiIiKSUidUciIiQiIiIiIiIqJiklInVHIiIlIiIiLSUkZXhwRzYjJSJ1RyIiIiIiIiooIiIjIiIiLSUkZXhwRzYjJSJ1RyIiIiklInVHIiIjIiIiISIiIiIiLSUkZXhwRzYjJSJ1RyEiIiIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L92">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(invPhi, Phi, X1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJURfdTFH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L93">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(invPhi, Phi, X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJURfdTJH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercises</Text-field></Title>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 1</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the pushforward of the vector <Font style="Help Math">X</Font> at the point <Font style="Help Math">[2, 1, 1]</Font> using the map <Font style="Help Math">phi</Font> by</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  using the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Pushforward"><Font size="14" style="Hyperlink">Pushforward</Font></Hyperlink> command.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  using the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/DGinfo"><Font size="14" style="Hyperlink">DGinfo</Font></Hyperlink> command to obtain the Jacobian matrix of<Font style="Help Math"> phi</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iii]</Font>  first finding a curve whose tangent vector is<Font style="Help Math"> X</Font> and then using the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/ComposeTransformations"><Font size="14" style="Hyperlink">ComposeTransformations</Font></Hyperlink> command.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iv]</Font>  using the definition of pushforward as a linear transformation acting on derivations of smooth functions.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L94">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L95">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L96">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v, w], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L97">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(M, N, [u = x*y + z^2, v = x^2 - y^2, w = y*z + x^2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ1RywmKiYlInlHIiIiJSJ4RyIiIiIiIiokKSUiekciIiMiIiIiIiIvJSJ2RywmKiQpJSJ4RyIiIyIiIiIiIiokKSUieUciIiMiIiIhIiIvJSJ3RywmKiYlInlHIiIiJSJ6RyIiIiIiIiokKSUieEciIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L98">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(2*D_x - 5*D_y + 3*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYiIiMiIiIlJERfeEciIiIiIiIqJiIiJiIiIiUkRF95RyIiIiEiIiomIiIkIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal260" style="Normal260"></Text-field>
+<Text-field layout="Normal260" style="Normal260">P<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">art [i]</Font></Text-field>
+<Group drawlabel="true" labelreference="L99">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(phi, X, [x = 2, y = 1,z = 1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComIiIjIiIiJSREX3VHIiIiISIiKiYiIz0iIiIlJERfdkciIiIiIiIqJiIiJyIiIiUkRF93RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Help Math"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]  </Font>Use <Font style="Help Math">DGinfo</Font> to get the Jacobian of <Font style="Help Math">phi </Font>and evaluate at the point <Font style="Help Math">[x = 2, y = 1, z = 1]</Font></Text-field>
+<Group drawlabel="true" labelreference="L100">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">J := Tools:-DGinfo(phi, "JacobianMatrix");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRy0lJ1JUQUJMRUc2JSIqP1guZiItJSdNQVRSSVhHNiM3JTclJSJ5RyUieEcsJComIiIjIiIiJSJ6RyIiIiIiIjclLCQqJiIiIyIiIiUieEciIiIiIiIsJComIiIjIiIiJSJ5RyIiIiEiIiIiITclLCQqJiIiIyIiIiUieEciIiIiIiIlInpHJSJ5RyUnTWF0cml4Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L101">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">J1 := eval(J, [x = 2, y = 1, z = 1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNKMUctJSdSVEFCTEVHNiUiKi9KbGciLSUnTUFUUklYRzYjNyU3JSIiIiIiIyIiIzclIiIlISIjIiIhNyUiIiUiIiIiIiIlJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Multiply the components of <Font style="Help Math">X</Font> by the Jacobian matrix to get the components of <Font style="Help Math">phi_*(X)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L102">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">A := J1.Vector([2, -5, 3]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqKyR5QDstJSdNQVRSSVhHNiM3JTcjISIjNyMiIz03IyIiJyYlJ1ZlY3Rvckc2IyUnY29sdW1uRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L103">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGzip(A, [D_x, D_y, D_z], "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComIiIjIiIiJSREX3hHIiIiISIiKiYiIz0iIiIlJERfeUciIiIiIiIqJiIiJyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal260" style="Normal260"></Text-field>
+<Text-field layout="Normal260" style="Normal260">Part [iii]<Font style="Help Math"> </Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> The curve </Font><Font style="Help Math">alpha(t)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">, given as a list, passes through the point </Font><Font style="Help Math">[2, 1, 1]</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> and is tangent to the vector </Font><Font style="Help Math">X </Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">at </Font><Font style="Help Math">t = 0</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">.  The image of </Font><Font style="Help Math">alpha</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> under the mapping </Font><Font style="Help Math">phi</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> is the curve </Font><Font style="Help Math">beta</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> and the tangent vector to </Font><Font style="Help Math">beta</Font> <Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gives the components of </Font><Font style="Help Math">phi_*(X)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">.</Font></Text-field>
+<Group drawlabel="true" labelreference="L104">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">alpha := [2*t + 2, -5*t + 1, 3*t + 1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZhbHBoYUc3JSwmKiYiIiMiIiIlInRHIiIiIiIiIiIjIiIiLCYqJiIiJiIiIiUidEciIiIhIiIiIiIiIiIsJiomIiIkIiIiJSJ0RyIiIiIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L105">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">eval(alpha, t = 0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSIiIyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L106">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">eval(diff(alpha, t), t = 0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSIiIyEiJiIiJA==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L107">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">beta := expand(ApplyTransformation(phi, alpha));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSViZXRhRzclLCgqJCklInRHIiIjIiIiISIiKiYiIiMiIiIlInRHIiIiISIiIiIkIiIiLCgqJiIjQCIiIiklInRHIiIjIiIiISIiKiYiIz0iIiIlInRHIiIiIiIiIiIkIiIiLCgqJiIjNiIiIiklInRHIiIjIiIiISIiKiYiIiciIiIlInRHIiIiIiIiIiImIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L108">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">A := eval(diff(beta, t), t = 0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRzclISIjIiM9IiIn</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L109">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGzip(A, [D_x, D_y, D_z], "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComIiIjIiIiJSREX3hHIiIiISIiKiYiIz0iIiIlJERfeUciIiIiIiIqJiIiJyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iv]  </Font>We apply the Lie derivative with respect to <Font style="Help Math">X</Font> to the components of <Font style="Help Math">phi</Font> and evaluate at <Font style="Help Math">[x = 2, y = 1, z = 1] </Font>to obtain the components of <Font style="Help Math">phi_*(X)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L110">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">ComponentFunctions := ApplyTransformation(phi, [x, y, z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTNDb21wb25lbnRGdW5jdGlvbnNHNyUsJiomJSJ5RyIiIiUieEciIiIiIiIqJCklInpHIiIjIiIiIiIiLCYqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiEiIiwmKiYlInlHIiIiJSJ6RyIiIiIiIiokKSUieEciIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L111">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">F := map2(LieDerivative, X, CoordinateFunctions);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRyIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L112">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">eval(F, [x = 2, y = 1, z = 1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 2</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L113">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  Write the vector field <Font style="Help Math">X1</Font> in polar coordinates <Font style="Help Math">r</Font>,<Font style="Help Math"> theta</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L114">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L115">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([r, theta], Polar):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L116">
+<Input>
+<Text-field layout="Normal" prompt="Polar &gt; " size="14" style="Maple Input"><Font size="14">X1 := evalDG((x^2 - y^2)*D_x + 2*x*y*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMUcsJiomLCYqJCklInhHIiIjIiIiIiIiKiQpJSJ5RyIiIyIiIiEiIiIiIiUkRF94RyIiIiIiIioqIiIjIiIiJSJ4RyIiIiUieUciIiIlJERfeUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  Write the vector field <Font style="Help Math">X2</Font> in spherical coordinates <Font style="Help Math">rho</Font>, <Font style="Help Math">theta</Font>, <Font style="Help Math">phi</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L117">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L118">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([rho, theta, phi], Spherical):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L119">
+<Input>
+<Text-field layout="Normal" prompt="Spherical &gt; " size="14" style="Maple Input"><Font size="14">X2 := evalDG(x*z*D_x + y*z*D_y + (-x^2 - y^2)*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMkcsKCooJSJ4RyIiIiUiekciIiIlJERfeEciIiIiIiIqKCUieUciIiIlInpHIiIiJSREX3lHIiIiIiIiKiYsJiokKSUieEciIiMiIiIhIiIqJCklInlHIiIjIiIiISIiIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i]</Text-field>
+<Group drawlabel="true" labelreference="L120">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">P := Transformation(Polar, E2, [x = r*cos(theta), y = r*sin(theta)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJQRzckLyUieEcqJiUickciIiItJSRjb3NHNiMlJnRoZXRhRyIiIi8lInlHKiYlInJHIiIiLSUkc2luRzYjJSZ0aGV0YUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L121">
+<Input>
+<Text-field layout="Normal" prompt="Polar &gt; " size="14" style="Maple Input"><Font size="14">_EnvExplicit := true:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L122">
+<Input>
+<Text-field layout="Normal" prompt="Polar &gt; " size="14" style="Maple Input"><Font size="14">invP := InverseTransformation(P);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbnZQRzckLyUickcqJCwmKiQpJSJ5RyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIjIiIiIiIjLyUmdGhldGFHLSUnYXJjdGFuRzYkKiYlInlHIiIiLCYqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiMhIiIiIiMqJiUieEciIiIsJiokKSUieUciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiIyEiIiIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L123">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Y1 := Pushforward(invP, P, X1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMUcsJioqKSUickciIiMiIiItJSRjb3NHNiMlJnRoZXRhRyIiIi0lJWNzZ25HNiMlInJHIiIiJSREX3JHIiIiIiIiKiglInJHIiIiLSUkc2luRzYjJSZ0aGV0YUciIiIlKERfdGhldGFHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L124">
+<Input>
+<Text-field layout="Normal" prompt="Polar &gt; " size="14" style="Maple Input"><Font size="14">map(simplify,Y1) assuming r &gt; 0;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiooKSUickciIiMiIiItJSRjb3NHNiMlJnRoZXRhRyIiIiUkRF9yRyIiIiIiIiooJSJyRyIiIi0lJHNpbkc2IyUmdGhldGFHIiIiJShEX3RoZXRhRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]</Text-field>
+<Group drawlabel="true" labelreference="L125">
+<Input>
+<Text-field layout="Normal" prompt="Polar &gt; " size="14" style="Maple Input"><Font size="14">S := Transformation(Spherical, E3, [x = rho*cos(theta)*sin(phi), y = rho*sin(theta)*sin(phi), z = rho*cos(phi)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRzclLyUieEcqKCUkcmhvRyIiIi0lJGNvc0c2IyUmdGhldGFHIiIiLSUkc2luRzYjJSRwaGlHIiIiLyUieUcqKCUkcmhvRyIiIi0lJHNpbkc2IyUmdGhldGFHIiIiLSUkc2luRzYjJSRwaGlHIiIiLyUiekcqJiUkcmhvRyIiIi0lJGNvc0c2IyUkcGhpRyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L126">
+<Input>
+<Text-field layout="Normal" prompt="Spherical &gt; " size="14" style="Maple Input"><Font size="14">invS := InverseTransformation(S);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbnZTRzclLyUkcmhvRyokLCgqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIjIiIiIiIjLyUmdGhldGFHLSUnYXJjdGFuRzYkKiglInlHIiIiLCgqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIjIiIiIiIjKiYsKCokKSUieUciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ6RyIiIyIiIiIiIiIiIiwmKiQpJSJ5RyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIiIiIjISIiIiIjKiglInhHIiIiLCgqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIjIiIiIiIjKiYsKCokKSUieUciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ6RyIiIyIiIiIiIiIiIiwmKiQpJSJ5RyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIiIiIjISIiIiIjLyUkcGhpRy0lJ2FyY3Rhbkc2JComLCgqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiokKSUiekciIiMiIiIiIiIhIiIqJiwoKiQpJSJ5RyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIqJCklInpHIiIjIiIiIiIiIiIiLCYqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiIiIiMiIiIiIiMqJiUiekciIiIsKCokKSUieUciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiKiQpJSJ6RyIiIyIiIiIiIiMhIiIiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L127">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">Y2 := Pushforward(invS, S, X2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMkcsJCosLSUlY3Nnbkc2IyUkcmhvRyIiIiUkcmhvRyIiJCwmIiIiISIiKiQpLSUkY29zRzYjJSRwaGlHIiIjIiIiIiIiIiIiKiYpJSRyaG9HIiIlIiIiKS0lJHNpbkc2IyUkcGhpRyIiIyIiIiMhIiIiIiMlJkRfcGhpRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L128">
+<Input>
+<Text-field layout="Normal" prompt="Spherical &gt; " size="14" style="Maple Input"><Font size="14">map(simplify, Y2) assuming rho &gt;0, phi &gt; 0, phi &lt; Pi;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUkcmhvRyIiIi0lJHNpbkc2IyUkcGhpRyIiIiUmRF9waGlHIiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 3</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L129">
+<Input>
+<Text-field layout="Normal" prompt="Spherical &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L130">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L131">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14"> DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find, if possible, all vector fields <Font style="Help Math">X</Font> which pushforwards by <Font style="Help Math">phi </Font>to the vector field <Font style="Help Math">Y</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L132">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(N, M, [x = v*cos(u), y = v*sin(u), z = v^2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ4RyomJSJ2RyIiIi0lJGNvc0c2IyUidUciIiIvJSJ5RyomJSJ2RyIiIi0lJHNpbkc2IyUidUciIiIvJSJ6RyokKSUidkciIiMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Text-field>
+<Group drawlabel="true" labelreference="L133">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Y1 := eval(x*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMUcqJiUieEciIiIlJERfeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Text-field>
+<Group drawlabel="true" labelreference="L134">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Y2 := eval(x*D_x + y*D_y + 2*z*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMkcsKComJSJ4RyIiIiUkRF94RyIiIiIiIiomJSJ5RyIiIiUkRF95RyIiIiIiIiooIiIjIiIiJSJ6RyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i]</Text-field>
+<Group drawlabel="true" labelreference="L135">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">X := PullbackVector(phi, Y1, [D_u, D_v]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">The vector field <Font style="Help Math">Y1 </Font>is not tangent to the image of <Font style="Help Math">phi</Font>, that is, to the cone <Font style="Help Math">x^2 + y^2 = z</Font>, so no such vector field <Font style="Help Math">X</Font> exists.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]</Text-field>
+<Group drawlabel="true" labelreference="L136">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := PullbackVector(phi, Y2, [D_u, D_v]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRyomJSJ2RyIiIiUkRF92RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 4</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Write a program which checks the naturality of the Lie bracket -- that is, for any local diffeomorphism <Font style="Help Math">phi</Font> and vector fields <Font style="Help Math">X</Font> and <Font style="Help Math">Y</Font>,</Text-field>
+<Text-field layout="Normal258" style="Help Math">phi_*([X, Y]) = [phi_*(X), phi_*(Y)]</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L137">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L138">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L139">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">LieBracketNaturality := proc(phi, X, Y)</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">local TF, invPhi, a1, a, b1, b2, b, c;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">TF := _EnvExplicit;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">_EnvExplicit := true;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">invPhi := InverseTransformation(phi);</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">_EnvExplicit := TF;</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">a1 := LieBracket(X, Y);</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">a := Pushforward(phi, invPhi, a1);</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">b1 := Pushforward(phi, invPhi, X);</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">b2 := Pushforward(phi, invPhi, Y);</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">c := LieBracket(b1, b2);</Font></Text-field>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">simplify(a &amp;minus c);</Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">end:</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Test the program LieBracketNaturality</Text-field>
+<Group drawlabel="true" labelreference="L140">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L141">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(M, M, [x = x*y*z, y = y*z, z = 1/z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyUvJSJ4RyooJSJ4RyIiIiUieUciIiIlInpHIiIiLyUieUcqJiUieUciIiIlInpHIiIiLyUiekcqJiIiIiIiIiUiekchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L142">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(sin(x*z)*D_x + log(y + z)*D_y + (1/(x + y))*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYtJSRzaW5HNiMqJiUieEciIiIlInpHIiIiIiIiJSREX3hHIiIiIiIiKiYtJSNsbkc2IywmJSJ5RyIiIiUiekciIiIiIiIlJERfeUciIiIiIiIqJiwmJSJ4RyIiIiUieUciIiIhIiIlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L143">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Y := evalDG(exp(y)*x*D_x - arctan(x/z)*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJZRywmKigtJSRleHBHNiMlInlHIiIiJSJ4RyIiIiUkRF94RyIiIiIiIiomLSUnYXJjdGFuRzYjKiYlInhHIiIiJSJ6RyEiIiIiIiUkRF96RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L144">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">LieBracketNaturality(phi, X, Y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 5</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L145">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L146">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the Lie bracket of the vector fields <Font style="Help Math">X</Font> and <Font style="Help Math">Y</Font> from their flows.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L147">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(x^2*D_x + x*y*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywmKiYpJSJ4RyIiIyIiIiUkRF94RyIiIiIiIiooJSJ4RyIiIiUieUciIiIlJERfeUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L148">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Y := evalDG(-x*y*D_x + y^2*D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJZRywmKiglInhHIiIiJSJ5RyIiIiUkRF94RyIiIiEiIiomKSUieUciIiMiIiIlJERfeUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L149">
+<Input>
+<Text-field layout="Normal" style="Normal">Calculate the Lie bracket directly.</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L150">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">LieBracket(X, Y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJCoqIiIjIiIiJSJ4RyIiIiklInlHIiIjIiIiJSREX3lHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the flow of <Font style="Help Math">X</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L151">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi := simplify(Flow(X, t));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyQvJSJ4RywkKiYlInhHIiIiLCYqJiUidEciIiIlInhHIiIiIiIiIiIiISIiISIiISIiLyUieUcsJComJSJ5RyIiIiwmKiYlInRHIiIiJSJ4RyIiIiIiIiIiIiEiIiEiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L152">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi1 := eval(phi, t = -t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGkxRzckLyUieEcsJComJSJ4RyIiIiwmKiYlInRHIiIiJSJ4RyIiIiEiIiIiIiEiIiEiIiEiIi8lInlHLCQqJiUieUciIiIsJiomJSJ0RyIiIiUieEciIiIhIiIiIiIhIiIhIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the flow of <Font style="Help Math">Y</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L153">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">psi := simplify(Flow(Y, t));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNyQvJSJ4RywkKiYlInhHIiIiLCYqJiUidEciIiIlInlHIiIiIiIiIiIiISIiIiIiISIiLyUieUcsJComJSJ5RyIiIiwmKiYlInRHIiIiJSJ5RyIiIiIiIiIiIiEiIiEiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L154">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">psi1 := eval(psi, t = -t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwc2kxRzckLyUieEcsJComJSJ4RyIiIiwmKiYlInRHIiIiJSJ5RyIiIiEiIiIiIiEiIiIiIiEiIi8lInlHLCQqJiUieUciIiIsJiomJSJ0RyIiIiUieUciIiIhIiIiIiIhIiIhIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L155">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Phi := simplify(ComposeTransformations(psi1, phi1, psi, phi));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyQvJSJ4RyooJSJ4RyIiIiwuKioiIiMiIiIpJSJ0RyIiJCIiIiUieUciIiIpJSJ4RyIiIyIiIiIiIioqIiIjIiIiKSUidEciIiMiIiIlInhHIiIiJSJ5RyIiIiEiIiooKSUidEciIiQiIiIpJSJ5RyIiIyIiIiUieEciIiIiIiIqJiklInRHIiIjIiIiKSUieEciIiMiIiIiIiIqKCIiIyIiIiUidEciIiIlInhHIiIiISIiIiIiIiIiIiIiLCgqKCklInRHIiIjIiIiJSJ4RyIiIiUieUciIiIiIiIqJiUidEciIiIlInhHIiIiIiIiIiIiISIiISIjLyUieUcqKCwmKiYlInRHIiIiJSJ4RyIiIiIiIiIiIiEiIiIiIyUieUciIiIsLioqIiIjIiIiKSUidEciIiQiIiIlInlHIiIiKSUieEciIiMiIiIiIiIqKiIiIyIiIiklInRHIiIjIiIiJSJ4RyIiIiUieUciIiIhIiIqKCklInRHIiIkIiIiKSUieUciIiMiIiIlInhHIiIiIiIiKiYpJSJ0RyIiIyIiIiklInhHIiIjIiIiIiIiKigiIiMiIiIlInRHIiIiJSJ4RyIiIiEiIiIiIiIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L156">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">C := eval(ApplyTransformation(Phi, [x, y]), t = sqrt(s)):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" size="14" style="Maple Input"><Font size="14">Z := map(limit, diff(C, s), s = 0);</Font></Text-field>
+<Text-field layout="Normal" size="14" style="2D Output"><Equation executable="false" input-equation="Z := [0, 2*x*y^2]" style="2D Output">NiM+JSJaRzckIiIhLCQqKCIiIyIiIiUieEciIiIpJSJ5RyIiIyIiIiIiIg==</Equation></Text-field>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 6</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L157">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L158">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z, u, v], M):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  Find coordinates which simultaneously straighten out the set of commuting vector fields <Font style="Help Math">{X1, X2, X3}</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  Find the joint invariants for the vector fields <Font style="Help Math">{X1, X2, X3}</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L159">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X1 := evalDG(x/(x + y + u)*D_x + y/(x + y + u)*D_y + z/(x + y + u)*D_z + u/(x + y + u)*D_u + v/(x + y + u)*D_v);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMUcsLCooJSJ4RyIiIiwoJSJ4RyIiIiUieUciIiIlInVHIiIiISIiJSREX3hHIiIiIiIiKiglInlHIiIiLCglInhHIiIiJSJ5RyIiIiUidUciIiIhIiIlJERfeUciIiIiIiIqKCUiekciIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIiUkRF96RyIiIiIiIiooJSJ1RyIiIiwoJSJ4RyIiIiUieUciIiIlInVHIiIiISIiJSREX3VHIiIiIiIiKiglInZHIiIiLCglInhHIiIiJSJ5RyIiIiUidUciIiIhIiIlJERfdkciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L160">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X2 := evalDG(-u*x/(x + y + u)*D_x + u*(x + u)/(x + y + u)*D_y - u*z/(x + y + u)*D_z - u^2/(x + y + u)*D_u - u*v/(x + y + u)*D_v);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYMkcsLCoqJSJ1RyIiIiUieEciIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIiUkRF94RyIiIiEiIioqJSJ1RyIiIiwmJSJ4RyIiIiUidUciIiIiIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIiUkRF95RyIiIiIiIioqJSJ1RyIiIiUiekciIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIiUkRF96RyIiIiEiIiooJSJ1RyIiIywoJSJ4RyIiIiUieUciIiIlInVHIiIiISIiJSREX3VHIiIiISIiKiolInVHIiIiJSJ2RyIiIiwoJSJ4RyIiIiUieUciIiIlInVHIiIiISIiJSREX3ZHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L161">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X3 := evalDG(u*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYM0cqJiUidUciIiIlJERfekciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i]</Text-field>
+<Group drawlabel="true" labelreference="L162">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u1, u2, u3, u4, u5], N):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the flow of <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font>, and <Font style="Help Math">X3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L163">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">phi1 := simplify(Flow(X1, u1));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGkxRzcnLyUieEcqKCUieEciIiIsKiUjdTFHIiIiJSJ4RyIiIiUieUciIiIlInVHIiIiIiIiLCglInhHIiIiJSJ5RyIiIiUidUciIiIhIiIvJSJ5RyooJSJ5RyIiIiwqJSN1MUciIiIlInhHIiIiJSJ5RyIiIiUidUciIiIiIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIi8lInpHKiglInpHIiIiLColI3UxRyIiIiUieEciIiIlInlHIiIiJSJ1RyIiIiIiIiwoJSJ4RyIiIiUieUciIiIlInVHIiIiISIiLyUidUcqKCUidUciIiIsKiUjdTFHIiIiJSJ4RyIiIiUieUciIiIlInVHIiIiIiIiLCglInhHIiIiJSJ5RyIiIiUidUciIiIhIiIvJSJ2RyooJSJ2RyIiIiwqJSN1MUciIiIlInhHIiIiJSJ5RyIiIiUidUciIiIiIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L164">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi2 := simplify(Flow(X2, u2));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGkyRzcnLyUieEcqKCUieEciIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiIiIiwqKiYlI3UyRyIiIiUidUciIiIiIiIlInhHIiIiJSJ5RyIiIiUidUciIiIhIiIvJSJ5RyooLCglInhHIiIiJSJ5RyIiIiUidUciIiIiIiIsJiomJSN1MkciIiIlInVHIiIiIiIiJSJ5RyIiIiIiIiwqKiYlI3UyRyIiIiUidUciIiIiIiIlInhHIiIiJSJ5RyIiIiUidUciIiIhIiIvJSJ6RyooJSJ6RyIiIiwoJSJ4RyIiIiUieUciIiIlInVHIiIiIiIiLCoqJiUjdTJHIiIiJSJ1RyIiIiIiIiUieEciIiIlInlHIiIiJSJ1RyIiIiEiIi8lInVHKigsKCUieEciIiIlInlHIiIiJSJ1RyIiIiIiIiUidUciIiIsKiomJSN1MkciIiIlInVHIiIiIiIiJSJ4RyIiIiUieUciIiIlInVHIiIiISIiLyUidkcqKCUidkciIiIsKCUieEciIiIlInlHIiIiJSJ1RyIiIiIiIiwqKiYlI3UyRyIiIiUidUciIiIiIiIlInhHIiIiJSJ5RyIiIiUidUciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L165">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">phi3 := simplify(Flow(X3, u3));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwaGkzRzcnLyUieEclInhHLyUieUclInlHLyUiekcsJiomJSJ1RyIiIiUjdTNHIiIiIiIiJSJ6RyIiIi8lInVHJSJ1Ry8lInZHJSJ2Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Compose these 3 flows.</Text-field>
+<Group drawlabel="true" labelreference="L166">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">A := ComposeTransformations(phi3, phi2, phi1):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply the combined flow to the points <Font style="Help Math">[1, 0, 0, u4, u5]</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L167">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">B := simplify(ApplyTransformation(A, [1, 0, 0, u4, u5]));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJCRzcnKiYsKCUjdTFHIiIiIiIiIiIiJSN1NEciIiIiIiIsKComJSN1MkciIiIlI3U0RyIiIiIiIiIiIiIiIiUjdTRHIiIiISIiKiolI3UyRyIiIiUjdTRHIiIiLCglI3UxRyIiIiIiIiIiIiUjdTRHIiIiIiIiLCgqJiUjdTJHIiIiJSN1NEciIiIiIiIiIiIiIiIlI3U0RyIiIiEiIioqJSN1NEciIiIsKCUjdTFHIiIiIiIiIiIiJSN1NEciIiIiIiIlI3UzRyIiIiwoKiYlI3UyRyIiIiUjdTRHIiIiIiIiIiIiIiIiJSN1NEciIiIhIiIqKCUjdTRHIiIiLCglI3UxRyIiIiIiIiIiIiUjdTRHIiIiIiIiLCgqJiUjdTJHIiIiJSN1NEciIiIiIiIiIiIiIiIlI3U0RyIiIiEiIiooLCglI3UxRyIiIiIiIiIiIiUjdTRHIiIiIiIiJSN1NUciIiIsKComJSN1MkciIiIlI3U0RyIiIiIiIiIiIiIiIiUjdTRHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L168">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">vars := [x, y, z, u, v]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L169">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">F := Transformation(N, M, [seq(vars[i] = B[i], i = 1 .. 5)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRzcnLyUieEcqJiwoJSN1MUciIiIiIiIiIiIlI3U0RyIiIiIiIiwoKiYlI3UyRyIiIiUjdTRHIiIiIiIiIiIiIiIiJSN1NEciIiIhIiIvJSJ5RyoqJSN1MkciIiIlI3U0RyIiIiwoJSN1MUciIiIiIiIiIiIlI3U0RyIiIiIiIiwoKiYlI3UyRyIiIiUjdTRHIiIiIiIiIiIiIiIiJSN1NEciIiIhIiIvJSJ6RyoqJSN1NEciIiIsKCUjdTFHIiIiIiIiIiIiJSN1NEciIiIiIiIlI3UzRyIiIiwoKiYlI3UyRyIiIiUjdTRHIiIiIiIiIiIiIiIiJSN1NEciIiIhIiIvJSJ1RyooJSN1NEciIiIsKCUjdTFHIiIiIiIiIiIiJSN1NEciIiIiIiIsKComJSN1MkciIiIlI3U0RyIiIiIiIiIiIiIiIiUjdTRHIiIiISIiLyUidkcqKCwoJSN1MUciIiIiIiIiIiIlI3U0RyIiIiIiIiUjdTVHIiIiLCgqJiUjdTJHIiIiJSN1NEciIiIiIiIiIiIiIiIlI3U0RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check that the change of variables defined by <Font style="Help Math">F </Font>does indeed straighten out the vectors <Font style="Help Math">X1</Font>, <Font style="Help Math">X2</Font>, <Font style="Help Math">X3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L170">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">invF := InverseTransformation(F, "all");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbnZGRzcnLyUjdTFHKiYsLComJSJ4RyIiIiUieUciIiIiIiIqJCklInhHIiIjIiIiIiIiKiYlInhHIiIiJSJ1RyIiIiIiIiUieEchIiIlInVHISIiIiIiJSJ4RyEiIi8lI3UyRyomJSJ5RyIiIiUidUchIiIvJSN1M0cqJiUiekciIiIlInVHISIiLyUjdTRHKiYlInVHIiIiJSJ4RyEiIi8lI3U1RyomJSJ2RyIiIiUieEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L171">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Pushforward(invF, F, X1), Pushforward(invF, F, X2), Pushforward(invF, F, X3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiUlJURfdTFHJSVEX3UyRyUlRF91M0c=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]  </Font>The invariants in the coordinate system <Font style="Help Math">N</Font> are obviously <Font style="Help Math">u4</Font> and <Font style="Help Math">u5</Font>, which in terms of the original variables are <Font style="Help Math">u/x</Font> and <Font style="Help Math">y/v</Font>.  We check that these are the invariants.</Text-field>
+<Group drawlabel="true" labelreference="L172">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Matrix(3, 2, (i, j) -&gt; LieDerivative([X1, X2, X3][i], [u/x, v/x][j]));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKik9V0A6LSUnTUFUUklYRzYjNyU3JCIiISIiITckIiIhIiIhNyQiIiEiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field bookmark="Exercise 7" layout="Heading 2" style="Heading 2">Exercise 7</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In Lesson 5, we constructed the left and right invariant vector fields for the matrix group defined by the matrix <Font style="Help Math">A</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L173">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): DGsetup([x1, x2, x3], G):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L174">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">A := Matrix([[exp(-x1), -x1*exp(-x1), x2], [0, exp(-x1), x3], [0, 0, 1]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqa14wXyItJSdNQVRSSVhHNiM3JTclLSUkZXhwRzYjLCQlI3gxRyEiIiwkKiYlI3gxRyIiIi0lJGV4cEc2IywkJSN4MUchIiIiIiIhIiIlI3gyRzclIiIhLSUkZXhwRzYjLCQlI3gxRyEiIiUjeDNHNyUiIiEiIiEiIiIlJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L175">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XL := [D_x1, exp(-x1)*D_x2, -x1*exp(-x1)*D_x2 + exp(-x1)*D_x3];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYTEc3JSUlRF94MUcqJi0lJGV4cEc2IywkJSN4MUchIiIiIiIlJURfeDJHIiIiLCYqKCUjeDFHIiIiLSUkZXhwRzYjLCQlI3gxRyEiIiIiIiUlRF94MkciIiIhIiIqJi0lJGV4cEc2IywkJSN4MUchIiIiIiIlJURfeDNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L176">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XR := [D_x1 + (-x3 - x2)*D_x2 - x3*D_x3, D_x2, D_x3];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNYUkc3JSwoJSVEX3gxRyIiIiomLCYlI3gzRyEiIiUjeDJHISIiIiIiJSVEX3gyRyIiIiIiIiomJSN4M0ciIiIlJURfeDNHIiIiISIiJSVEX3gyRyUlRF94M0c=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  Check the invariance of these vector fields using the <Font style="Help Math">Pushforward</Font> map.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  Re-derive these formulas for the left and right invariant vector fields using the <Font style="Help Math">Pushforward</Font> map.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Hint:</Font> We calculated the multiplication rule <Font style="Help Math">[z1, z2, z3] = [x1, x2, x3]*[y1, y2, y3]</Font> to be the following.  Use this to define transformations from <Font style="Help Math">G</Font> to <Font style="Help Math">G</Font> giving left and right multiplications by<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font style="Help Math">[a1, a2, a3]</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L177">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationRule := [z3 = (y3 + x3*exp(x1))/exp(x1), z2 = (y2 - x1*y3 + x2*exp(x1))/exp(x1), z1 = x1 + y1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTNNdWx0aXBsaWNhdGlvblJ1bGVHNyUvJSN6M0cqJiwmJSN5M0ciIiIqJiUjeDNHIiIiLSUkZXhwRzYjJSN4MUciIiIiIiIiIiItJSRleHBHNiMlI3gxRyEiIi8lI3oyRyomLCglI3kyRyIiIiomJSN4MUciIiIlI3kzRyIiIiEiIiomJSN4MkciIiItJSRleHBHNiMlI3gxRyIiIiIiIiIiIi0lJGV4cEc2IyUjeDFHISIiLyUjejFHLCYlI3gxRyIiIiUjeTFHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i] </Font> Define right multiplication by <Font style="Help Math">[a1, a2, a3]</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L178">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">mult := eval(MultiplicationRule, [y1 = a1, y2 = a2, y3 = a3, z1 = x1, z2 = x2, z3 = x3]):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L179">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">RightMult := Transformation(G, G, mult); </Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSpSaWdodE11bHRHNyUvJSN4MUcsJiUjeDFHIiIiJSNhMUciIiIvJSN4MkcqJiwoJSNhMkciIiIqJiUjeDFHIiIiJSNhM0ciIiIhIiIqJiUjeDJHIiIiLSUkZXhwRzYjJSN4MUciIiIiIiIiIiItJSRleHBHNiMlI3gxRyEiIi8lI3gzRyomLCYlI2EzRyIiIiomJSN4M0ciIiItJSRleHBHNiMlI3gxRyIiIiIiIiIiIi0lJGV4cEc2IyUjeDFHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define left multiplication by <Font style="Help Math">[a1, a2, a3]</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L180">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">mult := eval(MultiplicationRule, [x1 = a1, x2 = a2, x3 = a3, z1 = x1, z2 = x2, z3 = x3]):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L181">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">mult := eval(mult, [y1 = x1, y2 = x2, y3 = x3]):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L182">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">LeftMult := Transformation(G, G, mult);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlMZWZ0TXVsdEc3JS8lI3gxRywmJSN4MUciIiIlI2ExRyIiIi8lI3gyRyomLCglI3gyRyIiIiomJSNhMUciIiIlI3gzRyIiIiEiIiomJSNhMkciIiItJSRleHBHNiMlI2ExRyIiIiIiIiIiIi0lJGV4cEc2IyUjYTFHISIiLyUjeDNHKiYsJiUjeDNHIiIiKiYlI2EzRyIiIi0lJGV4cEc2IyUjYTFHIiIiIiIiIiIiLSUkZXhwRzYjJSNhMUchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">To check the invariance of the vector fields<Font style="Help Math"> XL</Font> under left multiplication, we pushforward the vectors using <Font style="Help Math">LeftMult</Font> to obtain vector fields at the point <Font style="Help Math">p = a.x</Font> and compare the result with vector fields <Font style="Help Math">XL</Font> evaluated at <Font style="Help Math">p</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L183">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">pushXL := map2(Pushforward, LeftMult, XL);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdwdXNoWExHNyUlJURfeDFHKiYtJSRleHBHNiMsJiUjeDFHISIiJSNhMUchIiIiIiIlJURfeDJHIiIiLCYqKC0lJGV4cEc2IywmJSN4MUchIiIlI2ExRyEiIiIiIiwmJSN4MUciIiIlI2ExRyIiIiIiIiUlRF94MkciIiIhIiIqJi0lJGV4cEc2IywmJSN4MUchIiIlI2ExRyEiIiIiIiUlRF94M0ciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L184">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">p := ApplyTransformation(LeftMult, [x1 = x1, x1 = x1, x1 = x1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJwRzclLyUjeDFHLCYlI3gxRyIiIiUjYTFHIiIiLyUjeDJHKiYsKCUjeDJHIiIiKiYlI2ExRyIiIiUjeDNHIiIiISIiKiYlI2EyRyIiIi0lJGV4cEc2IyUjYTFHIiIiIiIiIiIiLSUkZXhwRzYjJSNhMUchIiIvJSN4M0cqJiwmJSN4M0ciIiIqJiUjYTNHIiIiLSUkZXhwRzYjJSNhMUciIiIiIiIiIiItJSRleHBHNiMlI2ExRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L185">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">evalXL := eval(XL, p);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdldmFsWExHNyUlJURfeDFHKiYtJSRleHBHNiMsJiUjeDFHISIiJSNhMUchIiIiIiIlJURfeDJHIiIiLCYqKCwmJSN4MUciIiIlI2ExRyIiIiIiIi0lJGV4cEc2IywmJSN4MUchIiIlI2ExRyEiIiIiIiUlRF94MkciIiIhIiIqJi0lJGV4cEc2IywmJSN4MUchIiIlI2ExRyEiIiIiIiUlRF94M0ciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L186">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">seq(pushXL[i] &amp;minus evalXL[i], i = 1 .. 3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiUqJiUiMEciIiIlJURfeDFHRiVGI0Yj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Likewise, to check the invariance of the vector fields <Font style="Help Math">XR</Font> under right multiplication, we pushforward the vectors using <Font style="Help Math">RightMult</Font> to obtain vector fields at the point <Font style="Help Math">p = x.a </Font>and compare the result with vector fields <Font style="Help Math">XR</Font> evaluated at <Font style="Help Math">p</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L187">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">pushXR := map2(Pushforward, RightMult, XR);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdwdXNoWFJHNyUsKCUlRF94MUciIiIqJiwsJSN4M0chIiIlI3gyRyEiIiomLSUkZXhwRzYjLCQlI3gxRyEiIiIiIiUjYTNHIiIiISIiKiYtJSRleHBHNiMsJCUjeDFHISIiIiIiJSNhMkciIiIhIiIqKC0lJGV4cEc2IywkJSN4MUchIiIiIiIlI3gxRyIiIiUjYTNHIiIiIiIiIiIiJSVEX3gyRyIiIiIiIiomLCYlI3gzRyEiIiomLSUkZXhwRzYjLCQlI3gxRyEiIiIiIiUjYTNHIiIiISIiIiIiJSVEX3gzRyIiIiIiIiUlRF94MkclJURfeDNH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L188">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">p := ApplyTransformation(RightMult, [x1 = x1, x1 = x1, x1 = x1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJwRzclLyUjeDFHLCYlI3gxRyIiIiUjYTFHIiIiLyUjeDJHKiYsKCUjYTJHIiIiKiYlI3gxRyIiIiUjYTNHIiIiISIiKiYlI3gyRyIiIi0lJGV4cEc2IyUjeDFHIiIiIiIiIiIiLSUkZXhwRzYjJSN4MUchIiIvJSN4M0cqJiwmJSNhM0ciIiIqJiUjeDNHIiIiLSUkZXhwRzYjJSN4MUciIiIiIiIiIiItJSRleHBHNiMlI3gxRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L189">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">evalXR := eval(XR, p);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdldmFsWFJHNyUsKCUlRF94MUciIiIqJiwmKiYsJiUjYTNHIiIiKiYlI3gzRyIiIi0lJGV4cEc2IyUjeDFHIiIiIiIiIiIiLSUkZXhwRzYjJSN4MUchIiIhIiIqJiwoJSNhMkciIiIqJiUjeDFHIiIiJSNhM0ciIiIhIiIqJiUjeDJHIiIiLSUkZXhwRzYjJSN4MUciIiIiIiIiIiItJSRleHBHNiMlI3gxRyEiIiEiIiIiIiUlRF94MkciIiIiIiIqKCwmJSNhM0ciIiIqJiUjeDNHIiIiLSUkZXhwRzYjJSN4MUciIiIiIiIiIiItJSRleHBHNiMlI3gxRyEiIiUlRF94M0ciIiIhIiIlJURfeDJHJSVEX3gzRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L190">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">seq(pushXR[i] &amp;minus evalXR[i], i = 1 .. 3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiUqJiUiMEciIiIlJURfeDFHRiVGI0Yj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii] </Font> We use the fact that if <Font style="Help Math">L_a(x) = a*x</Font> is left multiplication, and <Font style="Help Math">X_0</Font> is a vector at the identity then the vector field defined by <Font style="Help Math">X(a) = (L_a)_*(e)(X0)</Font> is always left invariant.</Text-field>
+<Group drawlabel="true" labelreference="L191">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XL1 := map2(Pushforward, LeftMult, [D_x1, D_x2, D_x3], [x1 = 0, x2 = 0, x3 = 0]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRYTDFHNyUlJURfeDFHKiYtJSRleHBHNiMsJCUjYTFHISIiIiIiJSVEX3gyRyIiIiwmKiglI2ExRyIiIi0lJGV4cEc2IywkJSNhMUchIiIiIiIlJURfeDJHIiIiISIiKiYtJSRleHBHNiMsJCUjYTFHISIiIiIiJSVEX3gzRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Replace <Font style="Help Math">[a1, a2, a3]</Font> by <Font style="Help Math">[x1, x2, x3]</Font> to obtain the left invariant vector fields.</Text-field>
+<Group drawlabel="true" labelreference="L192">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XL2 := eval(XL1, [a1 = x1, a2 = x2, a3 = x3]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRYTDJHNyUlJURfeDFHKiYtJSRleHBHNiMsJCUjeDFHISIiIiIiJSVEX3gyRyIiIiwmKiglI3gxRyIiIi0lJGV4cEc2IywkJSN4MUchIiIiIiIlJURfeDJHIiIiISIiKiYtJSRleHBHNiMsJCUjeDFHISIiIiIiJSVEX3gzRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L193">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XR1 := map2(Pushforward, RightMult, [D_x1, D_x2, D_x3], [x1 = 0, x2 = 0, x3 = 0]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRYUjFHNyUsKCUlRF94MUciIiIqJiwmJSNhM0chIiIlI2EyRyEiIiIiIiUlRF94MkciIiIiIiIqJiUjYTNHIiIiJSVEX3gzRyIiIiEiIiUlRF94MkclJURfeDNH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Replace <Font style="Help Math">[a1, a2, a3]</Font> by<Font style="Help Math"> [x1, x2, x3]</Font> to obtain the right invariant vector fields.</Text-field>
+<Group drawlabel="true" labelreference="L194">
+<Input>
+<Text-field layout="Normal" prompt="G &gt; " size="14" style="Maple Input"><Font size="14">XR2 := eval(XR1, [a1 = x1, a2 = x2, a3 = x3]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRYUjJHNyUsKCUlRF94MUciIiIqJiwmJSN4M0chIiIlI3gyRyEiIiIiIiUlRF94MkciIiIiIiIqJiUjeDNHIiIiJSVEX3gzRyIiIiEiIiUlRF94MkclJURfeDNH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+</Section>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Heading 1262" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+</Worksheet>

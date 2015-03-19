@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal258" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal259" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal260" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal261" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="NormalBlue" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1257" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="NormalBlue" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal258" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal259" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal260" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1257" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal261" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="10" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/LieAlgebras/LieAlgebraHomomorphisms"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field layout="Normal261" style="Normal261"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Normal258" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">LieAlgebra Lessons</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Heading 1" style="Heading 1">Lesson 4: Lie Algebra Homomorphisms</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this lesson, you will learn to do the following:</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Define a Lie algebra homomorphism between two Lie algebras.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Convert a derivation on a Lie algebra to a Lie algebra isomorphism.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Calculate the kernel and image of a Lie algebra homomorphism.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Calculate the inverse image of a subalgebra under a Lie algebra homomorphism.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Apply a Lie algebra homomorphism to a vector, differential form or tensor defined on a Lie algebra.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Define a Lie algebra homomorphism</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Homomorphisms between Lie algebras are defined using the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Transformation"><Font size="14" style="Hyperlink">Transformation</Font></Hyperlink> command.  To define some Lie algebra homomorphisms, we first initialize Lie algebras <Font style="Help Math">Alg1</Font>, <Font style="Help Math">Alg2</Font>, and <Font style="Help Math">Alg3</Font> of dimension <Font style="Help Math">3</Font>, <Font style="Help Math">5</Font>, and <Font style="Help Math">4</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the structure equations for the Lie algebras <Font style="Help Math">Alg1</Font>, <Font style="Help Math">Alg2</Font>, <Font style="Help Math">Alg3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">L1 := _DG([["LieAlgebra", Alg1, [3]], [[[1, 3, 1], 2], [[2, 3, 1], 2], [[2, 3, 2], 1]]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMUc3JC83JCUjZTFHJSNlM0csJComIiIjIiIiJSNlMUciIiIiIiIvNyQlI2UyRyUjZTNHLCYqJiIiIyIiIiUjZTFHIiIiIiIiJSNlMkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">L2 := _DG([["LieAlgebra", Alg2, [5]], [[[1, 3, 1], -1], [[1, 3, 2], -1], [[1, 4, 1], 1], [[2, 3, 1], 1], [[2, 3, 2], 1], [[2, 4, 1], 1], [[2, 4, 2], 2], [[3, 4, 1], 1], [[3, 4, 3], 1], [[3, 4, 5], -3], [[4, 5, 5], 2]]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMkc3KC83JCUjZTFHJSNlM0csJiUjZTFHISIiJSNlMkchIiIvNyQlI2UxRyUjZTRHJSNlMUcvNyQlI2UyRyUjZTNHLCYlI2UxRyIiIiUjZTJHIiIiLzckJSNlMkclI2U0RywmJSNlMUciIiIqJiIiIyIiIiUjZTJHIiIiIiIiLzckJSNlM0clI2U0RywoJSNlMUciIiIlI2UzRyIiIiomIiIkIiIiJSNlNUciIiIhIiIvNyQlI2U0RyUjZTVHLCQqJiIiIyIiIiUjZTVHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">L3 := _DG([["LieAlgebra", Alg3, [4]], [[[1, 2, 2], 1], [[1, 2, 3], -1], [[1, 2, 4], -2], [[1, 3, 2], 1], [[1, 3, 3], -1], [[1, 3, 4], -2], [[2, 3, 1], -1], [[2, 3, 2], 2], [[2, 3, 3], -2], [[2, 3, 4], 1], [[2, 4, 4], 2], [[3, 4, 4], 2]]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMM0c3Jy83JCUjZTFHJSNlMkcsKCUjZTJHIiIiJSNlM0chIiIqJiIiIyIiIiUjZTRHIiIiISIiLzckJSNlMUclI2UzRywoJSNlMkciIiIlI2UzRyEiIiomIiIjIiIiJSNlNEciIiIhIiIvNyQlI2UyRyUjZTNHLColI2UxRyEiIiomIiIjIiIiJSNlMkciIiIiIiIqJiIiIyIiIiUjZTNHIiIiISIiJSNlNEciIiIvNyQlI2UyRyUjZTRHLCQqJiIiIyIiIiUjZTRHIiIiIiIiLzckJSNlM0clI2U0RywkKiYiIiMiIiIlI2U0RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Initialize the Lie algebras A<Font style="Help Math">lg1</Font>, <Font style="Help Math">Alg2</Font>, <Font style="Help Math">Alg3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L1):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L2, [f], [omega]):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L3, [g], [sigma]):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a <Font style="Help Math">5x3</Font> matrix <Font style="Help Math">A</Font> and use this matrix to define a linear transformation from <Font style="Help Math">Alg1</Font> to <Font style="Help Math">Alg2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">A := Matrix([[1, 0, 0], [1, 1, 0], [0, 0, 1], [0, 0, 1], [0, 0, 0]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqM2JJYSItJSdNQVRSSVhHNiM3JzclIiIiIiIhIiIhNyUiIiIiIiIiIiE3JSIiISIiISIiIjclIiIhIiIhIiIiNyUiIiEiIiEiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">phi := Transformation(Alg1, Alg2, A);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHNyU3JCUjZTFHLCYlI2YxRyIiIiUjZjJHIiIiNyQlI2UyRyUjZjJHNyQlI2UzRywmJSNmM0ciIiIlI2Y0RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The output indicates that <Font style="Help Math">e1</Font> is mapped to <Font style="Help Math">f1 + f2</Font>, <Font style="Help Math">e2</Font> is mapped to <Font style="Help Math">f2</Font> and so on....</Text-field>
+<Text-field layout="Normal" style="Normal">Verify that <Font style="Help Math">phi</Font> is a Lie algebra homomorphism with the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/Query"><Font size="14" style="Hyperlink">Query</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">Query(phi, "Homomorphism");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a <Font style="Help Math">4x5</Font> matrix <Font style="Help Math">A</Font> and use this matrix to define a linear transformation from <Font style="Help Math">Alg2</Font> to <Font style="Help Math">Alg3</Font>.  In this example, the matrix <Font style="Help Math">B</Font> contains 2 parameters <Font style="Help Math">{a, b}</Font> and we shall determine the values of <Font style="Help Math">{a, b}</Font> for which the matrix <Font style="Help Math">B</Font> determines a Lie algebra homomorphism.</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">B := Matrix([[-1, 1, 0, 0, 0], [1, -1, 1, 0, 0], [-1, 1, -1, 1, a], [1, -1, 1, -1, b]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJCRy0lJ1JUQUJMRUc2JSIqZ3ZsYCItJSdNQVRSSVhHNiM3JjcnISIiIiIiIiIhIiIhIiIhNyciIiIhIiIiIiIiIiEiIiE3JyEiIiIiIiEiIiIiIiUiYUc3JyIiIiEiIiIiIiEiIiUiYkclJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">psi0 := Transformation(Alg2, Alg3, B);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVwc2kwRzcnNyQlI2YxRywqJSNnMUchIiIlI2cyRyIiIiUjZzNHISIiJSNnNEciIiI3JCUjZjJHLColI2cxRyIiIiUjZzJHISIiJSNnM0ciIiIlI2c0RyEiIjckJSNmM0csKCUjZzJHIiIiJSNnM0chIiIlI2c0RyIiIjckJSNmNEcsJiUjZzNHIiIiJSNnNEchIiI3JCUjZjVHLCYqJiUiYUciIiIlI2czRyIiIiIiIiomJSJiRyIiIiUjZzRHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Again we use the <Font style="Help Math">Query</Font> command, but this time we include the parameters in the calling sequence.  The <Font style="Help Math">Query</Font> command returns <Font style="Help Math">true</Font> to indicate that there are parameter values for which <Font style="Help Math">psi0</Font> is a Lie algebra homomorphism, the list of constraints that <Font style="Help Math">{a, b}</Font> must satisfy for <Font style="Help Math">psi0</Font> to be a homomorphism, the solutions to these constraints obtained by the Maple <Hyperlink hyperlink="true" linktarget="Help:solve"><Font size="14" style="Hyperlink">solve</Font></Hyperlink> program, and the result of back-substituting the solutions into <Font style="Help Math">psi0</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">Q := Query(psi0, {a, b}, "Homomorphism");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJRRzYmJSV0cnVlRzwrIiIhJSJhRywmKiYiIiQiIiIlImJHIiIiIiIiIiIkISIiLCQqJiIiIyIiIiUiYUciIiIhIiIsJComIiIkIiIiJSJhRyIiIiIiIiwmKiYiIiQiIiIlImJHIiIiISIiIiIkIiIiLCQqJiIiIyIiIiUiYUciIiIiIiIsJComIiIkIiIiJSJhRyIiIiEiIiwkJSJhRyEiIjcjPCQvJSJiRyIiIi8lImFHIiIhNyM3JzckJSNmMUcsKiUjZzFHISIiJSNnMkciIiIlI2czRyEiIiUjZzRHIiIiNyQlI2YyRywqJSNnMUciIiIlI2cyRyEiIiUjZzNHIiIiJSNnNEchIiI3JCUjZjNHLCglI2cyRyIiIiUjZzNHISIiJSNnNEciIiI3JCUjZjRHLCYlI2czRyIiIiUjZzRHISIiNyQlI2Y1RyUjZzRH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">psi := Q[4][1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNyc3JCUjZjFHLColI2cxRyEiIiUjZzJHIiIiJSNnM0chIiIlI2c0RyIiIjckJSNmMkcsKiUjZzFHIiIiJSNnMkchIiIlI2czRyIiIiUjZzRHISIiNyQlI2YzRywoJSNnMkciIiIlI2czRyEiIiUjZzRHIiIiNyQlI2Y0RywmJSNnM0ciIiIlI2c0RyEiIjckJSNmNUclI2c0Rw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Calculate the kernel and image of a Lie algebra homomorphism</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The kernel and image of a Lie algebra homomorphism can be computed with the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/HomomorphismSubalgebras"><Font size="14" style="Hyperlink">HomomorphismSubalgebras</Font></Hyperlink>.  We continue with the homomorphisms defined in the previous paragraph.  Here are the 3 Lie algebras we defined and the 2 homomorphisms <Font style="Help Math">phi</Font> and <Font style="Help Math">psi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable(Alg1, "LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKm9Xel8iLSUnTUFUUklYRzYjNyc3JyUhRyUifGdyRyUjZTFHJSNlMkclI2UzRzcnJSFHJSQtLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyclI2UxRyUifGdyRyIiISIiISwkKiYiIiMiIiIlI2UxRyIiIiIiIjcnJSNlMkclInxnckciIiEiIiEsJiomIiIjIiIiJSNlMUciIiIiIiIlI2UyRyIiIjcnJSNlM0clInxnckcsJComIiIjIiIiJSNlMUciIiIhIiIsJiomIiIjIiIiJSNlMUciIiIhIiIlI2UyRyEiIiIiISUnTWF0cml4Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable(Alg2, "LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKl86O18iLSUnTUFUUklYRzYjNyk3KSUhRyUifGdyRyUjZjFHJSNmMkclI2YzRyUjZjRHJSNmNUc3KSUhRyUkLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyklI2YxRyUifGdyRyIiISIiISwmJSNmMUchIiIlI2YyRyEiIiUjZjFHIiIhNyklI2YyRyUifGdyRyIiISIiISwmJSNmMUciIiIlI2YyRyIiIiwmJSNmMUciIiIqJiIiIyIiIiUjZjJHIiIiIiIiIiIhNyklI2YzRyUifGdyRywmJSNmMUciIiIlI2YyRyIiIiwmJSNmMUchIiIlI2YyRyEiIiIiISwoJSNmMUciIiIlI2YzRyIiIiomIiIkIiIiJSNmNUciIiIhIiIiIiE3KSUjZjRHJSJ8Z3JHLCQlI2YxRyEiIiwmJSNmMUchIiIqJiIiIyIiIiUjZjJHIiIiISIiLCglI2YxRyEiIiUjZjNHISIiKiYiIiQiIiIlI2Y1RyIiIiIiIiIiISwkKiYiIiMiIiIlI2Y1RyIiIiIiIjcpJSNmNUclInxnckciIiEiIiEiIiEsJComIiIjIiIiJSNmNUciIiIhIiIiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable(Alg3, "LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKndxIls6LSUnTUFUUklYRzYjNyg3KCUhRyUifGdyRyUjZzFHJSNnMkclI2czRyUjZzRHNyglIUclJC0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyglI2cxRyUifGdyRyIiISwoJSNnMkciIiIlI2czRyEiIiomIiIjIiIiJSNnNEciIiIhIiIsKCUjZzJHIiIiJSNnM0chIiIqJiIiIyIiIiUjZzRHIiIiISIiIiIhNyglI2cyRyUifGdyRywoJSNnMkchIiIlI2czRyIiIiomIiIjIiIiJSNnNEciIiIiIiIiIiEsKiUjZzFHISIiKiYiIiMiIiIlI2cyRyIiIiIiIiomIiIjIiIiJSNnM0ciIiIhIiIlI2c0RyIiIiwkKiYiIiMiIiIlI2c0RyIiIiIiIjcoJSNnM0clInxnckcsKCUjZzJHISIiJSNnM0ciIiIqJiIiIyIiIiUjZzRHIiIiIiIiLColI2cxRyIiIiomIiIjIiIiJSNnMkciIiIhIiIqJiIiIyIiIiUjZzNHIiIiIiIiJSNnNEchIiIiIiEsJComIiIjIiIiJSNnNEciIiIiIiI3KCUjZzRHJSJ8Z3JHIiIhLCQqJiIiIyIiIiUjZzRHIiIiISIiLCQqJiIiIyIiIiUjZzRHIiIiISIiIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">phi;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JTckJSNlMUcsJiUjZjFHIiIiJSNmMkciIiI3JCUjZTJHJSNmMkc3JCUjZTNHLCYlI2YzRyIiIiUjZjRHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">psi;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JzckJSNmMUcsKiUjZzFHISIiJSNnMkciIiIlI2czRyEiIiUjZzRHIiIiNyQlI2YyRywqJSNnMUciIiIlI2cyRyEiIiUjZzNHIiIiJSNnNEchIiI3JCUjZjNHLCglI2cyRyIiIiUjZzNHISIiJSNnNEciIiI3JCUjZjRHLCYlI2czRyIiIiUjZzRHISIiNyQlI2Y1RyUjZzRH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 1.</Font>  Calculate the kernel of the transformation<Font style="Help Math"> psi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">HomomorphismSubalgebras(psi, "Kernel");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3IywmJSNmMUciIiIlI2YyRyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 2.  </Font>Calculate the composition <Font style="Help Math">tau</Font> of the homomorphisms <Font style="Help Math">phi</Font> and <Font style="Help Math">psi</Font>.  Calculate the image of <Font style="Help Math">tau</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">tau := ComposeTransformations(psi, phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSR0YXVHNyU3JCUjZTFHKiYlIjBHIiIiJSNnMUciIiI3JCUjZTJHLColI2cxRyIiIiUjZzJHISIiJSNnM0ciIiIlI2c0RyEiIjckJSNlM0clI2cyRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">HomomorphismSubalgebras(tau, "Image");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCwoJSNnMUciIiIlI2czRyIiIiUjZzRHISIiJSNnMkc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 3.</Font>  Calculate the inverse-image of the subalgebra <Font style="Help Math">[g3, g4]</Font> in <Font style="Help Math">Alg2</Font> with respect to the homomorphism <Font style="Help Math">psi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">U := [g3, g4];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJVRzckJSNnM0clI2c0Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="Alg3 &gt; " size="14" style="Maple Input"><Font size="14">V :=HomomorphismSubalgebras(psi, U, "InverseImage");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJWRzclLCYlI2YxRyIiIiUjZjJHIiIiLCQlI2Y1RyEiIiwkJSNmNEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We can 'clean-up' this basis slightly with the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/CanonicalBasis"><Font size="14" style="Hyperlink">CanonicalBasis</Font></Hyperlink> command from the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools"><Font size="14" style="Hyperlink">Tools</Font></Hyperlink> package.</Text-field>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">Tools:-CanonicalBasis(V, [f1, f2, f3, f4, f5]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSwmJSNmMUciIiIlI2YyRyIiIiUjZjRHJSNmNUc=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Lie algebra derivations and automorphisms</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">A matrix <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">A</Font> is a derivation for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> if the associated linear transformation mapping <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> to <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> satisfies <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">A([x, y]) = [A(x), y] + [x, A(y)] </Font>for all<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> x</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> y </Font>in<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> g</Font>.  The command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/Derivations"><Font size="14" style="Hyperlink">Derivations</Font></Hyperlink> will compute all the derivations for a given Lie algebra.  The matrix exponential (<Hyperlink hyperlink="true" linktarget="Help:LinearAlgebra/MatrixExponential"><Font size="14" style="Hyperlink">LinearAlgebra:-MatrixExponential</Font></Hyperlink>) of any derivation of a Lie algebra <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> defines an automorphism of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this paragraph, we shall initialize a 4 dimensional Lie algebra <Font style="Help Math">Alg1</Font> from the <Font style="Help Math">DifferentialGeometry</Font> <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Library"><Font size="14" style="Hyperlink">Library</Font></Hyperlink>, calculate the derivations of this Lie algebra, and exponentiate a derivation to obtain a Lie algebra automorphism <Font style="Help Math">phi: Alg1 -&gt; Alg1</Font>.  We use the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/Query"><Font size="14" style="Hyperlink">Query</Font></Hyperlink> to check that <Font style="Help Math">phi</Font> is an homomorphism and the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/HomomorphismSubalgebras"><Font size="14" style="Hyperlink">HomomorphismSubalgebras</Font></Hyperlink> command to show that the kernel of <Font style="Help Math">phi</Font> is trivial.  These two calculations show that <Font style="Help Math">phi </Font>is an automorphism.</Text-field>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Library):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Library/Retrieve"><Font size="14" style="Hyperlink">Retrieve</Font></Hyperlink> a Lie algebra from the <Font style="Help Math">DifferentialGeometry</Font> Library and initialize it with the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGsetup"><Font size="14" style="Hyperlink">DGsetup</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">L := Retrieve("Winternitz", 1, [5, 24], Alg1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJMRzcnLzckJSNlMUclI2U1RywkKiYiIiMiIiIlI2UxRyIiIiIiIi83JCUjZTJHJSNlM0clI2UxRy83JCUjZTJHJSNlNUcsJiUjZTJHIiIiJSNlM0ciIiIvNyQlI2UzRyUjZTVHJSNlM0cvNyQlI2U0RyUjZTVHLCYqJiUiZUciIiIlI2UxRyIiIiIiIiomIiIjIiIiJSNlNEciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5BbGcxRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">Der := Derivations("Full");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSREZXJHNyktJSdSVEFCTEVHNiUiKi9iJ1s6LSUnTUFUUklYRzYjNyc3JyIiIyIiISIiISIiISIiITcnIiIhIiIiIiIhIiIhIiIhNyciIiEiIiEiIiIiIiEiIiE3JyIiISIiISIiISIiIyIiITcnIiIhIiIhIiIhIiIhIiIhJSdNYXRyaXhHLSUnUlRBQkxFRzYlIipnL2xjIi0lJ01BVFJJWEc2IzcnNyciIiEiIiIiIiEiIiEiIiE3JyIiISIiISIiISIiISIiITcnIiIhIiIhIiIhIiIhISIiNyciIiEiIiEiIiEiIiEiIiE3JyIiISIiISIiISIiISIiISUnTWF0cml4Ry0lJ1JUQUJMRUc2JSIqbyVSQDotJSdNQVRSSVhHNiM3JzcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiE3JyIiISIiIiIiISIiISIiITcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiElJ01hdHJpeEctJSdSVEFCTEVHNiUiKit5cF8iLSUnTUFUUklYRzYjNyc3JyIiISIiISIiIiIiISIiITcnIiIhIiIhIiIhIiIhIiIiNyciIiEiIiEiIiEiIiEiIiI3JyIiISIiISIiISIiISIiITcnIiIhIiIhIiIhIiIhIiIhJSdNYXRyaXhHLSUnUlRBQkxFRzYlIipDIypwYiItJSdNQVRSSVhHNiM3JzcnIiIhIiIhIiIhIiIiIiIhNyciIiEiIiEiIiEiIiEiIiE3JyIiISIiISIiISIiISIiITcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiElJ01hdHJpeEctJSdSVEFCTEVHNiUiKkNDOmEiLSUnTUFUUklYRzYjNyc3JyIiISIiISIiISIiISIiIjcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiE3JyIiISIiISIiISIiISIiITcnIiIhIiIhIiIhIiIhIiIhJSdNYXRyaXhHLSUnUlRBQkxFRzYlIipvIUhWOi0lJ01BVFJJWEc2IzcnNyciIiEiIiEiIiEiIiEiIiE3JyIiISIiISIiISIiISIiITcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiI3JyIiISIiISIiISIiISIiISUnTWF0cml4Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The set of derivations form a vector space (and, in fact, a Lie algebra) so we can take linear combinations of the matrices in <Font style="Help Math">Der </Font>and still obtain a derivation.</Text-field>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">a := Der[2] + t*Der[3] + s*Der[4];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJhRy0lJ1JUQUJMRUc2JSIqczYnWzotJSdNQVRSSVhHNiM3JzcnIiIhIiIiJSJzRyIiISIiITcnIiIhIiIhIiIhIiIhJSJzRzcnIiIhJSJ0RyIiISIiISwmIiIiISIiJSJzRyIiIjcnIiIhIiIhIiIhIiIhIiIhNyciIiEiIiEiIiEiIiEiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">Query(Alg1, a, "Derivation");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">A := LinearAlgebra:-MatrixExponential(a);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqc3pzYiItJSdNQVRSSVhHNiM3JzcnIiIiLCYiIiIiIiIqKCIiIyEiIiUidEciIiIlInNHIiIiIiIiJSJzRyIiISwmKiYjIiIiIiInIiIiKiYpJSJzRyIiIyIiIiUidEciIiIiIiIiIiIqJiMiIiIiIiMiIiIqJCklInNHIiIjIiIiIiIiIiIiNyciIiEiIiIiIiEiIiElInNHNyciIiElInRHIiIiIiIhLCgqJiMiIiIiIiMiIiIqJiUidEciIiIlInNHIiIiIiIiIiIiIiIiISIiJSJzRyIiIjcnIiIhIiIhIiIhIiIiIiIhNyciIiEiIiEiIiEiIiEiIiIlJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">tau := Transformation(Alg1, Alg1, A);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSR0YXVHNyc3JCUjZTFHJSNlMUc3JCUjZTJHLCgqJiwmIiIiIiIiKigiIiMhIiIlInRHIiIiJSJzRyIiIiIiIiIiIiUjZTFHIiIiIiIiJSNlMkciIiIqJiUidEciIiIlI2UzRyIiIiIiIjckJSNlM0csJiomJSJzRyIiIiUjZTFHIiIiIiIiJSNlM0ciIiI3JCUjZTRHJSNlNEc3JCUjZTVHLCoqJiwmKiYjIiIiIiInIiIiKiYpJSJzRyIiIyIiIiUidEciIiIiIiIiIiIqJiMiIiIiIiMiIiIqJCklInNHIiIjIiIiIiIiIiIiIiIiJSNlMUciIiIiIiIqJiUic0ciIiIlI2UyRyIiIiIiIiomLCgqJiMiIiIiIiMiIiIqJiUidEciIiIlInNHIiIiIiIiIiIiIiIiISIiJSJzRyIiIiIiIiUjZTNHIiIiIiIiJSNlNUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">Query(tau, "Homomorphism");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">HomomorphismSubalgebras(tau, "Kernel");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3Ig==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Apply a Lie algebra homomorphism to a vector, differential form or tensor</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">ApplyHomomorphism(Phi, T) </Font>will apply a Lie algebra homomorphism <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Phi</Font> to a vector, form, or tensor <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">T </Font>and return an object of the same type.  The precise evaluation rules for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">ApplyHomomorphism</Font> depend upon the specific properties of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">T </Font>and whether or not <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Phi</Font> is invertible.  See the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/ApplyHomomorphism"><Font size="14" style="Hyperlink">ApplyHomomorphism</Font></Hyperlink> help page for details.  Here are a few examples.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 1.  </Font>We begin with the Lie algebra isomorphism <Font style="Help Math">tau</Font> constructed in the previous section.  However, to better illustrate the effects of the <Font style="Help Math">ApplyHomomorphism</Font> command, let us relabel the basis vectors for the range algebra.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define and initialize the domain algebra for the Lie algebra isomorphism <Font style="Help Math">tau</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">L_domain := Retrieve("Winternitz", 1, [5, 24], Alg1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlMX2RvbWFpbkc3Jy83JCUjZTFHJSNlNUcsJComIiIjIiIiJSNlMUciIiIiIiIvNyQlI2UyRyUjZTNHJSNlMUcvNyQlI2UyRyUjZTVHLCYlI2UyRyIiIiUjZTNHIiIiLzckJSNlM0clI2U1RyUjZTNHLzckJSNlNEclI2U1RywmKiYlImVHIiIiJSNlMUciIiIiIiIqJiIiIyIiIiUjZTRHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L_domain);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5BbGcxRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define and initialize the range algebra for the Lie algebra isomorphism <Font style="Help Math">tau</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">L_range := Retrieve("Winternitz", 1, [5, 24], Alg2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JShMX3JhbmdlRzcnLzckJSNlMUclI2U1RywkKiYiIiMiIiIlI2UxRyIiIiIiIi83JCUjZTJHJSNlM0clI2UxRy83JCUjZTJHJSNlNUcsJiUjZTJHIiIiJSNlM0ciIiIvNyQlI2UzRyUjZTVHJSNlM0cvNyQlI2U0RyUjZTVHLCYqJiUiZUciIiIlI2UxRyIiIiIiIiomIiIjIiIiJSNlNEciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L_range, [f], [omega]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5BbGcyRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the matrix<Font style="Help Math"> A</Font> representing a transformation from<Font style="Help Math"> Alg1</Font> to <Font style="Help Math">Alg2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">A := Matrix([[1, 1 + 1/2*t*s, s, 0, 1/6*s^2*t + 1/2*s^2], [0, 1, 0, 0, s], [0, t, 1, 0, 1/2*t*s - 1 + s], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqISkzNGAiLSUnTUFUUklYRzYjNyc3JyIiIiwmIiIiIiIiKigiIiMhIiIlInRHIiIiJSJzRyIiIiIiIiUic0ciIiEsJiomIyIiIiIiJyIiIiomKSUic0ciIiMiIiIlInRHIiIiIiIiIiIiKiYjIiIiIiIjIiIiKiQpJSJzRyIiIyIiIiIiIiIiIjcnIiIhIiIiIiIhIiIhJSJzRzcnIiIhJSJ0RyIiIiIiISwoKiYjIiIiIiIjIiIiKiYlInRHIiIiJSJzRyIiIiIiIiIiIiIiIiEiIiUic0ciIiI3JyIiISIiISIiISIiIiIiITcnIiIhIiIhIiIhIiIhIiIiJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">tau := Transformation(Alg1, Alg2, A);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSR0YXVHNyc3JCUjZTFHJSNmMUc3JCUjZTJHLCgqJiwmIiIiIiIiKigiIiMhIiIlInRHIiIiJSJzRyIiIiIiIiIiIiUjZjFHIiIiIiIiJSNmMkciIiIqJiUidEciIiIlI2YzRyIiIiIiIjckJSNlM0csJiomJSJzRyIiIiUjZjFHIiIiIiIiJSNmM0ciIiI3JCUjZTRHJSNmNEc3JCUjZTVHLCoqJiwmKiYjIiIiIiInIiIiKiYpJSJzRyIiIyIiIiUidEciIiIiIiIiIiIqJiMiIiIiIiMiIiIqJCklInNHIiIjIiIiIiIiIiIiIiIiJSNmMUciIiIiIiIqJiUic0ciIiIlI2YyRyIiIiIiIiomLCgqJiMiIiIiIiMiIiIqJiUidEciIiIlInNHIiIiIiIiIiIiIiIiISIiJSJzRyIiIiIiIiUjZjNHIiIiIiIiJSNmNUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply <Font style="Help Math">tau</Font> to a vector in<Font style="Help Math"> Alg1</Font>.  The result is a vector in <Font style="Help Math">Alg2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">ApplyHomomorphism(tau, e2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComLCYiIiIiIiIqKCIiIyEiIiUidEciIiIlInNHIiIiIiIiIiIiJSNmMUciIiIiIiIlI2YyRyIiIiomJSJ0RyIiIiUjZjNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply <Font style="Help Math">tau</Font> to a 1-form in<Font style="Help Math"> Alg2</Font>.  The result is a 1-form in <Font style="Help Math">Alg1 -- </Font>in this case, <Font style="Help Math">tau</Font> acts via the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Pullback"><Font size="14" style="Hyperlink">Pullback</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">ApplyHomomorphism(tau, omega3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComJSJ0RyIiIiUndGhldGEyRyIiIiIiIiUndGhldGEzRyIiIiomLCgqJiMiIiIiIiMiIiIqJiUidEciIiIlInNHIiIiIiIiIiIiIiIiISIiJSJzRyIiIiIiIiUndGhldGE1RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply <Font style="Help Math">tau</Font> to a 2-form in<Font style="Help Math"> Alg2</Font>.  The result is a 2-form in <Font style="Help Math">Alg1 -- </Font>in this case, <Font style="Help Math">tau</Font> acts via the <Font style="Help Math">Pullback</Font> command.</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">ApplyHomomorphism(tau, omega3 &amp;wedge omega4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKCoqJSJ0RyIiIiUndGhldGEyRyIiIiUiXkciIiIlJ3RoZXRhNEciIiIiIiIqKCUndGhldGEzRyIiIiUiXkciIiIlJ3RoZXRhNEciIiIiIiIqKiwoKiYjIiIiIiIjIiIiKiYlInRHIiIiJSJzRyIiIiIiIiEiIiIiIiIiIiUic0chIiIiIiIlJ3RoZXRhNEciIiIlIl5HIiIiJSd0aGV0YTVHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply <Font style="Help Math">tau</Font> to a type <Font style="Help Math">(1, 1)</Font> tensor in<Font style="Help Math"> Alg1</Font>.  The result is a <Font style="Help Math">1-1</Font> tensor in <Font style="Help Math">Alg2 -- </Font>in this case, <Font style="Help Math">tau</Font> acts via the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor"><Font size="14" style="Hyperlink">PushPullTensor</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">ApplyHomomorphism(tau, e2 &amp;t theta5);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKCooLCYiIiIiIiIqKCIiIyEiIiUidEciIiIlInNHIiIiIiIiIiIiJSNmMUciIiIlJ29tZWdhNUciIiIiIiIqJiUjZjJHIiIiJSdvbWVnYTVHIiIiIiIiKiglInRHIiIiJSNmM0ciIiIlJ29tZWdhNUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Apply <Font style="Help Math">tau</Font> to a type <Font style="Help Math">(2, 0)</Font> tensor in<Font style="Help Math"> Alg2</Font>.  The result is a <Font style="Help Math">1-1</Font> tensor in <Font style="Help Math">Alg1 -- </Font>in this case, <Font style="Help Math">tau</Font> acts via the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor"><Font size="14" style="Hyperlink">PushPullTensor</Font></Hyperlink> command.</Text-field>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="Alg2 &gt; " size="14" style="Maple Input"><Font size="14">ApplyHomomorphism(tau, f2 &amp;t f3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsLiosIiIjISIiLCYiIiMhIiIqJiUidEciIiIlInNHIiIiIiIiIiIiJSJzRyIiIiUjZTFHIiIiJSNlMUciIiIhIiIqKCwmIiIiISIiKigiIiMhIiIlInRHIiIiJSJzRyIiIiIiIiIiIiUjZTFHIiIiJSNlM0ciIiIiIiIqKCUic0ciIiIlI2UyRyIiIiUjZTFHIiIiISIiKiYlI2UyRyIiIiUjZTNHIiIiIiIiKiolInRHIiIiJSJzRyIiIiUjZTNHIiIiJSNlMUciIiIiIiIqKCUidEciIiIlI2UzRyIiIiUjZTNHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">We emphasize that these last two calculations require the preliminary computation of the inverse of <Font style="Help Math">tau</Font> and would not be possible if <Font style="Help Math">tau</Font> were not invertible.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+</Worksheet>

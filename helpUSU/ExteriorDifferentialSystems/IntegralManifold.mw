@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/ExteriorDifferentialSystems/IntegralManifold"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L55" drawlabel="true">
+<Input>
+<Text-field style="Heading 1" layout="Heading 1">ExteriorDifferentialSystems[IntegralManifold]<Font font_style_name="Help Normal" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="18" bold="true" style="Help Normal" subscript="false" family="Times New Roma" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]"> - </Font><Font font_style_name="Help Normal" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Normal" subscript="false" family="Times New Roma" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]">find the integral manifolds for an exterior differential system</Font></Text-field>
+<Text-field bookmark="usage" style="Heading 2" layout="Heading 2">Calling Sequences</Text-field>
+<Text-field style="Normal" layout="Normal">    IntegralManifold(<Font bold="true" style="Text" foreground="[104,64,92]">Omega, P, options</Font>)</Text-field>
+<Text-field style="Normal" layout="Normal">    IntegralManifold(<Font bold="true" style="Text" foreground="[104,64,92]">Omega, phi, options</Font>)</Text-field>
+<Text-field style="Heading 2" layout="Heading 2">Parameters</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   Omega   - </Font>a list of differential forms on a manifold <Font bold="true" style="Text" foreground="[104,64,92]">M</Font></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   P       - </Font>a name or string, the name of an initialized manifold to be used for the domain of the integral manifold</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   phi     - </Font>a transformation, with range <Font bold="true" foreground="[104,64,92]">M</Font><Font style="Text">, and depending upon a number of arbitrary functions</Font></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced" size="10">   option  - </Font>(optional keyword arguments) <Font bold="true" style="Text" foreground="[104,64,92]">ansatz</Font><Font style="Text">, u<Font bold="true" foreground="[104,64,92]">nknowns</Font>,</Font> <Font bold="true" style="Text" foreground="[104,64,92]">auxiliaryequations</Font><Font style="Text">, <Font bold="true" foreground="[104,64,92]">output</Font></Font></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="info" style="Heading 2" layout="Heading 2">Description</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L56" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" bullet="dot"> Let <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGMg==</Equation> be an exterior differential system defined on a manifold <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>. and let <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> be a manifold. An integral manifold of <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGMg==</Equation> is a smooth immersion <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy</Equation> such that the <Hyperlink linktarget="Help:DifferentialGeometry/Pullback" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">pullback</Font></Hyperlink> <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlLUkjbW9HRiQ2LVEpJmxvd2FzdDtGJ0Y1LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTi9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictSShtZmVuY2VkR0YkNiQtRiM2JC1GLzYlUScmIzk2OTtGJ0YyRjVGNUY1LUY7Ni1RIn5GJ0Y1Rj5GQEZCRkRGRkZIRkpGTEZPLUY7Ni1RIj1GJ0Y1Rj5GQEZCRkRGRkZIRkovRk1RLDAuMjc3Nzc3OGVtRicvRlBGYW9Gam4tSSNtbkdGJDYkRldGNUY1">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlLUkjbW9HRiQ2LVEpJmxvd2FzdDtGJ0Y1LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTi9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictSShtZmVuY2VkR0YkNiQtRiM2JC1GLzYlUScmIzk2OTtGJ0YyRjVGNUY1LUY7Ni1RIn5GJ0Y1Rj5GQEZCRkRGRkZIRkpGTEZPLUY7Ni1RIj1GJ0Y1Rj5GQEZCRkRGRkZIRkovRk1RLDAuMjc3Nzc3OGVtRicvRlBGYW9Gam4tSSNtbkdGJDYkRldGNUY1</Equation> for all <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Njk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSS1GNjYtUSUmaW47RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjI3Nzc3NzhlbUYnL0ZLRlBGNS1GLDYlUSgmIzg0NjQ7RicvRjBRJXRydWVGJy9GM1EnaXRhbGljRidGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Njk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSS1GNjYtUSUmaW47RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjI3Nzc3NzhlbUYnL0ZLRlBGNS1GLDYlUSgmIzg0NjQ7RicvRjBRJXRydWVGJy9GM1EnaXRhbGljRidGMg==</Equation>. These conditions translate into a system of first-order PDE for the components of the transformation <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEmJnBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiQtRi82I1EhRidGNS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSIuRidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlQtRkE2LVEifkYnRjVGREZGRkhGSkZMRk5GUEZSRlVGNQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEmJnBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiQtRi82I1EhRidGNS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSIuRidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlQtRkE2LVEifkYnRjVGREZGRkhGSkZMRk5GUEZSRlVGNQ==</Equation>The command <Font bold="true" foreground="[104,64,92]">IntegralManifold </Font>uses <Hyperlink linktarget="Help:pdsolve" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">pdsolve</Font></Hyperlink> to integrate, if possible, this PDE system and return the integral manifold of <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> as a <Hyperlink linktarget="Help:DifferentialGeometry/Transformation" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">transformation</Font></Hyperlink> from <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5</Equation>to <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L225" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" bullet="dot">For the first calling sequence, general integral manifolds <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy</Equation>  are sought. Here it is often the case that Maple will be unable to find any integral manifolds. The keyword argument <Font bold="true" foreground="[104,64,92]">ansatz = list(equations) </Font>may be used to specify some of the components of <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSUYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSUYy</Equation>and thereby reduce the complexity of the PDE to be solved. </Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L227" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" bullet="dot">For the second calling sequence an integral manifold ansatz is specified explicitly by a transformation <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy</Equation>. For this calling sequence the unknown functions appearing in <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIjpGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GLDYlUSJQRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEifkYnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0ZXLUY2Ni1RKCZzcmFycjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYRlMtRiw2JVEiTUYnRk9GUUYy</Equation>  should be explicitly declared with the keyword argument <Font bold="true" foreground="[104,64,92]">unknowns</Font>. For the second calling sequence, additional constraints (equations or inequalities) may be imposed with the <Font bold="true" foreground="[104,64,92]">auxiliaryequations </Font>keyword.  </Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L58" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" bullet="dot">For either calling sequence, with the keyword argument <Font bold="true" foreground="[104,64,92]">output = &quot;equations&quot;</Font>, the determining PDE system for the integral manifolds is returned.</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Text-field bookmark="examples" style="Heading 2" layout="Heading 2">Examples</Text-field>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> with(DifferentialGeometry): with(ExteriorDifferentialSystems):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true">Example 1.</Font></Text-field>
+<Text-field style="Text" layout="Normal">In this example we find the integral curves (1-dimensional integral manifolds) for the Pfaffian system defined by a single 1-form in 2 variables. Define the manifold on which the Pfaffian system is defined.</Text-field>
+<Group labelreference="L60" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup([x, y], M1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5NMUc2Ig==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L81" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L79" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Define the parameter space for the integral manifolds.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L63" drawlabel="true">
+<Input>
+<Text-field prompt="M1 &gt; " style="Maple Input" layout="Normal">DGsetup([t], P1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5QMUc2Ig==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L85" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L83" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">The Pfaffian system <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=</Equation>is generated by the following 1-forms.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L61" drawlabel="true">
+<Input>
+<Text-field prompt="M1 &gt; " style="Maple Input" layout="Normal">Omega := [(x^2 + y^2)*dx - 2*x*y *dy];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Mzc7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ji1GIzYmLUYjNiYtRk02JC1GIzYmLUYjNiQtSSVtc3VwR0YkNiUtRiw2JVEieEYnL0YwUSV0cnVlRicvRjNRJ2l0YWxpY0YnLUkjbW5HRiQ2JFEiMkYnRjIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjItRjY2LVEiK0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0Zqby1GIzYkLUZmbjYlLUYsNiVRInlGJ0Zbb0Zdb0Zfb0Zjb0YyRjJGMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRmdwLUYsNiVRI2R4RidGW29GXW9GMi1GNjYtUSgmbWludXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmlvRltwLUYjNipGX29GY3BGaG5GY3BGYHBGY3AtRiw2JVEjZHlGJ0Zbb0Zdb0YyRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmRxRmdxRjI=">NyMsJiomLCYqJClJInhHJSpwcm90ZWN0ZWRHIiIjIiIiIiIiKiQpSSJ5RyUqcHJvdGVjdGVkRyIiIyIiIiIiIiIiIi1JJF9ER0c2IjYjNyQ3JVElZm9ybTYiSSNNMUc2IiIiIjcjNyQ3IyIiIiIiIiIiIiIiIioqIiIjIiIiSSJ4RyUqcHJvdGVjdGVkRyIiIkkieUclKnByb3RlY3RlZEciIiItSSRfREdHNiI2IzckNyVRJWZvcm02IkkjTTFHNiIiIiI3IzckNyMiIiMiIiIiIiIhIiI=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L87" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L77" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Here are the integral manifolds for <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVErJmltYWdsaW5lO0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVErJmltYWdsaW5lO0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=</Equation> found by the first calling sequence.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L62" drawlabel="true">
+<Input>
+<Text-field prompt="M1 &gt; " style="Maple Input" layout="Normal">Sigma := IntegralManifold(Omega, P1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRiM2Li1JKG1mZW5jZWRHRiQ2Ji1GIzYoLUYjNigtRiw2JVEieEYnL0YwUSV0cnVlRicvRjNRJ2l0YWxpY0YnLUY2Ni1RIj1GJ0YyRjlGO0Y9Rj9GQUZDRkVGR0ZKLUkjbW5HRiQ2JFEiMEYnRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMi1GNjYtUSIsRidGMkY5L0Y8RllGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLUSwwLjMzMzMzMzNlbUYnLUYjNigtRiw2JVEieUYnRlhGWkZmbkZpbkZdb0Zgb0YyRl1vRmBvRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Ziby1GTzYmLUYjNigtRiM2KEZVRmZuLUYjNiYtRmpuNiRRIklGJ0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjlGO0Y9Rj9GQUZDRkVGZm8vRktGZ28tRiw2JVEkX0MxRidGWEZaRjJGXW9GYG9GMkZiby1GIzYoRlxwRmZuRmRxRl1vRmBvRjJGXW9GYG9GMkYyRl9wRmJwRmJvLUZPNiYtRiM2KC1GIzYoRlVGZm4tRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGZXJGW3FGXW9GYG9GMkZdb0Zgb0YyRmJvRmdxRl1vRmBvRjJGMkZfcEZicEZiby1GTzYmLUYjNigtRiM2KEZVRmZuLUYjNidGYXItRiM2KC1JJm1mcmFjR0YkNigtRmpuNiRRIjFGJ0YyLUZqbjYkUSIyRidGMi8lLmxpbmV0aGlja25lc3NHRmZzLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl50LyUpYmV2ZWxsZWRHRjFGYHEtRiM2JEZkcUYyRl1vRmBvRjItRjY2LVEiK0YnRjJGOUY7Rj1GP0ZBRkNGRUZkckZmci1GIzYoRmFzRmBxLUYjNiQtSSZtc3FydEdGJDYjLUYjNiYtRiM2JC1JJW1zdXBHRiQ2JUZkcUZncy8lMXN1cGVyc2NyaXB0c2hpZnRHRlxvRjJGZXQtRiM2Ji1Gam42JFEiNEYnRjJGYHEtRmR1NiUtRiM2KC1GLDYlUSNGMkYnRlhGWi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGZm9GY3EtRk82JC1GIzYmLUYsNiVRInRGJ0ZYRlpGXW9GYG9GMkYyRl1vRmBvRjJGZ3NGZnVGMkYyRjJGXW9GYG9GMkYyRl1vRmBvRjJGYm8tRiM2KEZccEZmbkZfdkZdb0Zgb0YyRl1vRmBvRjJGMkZfcEZicEZiby1GTzYmLUYjNigtRiM2KEZVRmZuLUYjNidGYXJGX3MtRjY2LVEoJm1pbnVzO0YnRjJGOUY7Rj1GP0ZBRkNGRUZkckZmckZodEYyRl1vRmBvRjJGYm9GXndGXW9GYG9GMkYyRl9wRmJwRl1vRmBvRjJGXW9GYG9GMg==">NictSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMUdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIikvLUglKjckNyRGLUkieEdGNTckRi1JInlHRjUtRiQ2IzckNyZGKUYqRjA3Iy1GMzYjL0Y5IiljOEglKjckNyQqJl4jIiIiRk1JJF9DMUdGJUZNRj03JEZORj8tRiQ2IzckNyZGKUYqRjA3Iy1GMzYjL0Y5IikzREglKjckNyQsJComLCRGTEZNRk1GTkZNISIiRj1GTy1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKWdPSCUqNyQ3JCwmKiYjRk0iIiNGTUZORk1GaG4qJkZmb0ZNKSwmKiQpRk5GZ29GTUZNKiYiIiVGTSktSSNGMkdGJTYjSSJ0R0Y1RmdvRk1GTUZmb0ZNRk1GPTckRmBwRj8tRiQ2IzckNyZGKUYqRjA3Iy1GMzYjL0Y5Iik3W0glKjckNyQsJkZlb0ZobkZob0ZobkY9RmRw</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L91" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L92" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Use the <Hyperlink linktarget="Help:DifferentialGeometry/Pullback" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Pullback</Font></Hyperlink> command to check that the third transformation is an integral manifold.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L94" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">Pullback(Sigma[3], Omega);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYmLUYsNiYtSSNtaUdGJDYlUSIwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZRLUYxNiVRI2R0RidGNEY3Rj4vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkJGPkY+LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyMtSSRfREdHNiI2IzckNyVRJWZvcm02IkkjUDFHNiIiIiI3IzckNyMiIiIiIiE=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L96" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L89" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">We can specify that we want integral manifolds which are graphs of functions  <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSJGRidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNiQtRiw2JVEieEYnRi9GMkY5RjlGNUY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSJGRidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNiQtRiw2JVEieEYnRi9GMkY5RjlGNUY5</Equation> using the keyword argument <Font bold="true" foreground="[104,64,92]">ansatz</Font>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L67" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, P1, ansatz = [x = t]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkobWZlbmNlZEdGJDYmLUYjNigtRiM2KC1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlMtRjM2JVEidEYnRjZGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGREZALUY9Ni1RIixGJ0ZARkIvRkZGOEZHRklGS0ZNRk8vRlJRJjAuMGVtRicvRlVRLDAuMzMzMzMzM2VtRictRiM2KC1GMzYlUSJ5RidGNkY5RjwtRiM2Jy1GPTYtUSomdW1pbnVzMDtGJ0ZARkJGRUZHRklGS0ZNRk8vRlJRLDAuMjIyMjIyMmVtRicvRlVGW3AtRiM2JC1JJm1zcXJ0R0YkNiMtRiM2Ji1GIzYkLUklbXN1cEdGJDYlRlYtSSNtbkdGJDYkUSIyRidGQC8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGQC1GPTYtUSIrRidGQEZCRkVGR0ZJRktGTUZPRmpvRlxwLUYjNiZGVi1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGQEZCRkVGR0ZJRktGTUZPRlxvL0ZVRl1vLUYzNiVRJF9DMUYnRjZGOUZARkBGQEZZRmZuRkBGWUZmbkZARllGZm5GQEZALyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmhuLUYsNiYtRiM2KEYwRmhuLUYjNihGYm9GPEZdcEZZRmZuRkBGWUZmbkZARkBGXHJGX3JGWUZmbkZA">NiQtSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMUdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIilnS0klKjckNyRJInRHRjVJInhHRjU3JCwkKiQpLCYqJClGPSIiIyIiIkZHKiZGPUZHSSRfQzFHRiVGR0ZHI0ZHRkZGRyEiIkkieUdGNS1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKSUpSFkoKjckRjw3JEZBRkw=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L100" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L98" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">We calculate the integral manifolds of <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi5RIn5GJ0YvRjIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjsvJSlzdHJldGNoeUdGOy8lKnN5bW1ldHJpY0dGOy8lKGxhcmdlb3BHRjsvJS5tb3ZhYmxlbGltaXRzR0Y7LyUnYWNjZW50R0Y7LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi9GM1Enbm9ybWFsRic=</Equation>using the second calling sequence. First define a general transformation from <Font bold="true" foreground="[104,64,92]">P1</Font> to <Font bold="true" foreground="[104,64,92]">M1</Font>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L65" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">phi := Transformation(P1, M1, [x = f(t), y = g(t)]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2KC1GIzYoLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSi1GIzYoLUYsNiVRImZGJ0ZWRlgtRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRmBvLUZNNiQtRiM2Ji1GLDYlUSJ0RidGVkZYLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0YxRjJGMkZpb0ZccEYyRmlvRlxwRjItRjY2LVEiLEYnRjJGOS9GPEZXRj1GP0ZBRkNGRUZfby9GS1EsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRInlGJ0ZWRlhGWi1GIzYoLUYsNiVRImdGJ0ZWRlhGXG9GYm9GaW9GXHBGMkZpb0ZccEYyRmlvRlxwRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zpb0ZccEYy">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTFHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIpc1NZKCo3JDckLUkiZkdGJDYjSSJ0R0Y0SSJ4R0Y0NyQtSSJnR0YkRj5JInlHRjQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L64" drawlabel="true">
+<Input>
+<Text-field prompt="M1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, phi);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkobWZlbmNlZEdGJDYmLUYjNigtRiM2KC1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlMtSSNtbkdGJDYkUSIwRidGQC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGREZALUY9Ni1RIixGJ0ZARkIvRkZGOEZHRklGS0ZNRk8vRlJRJjAuMGVtRicvRlVRLDAuMzMzMzMzM2VtRictRiM2KC1GMzYlUSJ5RidGNkY5RjwtRiM2KC1GMzYlUSJnRidGNkY5LUY9Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRkBGQkZFRkdGSUZLRk1GT0Zdby9GVUZeby1GLDYkLUYjNiYtRjM2JVEidEYnRjZGOUZaRmduRkBGQEZaRmduRkBGWkZnbkZARlpGZ25GQEZALyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmluLUYsNiYtRiM2KC1GIzYoRjJGPC1GMzYlUSRfQzFGJ0Y2RjlGWkZnbkZARmluLUYjNihGY29GPEZWRlpGZ25GQEZaRmduRkBGQEZmcEZpcEZpbi1GLDYmLUYjNigtRiM2KEYyRjwtRiM2KC1GMzYlUSJmRidGNkY5RltwRl9wRlpGZ25GQEZaRmduRkBGaW4tRiM2KEZjb0Y8LUYjNictRj02LVEqJnVtaW51czA7RidGQEZCRkVGR0ZJRktGTUZPL0ZSUSwwLjIyMjIyMjJlbUYnL0ZVRmpyLUYjNiQtSSZtc3FydEdGJDYjLUYjNiYtRiM2JC1JJW1zdXBHRiQ2JUZdci1GVzYkUSIyRidGQC8lMXN1cGVyc2NyaXB0c2hpZnRHRllGQC1GPTYtUSIrRidGQEZCRkVGR0ZJRktGTUZPRmlyRltzLUYjNiZGXXItRj02LVExJkludmlzaWJsZVRpbWVzO0YnRkBGQkZFRkdGSUZLRk1GT0Zdb0ZecEZicUZARkBGQEZaRmduRkBGWkZnbkZARlpGZ25GQEZARmZwRmlwRmluLUYsNiYtRiM2KEZbckZpbi1GIzYoRmNvRjxGXHNGWkZnbkZARlpGZ25GQEZARmZwRmlwRlpGZ25GQA==">NiYtSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMUdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIik/JHB1KjckNyRGLUkieEdGNTckLUkiZ0dGJTYjSSJ0R0Y1SSJ5R0Y1LUYkNiM3JDcmRilGKkYwNyMtRjM2Iy9GOSIpVy5aKCo3JDckSSRfQzFHRiVGPTckRi1GQy1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKW84WigqNyQ3JC1JImZHRiVGQUY9NyQsJCokKSwmKiQpRmZuIiIjIiIiRmBvKiZGZm5GYG9GT0Zgb0ZgbyNGYG9GX29GYG8hIiJGQy1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKSNSc3UqNyRGZW43JEZqbkZD</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L104" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L102" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Here again are the integral manifolds which are graphs of functions <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEiRkYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInhGJ0YvRjJGOUY5Rjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEiRkYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInhGJ0YvRjJGOUY5Rjk=</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L66" drawlabel="true">
+<Input>
+<Text-field prompt="M1 &gt; " style="Maple Input" layout="Normal">phi := Transformation(P1, M1, [x = t, y = g(t)]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5NjY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2KC1GIzYoLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSi1GLDYlUSJ0RidGVkZYLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0YxRjItRjY2LVEiLEYnRjJGOS9GPEZXRj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS1EsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRInlGJ0ZWRlhGWi1GIzYoLUYsNiVRImdGJ0ZWRlgtRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGMkY5RjtGPUY/RkFGQ0ZFRmNvL0ZLRmRvLUZNNiQtRiM2JkZnbkZqbkZdb0YyRjJGam5GXW9GMkZqbkZdb0YyRmpuRl1vRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZqbkZdb0Yy">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTFHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIpM09aKCo3JDckSSJ0R0Y0SSJ4R0Y0NyQtSSJnR0YkNiNGPEkieUdGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L68" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, phi);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkobWZlbmNlZEdGJDYmLUYjNigtRiM2KC1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlMtRjM2JVEidEYnRjZGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGREZALUY9Ni1RIixGJ0ZARkIvRkZGOEZHRklGS0ZNRk8vRlJRJjAuMGVtRicvRlVRLDAuMzMzMzMzM2VtRictRiM2KC1GMzYlUSJ5RidGNkY5RjwtRiM2Jy1GPTYtUSomdW1pbnVzMDtGJ0ZARkJGRUZHRklGS0ZNRk8vRlJRLDAuMjIyMjIyMmVtRicvRlVGW3AtRiM2JC1JJm1zcXJ0R0YkNiMtRiM2Ji1GIzYkLUklbXN1cEdGJDYlRlYtSSNtbkdGJDYkUSIyRidGQC8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGQC1GPTYtUSIrRidGQEZCRkVGR0ZJRktGTUZPRmpvRlxwLUYjNiZGVi1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGQEZCRkVGR0ZJRktGTUZPRlxvL0ZVRl1vLUYzNiVRJF9DMUYnRjZGOUZARkBGQEZZRmZuRkBGWUZmbkZARllGZm5GQEZALyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmhuLUYsNiYtRiM2KEYwRmhuLUYjNihGYm9GPEZdcEZZRmZuRkBGWUZmbkZARkBGXHJGX3JGWUZmbkZA">NiQtSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMUdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIilnelooKjckNyRJInRHRjVJInhHRjU3JCwkKiQpLCYqJClGPSIiIyIiIkZHKiZGPUZHSSRfQzFHRiVGR0ZHI0ZHRkZGRyEiIkkieUdGNS1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKStHaygqNyRGPDckRkFGTA==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L107" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L105" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Let us use polar coordinates to parameterize the integral manifolds in terms of functions <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEickYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJ0YvRjIvRjNRJ25vcm1hbEYnRj1GPQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEickYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJ0YvRjIvRjNRJ25vcm1hbEYnRj1GPQ==</Equation> and <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NTI7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjJGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NTI7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjJGMg==</Equation>.  We see that no solutions are found.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L69" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">phi2 := Transformation(P1, M1, [x = r(t)*cos(theta(t)), y = r(t)*sin(theta(t))]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5NjY7MkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2KC1GIzYoLUYsNiVRInhGJ0YvRjItRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiM2Ji1GIzYoLUYsNiVRInJGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmFvLUZQNiQtRiM2Ji1GLDYlUSJ0RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUZqb0ZdcEY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGYG9GYm8tRiM2KC1GLDYlUSRjb3NGJy9GMEY9RjlGXW8tRlA2JC1GIzYmLUYjNigtRiw2JVEnJiM5NTI7RidGZ3BGOUZdb0Zjb0Zqb0ZdcEY5RmpvRl1wRjlGOUZqb0ZdcEY5RjlGam9GXXBGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmBvL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNigtRiw2JVEieUYnRi9GMkZZLUYjNiZGaG5GX3AtRiM2KC1GLDYlUSRzaW5GJ0ZncEY5Rl1vRmhwRmpvRl1wRjlGOUZqb0ZdcEY5RmpvRl1wRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zqb0ZdcEY5">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTFHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqJ2ZaIj0iNyQ3JComLUkickdGJDYjSSJ0R0Y0IiIiLUkkY29zR0YzNiMtSSZ0aGV0YUdGJEY/RkFJInhHRjQ3JComRj1GQS1JJHNpbkdGM0ZERkFJInlHRjQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L70" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">Sigma := IntegralManifold(Omega, phi2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRiM2Ji1GLDYjUSFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGMUYyRlFGVEYy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRiM2Ji1GLDYjUSFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGMUYyRlFGVEYy</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L115" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L113" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Simplify the defining equations for the integral manifolds by setting <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEnJiM5NTI7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjItSSNtb0dGJDYtUSJ+RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlUtRkI2LVEiPUYnRjJGRUZHRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0ZmbkZBRjpGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEnJiM5NTI7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYkLUYsNiVRInRGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjItSSNtb0dGJDYtUSJ+RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlUtRkI2LVEiPUYnRjJGRUZHRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0ZmbkZBRjpGMg==</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L71" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">phi3 := Transformation(P1, M1, [x = r(t)*cos(t), y = r(t)*sin(t)]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5NjY7M0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2KC1GIzYoLUYsNiVRInhGJ0YvRjItRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiM2Ji1GIzYoLUYsNiVRInJGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmFvLUZQNiQtRiM2Ji1GLDYlUSJ0RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUZqb0ZdcEY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGYG9GYm8tRiM2KC1GLDYlUSRjb3NGJy9GMEY9RjlGXW9GY29Gam9GXXBGOUY5RmpvRl1wRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZgby9GTlEsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRInlGJ0YvRjJGWS1GIzYmRmhuRl9wLUYjNigtRiw2JVEkc2luRidGZ3BGOUZdb0Zjb0Zqb0ZdcEY5RjlGam9GXXBGOUZqb0ZdcEY5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGam9GXXBGOQ==">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTFHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqU3A6PSI3JDckKiYtSSJyR0YkNiNJInRHRjQiIiItSSRjb3NHRjNGP0ZBSSJ4R0Y0NyQqJkY9RkEtSSRzaW5HRjNGP0ZBSSJ5R0Y0</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L73" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, phi3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkobWZlbmNlZEdGJDYmLUYjNigtRiM2KC1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlMtSSNtbkdGJDYkUSIwRidGQC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGREZALUY9Ni1RIixGJ0ZARkIvRkZGOEZHRklGS0ZNRk8vRlJRJjAuMGVtRicvRlVRLDAuMzMzMzMzM2VtRictRiM2KC1GMzYlUSJ5RidGNkY5RjxGVkZaRmduRkBGWkZnbkZARkAvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGaW4tRiw2Ji1GIzYoLUYjNihGMkY8LUkmbWZyYWNHRiQ2KC1GIzYoLUYzNiVRJF9DMUYnRjZGOS1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGQEZCRkVGR0ZJRktGTUZPRl1vL0ZVRl5vLUklbXN1cEdGJDYlLUYjNigtRjM2JVEkY29zRicvRjdGREZALUY9Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRkBGQkZFRkdGSUZLRk1GT0Zdb0ZdcS1GLDYkLUYjNiYtRjM2JVEidEYnRjZGOUZaRmduRkBGQEZaRmduRkAtRlc2JFEiMkYnRkAvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZZRlpGZ25GQC1GIzYmLUYjNihGY3FGZ3EtRiw2JC1GIzYmLUYjNiZGYXJGanBGXnJGQEZaRmduRkBGQEZaRmduRkBGWkZnbkZALyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zlcy8lKWJldmVsbGVkR0ZERlpGZ25GQEZpbi1GIzYoRmNvRjwtRmNwNigtRiM2KkZncEZqcEZhcUZqcC1GIzYoLUYzNiVRJHNpbkYnRmZxRkBGZ3FGanFGWkZnbkZARlpGZ25GQEZmckZgc0Zjc0Zmc0Zoc0ZaRmduRkBGWkZnbkZARkBGZm9GaW9GWkZnbkZA">NiQtSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMUdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIipveUorIjckNyRGLUkieEdGNTckRi1JInlHRjUtRiQ2IzckNyZGKUYqRjA3Iy1GMzYjL0Y5IiojKik9LjU3JDckKihJJF9DMUdGJSIiIiktSSRjb3NHRjQ2I0kidEdGNSIiI0ZNLUZQNiMsJComRlNGTUZSRk1GTSEiIkY9NyQqKkZMRk1GT0ZNRlRGWC1JJHNpbkdGNEZRRk1GPw==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L121" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L119" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Use the keyword argument <Font bold="true" foreground="[104,64,92]">auxiliaryequations </Font>to find the integral manifold through the point <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtSSNtbkdGJDYkUSIwRidGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRidGNUY1LUYsNiVRInlGJ0YvRjJGNUZPRjVGVUY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtSSNtbkdGJDYkUSIwRidGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRidGNUY1LUYsNiVRInlGJ0YvRjJGNUZPRjVGVUY5</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L74" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, phi3, auxiliaryequations = {r(0) = 1});</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYoLUYsNigtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiPUYnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZRLUkmbWZyYWNHRiQ2KC1GLDYmLUklbXN1cEdGJDYlLUYsNigtRjE2JVEkY29zRicvRjVGQkY+LUY7Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRj5GQEZDRkVGR0ZJRktGTS9GUFEmMC4wZW1GJy9GU0Zgby1GIzYkLUYsNiYtRjE2JVEidEYnRjRGNy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGQkY+Rj5GaW9GXHBGPi1JI21uR0YkNiRRIjJGJ0Y+LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zpb0ZccEY+LUYsNiYtRiw2KEZobkZcby1GIzYkLUYsNiYtRiw2JkZecC1GOzYtUTEmSW52aXNpYmxlVGltZXM7RidGPkZARkNGRUZHRklGS0ZNRl9vRmFvRmZvRj5GaW9GXHBGPkY+RmlvRlxwRj5GaW9GXHBGPi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZ3EvJSliZXZlbGxlZEdGQkZpb0ZccEY+LUY7Ni1RIixGJ0Y+RkAvRkRGNkZFRkdGSUZLRk1GX28vRlNRLDAuMzMzMzMzM2VtRictRiw2KC1GMTYlUSJ5RidGNEY3RjotRlU2KC1GLDYoRmZuRl9xLUYsNigtRjE2JVEkc2luRidGW29GPkZcb0Zib0Zpb0ZccEY+RmlvRlxwRj5GZXBGYnFGZXFGaHFGanFGaW9GXHBGPkZpb0ZccEY+Rj4vJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTFHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqU1RLKyI3JDckKiYpLUkkY29zR0YzNiNJInRHRjQiIiMiIiItRj82IywkKiZGQkZDRkFGQ0ZDISIiSSJ4R0Y0NyQqKEY+RkNGREZILUkkc2luR0YzRkBGQ0kieUdGNA==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L127" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L125" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 2.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L128" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">In this example we look for integral manifolds of dimensions 1 and 2 for a Pfaffian system defined by a single 1 form in 3 variables. Define the spaces we need.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L130" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L131" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">DGsetup([x, y, z], M2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5NMkc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L132" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">DGsetup([t], P1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5QMUc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L133" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">DGsetup([s, t], P2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5QMkc2Ig==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L145" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L142" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">The Pfaffian system <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation> is generated by a single 1-form.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L143" drawlabel="true">
+<Input>
+<Text-field prompt="P2 &gt; " style="Maple Input" layout="Normal">Omega := [(y + z)*dx + (x + z)*dy + (x + y)*dz];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Mzc7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ji1GIzYoLUYjNiYtRk02JC1GIzYmLUYsNiVRInlGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRl5vLUYsNiVRInpGJ0ZmbkZobkYyRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0Znby1GLDYlUSNkeEYnRmZuRmhuRjJGam4tRiM2Ji1GTTYkLUYjNiYtRiw2JVEieEYnRmZuRmhuRmpuRmBvRjJGMkZjby1GLDYlUSNkeUYnRmZuRmhuRjJGam4tRiM2Ji1GTTYkLUYjNiZGYnBGam5GWUYyRjJGY28tRiw2JVEjZHpGJ0ZmbkZobkYyRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmFxRmRxRjI=">NyMsKComLCZJInlHJSpwcm90ZWN0ZWRHIiIiSSJ6RyUqcHJvdGVjdGVkRyIiIiIiIi1JJF9ER0c2IjYjNyQ3JVElZm9ybTYiSSNNMkc2IiIiIjcjNyQ3IyIiIiIiIiIiIiIiIiomLCZJInhHJSpwcm90ZWN0ZWRHIiIiSSJ6RyUqcHJvdGVjdGVkRyIiIiIiIi1JJF9ER0c2IjYjNyQ3JVElZm9ybTYiSSNNMkc2IiIiIjcjNyQ3IyIiIyIiIiIiIiIiIiomLCZJInhHJSpwcm90ZWN0ZWRHIiIiSSJ5RyUqcHJvdGVjdGVkRyIiIiIiIi1JJF9ER0c2IjYjNyQ3JVElZm9ybTYiSSNNMkc2IiIiIjcjNyQ3IyIiJCIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L156" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L154" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Here are the general 1-dimensional integral manifolds.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L146" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">phi1 := Transformation(P1, M2, [x = f(t), y = g(t), z = k(t)]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5NjY7MUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ki1GIzYoLUYsNiVRInhGJ0YvRjItRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiM2KC1GLDYlUSJmRidGL0YyLUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZfby1GUDYkLUYjNiYtRiw2JVEidEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGaG9GW3BGOUZob0ZbcEY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGXm8vRk5RLDAuMzMzMzMzM2VtRictRiM2KC1GLDYlUSJ5RidGL0YyRlktRiM2KC1GLDYlUSJnRidGL0YyRltvRmFvRmhvRltwRjlGaG9GW3BGOUZdcC1GIzYoLUYsNiVRInpGJ0YvRjJGWS1GIzYoLUYsNiVRImtGJ0YvRjJGW29GYW9GaG9GW3BGOUZob0ZbcEY5RmhvRltwRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zob0ZbcEY5">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDFHRiQiIiE3JEkjTTJHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqJVtELjU3JTckLUkiZkdGJDYjSSJ0R0Y0SSJ4R0Y0NyQtSSJnR0YkRj5JInlHRjQ3JC1JImtHRiRGPkkiekdGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" labelreference="L147" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, phi1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkobWZlbmNlZEdGJDYmLUYjNiotRiM2KC1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlMtSSNtbkdGJDYkUSIwRidGQC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGREZALUY9Ni1RIixGJ0ZARkIvRkZGOEZHRklGS0ZNRk8vRlJRJjAuMGVtRicvRlVRLDAuMzMzMzMzM2VtRictRiM2KC1GMzYlUSJ5RidGNkY5RjxGVkZaRmduRkBGaW4tRiM2KC1GMzYlUSJ6RidGNkY5RjwtRiM2KC1GMzYlUSJrRidGNkY5LUY9Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRkBGQkZFRkdGSUZLRk1GT0Zdby9GVUZeby1GLDYkLUYjNiYtRjM2JVEidEYnRjZGOUZaRmduRkBGQEZaRmduRkBGWkZnbkZARlpGZ25GQEZALyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmluLUYsNiYtRiM2Ki1GIzYoRjJGPC1GMzYlUSRfQzFGJ0Y2RjlGWkZnbkZARmluLUYjNihGY29GPC1GIzYnLUY9Ni1RKiZ1bWludXMwO0YnRkBGQkZFRkdGSUZLRk1GTy9GUlEsMC4yMjIyMjIyZW1GJy9GVUZickZncUZaRmduRkBGWkZnbkZARmluRmZvRlpGZ25GQEZARltxRl5xRmluLUYsNiYtRiM2Ki1GIzYoRjJGPC1GIzYoLUYzNiVRImZGJ0Y2RjlGYHBGZHBGWkZnbkZARlpGZ25GQEZpbi1GIzYoRmNvRjwtRiM2KC1GMzYlUSJnRidGNkY5RmBwRmRwRlpGZ25GQEZaRmduRkBGaW4tRiM2KEZob0Y8LUkmbWZyYWNHRiQ2KC1GIzYmLUYjNidGXnItRiM2JkZhcy1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGQEZCRkVGR0ZJRktGTUZPRl1vRmNwRmpyRkAtRj02LVEiK0YnRkBGQkZFRkdGSUZLRk1GT0ZhckZjckZncUZARlpGZ25GQC1GIzYmLUYjNiZGanJGZHRGYXNGQEZaRmduRkAvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmB1LyUpYmV2ZWxsZWRHRkRGWkZnbkZARlpGZ25GQEZARltxRl5xRlpGZ25GQA==">NiUtSSRfREdHNiI2IzckNyZRL3RyYW5zZm9ybWF0aW9uRiU3JDckSSNQMUdGJSIiITckSSNNMkdGJUYtNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjL0kkJWlkR0YlIilfaGQoKTclNyRGLUkieEdGNTckRi1JInlHRjU3JC1JImtHRiU2I0kidEdGNUkiekdGNS1GJDYjNyQ3JkYpRipGMDcjLUYzNiMvRjkiKWNAcigpNyU3JEkkX0MxR0YlRj03JCwkRlEhIiJGP0ZALUYkNiM3JDcmRilGKkYwNyMtRjM2Iy9GOSIpKVtoeik3JTckLUkiZkdGJUZDRj03JC1JImdHRiVGQ0Y/NyQqJiwmKiZGXW8iIiJGam5GY29GVEZRRmNvRmNvLCZGam5GY29GXW9GY29GVEZF</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L160" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L158" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Here are the 2-dimensional integral manifolds which are given by graphs of functions  <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEiekYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSJGRidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNictRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRidGNS1GLDYlUSJ5RidGL0YyRjlGOUY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEiekYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSJGRidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNictRiw2JVEieEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRidGNS1GLDYlUSJ5RidGL0YyRjlGOUY5</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L148" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">phi2 := Transformation(P2, M2, [x = s, y = t, z = f(s, t)]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5NjY7MkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ki1GIzYoLUYsNiVRInhGJ0YvRjItRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEic0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiM2KC1GLDYlUSJ5RidGL0YyRlktRiw2JVEidEYnRi9GMkZpbkZcb0Y5Rl5vLUYjNigtRiw2JVEiekYnRi9GMkZZLUYjNigtRiw2JVEiZkYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGYm8vRk5GY28tRlA2JC1GIzYoRmZuRl5vRltwRmluRlxvRjlGOUZpbkZcb0Y5RmluRlxvRjlGaW5GXG9GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmluRlxvRjk=">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDJHRiQiIiE3JEkjTTJHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIpcyw0KSk3JTckSSJzR0Y0SSJ4R0Y0NyRJInRHRjRJInlHRjQ3JC1JImZHRiQ2JEY8Rj9JInpHRjQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" labelreference="L149" drawlabel="true">
+<Input>
+<Text-field prompt="P1 &gt; " style="Maple Input" layout="Normal">Sigma := IntegralManifold(Omega, phi2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ki1GIzYoLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSi1GLDYlUSJzRidGVkZYLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0YxRjItRjY2LVEiLEYnRjJGOS9GPEZXRj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS1EsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRInlGJ0ZWRlhGWi1GLDYlUSJ0RidGVkZYRmpuRl1vRjJGX28tRiM2KC1GLDYlUSJ6RidGVkZYRlotSSZtZnJhY0dGJDYoLUYjNiYtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGX3EtRiM2JkZccC1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmNvL0ZLRmRvRmduRjItRjY2LVEiK0YnRjJGOUY7Rj1GP0ZBRkNGRUZecUZgcS1GLDYlUSRfQzFGJ0ZWRlhGMkZqbkZdb0YyLUYjNiYtRiM2JkZnbkZncUZccEYyRmpuRl1vRjIvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmZyLyUpYmV2ZWxsZWRHRjFGam5GXW9GMkZqbkZdb0YyRjIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGam5GXW9GMg==">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDJHRiQiIiE3JEkjTTJHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIpJSlbWiMqNyU3JEkic0dGNEkieEdGNDckSSJ0R0Y0SSJ5R0Y0NyQqJiwmKiZGPyIiIkY8RkUhIiJJJF9DMUdGJEZFRkUsJkY8RkVGP0ZFRkZJInpHRjQ=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L152" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L163" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Check this last result.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L165" drawlabel="true">
+<Input>
+<Text-field prompt="P2 &gt; " style="Maple Input" layout="Normal">Pullback(Sigma, Omega);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYmLUYsNiYtSSNtaUdGJDYlUSIwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZRLUYxNiVRI2RzRidGNEY3Rj4vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkJGPkY+LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyMtSSRfREdHNiI2IzckNyVRJWZvcm02IkkjUDJHNiIiIiI3IzckNyMiIiIiIiE=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L162" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L169" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 3.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L168" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">In this example we write the solutions for the linear 3rd order ODE  <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIidGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4xMTExMTExZW1GJy8lJ3JzcGFjZUdRJjAuMGVtRidGNUY1LUY2Ni1RIn5GJ0Y5RjtGPkZARkJGREZGRkgvRktGT0ZNLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZYRlBGK0Y1RlAtRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yNzc3Nzc4ZW1GJy9GTkZobkZQLUkjbW5HRiQ2JFEiMEYnRjlGOQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIidGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4xMTExMTExZW1GJy8lJ3JzcGFjZUdRJjAuMGVtRidGNUY1LUY2Ni1RIn5GJ0Y5RjtGPkZARkJGREZGRkgvRktGT0ZNLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZYRlBGK0Y1RlAtRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yNzc3Nzc4ZW1GJy9GTkZobkZQLUkjbW5HRiQ2JFEiMEYnRjlGOQ==</Equation> as integral manifolds of a rank 3 Pfaffian system on a 4-dimensional manifold. </Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L167" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L177" drawlabel="true">
+<Input>
+<Text-field prompt="M3 &gt; " style="Maple Input" layout="Normal">DGsetup([x], P3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5QM0c2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" labelreference="L178" drawlabel="true">
+<Input>
+<Text-field prompt="P3 &gt; " style="Maple Input" layout="Normal">DGsetup([x, y, y1, y2], M3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5NM0c2Ig==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L140" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L173" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">The Pfaffian system is </Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L175" drawlabel="true">
+<Input>
+<Text-field prompt="P3 &gt; " style="Maple Input" layout="Normal">Omega := evalDG([dy - y1*dx, dy1- y2*dx, dy2 - y1*dx]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Mzc7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ki1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0ZXLUYjNiYtRiw2JVEjeTFGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRmBvLUYsNiVRI2R4RidGaG5Gam5GMi1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFRlZGWC1GLDYlUSNkeUYnRmhuRmpuRjItRjY2LVEiLEYnRjJGOS9GPEZpbkY9Rj9GQUZDRkVGX28vRktRLDAuMzMzMzMzM2VtRictRiM2J0ZTLUYjNiYtRiw2JVEjeTJGJ0ZobkZqbkZcb0Zib0YyRmVvLUYsNiVRJGR5MUYnRmhuRmpuRjJGW3AtRiM2J0ZTRllGZW8tRiw2JVEkZHkyRidGaG5Gam5GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGMUYyRjIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGYHFGY3FGMg==">NyUtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkjTTNHRiUiIiI3JDckNyNGKywkSSN5MUclKnByb3RlY3RlZEchIiI3JDcjIiIjRistRiQ2IzckRig3JDckRi4sJEkjeTJHRjFGMjckNyMiIiRGKy1GJDYjNyRGKDckRi03JDcjIiIlRis=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L189" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L181" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">and the integral manifolds are</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L186" drawlabel="true">
+<Input>
+<Text-field prompt="M3 &gt; " style="Maple Input" layout="Normal">IntegralManifold(Omega, P3, ansatz = [x = x]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYsLUYsNigtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiPUYnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZRRjAvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkJGPi1GOzYtUSIsRidGPkZAL0ZERjZGRUZHRklGS0ZNL0ZQUSYwLjBlbUYnL0ZTUSwwLjMzMzMzMzNlbUYnLUYsNigtRjE2JVEieUYnRjRGN0Y6LUYsNigtRiw2Ji1GMTYlUSRfQzFGJ0Y0RjctRjs2LVExJkludmlzaWJsZVRpbWVzO0YnRj5GQEZDRkVGR0ZJRktGTUZnbi9GU0Zobi1JJW1zdXBHRiQ2JS1GOzYtUS8mRXhwb25lbnRpYWxFO0YnRj5GQEZDRkVGR0ZJRktGTUZnbi9GU1EsMC4xMTExMTExZW1GJy1GLDYnLUY7Ni1RKiZ1bWludXMwO0YnRj5GQEZDRkVGR0ZJRktGTS9GUFEsMC4yMjIyMjIyZW1GJy9GU0ZpcEYwRlRGV0Y+LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y+LUY7Ni1RIitGJ0Y+RkBGQ0ZFRkdGSUZLRk1GaHBGanAtRiw2Ji1GMTYlUSRfQzJGJ0Y0RjdGZ28tRlxwNiVGXnBGMEZbcUY+Rl5xLUYxNiVRJF9DM0YnRjRGN0Y+RlRGV0Y+RlktRiw2KC1GMTYlUSN5MUYnRjRGN0Y6LUYsNidGZXBGYm9GXnFGYXFGPkZURldGPkZZLUYsNigtRjE2JVEjeTJGJ0Y0RjdGOi1GLDYmRmJvRl5xRmFxRj5GVEZXRj5GVEZXRj5GPi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDNHRiQiIiE3JEkjTTNHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqa3YlMzU3JjckSSJ4R0Y0Rjw3JCwoKiZJJF9DMUdGJCIiIi1JJGV4cEdGMzYjLCRGPCEiIkZBRkEqJkkkX0MyR0YkRkEtRkM2I0Y8RkFGQUkkX0MzR0YkRkFJInlHRjQ3JCwmRj9GRkZHRkFJI3kxR0Y0NyQsJkY/RkFGR0ZBSSN5MkdGNA==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L193" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L183" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">We remark that in the exterior differential system setting, a solution requires the specification of all the variables on the underlying manifold, and not solely the specification of the dependent variable.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L184" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L223" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 4.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L191" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Second order partial differential equations of the form <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRI3h5RidGMkY1RjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSC8lKXN0cmV0Y2h5R0ZILyUqc3ltbWV0cmljR0ZILyUobGFyZ2VvcEdGSC8lLm1vdmFibGVsaW1pdHNHRkgvJSdhY2NlbnRHRkgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZXLUZBNi1RIj1GJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjc3Nzc3OGVtRicvRllGaG4tRi82JVEiZkYnRjJGNS1JKG1mZW5jZWRHRiQ2JC1GIzYwLUYvNiVRInhGJ0YyRjUtRkE2LVEiLEYnRkRGRi9GSkY0RktGTUZPRlFGU0ZVL0ZZUSwwLjMzMzMzMzNlbUYnRkAtRi82JVEieUYnRjJGNUZlb0ZARi5GZW9GQC1GLDYlRi4tRiM2JUZib0YyRjVGPUZlb0ZALUYsNiVGLi1GIzYlRltwRjJGNUY9RkRGREZE">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRI3h5RidGMkY1RjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSC8lKXN0cmV0Y2h5R0ZILyUqc3ltbWV0cmljR0ZILyUobGFyZ2VvcEdGSC8lLm1vdmFibGVsaW1pdHNHRkgvJSdhY2NlbnRHRkgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZXLUZBNi1RIj1GJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjc3Nzc3OGVtRicvRllGaG4tRi82JVEiZkYnRjJGNS1JKG1mZW5jZWRHRiQ2JC1GIzYwLUYvNiVRInhGJ0YyRjUtRkE2LVEiLEYnRkRGRi9GSkY0RktGTUZPRlFGU0ZVL0ZZUSwwLjMzMzMzMzNlbUYnRkAtRi82JVEieUYnRjJGNUZlb0ZARi5GZW9GQC1GLDYlRi4tRiM2JUZib0YyRjVGPUZlb0ZALUYsNiVGLi1GIzYlRltwRjJGNUY9RkRGREZE</Equation> can always be re-formulated as a differential system generated by a 1-form and two 2-forms on a 5-dimensional manifold. We illustrate this using the equation <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRI3h5RidGMkY1RjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSC8lKXN0cmV0Y2h5R0ZILyUqc3ltbWV0cmljR0ZILyUobGFyZ2VvcEdGSC8lLm1vdmFibGVsaW1pdHNHRkgvJSdhY2NlbnRHRkgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZXLUZBNi1RIj1GJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjc3Nzc3OGVtRicvRllGaG5GQC1JJm1mcmFjR0YkNigtRiM2Ji1JI21uR0YkNiRRIjJGJ0ZERkBGLkZELUYjNiUtSSVtc3VwR0YkNiUtSShtZmVuY2VkR0YkNiQtRiM2Jy1GLzYlUSJ4RidGMkY1LUZBNi1RIitGJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjIyMjIyMmVtRicvRllGZHAtRi82JVEieUYnRjJGNUYyRjVGRC1GIzYlRl9vRjJGNS8lMXN1cGVyc2NyaXB0c2hpZnRHRj9GMkY1LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZicS8lKWJldmVsbGVkR0ZIRkQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUYvNiVRI3h5RidGMkY1RjJGNS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSC8lKXN0cmV0Y2h5R0ZILyUqc3ltbWV0cmljR0ZILyUobGFyZ2VvcEdGSC8lLm1vdmFibGVsaW1pdHNHRkgvJSdhY2NlbnRHRkgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZXLUZBNi1RIj1GJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjc3Nzc3OGVtRicvRllGaG5GQC1JJm1mcmFjR0YkNigtRiM2Ji1JI21uR0YkNiRRIjJGJ0ZERkBGLkZELUYjNiUtSSVtc3VwR0YkNiUtSShtZmVuY2VkR0YkNiQtRiM2Jy1GLzYlUSJ4RidGMkY1LUZBNi1RIitGJ0ZERkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjIyMjIyMmVtRicvRllGZHAtRi82JVEieUYnRjJGNUYyRjVGRC1GIzYlRl9vRjJGNS8lMXN1cGVyc2NyaXB0c2hpZnRHRj9GMkY1LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZicS8lKWJldmVsbGVkR0ZIRkQ=</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L228" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L198" drawlabel="true">
+<Input>
+<Text-field prompt="P3 &gt; " style="Maple Input" layout="Normal">DGsetup([x, y], P4);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5QNEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" labelreference="L199" drawlabel="true">
+<Input>
+<Text-field prompt="P4 &gt; " style="Maple Input" layout="Normal">DGsetup([x, y, u, p, q], M4);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS9mcmFtZX5uYW1lOn5NNEc2Ig==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L220" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L210" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Here are the generators of the differential system <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEoJiM4NDY0O0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation>. Since there are 2-form generators the EDS <Equation executable="false" style="2D Math" input-equation="" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVErJmltYWdsaW5lO0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVErJmltYWdsaW5lO0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==</Equation> is not a Pfaffian system.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L200" drawlabel="true">
+<Input>
+<Text-field prompt="M4 &gt; " style="Maple Input" layout="Normal">Omega := evalDG([du -p*dx -q*dy, (dp - 2*u/(x+y)^2*dy) &amp;w dx , (dq - 2*u/(x+y)^2*dx) &amp;w dy]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5Mzc7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ki1GIzYpLUY2Ni1RKiZ1bWludXMwO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0ZXLUYjNiYtRiw2JVEicEYnL0YwUSV0cnVlRicvRjNRJ2l0YWxpY0YnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGYG8tRiw2JVEjZHhGJ0ZobkZqbkYyLUY2Ni1RKCZtaW51cztGJ0YyRjlGO0Y9Rj9GQUZDRkVGVkZYLUYjNiYtRiw2JVEicUYnRmhuRmpuRlxvLUYsNiVRI2R5RidGaG5Gam5GMi1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFRlZGWC1GLDYlUSNkdUYnRmhuRmpuRjItRjY2LVEiLEYnRjJGOS9GPEZpbkY9Rj9GQUZDRkVGX28vRktRLDAuMzMzMzMzM2VtRictRiM2Ji1JJm1mcmFjR0YkNigtRiM2Li1JI21uR0YkNiRRIjJGJ0YyRlxvLUYsNiVRInVGJ0ZobkZqbkZcb0Zib0Zcby1GLDYlUSsmYmlnd2VkZ2U7RidGaG5Gam5GXG9GXXAvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMi1GIzYmLUklbXN1cEdGJDYlLUZNNiQtRiM2Ji1GLDYlUSJ4RidGaG5Gam5GYHAtRiw2JVEieUYnRmhuRmpuRjJGMkZjcS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGXXJGYHJGMi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaXMvJSliZXZlbGxlZEdGMUZlby1GIzYoRmJvRlxvRmpxRlxvLUYsNiVRI2RwRidGaG5Gam5GMkYyRmZwLUYjNidGU0ZecUZlby1GIzYoRl1wRlxvRmpxRlxvLUYsNiVRI2RxRidGaG5Gam5GMkYyRl1yRmByRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZdckZgckYy">NyUtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkjTTRHRiUiIiI3JTckNyNGKywkSSJwRyUqcHJvdGVjdGVkRyEiIjckNyMiIiMsJEkicUdGMUYyNyQ3IyIiJEYrLUYkNiM3JDclRilGKkY1NyQ3JDckRitGNSwkKihGNUYrSSJ1R0YxRispLCZJInhHRjFGK0kieUdGMUYrRjVGMkYrNyQ3JEYrIiIlRjItRiQ2IzckRj43JDckRkEsJEZDRjI3JDckRjUiIiZGMg==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L214" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L212" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">We look for integral manifolds which define graphs of functions<Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0YrRistRiw2LVEiPUYnRi9GMkY1RjdGOUY7Rj1GPy9GQlEsMC4yNzc3Nzc4ZW1GJy9GRUZTRistRkc2JVEiVUYnRkpGTS1JKG1mZW5jZWRHRiQ2JC1GIzYnLUZHNiVRInhGJ0ZKRk0tRiw2LVEiLEYnRi9GMi9GNkZMRjdGOUY7Rj1GP0ZBL0ZFUSwwLjMzMzMzMzNlbUYnRistRkc2JVEieUYnRkpGTUYvRi9GLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEidUYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJ0YrRistRiw2LVEiPUYnRi9GMkY1RjdGOUY7Rj1GPy9GQlEsMC4yNzc3Nzc4ZW1GJy9GRUZTRistRkc2JVEiVUYnRkpGTS1JKG1mZW5jZWRHRiQ2JC1GIzYnLUZHNiVRInhGJ0ZKRk0tRiw2LVEiLEYnRi9GMi9GNkZMRjdGOUY7Rj1GP0ZBL0ZFUSwwLjMzMzMzMzNlbUYnRistRkc2JVEieUYnRkpGTUYvRi9GLw==</Equation>.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L201" drawlabel="true">
+<Input>
+<Text-field prompt="M4 &gt; " style="Maple Input" layout="Normal">Sigma := IntegralManifold(Omega, P4, ansatz = [x = x, y = y]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Li1GIzYoLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSkZTLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0YxRjItRjY2LVEiLEYnRjJGOS9GPEZXRj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS1EsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRInlGJ0ZWRlhGWkZmb0ZnbkZqbkYyRlxvLUYjNigtRiw2JVEidUYnRlZGWEZaLUkmbWZyYWNHRiQ2KC1GIzYmLUYjNiotRiM2Ji1GTTYkLUYjNiZGUy1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRl9xRmZvRjJGMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmBvL0ZLRmFvLUZNNiQtRiM2KC1GX3A2KC1GIzYmLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjJGOUY7Rj1GP0ZBRkNGRUZgb0ZkcUZnbkZqbkYyLUYjNiYtRiM2J0ZdckZTRmduRmpuRjJGZ25Gam5GMi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaXIvJSliZXZlbGxlZEdGMUZhcS1GIzYoLUYsNiVRJF9GMUYnRlZGWC1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YyRjlGO0Y9Rj9GQUZDRkVGYG9GZHEtRk02JC1GIzYmRlNGZ25Gam5GMkYyRmduRmpuRjJGZ25Gam5GMkYyRjJGW3EtRiM2JkZncEZhcS1GTTYkLUYjNigtRl9wNihGW3ItRiM2Ji1GIzYnRl1yRmZvRmduRmpuRjJGZ25Gam5GMkZkckZnckZqckZcc0ZhcS1GIzYoLUYsNiVRJF9GMkYnRlZGWEZjcy1GTTYkLUYjNiZGZm9GZ25Gam5GMkYyRmduRmpuRjJGZ25Gam5GMkYyRjItRjY2LVEoJm1pbnVzO0YnRjJGOUY7Rj1GP0ZBRkNGRUZecUZgcS1GIzYmLUkjbW5HRiQ2JFEiMkYnRjJGYXFGZnRGMkZfdS1GIzYmRmR1RmFxRl5zRjJGMkZnbkZqbkYyLUYjNiYtRiM2Ji1GIzYmRmR1RmFxRlNGMkZbcS1GIzYmRmR1RmFxRmZvRjJGMkZnbkZqbkYyRmRyRmdyRmpyRlxzRmduRmpuRjJGXG8tRiM2KC1GLDYlUSJwRidGVkZYRlotRiM2KC1GX3A2KC1GZXU2JEZmckYyRmR1RmRyRmdyRmpyRlxzRmFxLUZfcDYoLUYjNiYtRiM2Ki1GIzYmLUklbXN1cEdGJDYlRmdwRmR1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZhcS1GTTYkLUYjNihGaXFGYXFGZXFGZ25Gam5GMkYyRjJGW3EtRiM2Ji1GTTYkLUYjNictRjY2LVEqJnVtaW51czA7RidGMkY5RjtGPUY/RkFGQ0ZFRl5xRmBxRl52Rl91RmB2RjJGMkZhcUZlcUYyRltxRmJ1RltxRmh1RjJGZ25Gam5GMi1GIzYmRmV3RmduRmpuRjJGZHJGZ3JGanJGXHNGZ25Gam5GMkZnbkZqbkYyRlxvLUYjNigtRiw2JVEicUYnRlZGWEZaLUYjNihGaXZGYXEtRl9wNigtRiM2Ji1GIzYqLUYjNiZGZXdGYXEtRk02JC1GIzYoRmB0RmFxRlx0RmduRmpuRjJGMkYyRltxLUYjNiZGYXhGYXFGXHRGMkZbcUZidUZbcUZodUYyRmduRmpuRjJGaHhGZHJGZ3JGanJGXHNGZ25Gam5GMkZnbkZqbkYyRmduRmpuRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZnbkZqbkYy">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkjUDRHRiQiIiE3JEkjTTRHRiRGLDciNyMtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiQ2Iy9JJCVpZEdGJCIqXzxAQCI3JzckSSJ4R0Y0Rjw3JEkieUdGNEY+NyQqJiwqKiYsJkY8IiIiRj5GREZELUklZGlmZkdGNDYkLUkkX0YxR0YkNiNGPEY8RkRGRComRkNGRC1GRjYkLUkkX0YyR0YkNiNGPkY+RkRGRComIiIjRkRGTkZEISIiKiZGUkZERkhGREZTRkQsJiomRlJGREY8RkRGRComRlJGREY+RkRGREZTSSJ1R0Y0NyQsJCooI0ZERlJGRCwqKiYpRkNGUkZELUZGNiRGRUY8RkRGRComLCZGVkZTRldGU0ZERkVGREZERlFGREZURkRGREZpbkZTRkRJInBHRjQ3JCwkKihGZm5GRCwqKiZGaW5GRC1GRjYkRkxGPkZERkQqJkZdb0ZERkxGREZERlFGREZURkRGREZpbkZTRkRJInFHRjQ=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L218" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L216" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Check this solution.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group view="code" labelreference="L203" drawlabel="true">
+<Input>
+<Text-field prompt="P4 &gt; " style="Maple Input" layout="Normal">Pullback(Sigma, Omega);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUYsNiYtSSNtaUdGJDYlUSIwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZRLUYxNiVRI2R4RidGNEY3Rj4tRjs2LVEiLEYnRj5GQC9GREY2RkVGR0ZJRktGTUZPL0ZTUSwwLjMzMzMzMzNlbUYnLUYsNipGMEY6RlRGOi1GMTYlUSsmYmlnd2VkZ2U7RidGNEY3RjotRjE2JVEjZHlGJ0Y0RjdGPkZXRmduLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZCRj5GPi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyUtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkjUDRHRiUiIiI3IzckNyNGKyIiIS1GJDYjNyQ3JUYpRioiIiM3IzckNyRGK0Y0Ri9GMA==</Equation></Text-field>
+</Output>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="seealso" style="Heading 2" layout="Heading 2">See Also</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L122" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/ExteriorDifferentialSystems" hyperlink="true"><Font style="Normal" underline="true" foreground="[0,128,128]">ExteriorDifferentialSystems</Font></Hyperlink></Text-field>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L9" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

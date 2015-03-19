@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal257" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal259" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="NormalBlue" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1258" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="NormalBlue" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal257" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal259" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1258" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="10" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/DifferentialGeometry/TensorAlgebra"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field layout="Normal259" style="Normal259"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Normal257" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">DifferentialGeometry Lessons</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Heading 1" style="Heading 1">Lesson 9: Tensor Algebra</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this lesson, you will learn to do the following:</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Rearrange the indices in a tensor.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Symmetrize and skew-symmetrize the indices of a tensor.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Contract the indices of a tensor.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Find the inverse of a metric.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Raise and lower indices of a tensor using a metric.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Generate spaces of symmetric tensors.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Rearrange the indices of a tensor</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Tensor command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/RearrangeIndices"><Font size="14" style="Hyperlink">RearrangeIndices</Font></Hyperlink> is used to rearrange the indices (or arguments) of a tensor.</Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="&gt;" size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(dx &amp;t D_y &amp;t dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSNkeEciIiIlJERfeUciIiIlI2R6RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Flip the 2nd and 3rd indices of <Font style="Help Math">T</Font> using the permutation notation (<Font style="Help Math">[1, 3, 2]</Font> means <Font style="Help Math">1 -&gt; 1</Font>, <Font style="Help Math">2 -&gt; 3</Font>, <Font style="Help Math">3 -&gt; 2</Font> -- see the help page for details).</Text-field>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">RearrangeIndices(T, [1, 3, 2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUjZHhHIiIiJSNkekciIiIlJERfeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Flip the 2nd and 3rd indices of <Font style="Help Math">T</Font> using the disjoint cycle notation (<Font style="Help Math">[[3, 2]]</Font>, means <Font style="Help Math">3 -&gt; 2</Font> and <Font style="Help Math">2 -&gt; 3</Font> and all other indices remain in the same place).</Text-field>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">RearrangeIndices(T, [[3,2]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUjZHhHIiIiJSNkekciIiIlJERfeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Permute the indices of <Font style="Help Math">T</Font> (send <Font style="Help Math">1 -&gt; 2</Font>, <Font style="Help Math">2 -&gt; 3</Font>, and <Font style="Help Math">3 -&gt; 1</Font>).</Text-field>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">RearrangeIndices(T, [[1, 2, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUjZHpHIiIiJSNkeEciIiIlJERfeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Symmetrize and skew-symetrize a list of indices</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">Tensor</Font></Hyperlink> command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/SymmetrizeIndices"><Font size="14" style="Hyperlink">SymmetrizeIndices</Font></Hyperlink> is used to symmetrize or skew-symmetrize a given list of indices.  The <Font style="Help Math">SymmetrizeIndices</Font> command acts as a projection operator -- the effect of two applications of this command yields the same result as a single application.</Text-field>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a tensor <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(D_x &amp;t D_y &amp;t D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSREX3hHIiIiJSREX3lHIiIiJSREX3pHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Symmetrize <Font style="Help Math">T</Font> over its first two indices.</Text-field>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">W := SymmetrizeIndices(T, [1, 2], "Symmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJXRywmKioiIiMhIiIlJERfeEciIiIlJERfeUciIiIlJERfekciIiIiIiIqKiIiIyEiIiUkRF95RyIiIiUkRF94RyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Symmetrize <Font style="Help Math">W </Font>over its first two indices.  The tensor <Font style="Help Math">W</Font> is returned.</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">newW := SymmetrizeIndices(W, [1, 2], "Symmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVuZXdXRywmKioiIiMhIiIlJERfeEciIiIlJERfeUciIiIlJERfekciIiIiIiIqKiIiIyEiIiUkRF95RyIiIiUkRF94RyIiIiUkRF96RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">newW &amp;minus W;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlJERfeEciIiIlJERfeEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Symmetrize <Font style="Help Math">T</Font> over all its indices.</Text-field>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">U := SymmetrizeIndices(T, [1, 2, 3], "Symmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJVRywuKioiIichIiIlJERfeEciIiIlJERfeUciIiIlJERfekciIiIiIiIqKiIiJyEiIiUkRF94RyIiIiUkRF96RyIiIiUkRF95RyIiIiIiIioqIiInISIiJSREX3lHIiIiJSREX3hHIiIiJSREX3pHIiIiIiIiKioiIichIiIlJERfeUciIiIlJERfekciIiIlJERfeEciIiIiIiIqKiIiJyEiIiUkRF96RyIiIiUkRF94RyIiIiUkRF95RyIiIiIiIioqIiInISIiJSREX3pHIiIiJSREX3lHIiIiJSREX3hHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Skew-symmetrize <Font style="Help Math">U</Font> over its 2nd and 3rd indices.</Text-field>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">SymmetrizeIndices(U, [2, 3], "SkewSymmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlJERfeEciIiIlJERfeEciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Contract the indices of a tensor or contract the indices between two tensors</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">Tensor</Font></Hyperlink> command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/SymmetrizeIndices"><Font size="14" style="Hyperlink">ContractIndices</Font></Hyperlink> can be used in two ways.</Text-field>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The first use is to contract a list of pairs of indices of a given tensor.</Text-field>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">T:= evalDG(D_x &amp;t dy &amp;t D_z &amp;t dz - 2*D_x &amp;t dx &amp;t D_x &amp;t dx);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURywmKiwiIiMiIiIlJERfeEciIiIlI2R4RyIiIiUkRF94RyIiIiUjZHhHIiIiISIiKiolJERfeEciIiIlI2R5RyIiIiUkRF96RyIiIiUjZHpHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Contract the 2nd and 3rd indices of <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(T, [[2, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJCooIiIjIiIiJSREX3hHIiIiJSNkeEciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Simultaneously contract the 2nd and 3rd indices and the 1st and 4th indices of <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(T, [[2,3], [1,4]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMhIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S := convert(D_y, DGtensor);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRyUkRF95Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The second use is contract indices of one tensor against those of a second tensor.  Contract the 2nd index of <Font style="Help Math">T</Font> against the 1st index of <Font style="Help Math">S</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(T, S, [[2, 1]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUkRF94RyIiIiUkRF96RyIiIiUjZHpHIiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Find the inverse of a metric tensor</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font size="14" style="Hyperlink">DifferentialGeometry</Font></Hyperlink> package, a metric tensor is defined to be a rank 2 covariant tensor which is symmetric and non-degenerate.  Use the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/InverseMetric"><Font size="14" style="Hyperlink">InverseMetric</Font></Hyperlink> to find the inverse of a metric tensor.</Text-field>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">g := evalDG(2*dx &amp;t dx + dx &amp;t dy + dy &amp;t dx);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywoKigiIiMiIiIlI2R4RyIiIiUjZHhHIiIiIiIiKiYlI2R4RyIiIiUjZHlHIiIiIiIiKiYlI2R5RyIiIiUjZHhHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">h := InverseMetric(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJoRywoKiYlJERfeEciIiIlJERfeUciIiIiIiIqJiUkRF95RyIiIiUkRF94RyIiIiIiIiooIiIjIiIiJSREX3lHIiIiJSREX3lHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Let's check that the symmetric matrix for <Font style="Help Math">g</Font> and the symmetric matrix for <Font style="Help Math">h</Font> are inverses.</Text-field>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">A := convert(g, DGArray);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIpKzRPYC0lJ01BVFJJWEc2IzckNyQiIiMiIiI3JCIiIiIiISUmQXJyYXlH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">B := convert(h, DGArray);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJCRy0lJ1JUQUJMRUc2JSIpU3c9YC0lJ01BVFJJWEc2IzckNyQiIiEiIiI3JCIiIiEiIyUmQXJyYXlH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">convert(A,Matrix).convert(B,Matrix);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKWMmUUwmLSUnTUFUUklYRzYjNyQ3JCIiIiIiITckIiIhIiIiJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Raise and lower indices</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">DifferentialGeometry Tensor</Font></Hyperlink> package, the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/RaiseLowerIndices"><Font size="14" style="Hyperlink">RaiseLowerIndices</Font></Hyperlink> is used to perform the operation of lowering indices (contravariant -&gt; covariant) with a metric tensor <Font style="Help Math">g </Font>and raising indices (covariant -&gt; contravariant) with the inverse of <Font style="Help Math">g</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a metric tensor <Font style="Help Math">g</Font> and calculate its inverse.</Text-field>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">g := evalDG(dx &amp;t dy + dy &amp;t dx);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywmKiYlI2R4RyIiIiUjZHlHIiIiIiIiKiYlI2R5RyIiIiUjZHhHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">h := InverseMetric(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJoRywmKiYlJERfeEciIiIlJERfeUciIiIiIiIqJiUkRF95RyIiIiUkRF94RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a tensor <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(dx &amp;t D_y &amp;t D_x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSNkeEciIiIlJERfeUciIiIlJERfeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Lower the 2nd index of <Font style="Help Math">T</Font> using the metric <Font style="Help Math">g</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">S := RaiseLowerIndices(g, T, [2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRyooJSNkeEciIiIlI2R4RyIiIiUkRF94RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Lower the 2nd and 3rd indices of <Font style="Help Math">T</Font> using the metric <Font style="Help Math">g</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">RaiseLowerIndices(g, T, [2, 3]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUjZHhHIiIiJSNkeEciIiIlI2R5RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Raise the 1st index of the tensor <Font style="Help Math">T</Font> using the inverse<Font style="Help Math"> h</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">RaiseLowerIndices(h, T, [1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUkRF95RyIiIiUkRF95RyIiIiUkRF94RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Generating lists of tensors</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">Tensor</Font></Hyperlink> commands <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/GenerateTensors"><Font size="14" style="Hyperlink">GenerateTensors</Font></Hyperlink> and <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/GenerateSymmetricTensors"><Font size="14" style="Hyperlink">GenerateSymmetricTensors</Font></Hyperlink> can be used to generate bases for various tensor spaces.</Text-field>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">First, use the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/DGinfo"><Font size="14" style="Hyperlink">Tools:-DGinfo</Font></Hyperlink> to generate the basis for the tangent and cotangent spaces.</Text-field>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Fr := Tools:-DGinfo(E2, "FrameBaseVectors");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNGckc3JCUkRF94RyUkRF95Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Omega := Tools:-DGinfo(E2, "FrameBaseForms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JCUjZHhHJSNkeUc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Generate all contravariant rank 2 tensors.</Text-field>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">GenerateTensors([Fr, Fr]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiomJSREX3hHIiIiJSREX3hHIiIiKiYlJERfeEciIiIlJERfeUciIiIqJiUkRF95RyIiIiUkRF94RyIiIiomJSREX3lHIiIiJSREX3lHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Generate all type <Font style="Help Math">(1, 1)</Font> tensors.</Text-field>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">GenerateTensors([Fr, Omega]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiomJSREX3hHIiIiJSNkeEciIiIqJiUkRF94RyIiIiUjZHlHIiIiKiYlJERfeUciIiIlI2R4RyIiIiomJSREX3lHIiIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Generate all contravariant rank 3 symmetric tensors.</Text-field>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">GenerateSymmetricTensors(Fr, 3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiooJSREX3hHIiIiJSREX3hHIiIiJSREX3hHIiIiLCgqKiIiJCEiIiUkRF94RyIiIiUkRF94RyIiIiUkRF95RyIiIiIiIioqIiIkISIiJSREX3hHIiIiJSREX3lHIiIiJSREX3hHIiIiIiIiKioiIiQhIiIlJERfeUciIiIlJERfeEciIiIlJERfeEciIiIiIiIsKCoqIiIkISIiJSREX3hHIiIiJSREX3lHIiIiJSREX3lHIiIiIiIiKioiIiQhIiIlJERfeUciIiIlJERfeEciIiIlJERfeUciIiIiIiIqKiIiJCEiIiUkRF95RyIiIiUkRF95RyIiIiUkRF94RyIiIiIiIiooJSREX3lHIiIiJSREX3lHIiIiJSREX3lHIiIi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Tensor algebra on vector bundles</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font size="14" style="Hyperlink">DifferentialGeometry</Font></Hyperlink> package supports tensor algebra and tensor analysis computations on vector bundles<Font style="Help Math"> E -&gt; M</Font> other than the tangent bundle.  To begin, simply create the vector bundle by passing to <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGsetup"><Font size="14" style="Hyperlink">DGsetup</Font></Hyperlink> two lists of coordinates, the first giving the base coordinates on <Font style="Help Math">M</Font> and the second giving the fiber coordinates on the vector bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">For example, we can define a rank 2 vector bundle over a 3 dimensional base space as follows:</Text-field>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], [u, v], E);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fkVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We have 4 types of tensors defined on <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">T := map(convert, [D_x, dx, D_u, du] ,DGtensor);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURzcmJSREX3hHJSNkeEclJERfdUclI2R1Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the index types for these 4 types of tensors.</Text-field>
+<Group drawlabel="true" labelreference="L47">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">map(Tools:-DGinfo, T, "TensorIndexType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JjcjUShjb25fYmFzNiI3I1EoY292X2JhczYiNyNRKGNvbl92cnQ2IjcjUShjb3ZfdnJ0NiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">All the commands in the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">Tensor</Font></Hyperlink> package work for tensors on the vector bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L48">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(du &amp;t D_u &amp;t dv);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSNkdUciIiIlJERfdUciIiIlI2R2RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L49">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">RearrangeIndices(T, [[1, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUjZHZHIiIiJSREX3VHIiIiJSNkdUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L50">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(T, [[1, 2]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlI2R2Rw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">PushPullTensor</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor"><Font size="14" style="Hyperlink">PushPullTensor</Font></Hyperlink> is used to transform tensors from one coordinate system to another and, more generally, to map a tensor on one manifold to a tensor on another manifold.  In these latter applications, the transformation need not be invertible.</Text-field>
+<Group drawlabel="true" labelreference="L51">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 1.</Font>  Transforming tensors from Cartesian to polar coordinates.</Text-field>
+<Group drawlabel="true" labelreference="L52">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L53">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([r, theta], P):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the change of variables from polar to Cartesian coordinates and calculate the inverse transformation.</Text-field>
+<Group drawlabel="true" labelreference="L54">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(P, E2,[x = r*cos(theta), y = r*sin(theta)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyQvJSJ4RyomJSJyRyIiIi0lJGNvc0c2IyUmdGhldGFHIiIiLyUieUcqJiUickciIiItJSRzaW5HNiMlJnRoZXRhRyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L55">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">_EnvExplicit := true:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L56">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">InvPhi := InverseTransformation(Phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdJbnZQaGlHNyQvJSJyRyokLCYqJCklInlHIiIjIiIiIiIiKiQpJSJ4RyIiIyIiIiIiIiMiIiIiIiMvJSZ0aGV0YUctJSdhcmN0YW5HNiQqJiUieUciIiIsJiokKSUieUciIiMiIiIiIiIqJCklInhHIiIjIiIiIiIiIyEiIiIiIyomJSJ4RyIiIiwmKiQpJSJ5RyIiIyIiIiIiIiokKSUieEciIiMiIiIiIiIjISIiIiIj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define tensors <Font style="Help Math">T1</Font>, <Font style="Help Math">T2</Font>, and <Font style="Help Math">T3</Font> in Cartesian coordinates.</Text-field>
+<Group drawlabel="true" labelreference="L57">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T1 := evalDG(D_x &amp;t D_x + D_y &amp;t D_y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUMUcsJiomJSREX3hHIiIiJSREX3hHIiIiIiIiKiYlJERfeUciIiIlJERfeUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L58">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T2 := evalDG(D_x &amp;t dy - D_y &amp;t dx);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUMkcsJiomJSREX3hHIiIiJSNkeUciIiIiIiIqJiUkRF95RyIiIiUjZHhHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L59">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T3 := evalDG(dx &amp;t dx + dy &amp;t dy);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUM0csJiomJSNkeEciIiIlI2R4RyIiIiIiIiomJSNkeUciIiIlI2R5RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">To transform these tensors from Cartesian coordinates to polar coordinates we use, as the first map in the <Font style="Help Math">PushPullTensor</Font> command, the map whose domain is <Font style="Help Math">E2</Font> and whose range is <Font style="Help Math">P</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L60">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">PushPullTensor(InvPhi, Phi, T1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiomJSREX3JHIiIiJSREX3JHIiIiIiIiKiglInJHISIjJShEX3RoZXRhRyIiIiUoRF90aGV0YUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L61">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">simplify(PushPullTensor(InvPhi, Phi, T2)) assuming r&gt;0;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiooJSJyRyIiIiUkRF9yRyIiIiUnZHRoZXRhRyIiIiIiIiooJSJyRyEiIiUoRF90aGV0YUciIiIlI2RyRyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L62">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">PushPullTensor(Phi,T3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiomJSNkckciIiIlI2RyRyIiIiIiIiooKSUickciIiMiIiIlJ2R0aGV0YUciIiIlJ2R0aGV0YUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">Note that for a covariant tensor such as <Font style="Help Math">T3</Font>, we use only one transformation.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 2. </Font> In this example, we compute the induced metric of a torus in <Font style="Help Math">R^3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L63">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v],E2): DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We use the standard parameterization of the torus.  See, for example, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/References#Differential Geometry"><Font size="14" style="Hyperlink">Bishop and Goldberg</Font></Hyperlink>, page 29.</Text-field>
+<Group drawlabel="true" labelreference="L64">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(E2, E3, [x = (a + b*sin(v))*cos(u), y = (a + b*sin(v))*sin(u), z = b*cos(v)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyUvJSJ4RyomLCYlImFHIiIiKiYlImJHIiIiLSUkc2luRzYjJSJ2RyIiIiIiIiIiIi0lJGNvc0c2IyUidUciIiIvJSJ5RyomLCYlImFHIiIiKiYlImJHIiIiLSUkc2luRzYjJSJ2RyIiIiIiIiIiIi0lJHNpbkc2IyUidUciIiIvJSJ6RyomJSJiRyIiIi0lJGNvc0c2IyUidkciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the standard metric <Font style="Help Math">g </Font>on <Font style="Help Math">E3</Font> and then pull it back to the torus using the parameterization <Font style="Help Math">Phi</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L65">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">g := evalDG(dx &amp;t dx + dy &amp;t dy + dz &amp;t dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywoKiYlI2R4RyIiIiUjZHhHIiIiIiIiKiYlI2R5RyIiIiUjZHlHIiIiIiIiKiYlI2R6RyIiIiUjZHpHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L66">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">gTorus := PushPullTensor(Phi, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdnVG9ydXNHLCYqKCwqKioiIiMiIiIlImFHIiIiJSJiRyIiIi0lJHNpbkc2IyUidkciIiIiIiIqJCklImFHIiIjIiIiIiIiKiQpJSJiRyIiIyIiIiIiIiomKSUiYkciIiMiIiIpLSUkY29zRzYjJSJ2RyIiIyIiIiEiIiIiIiUjZHVHIiIiJSNkdUciIiIiIiIqKCklImJHIiIjIiIiJSNkdkciIiIlI2R2RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">In the next lesson, we shall calculate the Gaussian curvature of this metric.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 3.</Font>  In this example, we  consider a metric on <Font style="Help Math">E3</Font> and project it to a metric on <Font style="Help Math">E2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L67">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2): DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L68">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">gE3 := evalDG(y^2*dx &amp;t dy + dx &amp;s dz + x* dy &amp;s dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRnRTNHLCwqKCklInlHIiIjIiIiJSNkeEciIiIlI2R5RyIiIiIiIiomJSNkeEciIiIlI2R6RyIiIiIiIiooJSJ4RyIiIiUjZHlHIiIiJSNkekciIiIiIiIqJiUjZHpHIiIiJSNkeEciIiIiIiIqKCUieEciIiIlI2R6RyIiIiUjZHlHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We note that this metric is invariant under translations in the <Font style="Help Math">z</Font>-direction.</Text-field>
+<Group drawlabel="true" labelreference="L69">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">T := Transformation(E3, E3, [x = x, y = y, z = z + epsilon]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURzclLyUieEclInhHLyUieUclInlHLyUiekcsJiUiekciIiIlKGVwc2lsb25HIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L70">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">PushPullTensor(T, gE3) &amp;minus gE3;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKCUiMEciIiIlI2R4RyIiIiUjZHhHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Because of this invariance, we can project <Font style="Help Math">g </Font>to a metric in the <Font style="Help Math">xy</Font>-plane.  First, we define the projection <Font style="Help Math">pi</Font> from <Font style="Help Math">E3</Font> to <Font style="Help Math">E2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L71">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">pi := Transformation(E3, E2, [x = x, y = y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNwaUc3JC8lInhHJSJ4Ry8lInlHJSJ5Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The map <Font style="Help Math">pi</Font> does not have an inverse but it does have a left inverse and this is the map that we shall use in the <Font style="Help Math">PushPullTensor</Font> command.</Text-field>
+<Group drawlabel="true" labelreference="L72">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">sigma := Transformation(E2, E3, [x = x ,y = y, z = 0]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZzaWdtYUc3JS8lInhHJSJ4Ry8lInlHJSJ5Ry8lInpHIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L73">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">ComposeTransformations(pi, sigma);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM3JC8lInhHJSJ4Ry8lInlHJSJ5Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L74">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">gE2 := PushPullTensor(pi, sigma, gE3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRnRTJHKigpJSJ5RyIiIyIiIiUjZHhHIiIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercises</Text-field></Title>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 1</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Symmetrize the tensor <Font style="Help Math">T</Font> on its first 2 indices and then skew-symmetrize the result on the 2nd and 3rd indices to obtain a tensor <Font style="Help Math">S</Font>.  Show that the cyclic permutation of the indices of <Font style="Help Math">S </Font>vanishes.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L75">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L76">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L77">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(dx &amp;t dy &amp;t dy + 2*dz &amp;t dx &amp;t dy - 4*dx &amp;t dz &amp;t dx); </Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURywoKiglI2R4RyIiIiUjZHlHIiIiJSNkeUciIiIiIiIqKiIiJSIiIiUjZHhHIiIiJSNkekciIiIlI2R4RyIiIiEiIioqIiIjIiIiJSNkekciIiIlI2R4RyIiIiUjZHlHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L78">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">T1 := SymmetrizeIndices(T, [1, 2], "Symmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUMUcsLioqIiIjISIiJSNkeEciIiIlI2R5RyIiIiUjZHlHIiIiIiIiKioiIiMiIiIlI2R4RyIiIiUjZHpHIiIiJSNkeEciIiIhIiIqKCUjZHhHIiIiJSNkekciIiIlI2R5RyIiIiIiIioqIiIjISIiJSNkeUciIiIlI2R4RyIiIiUjZHlHIiIiIiIiKioiIiMiIiIlI2R6RyIiIiUjZHhHIiIiJSNkeEciIiIhIiIqKCUjZHpHIiIiJSNkeEciIiIlI2R5RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L79">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S := SymmetrizeIndices(T1, [2, 3], "SkewSymmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRywyKiglI2R4RyIiIiUjZHhHIiIiJSNkekciIiIiIiIqKiIiIyEiIiUjZHhHIiIiJSNkeUciIiIlI2R6RyIiIiEiIiooJSNkeEciIiIlI2R6RyIiIiUjZHhHIiIiISIiKioiIiMhIiIlI2R4RyIiIiUjZHpHIiIiJSNkeUciIiIiIiIqKiIiJSEiIiUjZHlHIiIiJSNkeEciIiIlI2R5RyIiIiIiIioqIiIlISIiJSNkeUciIiIlI2R5RyIiIiUjZHhHIiIiISIiKioiIiMhIiIlI2R6RyIiIiUjZHhHIiIiJSNkeUciIiIiIiIqKiIiIyEiIiUjZHpHIiIiJSNkeUciIiIlI2R4RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L80">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S1 := RearrangeIndices(S, [[1, 2, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNTMUcsMiooJSNkekciIiIlI2R4RyIiIiUjZHhHIiIiIiIiKioiIiMhIiIlI2R6RyIiIiUjZHhHIiIiJSNkeUciIiIhIiIqKCUjZHhHIiIiJSNkeEciIiIlI2R6RyIiIiEiIioqIiIjISIiJSNkeUciIiIlI2R4RyIiIiUjZHpHIiIiIiIiKioiIiUhIiIlI2R5RyIiIiUjZHlHIiIiJSNkeEciIiIiIiIqKiIiJSEiIiUjZHhHIiIiJSNkeUciIiIlI2R5RyIiIiEiIioqIiIjISIiJSNkeUciIiIlI2R6RyIiIiUjZHhHIiIiIiIiKioiIiMhIiIlI2R4RyIiIiUjZHpHIiIiJSNkeUciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L81">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S2 := RearrangeIndices(S1, [[1, 2, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNTMkcsMiooJSNkeEciIiIlI2R6RyIiIiUjZHhHIiIiIiIiKioiIiMhIiIlI2R5RyIiIiUjZHpHIiIiJSNkeEciIiIhIiIqKCUjZHpHIiIiJSNkeEciIiIlI2R4RyIiIiEiIioqIiIjISIiJSNkekciIiIlI2R5RyIiIiUjZHhHIiIiIiIiKioiIiUhIiIlI2R4RyIiIiUjZHlHIiIiJSNkeUciIiIiIiIqKiIiJSEiIiUjZHlHIiIiJSNkeEciIiIlI2R5RyIiIiEiIioqIiIjISIiJSNkeEciIiIlI2R5RyIiIiUjZHpHIiIiIiIiKioiIiMhIiIlI2R5RyIiIiUjZHhHIiIiJSNkekciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L82">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S &amp;plus S1 &amp;plus S2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlI2R4RyIiIiUjZHhHIiIiJSNkeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 2</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the trace-free part of the rank 3 tensor <Font style="Help Math">T </Font>with respect to the metric <Font style="Help Math">g</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L83">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L84">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], E3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L85">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">T := 3 &amp;mult SymmetrizeIndices(dx &amp;t dy &amp;t dy + 2*dz &amp;t dx &amp;t dy - 4*(dx &amp;t dz &amp;t dx), [1, 2, 3], "Symmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyw6KioiIiUiIiIlI2R4RyIiIiUjZHhHIiIiJSNkekciIiIhIiIqKCUjZHhHIiIiJSNkeUciIiIlI2R5RyIiIiIiIiooJSNkeEciIiIlI2R5RyIiIiUjZHpHIiIiIiIiKioiIiUiIiIlI2R4RyIiIiUjZHpHIiIiJSNkeEciIiIhIiIqKCUjZHhHIiIiJSNkekciIiIlI2R5RyIiIiIiIiooJSNkeUciIiIlI2R4RyIiIiUjZHlHIiIiIiIiKiglI2R5RyIiIiUjZHhHIiIiJSNkekciIiIiIiIqKCUjZHlHIiIiJSNkeUciIiIlI2R4RyIiIiIiIiooJSNkeUciIiIlI2R6RyIiIiUjZHhHIiIiIiIiKioiIiUiIiIlI2R6RyIiIiUjZHhHIiIiJSNkeEciIiIhIiIqKCUjZHpHIiIiJSNkeEciIiIlI2R5RyIiIiIiIiooJSNkekciIiIlI2R5RyIiIiUjZHhHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L86">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">g := evalDG(dx &amp;s dy + dz &amp;t dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywoKiYlI2R4RyIiIiUjZHlHIiIiIiIiKiYlI2R5RyIiIiUjZHhHIiIiIiIiKiYlI2R6RyIiIiUjZHpHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We find the tensor <Font style="Help Math">U</Font> such that <Font style="Help Math">T - g &amp;t S</Font> is trace-free.</Text-field>
+<Group drawlabel="true" labelreference="L87">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">h := InverseMetric(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJoRywoKiYlJERfeEciIiIlJERfeUciIiIiIiIqJiUkRF95RyIiIiUkRF94RyIiIiIiIiomJSREX3pHIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define <Font style="Help Math">S </Font>to be a rank 1 tensor with unknown coefficients.  We shall determine <Font style="Help Math">{a, b, c} </Font>so that <Font style="Help Math">T - g &amp;t S</Font> is trace-free.</Text-field>
+<Group drawlabel="true" labelreference="L88">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">S := evalDG(a*dx + b*dy + c*dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRywoKiYlImFHIiIiJSNkeEciIiIiIiIqJiUiYkciIiIlI2R5RyIiIiIiIiomJSJjRyIiIiUjZHpHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L89">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">U := T &amp;minus (SymmetrizeIndices(g &amp;t S, [1, 2, 3], "Symmetric"));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJVRyxOKi4iIiMiIiIiIiQhIiIlImFHIiIiJSNkeEciIiIlI2R4RyIiIiUjZHlHIiIiISIiKioiIiUiIiIlI2R4RyIiIiUjZHhHIiIiJSNkekciIiIhIiIqLiIiIyIiIiIiJCEiIiUiYUciIiIlI2R4RyIiIiUjZHlHIiIiJSNkeEciIiIhIiIqKiwmKigiIiMiIiIiIiQhIiIlImJHIiIiISIiIiIiIiIiIiIiJSNkeEciIiIlI2R5RyIiIiUjZHlHIiIiIiIiKiosJiomIiIkISIiJSJjRyIiIiEiIiIiIiIiIiIiIiUjZHhHIiIiJSNkeUciIiIlI2R6RyIiIiIiIioqIiIlIiIiJSNkeEciIiIlI2R6RyIiIiUjZHhHIiIiISIiKiosJiomIiIkISIiJSJjRyIiIiEiIiIiIiIiIiIiIiUjZHhHIiIiJSNkekciIiIlI2R5RyIiIiIiIiosIiIkISIiJSJhRyIiIiUjZHhHIiIiJSNkekciIiIlI2R6RyIiIiEiIiouIiIjIiIiIiIkISIiJSJhRyIiIiUjZHlHIiIiJSNkeEciIiIlI2R4RyIiIiEiIioqLCYqKCIiIyIiIiIiJCEiIiUiYkciIiIhIiIiIiIiIiIiIiIlI2R5RyIiIiUjZHhHIiIiJSNkeUciIiIiIiIqKiwmKiYiIiQhIiIlImNHIiIiISIiIiIiIiIiIiIiJSNkeUciIiIlI2R4RyIiIiUjZHpHIiIiIiIiKiosJiooIiIjIiIiIiIkISIiJSJiRyIiIiEiIiIiIiIiIiIiIiUjZHlHIiIiJSNkeUciIiIlI2R4RyIiIiIiIioqLCYqJiIiJCEiIiUiY0ciIiIhIiIiIiIiIiIiIiIlI2R5RyIiIiUjZHpHIiIiJSNkeEciIiIiIiIqLCIiJCEiIiUiYkciIiIlI2R5RyIiIiUjZHpHIiIiJSNkekciIiIhIiIqKiIiJSIiIiUjZHpHIiIiJSNkeEciIiIlI2R4RyIiIiEiIioqLCYqJiIiJCEiIiUiY0ciIiIhIiIiIiIiIiIiIiIlI2R6RyIiIiUjZHhHIiIiJSNkeUciIiIiIiIqLCIiJCEiIiUiYUciIiIlI2R6RyIiIiUjZHhHIiIiJSNkekciIiIhIiIqKiwmKiYiIiQhIiIlImNHIiIiISIiIiIiIiIiIiIiJSNkekciIiIlI2R5RyIiIiUjZHhHIiIiIiIiKiwiIiQhIiIlImJHIiIiJSNkekciIiIlI2R5RyIiIiUjZHpHIiIiISIiKiwiIiQhIiIlImFHIiIiJSNkekciIiIlI2R6RyIiIiUjZHhHIiIiISIiKiwiIiQhIiIlImJHIiIiJSNkekciIiIlI2R6RyIiIiUjZHlHIiIiISIiKiolImNHIiIiJSNkekciIiIlI2R6RyIiIiUjZHpHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the trace of <Font style="Help Math">U </Font>and find the values of <Font style="Help Math">{a, b, c}</Font> such that this trace vanishes.</Text-field>
+<Group drawlabel="true" labelreference="L90">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">V := ContractIndices(h, U, [[1, 1], [2, 2]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJWRywoKioiIiYiIiIiIiQhIiIlImFHIiIiJSNkeEciIiIhIiIqJiwmKigiIiYiIiIiIiQhIiIlImJHIiIiISIiIiIjIiIiIiIiJSNkeUciIiIiIiIqJiwmKigiIiYiIiIiIiQhIiIlImNHIiIiISIiIiIjIiIiIiIiJSNkekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L91">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">Eq := Tools:-DGinfo(V, "CoefficientSet");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNFcUc8JSwkKigiIiYiIiIiIiQhIiIlImFHIiIiISIiLCYqKCIiJiIiIiIiJCEiIiUiYkciIiIhIiIiIiMiIiIsJiooIiImIiIiIiIkISIiJSJjRyIiIiEiIiIiIyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L92">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">Soln := solve(Eq, {a, b, c});</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVTb2xuRzwlLyUiYUciIiEvJSJiRyMiIiciIiYvJSJjRyMiIiciIiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L93">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">U := Tools:-DGsimplify(eval(U, Soln));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJVRyxCKioiIiUiIiIlI2R4RyIiIiUjZHhHIiIiJSNkekciIiIhIiIqKiIiJiEiIiUjZHhHIiIiJSNkeUciIiIlI2R5RyIiIiIiIiosIiIkIiIiIiImISIiJSNkeEciIiIlI2R5RyIiIiUjZHpHIiIiIiIiKioiIiUiIiIlI2R4RyIiIiUjZHpHIiIiJSNkeEciIiIhIiIqLCIiJCIiIiIiJiEiIiUjZHhHIiIiJSNkekciIiIlI2R5RyIiIiIiIioqIiImISIiJSNkeUciIiIlI2R4RyIiIiUjZHlHIiIiIiIiKiwiIiQiIiIiIiYhIiIlI2R5RyIiIiUjZHhHIiIiJSNkekciIiIiIiIqKiIiJiEiIiUjZHlHIiIiJSNkeUciIiIlI2R4RyIiIiIiIiosIiIkIiIiIiImISIiJSNkeUciIiIlI2R6RyIiIiUjZHhHIiIiIiIiKiwiIiMiIiIiIiYhIiIlI2R5RyIiIiUjZHpHIiIiJSNkekciIiIhIiIqKiIiJSIiIiUjZHpHIiIiJSNkeEciIiIlI2R4RyIiIiEiIiosIiIkIiIiIiImISIiJSNkekciIiIlI2R4RyIiIiUjZHlHIiIiIiIiKiwiIiQiIiIiIiYhIiIlI2R6RyIiIiUjZHlHIiIiJSNkeEciIiIiIiIqLCIiIyIiIiIiJiEiIiUjZHpHIiIiJSNkeUciIiIlI2R6RyIiIiEiIiosIiIjIiIiIiImISIiJSNkekciIiIlI2R6RyIiIiUjZHlHIiIiISIiKiwiIiciIiIiIiYhIiIlI2R6RyIiIiUjZHpHIiIiJSNkekciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We check this answer by checking that <Font style="Help Math">U</Font> is symmetric and trace-free.</Text-field>
+<Group drawlabel="true" labelreference="L94">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">SymmetrizeIndices(U, [1, 2], "SkewSymmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlI2R4RyIiIiUjZHhHIiIiJSNkeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L95">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">SymmetrizeIndices(U, [2, 3], "SkewSymmetric");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqKiUiMEciIiIlI2R4RyIiIiUjZHhHIiIiJSNkeEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L96">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(h, U, [[1, 1], [2, 2]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlI2R4RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L97">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">ContractIndices(h, U, [[1, 1], [2, 3]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiUiMEciIiIlI2R4RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 3</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Use the programs <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/GenerateSymmetricTensors"><Font size="14" style="Hyperlink">GenerateSymmetricTensors</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/GenerateTensors"><Font size="14" style="Hyperlink">GeneratorTensors</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/RearrangeIndices"><Font size="14" style="Hyperlink">RearrangeIndices</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGzip"><Font size="14" style="Hyperlink">DGzip</Font></Hyperlink>, and <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/Connection"><Font size="14" style="Hyperlink">Connection</Font></Hyperlink> to create the general symmetry connection on the 2-dimensional space <Font style="Help Math">E2</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L98">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L99">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], E2):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Group drawlabel="true" labelreference="L100">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Fr := [D_x, D_y];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNGckc3JCUkRF94RyUkRF95Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L101">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Omega:= [dx, dy];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JCUjZHhHJSNkeUc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Step 1. </Font> Generate all rank 2 covariant symmetric tensors.</Text-field>
+<Group drawlabel="true" labelreference="L102">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T1 := GenerateSymmetricTensors(Omega, 2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUMUc3JSomJSNkeEciIiIlI2R4RyIiIiwmKigiIiMhIiIlI2R4RyIiIiUjZHlHIiIiIiIiKigiIiMhIiIlI2R5RyIiIiUjZHhHIiIiIiIiKiYlI2R5RyIiIiUjZHlHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Step 2.</Font>  Form all tensor products of <Font style="Help Math">T1</Font> with <Font style="Help Math">Fr</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L103">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T2 := GenerateTensors([Fr, T1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUMkc3KCooJSREX3hHIiIiJSNkeEciIiIlI2R4RyIiIiwmKioiIiMhIiIlJERfeEciIiIlI2R4RyIiIiUjZHlHIiIiIiIiKioiIiMhIiIlJERfeEciIiIlI2R5RyIiIiUjZHhHIiIiIiIiKiglJERfeEciIiIlI2R5RyIiIiUjZHlHIiIiKiglJERfeUciIiIlI2R4RyIiIiUjZHhHIiIiLCYqKiIiIyEiIiUkRF95RyIiIiUjZHhHIiIiJSNkeUciIiIiIiIqKiIiIyEiIiUkRF95RyIiIiUjZHlHIiIiJSNkeEciIiIiIiIqKCUkRF95RyIiIiUjZHlHIiIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Step 3.</Font>  Rearrange the indices to obtain a list of tensors with index type <Font style="Help Math">["cov_bas", "con_bas", "cov_bas"]</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L104">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T3 := map(RearrangeIndices, T2, [[1, 2]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUM0c3KCooJSNkeEciIiIlJERfeEciIiIlI2R4RyIiIiwmKioiIiMhIiIlI2R4RyIiIiUkRF94RyIiIiUjZHlHIiIiIiIiKioiIiMhIiIlI2R5RyIiIiUkRF94RyIiIiUjZHhHIiIiIiIiKiglI2R5RyIiIiUkRF94RyIiIiUjZHlHIiIiKiglI2R4RyIiIiUkRF95RyIiIiUjZHhHIiIiLCYqKiIiIyEiIiUjZHhHIiIiJSREX3lHIiIiJSNkeUciIiIiIiIqKiIiIyEiIiUjZHlHIiIiJSREX3lHIiIiJSNkeEciIiIiIiIqKCUjZHlHIiIiJSREX3lHIiIiJSNkeUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Step 4. </Font> Generate a list of coefficients and zip against the list of tensors <Font style="Help Math">T3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L105">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">vars := [seq(a||i, i = 1 .. 6)](x, y);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSV2YXJzRzcoLSUjYTFHNiQlInhHJSJ5Ry0lI2EyRzYkJSJ4RyUieUctJSNhM0c2JCUieEclInlHLSUjYTRHNiQlInhHJSJ5Ry0lI2E1RzYkJSJ4RyUieUctJSNhNkc2JCUieEclInlH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L106">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">T4 := DGzip(vars, T3, "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNUNEcsMioqLSUjYTFHNiQlInhHJSJ5RyIiIiUjZHhHIiIiJSREX3hHIiIiJSNkeEciIiIiIiIqJiMiIiIiIiMiIiIqKi0lI2EyRzYkJSJ4RyUieUciIiIlI2R4RyIiIiUkRF94RyIiIiUjZHlHIiIiIiIiIiIiKiotJSNhNEc2JCUieEclInlHIiIiJSNkeEciIiIlJERfeUciIiIlI2R4RyIiIiIiIiomIyIiIiIiIyIiIioqLSUjYTVHNiQlInhHJSJ5RyIiIiUjZHhHIiIiJSREX3lHIiIiJSNkeUciIiIiIiIiIiIqJiMiIiIiIiMiIiIqKi0lI2EyRzYkJSJ4RyUieUciIiIlI2R5RyIiIiUkRF94RyIiIiUjZHhHIiIiIiIiIiIiKiotJSNhM0c2JCUieEclInlHIiIiJSNkeUciIiIlJERfeEciIiIlI2R5RyIiIiIiIiomIyIiIiIiIyIiIioqLSUjYTVHNiQlInhHJSJ5RyIiIiUjZHlHIiIiJSREX3lHIiIiJSNkeEciIiIiIiIiIiIqKi0lI2E2RzYkJSJ4RyUieUciIiIlI2R5RyIiIiUkRF95RyIiIiUjZHlHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Step 5.</Font>  Use <Font style="Help Math">T4</Font> as input to the <Font style="Help Math">Connection</Font> procedure.</Text-field>
+<Group drawlabel="true" labelreference="L107">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">C := Connection(T4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRywyKiotJSNhMUc2JCUieEclInlHIiIiJSNkeEciIiIlJERfeEciIiIlI2R4RyIiIiIiIiomIyIiIiIiIyIiIioqLSUjYTJHNiQlInhHJSJ5RyIiIiUjZHhHIiIiJSREX3hHIiIiJSNkeUciIiIiIiIiIiIqKi0lI2E0RzYkJSJ4RyUieUciIiIlI2R4RyIiIiUkRF95RyIiIiUjZHhHIiIiIiIiKiYjIiIiIiIjIiIiKiotJSNhNUc2JCUieEclInlHIiIiJSNkeEciIiIlJERfeUciIiIlI2R5RyIiIiIiIiIiIiomIyIiIiIiIyIiIioqLSUjYTJHNiQlInhHJSJ5RyIiIiUjZHlHIiIiJSREX3hHIiIiJSNkeEciIiIiIiIiIiIqKi0lI2EzRzYkJSJ4RyUieUciIiIlI2R5RyIiIiUkRF94RyIiIiUjZHlHIiIiIiIiKiYjIiIiIiIjIiIiKiotJSNhNUc2JCUieEclInlHIiIiJSNkeUciIiIlJERfeUciIiIlI2R4RyIiIiIiIiIiIioqLSUjYTZHNiQlInhHJSJ5RyIiIiUjZHlHIiIiJSREX3lHIiIiJSNkeUciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 4</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Express the metric <Font style="Help Math">g </Font>in null coordinates.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L108">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L109">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, u, y, v], M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk1H</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L110">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas", 2, 2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywqKiYlI2R4RyIiIiUjZHhHIiIiIiIiKiYlI2R1RyIiIiUjZHVHIiIiIiIiKiYlI2R5RyIiIiUjZHlHIiIiISIiKiYlI2R2RyIiIiUjZHZHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Group drawlabel="true" labelreference="L111">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, y1, y2], N);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6fk5H</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L112">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(M, N,[x1 = (x + y)/sqrt(2), x2 = (x - y)/sqrt(2), y1 = (u + v)/sqrt(2), y2 = (u - v)/sqrt(2)]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyYvJSN4MUcsJCooIiIjISIiLCYlInhHIiIiJSJ5RyIiIiIiIiIiIyMiIiIiIiMiIiIvJSN4MkcsJCooIiIjISIiLCYlInhHIiIiJSJ5RyEiIiIiIiIiIyMiIiIiIiMiIiIvJSN5MUcsJCooIiIjISIiLCYlInVHIiIiJSJ2RyIiIiIiIiIiIyMiIiIiIiMiIiIvJSN5MkcsJCooIiIjISIiLCYlInVHIiIiJSJ2RyEiIiIiIiIiIyMiIiIiIiMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L113">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">InvPhi := InverseTransformation(Phi);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdJbnZQaGlHNyYvJSJ4RywkKigiIiMhIiIiIiMjIiIiIiIjLCYlI3gxRyIiIiUjeDJHIiIiIiIiIiIiLyUidUcsJCooIiIjISIiIiIjIyIiIiIiIywmJSN5MUciIiIlI3kyRyIiIiIiIiIiIi8lInlHLCQqKCIiIyEiIiIiIyMiIiIiIiMsJiUjeDJHISIiJSN4MUciIiIiIiIiIiIvJSJ2RywkKigiIiMhIiIiIiMjIiIiIiIjLCYlI3kyRyEiIiUjeTFHIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L114">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">PushPullTensor(InvPhi, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" size="14" style="2D Output"><Equation executable="false" style="2D Output">NiMsKiomJSRkeDFHIiIiJSRkeDJHIiIiIiIiKiYlJGR4MkciIiIlJGR4MUciIiIiIiIqJiUkZHkxRyIiIiUkZHkyRyIiIiIiIiomJSRkeTJHIiIiJSRkeTFHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L115">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+</Section>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Heading 1258" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+</Worksheet>

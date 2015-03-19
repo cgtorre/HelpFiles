@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output258" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal257" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="NormalBlue" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output6" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="NormalBlue" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output6" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal257" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output258" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/DifferentialGeometry/DGinfo"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Normal257" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">DifferentialGeometry Lessons</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="18" style="Text" subscript="false" superscript="false" underline="false">Lesson 12: DGinfo</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">This lesson is dedicated to the Tools command DGinfo.  This command provides access to the information internal to DifferentialGeometry objects (vectors, forms, tensors, and transformations) and to the user-defined coordinate systems, frames, and Lie algebras.The DGinfo command is used primarily when writing new application programs.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this lesson, you will learn to do the following:</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Interpret the internal represenation of a differential geometry object.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Find the frame in which a vector field, differential form, or tensor is defined.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Find the domain and range frames of a transformation.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Determine the DifferentialGeometry type of a object (ie, vector, differential form, tensor ...).</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Find the degree of a differential form and the index type of a tensor.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Find the differential order of a function, vector field, or differential form defined on a jet space.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Obtain the list or set of coefficients of a given vector field, differential form, or tensor.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">List the coordinates defined for a given frame.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Obtain the bases for the tangent space and cotangent space for a given frame.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Obtain the structure equations for an anholonomic frame.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">For the full list of keyword options for the command DGinfo, see the help page <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/DGinfo"><Font size="14" style="Hyperlink">DGinfo</Font></Hyperlink>.</Text-field>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">ObjectAttributes, ObjectComponents</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">All DifferentialGeomety objects are defined by unevaluated functions of the form <Font style="Help Math">_DG([A, C])</Font>.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Here <Font style="Help Math">A </Font>is the attribute list and <Font style="Help Math">C</Font> is the component list.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">The first element of the attribute list <Font style="Help Math">A</Font> always specifies the object type.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">The second element of the attribute list <Font style="Help Math">A</Font> always specifies the frame information for the object.</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">Other attributes include form degree, tensor index type, Jacobian, etc...</Text-field>
+<Text-field layout="Dash Item" style="Dash Item">The component list is a list of two-element sublists <Font style="Help Math">C = [C1, C2, C3 , ...]</Font>.  The first element of the sublist <Font style="Help Math">Ck</Font> specifies the component and the second element of <Font style="Help Math">Ck</Font> gives the coefficient for that component. </Text-field>
+<Text-field layout="Dash Item" style="Dash Item">The use of the unevaluated function <Font style="Help Math">_DG</Font> enables the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font size="14" style="Hyperlink">DifferentialGeometry</Font></Hyperlink> package to control the printing (and LaTeX formatting) of all the various <Font style="Help Math">DifferentialGeometry</Font> objects (see <Hyperlink hyperlink="true" linktarget="Help:print"><Font size="14" style="Hyperlink">print</Font></Hyperlink>).</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The <Font style="Help Math">DGinfo</Font> keywords <Font style="Help Math">"ObjectAttributes"</Font>, <Font style="Help Math">"ObjectComponents"</Font> return the attribute list and the component list of the given <Font style="Help Math">DifferentialGeometry</Font> object.  Other keywords return specific entries in the attribute list and component list.</Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M): DGsetup([t], R):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define a vector field:</Text-field>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="R &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(a*D_x + b*D_y + c*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYlImFHIiIiJSREX3hHIiIiIiIiKiYlImJHIiIiJSREX3lHIiIiIiIiKiYlImNHIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">op(0, X);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJF9ER0c=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">internalX := op(X);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSppbnRlcm5hbFhHNyQ3JVEndmVjdG9yNiIlIk1HNyI3JTckNyMiIiIlImFHNyQ3IyIiIyUiYkc3JDcjIiIkJSJjRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We see that the internal representation of <Font style="Help Math">X</Font> is a list with 2 components.</Text-field>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">nops(internalX);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">AttributeList := internalX[1];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS5BdHRyaWJ1dGVMaXN0RzclUSd2ZWN0b3I2IiUiTUc3Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">ComponentList := internalX[2];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS5Db21wb25lbnRMaXN0RzclNyQ3IyIiIiUiYUc3JDcjIiIjJSJiRzckNyMiIiQlImNH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The attribute list and component list can be obtained directly from <Font style="Help Math">DGinfo</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(X, "ObjectAttributes");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JVEndmVjdG9yNiIlIk1HNyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(X, "ObjectComponents");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JTckNyMiIiIlImFHNyQ3IyIiIyUiYkc3JDcjIiIkJSJjRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the attribute and component lists for a 2-form <Font style="Help Math">alpha</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">alpha := evalDG(x^2*dx &amp;w dy - y^2*dy &amp;w dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZhbHBoYUcsJioqKSUieEciIiMiIiIlI2R4RyIiIiUiXkciIiIlI2R5RyIiIiIiIioqKSUieUciIiMiIiIlI2R5RyIiIiUiXkciIiIlI2R6RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(alpha, "ObjectAttributes");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JVElZm9ybTYiJSJNRyIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(alpha, "ObjectComponents");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JDckNyQiIiIiIiMqJCklInhHIiIjIiIiNyQ3JCIiIyIiJCwkKiQpJSJ5RyIiIyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the attribute and component lists for a rank 3 tensor <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(dx &amp;t dy &amp;t D_z - dy &amp;t dz &amp;t D_x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURywmKiglI2R4RyIiIiUjZHlHIiIiJSREX3pHIiIiIiIiKiglI2R5RyIiIiUjZHpHIiIiJSREX3hHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "ObjectAttributes");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JVEndGVuc29yNiIlIk1HNyQ3JVEoY292X2JhczYiUShjb3ZfYmFzNiJRKGNvbl9iYXM2Ijci</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "ObjectComponents");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JDckNyUiIiIiIiMiIiQiIiI3JDclIiIjIiIkIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the attribute and component lists for a transformation.</Text-field>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(R, M, [x = t*cos(t), y = t*sin(t), z = t^2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyUvJSJ4RyomJSJ0RyIiIi0lJGNvc0c2IyUidEciIiIvJSJ5RyomJSJ0RyIiIi0lJHNpbkc2IyUidEciIiIvJSJ6RyokKSUidEciIiMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="R &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi, "ObjectAttributes");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JlEvdHJhbnNmb3JtYXRpb242IjckNyQlIlJHIiIhNyQlIk1HIiIhNyI3Iy0lJ1JUQUJMRUc2JSIqayopNGIiLSUnTUFUUklYRzYjNyU3IywmLSUkY29zRzYjJSJ0RyIiIiomJSJ0RyIiIi0lJHNpbkc2IyUidEciIiIhIiI3IywmLSUkc2luRzYjJSJ0RyIiIiomJSJ0RyIiIi0lJGNvc0c2IyUidEciIiIiIiI3IywkKiYiIiMiIiIlInRHIiIiIiIiJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="R &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi, "ObjectComponents");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JTckKiYlInRHIiIiLSUkY29zRzYjJSJ0RyIiIiUieEc3JComJSJ0RyIiIi0lJHNpbkc2IyUidEciIiIlInlHNyQqJCklInRHIiIjIiIiJSJ6Rw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">ObjectType</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The first attribute in the attribute list of a <Font style="Help Math">DifferentialGeometry</Font> object is its type.  This information can be obtained with the command <Font style="Help Math">DGinfo</Font> using the keyword <Font style="Help Math">"ObjectType"</Font>.  At present, the following object types are used in the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font size="14" style="Hyperlink">DifferentialGeometry</Font></Hyperlink> package: "<Font style="Help Math">biform"</Font>, <Font style="Help Math">"DE"</Font>, <Font style="Help Math">"form"</Font>, <Font style="Help Math">"LieAlgebra"</Font>, <Font style="Help Math">"moving_frame"</Font>, <Font style="Help Math">"tensor"</Font>, <Font style="Help Math">"transformation"</Font>, <Font style="Help Math">"representation"</Font>, <Font style="Help Math">"vector"</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tools): </Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Maple Output258" style="Maple Output258"></Text-field>
+<Text-field layout="Maple Output258" style="Maple Output258"><Font style="Help Normal">Find the type of the differential form</Font> <Font style="Help Math">dx</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">lprint(dx);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Text Output6" linebreak="any" style="Text Output6">_DG([["form", M, 1], [[[1], 1]]])</Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(dx, "ObjectType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRJWZvcm02Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Maple Output258" style="Maple Output258"><Font style="Help Normal">Find the type of the vector </Font><Font style="Help Math">D_x</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">lprint(D_x);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Text Output6" linebreak="any" style="Text Output6">_DG([["vector", M, []], [[[1], 1]]])</Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(D_x, "ObjectType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRJ3ZlY3RvcjYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the type of the tensor <Font style="Help Math">D_xdy</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">lprint(D_x &amp;tensor dy);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Text Output6" linebreak="any" style="Text Output6">_DG([["tensor", M, [["con_bas", "cov_bas"], []]], [[[1, 2], 1]]])</Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(D_x &amp;tensor dy, "ObjectType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRJ3RlbnNvcjYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the type of the transformation <Font style="Help Math">f</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">f := Transformation(M, M, [x= 1, y = y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJmRzckLyUieEciIiIvJSJ5RyUieUc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">lprint(f);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Text Output6" linebreak="any" style="Text Output6">_DG([["transformation", [[M, 0], [M, 0]], [], [Matrix(2,2,{(2, 2) = 1},datatype = anything,storage = rectangular,order = Fortran_order,shape = [])]], [[1, x], [y, y]]])</Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(f, "ObjectType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRL3RyYW5zZm9ybWF0aW9uNiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">ObjectFrame, DomainFrame, RangeFrame</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">If <Font style="Help Math">X</Font> is a vector field, differential form, or tensor, then the second element in the attribute list is the name of the frame in which the object <Font style="Help Math">X</Font> is defined.</Text-field>
+<Text-field layout="Normal" style="Normal">If <Font style="Help Math">X</Font> is a transformation, then the second element in the attribute list is a list defining the range and domain of the transformation.</Text-field>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M): DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the frame of the vector<Font style="Help Math"> D_x</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(D_x, "ObjectFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the frame of the 1-form <Font style="Help Math">du</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(du, "ObjectFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIk5H</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">f := Transformation(M, N, [u = x^2 + y^2, v = x/y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJmRzckLyUidUcsJiokKSUieEciIiMiIiIiIiIqJCklInlHIiIjIiIiIiIiLyUidkcqJiUieEciIiIlInlHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the domain and range of the transformation <Font style="Help Math">f</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(f, "DomainFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIk1H</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(f, "RangeFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIk5H</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">FormDegree, TensorType, TensorIndexType, TensorDensityType, TensorIndexPart1, TensorIndexPart2</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tensor): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], [u], M):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the degree of the differential form <Font style="Help Math">alpha</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">alpha := evalDG(dx &amp;w dy);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZhbHBoYUcqKCUjZHhHIiIiJSJeRyIiIiUjZHlHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(alpha, "FormDegree");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the tensor index type and density type of the tensor <Font style="Help Math">T</Font>.  For a discussion of the different index types, see <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LessonsAndTutorials/DifferentialGeometry/TensorAlgebra"><Font size="14" style="Hyperlink">Lesson 9: Tensor Algebra</Font></Hyperlink>.</Text-field>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(D_x &amp;t dy &amp;t PermutationSymbol("con_vrt"));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURyooJSREX3hHIiIiJSNkeUciIiIlJERfdUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "TensorType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JDclUShjb25fYmFzNiJRKGNvdl9iYXM2IlEoY29uX3ZydDYiNyM3JFEkdnJ0NiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find just the index type.</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "TensorIndexType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JVEoY29uX2JhczYiUShjb3ZfYmFzNiJRKGNvbl92cnQ2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find just the density type.</Text-field>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "TensorDensityType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3IzckUSR2cnQ2IiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the valency type of a tensor index (<Font style="Help Math">"con"</Font> or "<Font style="Help Math">cov"</Font>).</Text-field>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo("con_bas", "TensorIndexPart1");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRJGNvbjYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the spatial type of a tensor index (<Font style="Help Math">"bas"</Font> or "<Font style="Help Math">vrt"</Font>).</Text-field>
+<Group drawlabel="true" labelreference="L47">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo("con_bas", "TensorIndexPart2");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiNRJGJhczYi</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">JacobianMatrix</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Jacobian matrix of a transformation defined by the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Transformation"><Font size="14" style="Hyperlink">Transformation</Font></Hyperlink> is computed and stored in the internal representation of the transformation.  The Jacobian matrix can be retrieved using the command <Font style="Help Math">DGinfo</Font> with the keyword <Font style="Help Math">"JacobianMatrix".</Font></Text-field>
+<Group drawlabel="true" labelreference="L48">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L49">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M): DGsetup([u, v], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L50">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(N, M, [x = u, y = v, z = 1 - u^2 - v^2]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyUvJSJ4RyUidUcvJSJ5RyUidkcvJSJ6RywoIiIiIiIiKiQpJSJ1RyIiIyIiIiEiIiokKSUidkciIiMiIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L51">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi, "JacobianMatrix");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKktrX2MiLSUnTUFUUklYRzYjNyU3JCIiIiIiITckIiIhIiIiNyQsJComIiIjIiIiJSJ1RyIiIiEiIiwkKiYiIiMiIiIlInZHIiIiISIiJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">CoefficientSet, CoefficientList</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">With the keyword "<Font style="Help Math">CoefficientSet"</Font>, <Font style="Help Math">DGinfo</Font> returns the set of all coefficients of a vector field, differential form, or tensor.  With the keyword <Font style="Help Math">"CoefficientList"</Font>, one can retrieve a list of all coefficients or just a specific list of coefficients.</Text-field>
+<Group drawlabel="true" labelreference="L52">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L53">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z, w], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L54">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">omega := evalDG(a*dx &amp;w dy + b*dx &amp;w dz + b*dy &amp;w dz + d*dx &amp;w dw + e*dz &amp;w dw);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcsLCoqJSJhRyIiIiUjZHhHIiIiJSJeRyIiIiUjZHlHIiIiIiIiKiolImJHIiIiJSNkeEciIiIlIl5HIiIiJSNkekciIiIiIiIqKiUiZEciIiIlI2R4RyIiIiUiXkciIiIlI2R3RyIiIiIiIioqJSJiRyIiIiUjZHlHIiIiJSJeRyIiIiUjZHpHIiIiIiIiKiolImVHIiIiJSNkekciIiIlIl5HIiIiJSNkd0ciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the set of coefficients of the 2-form <Font style="Help Math">omega.</Font></Text-field>
+<Group drawlabel="true" labelreference="L55">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(omega, "CoefficientSet");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM8JiUiYUclImJHJSJlRyUiZEc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the list of all coefficients of <Font style="Help Math">omega</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L56">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(omega, "CoefficientList", "all");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JyUiYUclImJHJSJkRyUiYkclImVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the coefficients of <Font style="Help Math">dx^dy</Font>, <Font style="Help Math">dx^dz</Font>, <Font style="Help Math">dy^dw</Font> in the 2-form <Font style="Help Math">omega</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L57">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(omega, "CoefficientList", [dx &amp;w dy, dx &amp;w dz, dy &amp;w dw]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUiYUclImJHIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the coefficients of <Font style="Help Math">dx^dy</Font>, <Font style="Help Math">dx^dz</Font>, <Font style="Help Math">dy^dw</Font> in the 2-form <Font style="Help Math">omega </Font>(alternative method).</Text-field>
+<Group drawlabel="true" labelreference="L58">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(omega, "CoefficientList", [[1, 2], [1, 3], [2, 4]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUiYUclImJHIiIh</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">CurrentFrame, FrameNames, FrameGlobals</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The command <Font style="Help Math">DGinfo</Font> also provides information regarding all the user-defined coordinates systems, frames, and Lie algebras.</Text-field>
+<Group drawlabel="true" labelreference="L59">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L60">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L61">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([t], R):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L62">
+<Input>
+<Text-field layout="Normal" prompt="R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], [z], E):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the current frame.</Text-field>
+<Group drawlabel="true" labelreference="L63">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo("CurrentFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIkVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">List all the defined frames.</Text-field>
+<Group drawlabel="true" labelreference="L64">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo("FrameNames");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUiRUclIk1HJSJSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">List all the assigned and protected names for a given frame.</Text-field>
+<Group drawlabel="true" labelreference="L65">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E,"FrameGlobals");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM8LCUieEclIkVHJSJ5RyUiekclJERfeEclJERfeUclJERfekclI2R4RyUjZHlHJSNkekc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">Display all the information for a given frame.</Text-field>
+<Group drawlabel="true" labelreference="L66">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameInformation");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMGZyYW1lfm5hbWU6fn5+TUc=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlQ2xpYnJhcnl+bmFtZTp+fn5Db29yZGluYXRlUHJvdG9jb2xH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMUZyYW1lflZhcmlhYmxlczpH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLUZyYW1lfkxhYmVsc0c=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUkRF94RyUkRF95Rw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlL0NvZnJhbWV+TGFiZWxzRw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUjZHhHJSNkeUc=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLy0tLS0tLS0tLS0tLS0tRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Maple Output258" style="Maple Output258"></Text-field>
+<Text-field layout="Maple Output258" size="14" style="Maple Output258"><Font style="Help Normal">If the frame is not a coordinate frame, then </Font><Font style="Help Math">"FrameInformation"</Font><Font style="Help Normal"> also returns the structure equations.</Font></Text-field>
+<Group drawlabel="true" labelreference="L67">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L68">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Omega := FrameData([1/y*dx, 1/x*dy], P);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JC8qJiUiZEciIiIlJ1RoZXRhMUciIiIqLCUieEciIiIlInlHISIiJSdUaGV0YTFHIiIiJSJeRyIiIiUnVGhldGEyRyIiIi8qJiUiZEciIiIlJ1RoZXRhMkciIiIsJCosJSJ4RyEiIiUieUciIiIlJ1RoZXRhMUciIiIlIl5HIiIiJSdUaGV0YTJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L69">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(Omega, [E], [beta]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6flBH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L70">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(P, "FrameInformation");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMGZyYW1lfm5hbWU6fn5+UEc=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlSWxpYnJhcnl+bmFtZTp+fn5BbmhvbG9ub21pY0ZyYW1lUHJvdG9jb2xH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMUZyYW1lflZhcmlhYmxlczpH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLUZyYW1lfkxhYmVsc0c=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUjRTFHJSNFMkc=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlL0NvZnJhbWV+TGFiZWxzRw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUmYmV0YTFHJSZiZXRhMkc=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJ2V4dF9kOkclInhHKiYlInlHIiIiJSZiZXRhMUdGJw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJ2V4dF9kOkclInlHKiYlInhHIiIiJSZiZXRhMkdGJw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJ2V4dF9kOkclJmJldGExRyosJSJ4RyIiIiUieUchIiJGJEYnJSJeR0YnJSZiZXRhMkdGJw==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJ2V4dF9kOkclJmJldGEyRywkKiwlInhHISIiJSJ5RyIiIiUmYmV0YTFHRiolIl5HRipGJEYqRig=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLy0tLS0tLS0tLS0tLS0tRw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">FrameBaseDimension, FrameFiberDimension</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">These keywords simply return the dimensions of the manifold and, in the case of a fiber bundle, the dimensions of the base and fiber spaces.</Text-field>
+<Group drawlabel="true" labelreference="L71">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L72">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M): DGsetup([x, y], [u, v, w, z], E):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the dimension of the manifold <Font style="Help Math">M</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L73">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameBaseDimension");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the base dimension of bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L74">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameBaseDimension");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the fiber dimension of the bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L75">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameFiberDimension");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiU=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">FrameIndependentVariables, FrameDependentVariables</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">These keywords simply return the coordinates of the manifold or, in the case of a fiber bundle, the base and fiber space coordinates.</Text-field>
+<Group drawlabel="true" labelreference="L76">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L77">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L78">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], [u, v, w, z], E):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the coordinates of the manifold <Font style="Help Math">M</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L79">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameIndependentVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUieEclInlHJSJ6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the base coordinates for the bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L80">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameIndependentVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCUieEclInlH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the fiber coordinates of the bundle <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L81">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameDependentVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiUidUclInZHJSJ3RyUiekc=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">FrameBaseVectors, FrameBaseForms, FrameFiberVectors, FrameFiberForms</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">These keywords return the basis for the tangent and cotangent spaces.  These options for <Font style="Help Math">DGinfo</Font> are useful in conjunction with the commands <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/GetComponents"><Font size="14" style="Hyperlink">GetComponents</Font></Hyperlink> and <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGzip"><Font size="14" style="Hyperlink">DGzip</Font></Hyperlink>.</Text-field>
+<Group drawlabel="true" labelreference="L82">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L83">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M): DGsetup([x, y], [u, v, w, z], E):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">List the basis vectors for the tangent space of <Font style="Help Math">M</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L84">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameBaseVectors");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUkRF94RyUkRF95RyUkRF96Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">List the basis of 1-forms for the cotangent space of <Font style="Help Math">M</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L85">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameBaseForms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JSUjZHhHJSNkeUclI2R6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">List the basis for the vertical vectors on <Font style="Help Math">E</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L86">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameFiberVectors");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiUkRF91RyUkRF92RyUkRF93RyUkRF96Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L87">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E, "FrameFiberForms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiUjZHVHJSNkdkclI2R3RyUjZHpH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are simple computations which illustrate the use of <Font style="Help Math">DGinfo/"FrameBaseVectors"</Font> with the commands <Font style="Help Math">DGzip</Font> and <Font style="Help Math">GetComponents</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L88">
+<Input>
+<Text-field layout="Normal" prompt="E &gt; " size="14" style="Maple Input"><Font size="14">F := DGinfo(M, "FrameBaseVectors");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRzclJSREX3hHJSREX3lHJSREX3pH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L89">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">X := DGzip([a, b, c], F, "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYlImFHIiIiJSREX3hHIiIiIiIiKiYlImJHIiIiJSREX3lHIiIiIiIiKiYlImNHIiIiJSREX3pHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L90">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">C := GetComponents(X, F);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRzclJSJhRyUiYkclImNH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercises</Text-field></Title>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 1</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  Find the form degree of <Font style="Help Math">alpha</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  Find the manifold on which the vector <Font style="Help Math">X</Font> is defined.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iii]</Font>  Find the index structure of the tensor <Font style="Help Math">T</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iv]</Font>  Find the coefficient of <Font style="Help Math">D_y</Font> in the vector <Font style="Help Math">X</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[v]</Font>  Find the name of the range space for the transformation <Font style="Help Math">F</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[vi]</Font>  Show that the Jacobian of the transformation <Font style="Help Math">F </Font>is full rank.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[vii]</Font>  How many coordinate systems are presently defined?</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[viii]</Font>  What are the protected names for the coordinate system <Font style="Help Math">N</Font>?</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ix]</Font>  What is the dimension of the manifold <Font style="Help Math">M</Font>?</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[x]</Font>  Create a general 1-form on <Font style="Help Math">M </Font>whose coefficients are arbitrary functions of the corrdinates.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L91">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L92">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y, z], M):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L93">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([t], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L94">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([u, v], P):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L95">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">X := evalDG(7*D_x - y*D_y + x*D_z);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRywoKiYiIigiIiIlJERfeEciIiIiIiIqJiUieUciIiIlJERfeUciIiIhIiIqJiUieEciIiIlJERfekciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L96">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">omega := evalDG(dx &amp;w dy &amp;w dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcqLCUjZHhHIiIiJSJeRyIiIiUjZHlHIiIiJSJeRyIiIiUjZHpHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L97">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">T := evalDG(dx &amp;t D_y &amp;t dz - dy &amp;t D_z &amp;t dz);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJURywmKiglI2R4RyIiIiUkRF95RyIiIiUjZHpHIiIiIiIiKiglI2R5RyIiIiUkRF96RyIiIiUjZHpHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L98">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">F := Transformation(M, P, [u = x*y, v = y*z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJGRzckLyUidUcqJiUieEciIiIlInlHIiIiLyUidkcqJiUieUciIiIlInpHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solutions</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i]</Font>  Find the form degree of <Font style="Help Math">alpha</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L99">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(omega, "FormDegree");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]</Font>  Find the manifold on which the vector <Font style="Help Math">X</Font> is defined.</Text-field>
+<Group drawlabel="true" labelreference="L100">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(X, "ObjectFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIk1H</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iii]</Font>  Find the index structure of the tensor <Font style="Help Math">T</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L101">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(T, "TensorIndexType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JVEoY292X2JhczYiUShjb25fYmFzNiJRKGNvdl9iYXM2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iv] </Font> Find the coefficient of <Font style="Help Math">D_y</Font> in the vector <Font style="Help Math">X</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L102">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(X, "CoefficientList", [D_y]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3IywkJSJ5RyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [v]</Font>  Find the name of the range space for the transformation <Font style="Help Math">F</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L103">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(F, "RangeFrame");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlIlBH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [vi]</Font>  Show that the Jacobian of the transformation <Font style="Help Math">F </Font>is full rank.</Text-field>
+<Group drawlabel="true" labelreference="L104">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">J := DGinfo(F, "JacobianMatrix");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRy0lJ1JUQUJMRUc2JSIqT0dEXiItJSdNQVRSSVhHNiM3JDclJSJ5RyUieEciIiE3JSIiISUiekclInlHJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L105">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">LinearAlgebra:-Rank(J);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [vii]</Font>  How many coordinate systems are presently defined?</Text-field>
+<Group drawlabel="true" labelreference="L106">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">nops(DGinfo("FrameNames"));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [viii] </Font> What are the protected names for the coordinate system <Font style="Help Math">N</Font>?</Text-field>
+<Group drawlabel="true" labelreference="L107">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameGlobals");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM8LCUieEclI2R4RyUiTUclInpHJSREX3hHJSJ5RyUkRF95RyUkRF96RyUjZHlHJSNkekc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ix]</Font>  What is the dimension of the manifold <Font style="Help Math">M</Font>?</Text-field>
+<Group drawlabel="true" labelreference="L108">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(M, "FrameBaseDimension");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [x]</Font>  Create a general 1-form on <Font style="Help Math">M </Font>whose coefficients are arbitrary functions of the corrdinates.</Text-field>
+<Group drawlabel="true" labelreference="L109">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">vars := op(DGinfo(M, "FrameIndependentVariables"));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSV2YXJzRzYlJSJ4RyUieUclInpH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L110">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">C := [a1, a2, a3](vars);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRzclLSUjYTFHNiUlInhHJSJ5RyUiekctJSNhMkc2JSUieEclInlHJSJ6Ry0lI2EzRzYlJSJ4RyUieUclInpH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L111">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Omega := DGinfo(M, "FrameBaseForms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZPbWVnYUc3JSUjZHhHJSNkeUclI2R6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L112">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGzip(C, Omega, "plus");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMsKComLSUjYTFHNiUlInhHJSJ5RyUiekciIiIlI2R4RyIiIiIiIiomLSUjYTJHNiUlInhHJSJ5RyUiekciIiIlI2R5RyIiIiIiIiomLSUjYTNHNiUlInhHJSJ5RyUiekciIiIlI2R6RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 2</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Write a program <Font style="Help Math">TestFormList</Font> which will test if a list of differential forms are all defined on the same space and all have the same degree.  Test your program on the following lists of forms.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L113">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L114">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x,y,z], M): DGsetup([r,s,t], N):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L115">
+<Input>
+<Text-field layout="Normal" prompt="N &gt; " size="14" style="Maple Input"><Font size="14">L1 := evalDG([dx, dy + dz, dx - dy + dz]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMUc3JSUjZHhHLCYlI2R5RyIiIiUjZHpHIiIiLCglI2R4RyIiIiUjZHlHISIiJSNkekciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L116">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">L2 := evalDG([dx, dy, dx &amp;w dy]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMkc3JSUjZHhHJSNkeUcqKCUjZHhHIiIiJSJeRyIiIiUjZHlHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L117">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">L3 := evalDG([dr,ds,dz]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMM0c3JSUjZHJHJSNkc0clI2R6Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Group drawlabel="true" labelreference="L118">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">TestFormList := proc(Omega)</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">local fr, p, n, i;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">fr := Tools:-DGinfo(Omega[1], "ObjectFrame");</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">p := Tools:-DGinfo(Omega[1], "FormDegree");</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">n := nops(Omega);</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">for i from 2 to n do</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">if Tools:-DGinfo(Omega[i], "ObjectFrame") &lt;&gt; fr then return(false) fi;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">if Tools:-DGinfo(Omega[i], "FormDegree") &lt;&gt; p then return(false) fi;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">od;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">true;</Font></Text-field>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">end:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L119">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L120">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">TestFormList(L1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L121">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">TestFormList(L2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJmZhbHNlRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L122">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">TestFormList(L3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJmZhbHNlRw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 3</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Write a program <Font style="Help Math">CreateForm</Font> which will create a general 1-form on the current manifold.  Design the program to accept a kernel letter for the coefficient functions.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Remark:</Font> This program can be generalized to create a general <Font style="Help Math">p</Font>-form using the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/GenerateForms"><Font size="14" style="Hyperlink">GenerateForms</Font></Hyperlink>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L123">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L124">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1,x2,x3,x4], P);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlLmZyYW1lfm5hbWU6flBH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solution</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L125">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">CreateForm := proc(A)</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">local M, C, Omega, n, vars;</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">M := Tools:-DGinfo("CurrentFrame");</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">Omega := Tools:-DGinfo(M, "FrameBaseForms");</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">n := nops(Omega):</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">vars := Tools:-DGinfo(M, "FrameIndependentVariables"):</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">C:= [seq(cat(A, i), i = 1 .. n)](op(vars));</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">DGzip(C, Omega, "plus");</Font></Text-field>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">end:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L126">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L127">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">CreateForm(Q);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMsKiomLSUjUTFHNiYlI3gxRyUjeDJHJSN4M0clI3g0RyIiIiUkZHgxRyIiIiIiIiomLSUjUTJHNiYlI3gxRyUjeDJHJSN4M0clI3g0RyIiIiUkZHgyRyIiIiIiIiomLSUjUTNHNiYlI3gxRyUjeDJHJSN4M0clI3g0RyIiIiUkZHgzRyIiIiIiIiomLSUjUTRHNiYlI3gxRyUjeDJHJSN4M0clI3g0RyIiIiUkZHg0RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Exercise 4</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The following set of exercises deal with the application of <Font style="Help Math">DGinfo</Font> to vector fields and differential forms defined on jet spaces.  For each problem, first identify the relevant keyword from the <Font style="Help Math">DGinfo</Font> help page.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[i]</Font>  Find the jet order of the function <Font style="Help Math">f</Font>, the differential form <Font style="Help Math">omega</Font>, and the vector field <Font style="Help Math">X</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ii]</Font>  Find the order of the jet spaces <Font style="Help Math">E1</Font> and <Font style="Help Math">E2</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iii]</Font>  Find the dimension of the jet spaces<Font style="Help Bold"> </Font><Font style="Help Math">E1</Font> and <Font style="Help Math">E2</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[iv]</Font>  List the independent variables, the dependent variables, and the jet space variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[v]</Font>  List the basis vector fields and differential forms for the jet space <Font style="Help Math">E2</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[vi] </Font> List the contact 1-forms defined on the jet space<Font style="Help Math"> E1</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[vii]</Font>  Find the order of the domain jet space for the transformations <Font style="Help Math">Phi</Font> and <Font style="Help Math">PhiP</Font>.  Find the order of the range jet space for the transformations <Font style="Help Math">Phi</Font> and <Font style="Help Math">PhiP</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[viii]</Font> Find the type of the vector fields <Font style="Help Math">Y1, Y1P, Y2</Font><Font style="Help Bold">,</Font> and <Font style="Help Math">Y2P</Font> (See the help page <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/AssignVectorType"><Font size="14" style="Hyperlink">AssignVectorType</Font></Hyperlink>)</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[ix]</Font>  Find the type of the transformations <Font style="Help Math">Phi1</Font>, <Font style="Help Math">Phi1P</Font>, <Font style="Help Math">Phi2</Font>, and <Font style="Help Math">PhiP</Font> (See the help page <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/AssignTransformationType"><Font size="14" style="Hyperlink">AssignTransformationType</Font></Hyperlink>)</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[x] </Font> Find the variables in the expression <Font style="Help Math">A</Font> which are jet variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">[xi]</Font>  Find the variables in the expression <Font style="Help Math">A</Font> which are not jet variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L128">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(JetCalculus): with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L129">
+<Input>
+<Text-field layout="Normal" prompt="P &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([t], [u], E1, 3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L130">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x, y], [z], E2, 2):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L131">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">f := z[1, 1, 1]*z[2, 2]^2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJmRyomJiUiekc2JSIiIiIiIiIiIiIiIikmJSJ6RzYkIiIjIiIjIiIjIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L132">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">omega := evalDG(u[1, 1] &amp;t du[1, 1, 1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcqJiYlInVHNiQiIiIiIiIiIiImJSNkdUc2JSIiIiIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L133">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">X := u[1, 1, 2, 2, 2]*D_x;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJYRyomJiUidUc2JyIiIiIiIiIiIyIiIyIiIyIiIiUkRF94RyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L134">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Phi := Transformation(E2, E1,[t= x, u[] = z[1, 1]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRQaGlHNyQvJSJ0RyUieEcvJiUidUc2IiYlInpHNiQiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L135">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">PhiP := Prolong(Phi, 3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVQaGlQRzcnLyUidEclInhHLyYlInVHNiImJSJ6RzYkIiIiIiIiLyYlInVHNiMiIiImJSJ6RzYlIiIiIiIiIiIiLyYlInVHNiQiIiIiIiImJSJ6RzYmIiIiIiIiIiIiIiIiLyYlInVHNiUiIiIiIiIiIiImJSJ6RzYnIiIiIiIiIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L136">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Y1 := AssignVectorType(D_x + x*D_z[]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMUcsJiUkRF94RyIiIiomJSJ4RyIiIiYlJERfekc2IiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L137">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Y1P := Prolong(Y1, 2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRZMVBHLCglJERfeEciIiIqJiUieEciIiImJSREX3pHNiIiIiIiIiImJSREX3pHNiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L138">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Y2 := AssignVectorType(u[]*D_t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNZMkcqJiYlInVHNiIiIiIlJERfdEciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L139">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Y2P := Prolong(Y2, 2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRZMlBHLCgqJiYlInVHNiIiIiIlJERfdEciIiIiIiIqJikmJSJ1RzYjIiIiIiIjIiIiJiUkRF91RzYjIiIiIiIiISIiKioiIiQiIiImJSJ1RzYjIiIiIiIiJiUidUc2JCIiIiIiIiIiIiYlJERfdUc2JCIiIiIiIiIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L140">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Phi1 := AssignTransformationType(Flow(Y1, epsilon));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVQaGkxRzclLyUieEcsJiUoZXBzaWxvbkciIiIlInhHIiIiLyUieUclInlHLyYlInpHNiIsKComIiIjISIiJShlcHNpbG9uRyIiIyIiIiomJSJ4RyIiIiUoZXBzaWxvbkciIiIiIiImJSJ6RzYiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L141">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Phi1P := Prolong(Phi1, 1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZQaGkxUEc3Jy8lInhHLCYlKGVwc2lsb25HIiIiJSJ4RyIiIi8lInlHJSJ5Ry8mJSJ6RzYiLCgqJiIiIyEiIiUoZXBzaWxvbkciIiMiIiIqJiUieEciIiIlKGVwc2lsb25HIiIiIiIiJiUiekc2IiIiIi8mJSJ6RzYjIiIiLCYlKGVwc2lsb25HIiIiJiUiekc2IyIiIiIiIi8mJSJ6RzYjIiIjJiUiekc2IyIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L142">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Phi2 := AssignTransformationType(Flow(Y2, epsilon));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVQaGkyRzckLyUidEcsJiomJiUidUc2IiIiIiUoZXBzaWxvbkciIiIiIiIlInRHIiIiLyYlInVHNiImJSJ1RzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L143">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Phi2P := simplify(Prolong(Phi2, 2));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZQaGkyUEc3Ji8lInRHLCYqJiYlInVHNiIiIiIlKGVwc2lsb25HIiIiIiIiJSJ0RyIiIi8mJSJ1RzYiJiUidUc2Ii8mJSJ1RzYjIiIiKiYsJiIiIiIiIiomJShlcHNpbG9uRyIiIiYlInVHNiMiIiIiIiIiIiIhIiImJSJ1RzYjIiIiIiIiLyYlInVHNiQiIiIiIiIqJiYlInVHNiQiIiIiIiIiIiIsJiIiIiIiIiomJShlcHNpbG9uRyIiIiYlInVHNiMiIiIiIiIiIiIhIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L144">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">A := r*u[1] + s*t*u[1, 1]^2;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRywmKiYlInJHIiIiJiUidUc2IyIiIiIiIiIiIiooJSJzRyIiIiUidEciIiIpJiUidUc2JCIiIiIiIiIiIyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Solutions</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [i] </Font> Find the jet order of the functions <Font style="Help Math">f</Font>, the differential form <Font style="Help Math">omega</Font>, and the vector field <Font style="Help Math">X</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L145">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">f; DGinfo(f, "ObjectOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMqJiYlInpHNiUiIiIiIiIiIiIiIiIpJiUiekc2JCIiIyIiIyIiIyIiIg==</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L146">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">omega, DGinfo(f, "ObjectOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQqJiYlInVHNiQiIiJGJ0YnJiUjZHVHNiVGJ0YnRidGJyIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ii]</Font>  Find the order of the jet spaces<Font style="Help Bold"> </Font><Font style="Help Math">E1</Font> and <Font style="Help Math">E2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L147">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E1, "FrameJetOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L148">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E2, "FrameJetOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiY=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iii] </Font> Find dimension of the jet spaces <Font style="Help Math">E1</Font> and <Font style="Help Bold"> </Font><Font style="Help Math">E2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L149">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(3, "JetSpaceDimension", E1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L150">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(2, "JetSpaceDimension", E2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIik=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iv]</Font>  List the independent variables, the dependent variables and the jet space variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L151">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E1, "FrameIndependentVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3IyUidEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L152">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E1, "FrameDependentVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3IyUidUc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L153">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E1, "FrameJetVariables");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JyUidEcmJSJ1RzYiJiUidUc2IyIiIiYlInVHNiQiIiIiIiImJSJ1RzYlIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [iv] </Font> List the basis vector fields and differential forms for the jet space <Font style="Help Math">E2</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L154">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E2, "FrameJetVectors");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM3OSUkRF94RyUkRF95RyYlJERfekc2IiYlJERfekc2IyIiIiYlJERfekc2IyIiIyYlJERfekc2JCIiIiIiIiYlJERfekc2JCIiIiIiIyYlJERfekc2JCIiIyIiIyYlJERfekc2JSIiIiIiIiIiIiYlJERfekc2JSIiIiIiIiIiIyYlJERfekc2JSIiIiIiIyIiIyYlJERfekc2JSIiIyIiIyIiIyYlJERfekc2JiIiIiIiIiIiIiIiIiYlJERfekc2JiIiIiIiIiIiIiIiIyYlJERfekc2JiIiIiIiIiIiIyIiIyYlJERfekc2JiIiIiIiIyIiIyIiIyYlJERfekc2JiIiIyIiIyIiIyIiIyYlJERfekc2JyIiIiIiIiIiIiIiIiIiIiYlJERfekc2JyIiIiIiIiIiIiIiIiIiIyYlJERfekc2JyIiIiIiIiIiIiIiIyIiIyYlJERfekc2JyIiIiIiIiIiIyIiIyIiIyYlJERfekc2JyIiIiIiIyIiIyIiIyIiIyYlJERfekc2JyIiIyIiIyIiIyIiIyIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L155">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E2, "FrameJetForms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM3OSUjZHhHJSNkeUcmJSNkekc2IiYlI2R6RzYjIiIiJiUjZHpHNiMiIiMmJSNkekc2JCIiIiIiIiYlI2R6RzYkIiIiIiIjJiUjZHpHNiQiIiMiIiMmJSNkekc2JSIiIiIiIiIiIiYlI2R6RzYlIiIiIiIiIiIjJiUjZHpHNiUiIiIiIiMiIiMmJSNkekc2JSIiIyIiIyIiIyYlI2R6RzYmIiIiIiIiIiIiIiIiJiUjZHpHNiYiIiIiIiIiIiIiIiMmJSNkekc2JiIiIiIiIiIiIyIiIyYlI2R6RzYmIiIiIiIjIiIjIiIjJiUjZHpHNiYiIiMiIiMiIiMiIiMmJSNkekc2JyIiIiIiIiIiIiIiIiIiIiYlI2R6RzYnIiIiIiIiIiIiIiIiIiIjJiUjZHpHNiciIiIiIiIiIiIiIiMiIiMmJSNkekc2JyIiIiIiIiIiIyIiIyIiIyYlI2R6RzYnIiIiIiIjIiIjIiIjIiIjJiUjZHpHNiciIiMiIiMiIiMiIiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [vi]</Font>  List the contact 1-forms define on the jet space<Font style="Help Math"> E1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L156">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(E1, "FrameVerticalBiforms");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JiYlI0N1RzYiJiUjQ3VHNiMiIiImJSNDdUc2JCIiIiIiIiYlI0N1RzYlIiIiIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [vii]</Font>  Find the order of the domain jet space for the transformations <Font style="Help Math">Phi</Font> and <Font style="Help Math">PhiP</Font>.  Find the order of the range jet space for the transformations <Font style="Help Math">Phi</Font> and <Font style="Help Math">PhiP</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L157">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Phi, PhiP;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQ3JC8lInRHJSJ4Ry8mJSJ1RzYiJiUiekc2JCIiIkYuNydGJEYnLyZGKTYjRi4mRiw2JUYuRi5GLi8mRilGLSZGLDYmRi5GLkYuRi4vJkYpRjQmRiw2J0YuRi5GLkYuRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L158">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi, "DomainOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L159">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(PhiP, "DomainOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L160">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi, "RangeOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L161">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(PhiP, "RangeOrder");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [viii]</Font>  Find the type of the vector fields <Font style="Help Math">Y1</Font> and <Font style="Help Math">Y2</Font> (See the help page <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/AssignVectorType"><Font size="14" style="Hyperlink">AssignVectorType</Font></Hyperlink>)</Text-field>
+<Group drawlabel="true" labelreference="L162">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Y1, Y1P;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQsJiUkRF94RyIiIiomJSJ4R0YlJiUkRF96RzYiRiVGJSwoRiRGJUYmRiUmRik2I0YlRiU=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L163">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Y1, "VectorType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEscHJvamVjdGFibGU2IiIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L164">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Y1P, "VectorType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEscHJvamVjdGFibGU2IiIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L165">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Y2, Y2P;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQqJiYlInVHNiIiIiIlJERfdEdGJywoRiNGJyomKSZGJTYjRiciIiNGJyYlJERfdUdGLUYnISIiKioiIiRGJ0YsRicmRiU2JEYnRidGJyZGMEY1RidGMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L166">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Y2, "VectorType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEmcG9pbnQ2IiIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L167">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Y2P, "VectorType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEmcG9pbnQ2IiIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [ix]</Font>  Find the type of the transformations <Font style="Help Math">Phi1</Font>, <Font style="Help Math">Phi1P</Font>, <Font style="Help Math">Phi2</Font>, and <Font style="Help Math">Phi2P</Font> (See the help page <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/JetCalculus/AssignTransformationType"><Font size="14" style="Hyperlink">AssignTransformationType</Font></Hyperlink>)</Text-field>
+<Group drawlabel="true" labelreference="L168">
+<Input>
+<Text-field layout="Normal" prompt="E2 &gt; " size="14" style="Maple Input"><Font size="14">Phi1, Phi1P;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQ3JS8lInhHLCYlKGVwc2lsb25HIiIiRiVGKC8lInlHRiovJiUiekc2IiwoKiYiIiMhIiJGJ0YxRigqJkYlRihGJ0YoRihGLEYoNydGJEYpRisvJkYtNiNGKCwmRidGKEY2RigvJkYtNiNGMUY6</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L169">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi1, "TransformationType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEscHJvamVjdGFibGU2IiIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L170">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi1P, "TransformationType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEscHJvamVjdGFibGU2IiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L171">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">Phi2, Phi2P;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQ3JC8lInRHLCYqJiYlInVHNiIiIiIlKGVwc2lsb25HRitGK0YlRisvRihGKDcmRiRGLS8mRik2I0YrKiYsJkYrRisqJkYsRitGMEYrRishIiJGMEYrLyZGKTYkRitGKyomRjdGK0YzISIk</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L172">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi2, "TransformationType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEmcG9pbnQ2IiIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L173">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(Phi2P, "TransformationType");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JFEmcG9pbnQ2IiIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [x]</Font>  Find the variables in the expression <Font style="Help Math">A</Font> which are jet variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L174">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">A;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiomJSJyRyIiIiYlInVHNiMiIiIiIiIiIiIqKCUic0ciIiIlInRHIiIiKSYlInVHNiQiIiIiIiIiIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L175">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(A, "JetIndets");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM8JSUidEcmJSJ1RzYjIiIiJiUidUc2JCIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Part [xi]</Font>  Find the variables in the expression <Font style="Help Math">A</Font> which are not jet variables for the jet space <Font style="Help Math">E1</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L176">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">A;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMsJiomJSJyRyIiIiYlInVHNiMiIiIiIiIiIiIqKCUic0ciIiIlInRHIiIiKSYlInVHNiQiIiIiIiIiIiMiIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L177">
+<Input>
+<Text-field layout="Normal" prompt="E1 &gt; " size="14" style="Maple Input"><Font size="14">DGinfo(A, "NonJetIndets");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM8JCUickclInNH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+</Section>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+</Worksheet>

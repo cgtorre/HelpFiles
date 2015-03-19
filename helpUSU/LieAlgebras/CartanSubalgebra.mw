@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="17" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="KeywordsAlias" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/LieAlgebras/CartanSubalgebra"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field style="Heading 1" layout="Heading 1">LieAlgebras[CartanSubalgebra]<Font bold="true" style="Help Normal"> - find a Cartan subalgebra of a Lie algebra</Font></Text-field>
+<Text-field bookmark="usage" style="Heading 2" layout="Heading 2">Calling Sequences</Text-field>
+<Text-field style="Normal" layout="Normal">     CartanSubalgebra()</Text-field>
+<Text-field style="Normal" layout="Normal">     CartanSubalgebra(alg)</Text-field>
+<Text-field style="Normal" layout="Normal">     CartanSubalgebra(N)</Text-field>
+<Text-field style="Heading 2" layout="Heading 2">Parameters</Text-field>
+<Text-field style="Normal" layout="Normal">     <Font style="Text" family="Monospaced">alg   </Font><Font family="Monospaced" size="10">- </Font>name or string, the name of an initialized Lie algebra<Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnL0YzUSdub3JtYWxGJw==">JSFH</Equation></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text" family="Monospaced">  N     </Font><Font family="Monospaced" size="10">- </Font>a list of vectors, defining a nilpotent subalgebra</Text-field>
+<Text-field style="Normal" layout="Normal"><Font family="Monospaced" size="10">   </Font></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="info" style="Heading 2" layout="Heading 2">Description</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item"> Let <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEpJiM1ODY2MDtGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSJ+RidGL0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y7LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRjsvJShsYXJnZW9wR0Y7LyUubW92YWJsZWxpbWl0c0dGOy8lJ2FjY2VudEdGOy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkovRjNRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEpJiM1ODY2MDtGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSJ+RidGL0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y7LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRjsvJShsYXJnZW9wR0Y7LyUubW92YWJsZWxpbWl0c0dGOy8lJ2FjY2VudEdGOy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkovRjNRJ25vcm1hbEYn</Equation><Font style="Text" encoding="UTF-8">be a Lie algebra. A Cartan subalgebra \356\224\245 is a </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/Query/Nilpotent" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">nilpotent</Font></Hyperlink><Font style="Text"> subalgebra whose </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/SubalgebraNormalizer" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">normalizer</Font></Hyperlink><Font style="Text" encoding="UTF-8"> in \356\224\244 is itself, that is, </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW9HRiQ2LlEkbm9yRicvJSVib2xkR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZFLUkobWZlbmNlZEdGJDYkLUYjNiQtSSNtaUdGJDYlUSkmIzU4NjYxO0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjItRiw2LVEifkYnRjJGNUY3RjlGO0Y9Rj9GQUZDRkYtRiw2LVEiPUYnRjJGNUY3RjlGO0Y9Rj9GQS9GRFEsMC4yNzc3Nzc4ZW1GJy9GR0ZnbkZWRk1GMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW9HRiQ2LlEkbm9yRicvJSVib2xkR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZFLUkobWZlbmNlZEdGJDYkLUYjNiQtSSNtaUdGJDYlUSkmIzU4NjYxO0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyRjItRiw2LVEifkYnRjJGNUY3RjlGO0Y9Rj9GQUZDRkYtRiw2LVEiPUYnRjJGNUY3RjlGO0Y9Rj9GQS9GRFEsMC4yNzc3Nzc4ZW1GJy9GR0ZnbkZWRk1GMg==</Equation><Font encoding="UTF-8"> . If \356\224\244 is a semi-simple Lie algebra, then every Cartan subalgebra \356\224\245 is Abelian and </Font><Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjYWRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JS1GLDYlUSJ4RidGL0YyLUkjbW9HRiQ2LVEifkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRS8lKXN0cmV0Y2h5R0ZFLyUqc3ltbWV0cmljR0ZFLyUobGFyZ2VvcEdGRS8lLm1vdmFibGVsaW1pdHNHRkUvJSdhY2NlbnRHRkUvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZURkFGQUZB">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjYWRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JS1GLDYlUSJ4RidGL0YyLUkjbW9HRiQ2LVEifkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRS8lKXN0cmV0Y2h5R0ZFLyUqc3ltbWV0cmljR0ZFLyUobGFyZ2VvcEdGRS8lLm1vdmFibGVsaW1pdHNHRkUvJSdhY2NlbnRHRkUvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZURkFGQUZB</Equation><Font style="Text">(see </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/Adjoint" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Adjoint</Font></Hyperlink><Font style="Text">) is a semi-simple linear transformation for every </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSgmaXNpbnY7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEpJiM1ODY2MTtGJ0YvRjJGOQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSgmaXNpbnY7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEpJiM1ODY2MTtGJ0YvRjJGOQ==</Equation> (that is, <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjYWRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1GLDYlUSJ4RidGL0YyL0YzUSdub3JtYWxGJ0Y9Rj0=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjYWRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1GLDYlUSJ4RidGL0YyL0YzUSdub3JtYWxGJ0Y9Rj0=</Equation><Font style="Text" encoding="UTF-8"> is diagonalizable over \342\204\202). Cartan subalgebras are not unique. However, if </Font><Font encoding="UTF-8">\356\224\244 is a semi-simple Lie algebra, then any two Cartan subalgebras of \356\224\244 are related by an automorphism of \356\224\244 <Font style="Text">Let \356\224\253 be a nilpotent subalgebra of \356\224\244 and let </Font></Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRKSYjNTg2Njc7RicvRjBRJmZhbHNlRicvRjNRJ25vcm1hbEYnLUkjbW9HRiQ2LVEifkYnRj8vJSZmZW5jZUdGPi8lKnNlcGFyYXRvckdGPi8lKXN0cmV0Y2h5R0Y+LyUqc3ltbWV0cmljR0Y+LyUobGFyZ2VvcEdGPi8lLm1vdmFibGVsaW1pdHNHRj4vJSdhY2NlbnRHRj4vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZVRj9GPy1GQjYtUSI9RidGP0ZFRkdGSUZLRk1GT0ZRL0ZUUSwwLjI3Nzc3NzhlbUYnL0ZXRmZuLUZCNi1RInxmckYnRj8vRkZGMUZHL0ZKRjFGS0ZNRk9GUS9GVFEsMC4xNjY2NjY3ZW1GJy9GV0Zeby1GLDYlUSJ5RidGL0YyRkEtRkI2LVEoJmlzaW52O0YnRj9GRUZHRklGS0ZNRk9GUUZlbkZnbi1GLDYlUSkmIzU4NjYwO0YnRi9GMi1GQjYuRkRGL0YyRkVGR0ZJRktGTUZPRlFGU0ZWLUZCNi5RInxnckYnRi9GMkZFRkdGXG9GS0ZNRk9GUS9GVFEsMC4xMTExMTExZW1GJy9GV0ZfcEZpby1GLDYlUSNhZEYnRi9GMi1JJW1zdXBHRiQ2JS1GNjYkLUYjNiQtRiw2JVEieEYnRi9GMkY/Rj8tRiM2JS1GLDYlUSJyRidGL0YyRi9GMi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjY2JC1GIzYkRmBvRj9GP0ZBRlgtSSNtbkdGJDYkRmVxRj8tRkI2LVEifGhyRidGP0Zbb0ZHRlxvRktGTUZPRlFGXW9GYHBGPw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRKSYjNTg2Njc7RicvRjBRJmZhbHNlRicvRjNRJ25vcm1hbEYnLUkjbW9HRiQ2LVEifkYnRj8vJSZmZW5jZUdGPi8lKnNlcGFyYXRvckdGPi8lKXN0cmV0Y2h5R0Y+LyUqc3ltbWV0cmljR0Y+LyUobGFyZ2VvcEdGPi8lLm1vdmFibGVsaW1pdHNHRj4vJSdhY2NlbnRHRj4vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZVRj9GPy1GQjYtUSI9RidGP0ZFRkdGSUZLRk1GT0ZRL0ZUUSwwLjI3Nzc3NzhlbUYnL0ZXRmZuLUZCNi1RInxmckYnRj8vRkZGMUZHL0ZKRjFGS0ZNRk9GUS9GVFEsMC4xNjY2NjY3ZW1GJy9GV0Zeby1GLDYlUSJ5RidGL0YyRkEtRkI2LVEoJmlzaW52O0YnRj9GRUZHRklGS0ZNRk9GUUZlbkZnbi1GLDYlUSkmIzU4NjYwO0YnRi9GMi1GQjYuRkRGL0YyRkVGR0ZJRktGTUZPRlFGU0ZWLUZCNi5RInxnckYnRi9GMkZFRkdGXG9GS0ZNRk9GUS9GVFEsMC4xMTExMTExZW1GJy9GV0ZfcEZpby1GLDYlUSNhZEYnRi9GMi1JJW1zdXBHRiQ2JS1GNjYkLUYjNiQtRiw2JVEieEYnRi9GMkY/Rj8tRiM2JS1GLDYlUSJyRidGL0YyRi9GMi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjY2JC1GIzYkRmBvRj9GP0ZBRlgtSSNtbkdGJDYkRmVxRj8tRkI2LVEifGhyRidGP0Zbb0ZHRlxvRktGTUZPRlFGXW9GYHBGPw==</Equation><Font style="Text"> be the </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/Centralizer" hyperlink="true"></Hyperlink><Font style="Text" encoding="UTF-8">generalized null space of \356\224\253. T</Font><Font style="Text">hen there always exists a Cartan subalgebra </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEpJiM1ODY2MTtGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSsmc3Vic2V0ZXE7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRjY2LVEifkYnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZTLUYsNiVRIkZGJ0YvRjItSShtZmVuY2VkR0YkNiQtRiM2JC1GLDYlUSkmIzU4NjY3O0YnL0YwRj1GOUY5RjktRjY2LVEiLkYnRjlGO0Y+RkBGQkZERkZGSEZSRlRGT0Y5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEpJiM1ODY2MTtGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSsmc3Vic2V0ZXE7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRjY2LVEifkYnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZTLUYsNiVRIkZGJ0YvRjItSShtZmVuY2VkR0YkNiQtRiM2JC1GLDYlUSkmIzU4NjY3O0YnL0YwRj1GOUY5RjktRjY2LVEiLkYnRjlGO0Y+RkBGQkZERkZGSEZSRlRGT0Y5</Equation><Font style="Text">If </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSomRWxlbWVudDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjc3Nzc3OGVtRicvRk5GUy1GLDYlUSkmIzU4NjYwO0YnL0YwRj1GOUY1Rjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIn5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GNjYtUSomRWxlbWVudDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjc3Nzc3OGVtRicvRk5GUy1GLDYlUSkmIzU4NjYwO0YnL0YwRj1GOUY1Rjk=</Equation>is a regular element, then the generalized null space of <Equation executable="false" style="Bullet Item" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Text"> is a Cartan subalgebra.</Font></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Font style="Text">The procedure </Font><Font style="Help Maple Name">CartanSubalgebra </Font><Font mathsize="12" mathvariant="normal" style="Text" mathbackground="[255,255,255]" mathcolor="[0,0,0]" fontfamily="Times New Roman">returns a list of vectors whose span is a Cartan subalgebra.</Font></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Font style="Text">The procedure </Font><Font style="Help Maple Name">CartanSubalgebra</Font><Font style="Text" italic="true"> </Font><Font style="Text">implements the algorithm for calculating Cartan subalgebras presented in W. A. De Graaf: <Font italic="true">Lie Algebras: Theory and Algorithms</Font>.</Font></Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Examples</Text-field></Title>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Group labelreference="L195" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> with(DifferentialGeometry): with(LieAlgebras): with(Library):</Text-field>
+</Input>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 1</Font></Text-field>
+<Text-field style="Text" layout="Normal">We calculate the Cartan subalgebra for <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjc2xGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1JI21uR0YkNiRRIjNGJy9GM1Enbm9ybWFsRidGPkY+LUkjbW9HRiQ2LVEiLEYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRkE2LVEifkYnRj5GRC9GSEZGRklGS0ZNRk9GUUZTL0ZXRlVGPg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjc2xGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1JI21uR0YkNiRRIjNGJy9GM1Enbm9ybWFsRidGPkY+LUkjbW9HRiQ2LVEiLEYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRkE2LVEifkYnRj5GRC9GSEZGRklGS0ZNRk9GUUZTL0ZXRlVGPg==</Equation>the 8-dimensional Lie algebra of 3x3 trace-free matrices. The structure equations are obtained using the <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/SimpleLieAlgebraData" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SimpleLieAlgebraData</Font></Hyperlink> command.</Text-field>
+<Group labelreference="L176" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L := SimpleLieAlgebraData(&quot;sl(3)&quot;,sl3, labelformat =&quot;gl&quot;, labels = [E, theta]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2KS1JKG1mZW5jZWRHRiQ2Ji1GIzZNLUYjNictRlI2Ji1GIzYnLUYsNiVRI2UxRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEjZTNGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTUZhb0Zkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmZuRmluLUYsNiVRI2U0RidGL0YyRmRvRjlGOUZnb0Zqb0ZdcC1GIzYmLUkjbW5HRiQ2JFEiMkYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZdby9GTkZeb0ZmcEY5RmRvRjlGaW4tRiM2Jy1GUjYmLUYjNidGZm5GaW4tRiw2JVEjZTVGJ0YvRjJGZG9GOUY5RmdvRmpvRl1wLUYjNiYtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmJyRmlxRmRvRjlGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZmbkZpbi1GLDYlUSNlNkYnRi9GMkZkb0Y5RjlGZ29Gam9GXXBGanJGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZmbkZpbi1GLDYlUSNlN0YnRi9GMkZkb0Y5RjlGZ29Gam9GXXAtRiM2JkZeci1GIzYmRltxRl9xRmNzRjlGZG9GOUZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmZuRmluLUYsNiVRI2U4RidGL0YyRmRvRjlGOUZnb0Zqb0ZdcC1GIzYmRl5yRmB0RmRvRjlGZG9GOUZpbi1GIzYnLUZSNiYtRiM2Jy1GLDYlUSNlMkYnRi9GMkZpbkZhb0Zkb0Y5RjlGZ29Gam9GXXAtRiM2JkZeckZhb0Zkb0Y5RmRvRjlGaW4tRiM2Jy1GUjYmLUYjNidGW3VGaW5GZnBGZG9GOUY5RmdvRmpvRl1wRmZwRmRvRjlGaW4tRiM2Jy1GUjYmLUYjNidGW3VGaW5GaXFGZG9GOUY5RmdvRmpvRl1wRmlxRmRvRjlGaW4tRiM2Jy1GUjYmLUYjNidGW3VGaW5GanJGZG9GOUY5RmdvRmpvRl1wLUYjNiZGW3FGX3FGanJGOUZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRlt1RmluRmNzRmRvRjlGOUZnb0Zqb0ZdcC1GIzYmRl5yRmNzRmRvRjlGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZbdUZpbkZgdEZkb0Y5RjlGZ29Gam9GXXAtRiM2JkZeci1GIzYmRltxRl9xRmB0RjlGZG9GOUZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmFvRmluRmlxRmRvRjlGOUZnb0Zqb0ZdcC1GIzYmRmZuLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGYXJGY3JGW3VGOUZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmFvRmluRmpyRmRvRjlGOUZnb0Zqb0ZdcEZmcEZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmFvRmluRmNzRmRvRjlGOUZnb0Zqb0ZdcEZjdEZkb0Y5RmluLUYjNictRlI2Ji1GIzYnRmZwRmluRmlxRmRvRjlGOUZnb0Zqb0ZdcC1GIzYmRl5yRmpyRmRvRjlGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZmcEZpbkZjc0Zkb0Y5RjlGZ29Gam9GXXBGZm5GZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZmcEZpbkZgdEZkb0Y5RjlGZ29Gam9GXXBGYW9GZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZpcUZpbkZgdEZkb0Y5RjlGZ29Gam9GXXBGanZGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZqckZpbkZjc0Zkb0Y5RjlGZ29Gam9GXXBGaXFGZG9GOUZpbi1GIzYnLUZSNiYtRiM2J0ZqckZpbkZgdEZkb0Y5RjlGZ29Gam9GXXBGW3VGZG9GOUZkb0Y5RjlGZ29Gam9GaW4tRlI2Ji1GIzYzLUYsNiVRJEUxMUYnRi9GMkZpbi1GLDYlUSRFMjJGJ0YvRjJGaW4tRiw2JVEkRTEyRidGL0YyRmluLUYsNiVRJEUxM0YnRi9GMkZpbi1GLDYlUSRFMjFGJ0YvRjJGaW4tRiw2JVEkRTIzRidGL0YyRmluLUYsNiVRJEUzMUYnRi9GMkZpbi1GLDYlUSRFMzJGJ0YvRjJGZG9GOUY5RmdvRmpvRmluLUZSNiYtRiM2My1GLDYlUSkmIzk1MjsxMUYnRi9GMkZpbi1GLDYlUSkmIzk1MjsyMkYnRi9GMkZpbi1GLDYlUSkmIzk1MjsxMkYnRi9GMkZpbi1GLDYlUSkmIzk1MjsxM0YnRi9GMkZpbi1GLDYlUSkmIzk1MjsyMUYnRi9GMkZpbi1GLDYlUSkmIzk1MjsyM0YnRi9GMkZpbi1GLDYlUSkmIzk1MjszMUYnRi9GMkZpbi1GLDYlUSkmIzk1MjszMkYnRi9GMkZkb0Y5RjlGZ29Gam9GZG9GOUZkb0Y5">NiUtSSRfREdHNiI2IzckNyVRK0xpZUFsZ2VicmFGJUkkc2wzR0YlNyQiIik9RiVJJmZhbHNlRyUqcHJvdGVjdGVkR0VcW2wmUSxhbGdlYnJhdHlwZUYlUSRzbG5GJVElcmFua0YlIiIjUSlJbmRUYWJsZUYlNyo3JVEiQkYlNyQiIiJGOjckNyRGOUY6NyQ3JCIiJEY/ISIiNyVGODckRjRGNDckNyRGQkY6Rj03JVEiQUYlNyRGOkY0NyM3JEZHRjo3JUZGNyRGOkY/NyM3JEZLRjo3JUZGNyRGNEY6NyM3JEZPRjo3JUZGNyRGNEY/NyM3JEZTRjo3JUZGNyRGP0Y6NyM3JEZXRjo3JUZGNyRGP0Y0NyM3JEZlbkY6UThyZXByZXNlbnRhdGlvbmRpbWVuc2lvbkYlRj9RLHZlY3RvcnRhYmxlRiU9RiVGLkVcW2wjRkY9RiVGLkVcW2wnRkdGP0ZLIiIlRmVuRixGVyIiKEZPIiImRlMiIidGOD1GJUYuRVxbbCNGQkY0RjlGOjc4NyQ3JUY6Rj9GP0Y6NyQ3JUY6Rl5vRl5vRjQ3JDclRjpGYG9GYG9GQDckNyVGOkZhb0Zhb0Y6NyQ3JUY6Rl9vRl9vISIjNyQ3JUY6RixGLEZANyQ3JUY0Rj9GP0ZANyQ3JUY0Rl5vRl5vRjo3JDclRjRGYG9GYG9GOjckNyVGNEZhb0Zhb0Y0NyQ3JUY0Rl9vRl9vRkA3JDclRjRGLEYsRl9wNyQ3JUY/RmBvRjpGOjckNyVGP0Zgb0Y0RkA3JDclRj9GYW9GXm9GOjckNyVGP0Zfb0YsRkA3JDclRl5vRmBvRmFvRkA3JDclRl5vRl9vRjpGOjckNyVGXm9GLEY/Rjo3JDclRmBvRixGX29GQDckNyVGYW9GX29GYG9GOjckNyVGYW9GLEY0Rjo3KkkkRTExR0YlSSRFMjJHRiVJJEUxMkdGJUkkRTEzR0YlSSRFMjFHRiVJJEUyM0dGJUkkRTMxR0YlSSRFMzJHRiU3KkkodGhldGExMUdGJUkodGhldGEyMkdGJUkodGhldGExMkdGJUkodGhldGExM0dGJUkodGhldGEyMUdGJUkodGhldGEyM0dGJUkodGhldGEzMUdGJUkodGhldGEzMkdGJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Initialized the Lie algebra.</Text-field>
+<Group labelreference="L174" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup(L);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">STFMaWV+YWxnZWJyYTp+c2wzRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Find a Cartan subalgebra.</Text-field>
+<Group labelreference="L183" drawlabel="true">
+<Input>
+<Text-field prompt="sl(3) &gt; " style="Maple Input" layout="Normal">CSA := CartanSubalgebra();</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkQ1NBRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYnLUYsNiVRJEUxMUYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRJEUyMkYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRlxvRjk=">NyQtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSRzbDNHRiU3IjcjNyQ3IyIiIkYvLUYkNiM3JEYoNyM3JDcjIiIjRi8=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">We can check that this subalgebra is Abelian (and hence nilpotent) and self-normalizing.</Text-field>
+<Group labelreference="L186" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">Query(CSA, &quot;Abelian&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L188" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">SubalgebraNormalizer(CSA);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbWlHRiQ2JVEkRTIyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiLEYnL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0ZALyUqc3ltbWV0cmljR0ZALyUobGFyZ2VvcEdGQC8lLm1vdmFibGVsaW1pdHNHRkAvJSdhY2NlbnRHRkAvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLzYlUSRFMTFGJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjxGPC8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyQtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSRzbDNHRiU3IjcjNyQ3IyIiIyIiIi1GJDYjNyRGKDcjNyQ3I0YwRjA=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">These properties can also be checked with the Query command</Text-field>
+<Group labelreference="L187" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">Query(CSA, &quot;CartanSubalgebra&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">For the split real forms of the simple Lie algebras, a Cartan subalgebra can always be found consisting of diagonal matrices in the standard representation. </Text-field>
+<Group labelreference="L191" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">StandardRepresentation(sl3,CSA);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkobWFjdGlvbkdGJDYlLUYjNigtRiw2JS1JJ210YWJsZUdGJDY3LUkkbXRyR0YkNigtSSRtdGRHRiQ2KC1JI21uR0YkNiRRIjFGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRkcvJStncm91cGFsaWduR0ZHLyUocm93c3BhbkdGQS8lK2NvbHVtbnNwYW5HRkEtRjw2KC1GPzYkUSIwRidGQkZFRkhGSkZMRk5GUEZFRkhGSi1GOTYoRlBGUEZQRkVGSEZKLUY5NihGUEZQLUY8NigtRiw2JS1JI21vR0YkNi1RKiZ1bWludXMwO0YnRkIvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRl1vLyUpc3RyZXRjaHlHRl1vLyUqc3ltbWV0cmljR0Zdby8lKGxhcmdlb3BHRl1vLyUubW92YWJsZWxpbWl0c0dGXW8vJSdhY2NlbnRHRl1vLyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGXHBGPkZCRkVGSEZKRkxGTkZFRkhGSi8lJmFsaWduR1ElYXhpc0YnL0ZGUSliYXNlbGluZUYnL0ZJUSZyaWdodEYnL0ZLUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdRJXRydWVGJy8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRl1xLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRmhxLyUmZnJhbWVHRmhxLyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGXW8vJS1lcXVhbGNvbHVtbnNHRl1vLyUtZGlzcGxheXN0eWxlR0Zdby8lJXNpZGVHRmVwLyUwbWlubGFiZWxzcGFjaW5nR0ZlcS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGQkZCL0krbXNlbWFudGljc0dGJFEnTWF0cml4RicvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGXXMvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUSoxMTIxMDgzNDBGJy1GaG42LVEiLEYnRkJGW28vRl9vRmpwRmBvRmJvRmRvRmZvRmhvL0ZbcFEmMC4wZW1GJy9GXnBRLDAuMzMzMzMzM2VtRictRi82JS1GIzYoLUYsNiUtRjY2N0ZVLUY5NihGUEY7RlBGRUZIRkpGV0ZfcEZicEZkcEZmcEZocEZbcUZecUZgcUZjcUZmcUZpcUZbckZdckZgckZickZkckZmckZockZqckZCRkJGXXNGYHNGY3NGXXNGZnMvRmpzUSoxMDc5MjM0NzZGJ0ZqckZCRkJGYHNGY3M=">NyQtSSdNYXRyaXhHNiI2Iy9JJCVpZEdGJSIrZUl0SlgtRiQ2Iy9GKCIrQUp0Slg=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 2</Font></Text-field>
+<Text-field style="Text" layout="Normal">Other Cartan subalgebras for <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjc2xGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1JI21uR0YkNiRRIjRGJy9GM1Enbm9ybWFsRidGPkY+LUkjbW9HRiQ2LVEifkYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkYvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGVUY+">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjc2xGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1JI21uR0YkNiRRIjRGJy9GM1Enbm9ybWFsRidGPkY+LUkjbW9HRiQ2LVEifkYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkYvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGVUY+</Equation>can be found with the second calling sequence.</Text-field>
+<Group labelreference="L192" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">CartanSubalgebra([E11 + 3*E31]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUYsNiYtSSNtaUdGJDYlUSRFMTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIrRicvRjhRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZCLyUpc3RyZXRjaHlHRkIvJSpzeW1tZXRyaWNHRkIvJShsYXJnZW9wR0ZCLyUubW92YWJsZWxpbWl0c0dGQi8lJ2FjY2VudEdGQi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRlEtRiw2Ji1JI21uR0YkNiRRIjNGJ0Y+LUY7Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y+RkBGQ0ZFRkdGSUZLRk0vRlBRJjAuMGVtRicvRlNGaG4tRjE2JVEkRTMxRidGNEY3Rj5GPi1GOzYtUSIsRidGPkZAL0ZERjZGRUZHRklGS0ZNRmduL0ZTUSwwLjMzMzMzMzNlbUYnLUYsNiYtRjE2JVEkRTIyRidGNEY3RjotRiw2Jy1JJm1mcmFjR0YkNihGVi1GVzYkUSIyRidGPi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZXAvJSliZXZlbGxlZEdGQkZaLUYsNiRGam5GPi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGPkY+RlxxRj5GPi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyQtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSRzbDNHRiU3IjckNyQ3IyIiIkYvNyQ3IyIiKCIiJC1GJDYjNyRGKDckNyQ3IyIiI0YvNyRGMSNGM0Y6</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 3</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">The Cartan subalgebra of a nilpotent Lie algebra \356\224\244 is \356\224\244 itself. </Font><Hyperlink linktarget="Help:DiffererentialGeometry/Library/Retrieve" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Retrieve</Font></Hyperlink> the structure equations for a nilpotent Lie algebra from the <Font style="Help Maple Name">DifferentialGeometry</Font><Font italic="true"> </Font>library.</Text-field>
+<Group labelreference="L171" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">LD3 := Retrieve(&quot;Winternitz&quot;, 1, [5, 5], alg3);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkTEQzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUYjNictRlA2Ji1GIzYnLUYsNiVRI2UyRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEjZTVGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GLDYlUSNlMUYnRi9GMkZib0Y5RmduLUYjNictRlA2Ji1GIzYnLUYsNiVRI2UzRidGL0YyRmduLUYsNiVRI2U0RidGL0YyRmJvRjlGOUZlb0Zob0ZbcEZecEZib0Y5RmduLUYjNictRlA2Ji1GIzYnRmdwRmduRl9vRmJvRjlGOUZlb0Zob0ZbcEZaRmJvRjlGYm9GOUY5RmVvRmhvRmJvRjk=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJWFsZzNHRiQ3IyIiJjclNyQ3JSIiJCIiJSIiIkYxNyQ3JSIiI0YrRjFGMTckNyVGL0YrRjRGMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L170" drawlabel="true">
+<Input>
+<Text-field prompt="sl3 &gt; " style="Maple Input" layout="Normal">DGsetup(LD3):</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Check that the algebra is nilpotent.</Text-field>
+<Group labelreference="L189" drawlabel="true">
+<Input>
+<Text-field prompt="alg3 &gt; " style="Maple Input" layout="Normal">Query(&quot;Nilpotent&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L190" drawlabel="true">
+<Input>
+<Text-field prompt="alg3 &gt; " style="Maple Input" layout="Normal">CartanSubalgebra();</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYtLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRkAvJSpzeW1tZXRyaWNHRkAvJShsYXJnZW9wR0ZALyUubW92YWJsZWxpbWl0c0dGQC8lJ2FjY2VudEdGQC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYvNiVRI2UyRidGMkY1RjgtRi82JVEjZTNGJ0YyRjVGOC1GLzYlUSNlNEYnRjJGNUY4LUYvNiVRI2U1RidGMkY1LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y8RjwvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">NyctSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSVhbGczR0YlNyI3IzckNyMiIiJGLy1GJDYjNyRGKDcjNyQ3IyIiI0YvLUYkNiM3JEYoNyM3JDcjIiIkRi8tRiQ2IzckRig3IzckNyMiIiVGLy1GJDYjNyRGKDcjNyQ3IyIiJkYv</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 4</Font></Text-field>
+<Text-field style="Text" layout="Normal">We find the Cartan subalgebra for a solvable Lie algebra. Retrieve the structure equations for a solvable Lie algebra from the <Font style="Help Maple Name">DifferentialGeometry</Font><Font italic="true"> </Font>library.</Text-field>
+<Group labelreference="L185" drawlabel="true">
+<Input>
+<Text-field prompt="alg3 &gt; " style="Maple Input" layout="Normal">LD4 := Retrieve(&quot;Winternitz&quot;, 1, [5, 34], alg4);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkTEQ0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYtLUYjNictRlA2Ji1GIzYnLUYsNiVRI2UxRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEjZTRGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZbby9GTkZcb0ZaRjlGYm9GOUZnbi1GIzYnLUZQNiYtRiM2J0ZaRmduLUYsNiVRI2U1RidGL0YyRmJvRjlGOUZlb0Zob0ZbcEZaRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNictRiw2JVEjZTJGJ0YvRjJGZ25GX29GYm9GOUY5RmVvRmhvRltwRmZxRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNictRiw2JVEjZTNGJ0YvRjJGZ25GX29GYm9GOUY5RmVvRmhvRltwRl9yRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGX3JGZ25GXXFGYm9GOUY5RmVvRmhvRltwRmZxRmJvRjlGYm9GOUY5RmVvRmhvRmJvRjk=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJWFsZzRHRiQ3IyIiJjcnNyQ3JSIiIiIiJUYvSSJhR1E6QzpcUHJvamVjdHNcbGliXG1hcGxlLm1sYUYkNyQ3JSIiI0YwRjVGLzckNyUiIiRGMEY4Ri83JDclRi9GK0YvRi83JDclRjhGK0Y1Ri8=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L184" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">DGsetup(LD4);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">STJMaWV+YWxnZWJyYTp+YWxnNEc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Check that the algebra is solvable.</Text-field>
+<Group labelreference="L181" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">Query(&quot;Solvable&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L179" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">CSA4 := CartanSubalgebra();</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVElQ1NBNEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Jy1GLDYlUSNlNEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRI2U1RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGXG9GOQ==">NyQtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSVhbGc0R0YlNyI3IzckNyMiIiUiIiItRiQ2IzckRig3IzckNyMiIiZGMA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L180" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">Query(CSA4, &quot;CartanSubalgebra&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Example 5.</Font></Text-field>
+<Text-field style="Text" layout="Normal">We find the Cartan subalgebra for a Lie algebra with a non-trivial<Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/LeviDecomposition" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]"> Levi decomposition</Font></Hyperlink>. Retrieve the structure equations for such a Lie algebra from the <Font style="Help Maple Name">DifferentialGeometry</Font><Font italic="true"> </Font>library.</Text-field>
+<Group labelreference="L178" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">LD5 := Retrieve(&quot;Turkowski&quot;, 1, [7, 4], alg5);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkTEQ1RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzY5LUYjNictRlA2Ji1GIzYnLUYsNiVRI2UxRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEjZTJGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GIzYmLUkjbW5HRiQ2JFEiMkYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZbby9GTkZcb0Zfb0Y5RmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGWkZnbi1GLDYlUSNlM0YnRi9GMkZib0Y5RjlGZW9GaG9GW3AtRiM2Ji1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZ3EtRiM2JkZgcEZkcEZecUY5RmJvRjlGYm9GOUZnbi1GIzYnLUZQNiYtRiM2J0ZaRmduLUYsNiVRI2U0RidGL0YyRmJvRjlGOUZlb0Zob0ZbcEZhckZib0Y5RmduLUYjNictRlA2Ji1GIzYnRlpGZ24tRiw2JVEjZTVGJ0YvRjJGYm9GOUY5RmVvRmhvRltwLUYjNiZGY3FGanJGYm9GOUZib0Y5RmduLUYjNictRlA2Ji1GIzYnRl9vRmduRl5xRmJvRjlGOUZlb0Zob0ZbcEZaRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGX29GZ25GanJGYm9GOUY5RmVvRmhvRltwRmFyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGXnFGZ25GYXJGYm9GOUY5RmVvRmhvRltwRmpyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGYXJGZ25GanJGYm9GOUY5RmVvRmhvRltwLUYsNiVRI2U2RidGL0YyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGYXJGZ24tRiw2JVEjZTdGJ0YvRjJGYm9GOUY5RmVvRmhvRltwRmFyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGanJGZ25GYHVGYm9GOUY5RmVvRmhvRltwRmpyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGZ3RGZ25GYHVGYm9GOUY5RmVvRmhvRltwLUYjNiZGYHBGZHBGZ3RGOUZib0Y5RmJvRjlGOUZlb0Zob0Zib0Y5">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJWFsZzVHRiQ3IyIiKDctNyQ3JSIiIiIiI0YwRjA3JDclRi8iIiRGMyEiIzckNyVGMEYzRi9GLzckNyVGLyIiJUY5Ri83JDclRi8iIiZGPCEiIjckNyVGMEY8RjlGLzckNyVGM0Y5RjxGLzckNyVGOUY8IiInRi83JDclRjlGK0Y5Ri83JDclRjxGK0Y8Ri83JDclRkRGK0ZERjA=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L173" drawlabel="true">
+<Input>
+<Text-field prompt="alg4 &gt; " style="Maple Input" layout="Normal">DGsetup(LD5);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">STJMaWV+YWxnZWJyYTp+YWxnNUc2Ig==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L194" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L193" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Check that the Levi decomposition is non-trivial.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L175" drawlabel="true">
+<Input>
+<Text-field prompt="alg5 &gt; " style="Maple Input" layout="Normal">LeviDecomposition();</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUYjNiYtRiw2Ky1JI21pR0YkNiVRI2U0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiLEYnL0Y6USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOC8lKXN0cmV0Y2h5R0ZELyUqc3ltbWV0cmljR0ZELyUobGFyZ2VvcEdGRC8lLm1vdmFibGVsaW1pdHNHRkQvJSdhY2NlbnRHRkQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GMzYlUSNlNUYnRjZGOUY8LUYzNiVRI2U2RidGNkY5RjwtRjM2JVEjZTdGJ0Y2RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRkBGQC8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Y8LUYjNiYtRiw2KS1GMzYlUSNlMUYnRjZGOUY8LUYzNiVRI2UyRidGNkY5RjwtRjM2JVEjZTNGJ0Y2RjlGam5GQEZARl1vRmBvRmpuRkBGQEZdb0Zgbw==">NyQ3Ji1JJF9ER0c2IjYjNyQ3JVEndmVjdG9yRiZJJWFsZzVHRiY3IjcjNyQ3IyIiJSIiIi1GJTYjNyRGKTcjNyQ3IyIiJkYxLUYlNiM3JEYpNyM3JDcjIiInRjEtRiU2IzckRik3IzckNyMiIihGMTclLUYlNiM3JEYpNyM3JDcjRjFGMS1GJTYjNyRGKTcjNyQ3IyIiI0YxLUYlNiM3JEYpNyM3JDcjIiIkRjE=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L177" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L182" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Calculate the Cartan subalgebra.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L172" drawlabel="true">
+<Input>
+<Text-field prompt="alg5 &gt; " style="Maple Input" layout="Normal">CartanSubalgebra(alg5);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRkAvJSpzeW1tZXRyaWNHRkAvJShsYXJnZW9wR0ZALyUubW92YWJsZWxpbWl0c0dGQC8lJ2FjY2VudEdGQC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYvNiVRI2U3RidGMkY1LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y8RjwvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">NyQtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSVhbGc1R0YlNyI3IzckNyMiIiJGLy1GJDYjNyRGKDcjNyQ3IyIiKEYv</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="seealso" style="Heading 2" layout="Heading 2">See Also</Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>,<Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras" hyperlink="true"></Hyperlink><Font style="Text"> </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/CartanSubalgebra" hyperlink="true"></Hyperlink><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/CartanDecomposition" hyperlink="true"></Hyperlink><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">LieAlgebras</Font></Hyperlink><Font style="Text">, </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/CartanMatrix" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">CartanMatrix</Font></Hyperlink><Font style="Text">, </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebra/Query" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Query</Font></Hyperlink><Font style="Text">, </Font><Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/RootSpaceDecomposition" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">RootSpaceDecomposition</Font></Hyperlink></Text-field>
+</Section>
+</Worksheet>

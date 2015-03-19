@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item260" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Math" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal258" opaque="false" placeholder="false" readonly="false" size="24" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal259" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Arial" foreground="[128,0,64]" italic="false" name="Vess_Title2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Arial" foreground="[0,0,0]" italic="false" name="Vess_IO" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="DG_Text" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Vess_Title2" pagebreak-before="false" rightmargin="0" spaceabove="4" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal258" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal259" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="30" linebreak="space" linespacing="0.0" name="Vess_IO" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item260" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/Tutorials/ClassicalMatrixAlgebras"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="true" layout="Normal258" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="24" style="Text" subscript="false" superscript="false" underline="false">DifferentialGeometry Tutorials</Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 1" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="18" style="Text" subscript="false" superscript="false" underline="false">Classical Matrix Algebras</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2">Overview</Text-field></Title>
+<Text-field layout="Normal" style="Normal">The Lie algebra of all real <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">mxm </Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> matrices is called the general linear Lie algebra </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(m, R)</Font>.  Many important Lie algebras, the so-called  classical matrix Lie algebras, can be  characterized as subalgebras of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(m, R)</Font>. This tutorial shows how to construct the classical matrix Lie algebras <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(p,q)</Font>, <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">sl(n)</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(n,C)</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">u(n)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">,</Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> su(n)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">,</Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> gl(n</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">,</Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">H)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">, </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">sp(n)</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font>and<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g2 f</Font>or small values of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">p, q</Font>, and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">n.</Font><Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> In each case we realize these Lie algebras as subalgebras of the appropriate </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(m, R)</Font> which fix some tensor or collection of tensors on <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">R^m.</Font></Text-field>
+<Text-field layout="Normal" style="Normal"> </Text-field>
+<Text-field layout="Normal" style="Normal">The <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/MatrixAlgebras"><Font size="14" style="Hyperlink">MatrixAlgebras</Font></Hyperlink> command in the LieAlgebra package is used  to construct these Lie algebras. We shall also use the <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras"><Font size="14" style="Hyperlink">LieAlgebra</Font></Hyperlink> package explore some special properties of these Lie algebras.</Text-field>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Procedures Illustrated</Text-field></Title>
+<Text-field layout="Normal" style="Normal">In this tutorial we shall make use of the following packages and commands: </Text-field>
+<Text-field layout="Normal" style="Normal"><Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font size="14" style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras"><Font size="14" style="Hyperlink">LieAlgebras</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor"><Font size="14" style="Hyperlink">Tensor</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/DGsetup"><Font size="14" style="Hyperlink">DGsetup</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/MatrixAlgebras"><Font size="14" style="Hyperlink">MatrixAlgebras</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tensor/CanonicalTensors"><Font size="14" style="Hyperlink">CanonicalTensors</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/Query"><Font size="14" style="Hyperlink">Query</Font></Hyperlink> <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/DecomposeAlgebra"><Font size="14" style="Hyperlink">DecomposeAlgebra</Font></Hyperlink></Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 1</Font>.  The special orthogonal Lie algebras so(4), so(3,1), so(2,2)</Text-field></Title>
+<Text-field layout="Normal" style="Normal">Let <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> be an inner product on the vector space <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">R^n</Font> with signature <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">(p,q)</Font>  <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">p + q= n</Font>. The Lie algebra<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(p,q)</Font> is the subalgebra of <Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(n)</Font> consisting of  <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">nxn </Font>matrices <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">a </Font>such that <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g(ax, y) + g(x, ay) =0 .</Font> Typically one takes <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font> to be the inner product defined by the diagonal matrix<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> DiagonalMatrix([1$p, -1$q]) </Font>with <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">p 1</Font>'s and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">q  (-1)</Font>'s  along the diagonal but strictly speaking this is not necessary and other choices for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g </Font>are sometimes preferred.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this example we construct the Lie algebras <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(4)</Font> , <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(3,1)</Font> and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(2, 2)</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Introduce the vector space E4 on which the orthogonal algebras will act.</Text-field>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1,x2,x3,x4],E4):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Create and then initialize the full general linear algebras <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">gl(4)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">gl4 := MatrixAlgebras("Full",4, gl4R);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRnbDRHNiU3WC83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0clI2UzRy83JCUjZTFHJSNlNEclI2U0Ry83JCUjZTFHJSNlNUcsJCUjZTVHISIiLzckJSNlMUclI2U5RywkJSNlOUchIiIvNyQlI2UxRyUkZTEzRywkJSRlMTNHISIiLzckJSNlMkclI2U1RywmJSNlMUciIiIlI2U2RyEiIi83JCUjZTJHJSNlNkclI2UyRy83JCUjZTJHJSNlN0clI2UzRy83JCUjZTJHJSNlOEclI2U0Ry83JCUjZTJHJSNlOUcsJCUkZTEwRyEiIi83JCUjZTJHJSRlMTNHLCQlJGUxNEchIiIvNyQlI2UzRyUjZTVHLCQlI2U3RyEiIi83JCUjZTNHJSNlOUcsJiUjZTFHIiIiJSRlMTFHISIiLzckJSNlM0clJGUxMEclI2UyRy83JCUjZTNHJSRlMTFHJSNlM0cvNyQlI2UzRyUkZTEyRyUjZTRHLzckJSNlM0clJGUxM0csJCUkZTE1RyEiIi83JCUjZTRHJSNlNUcsJCUjZThHISIiLzckJSNlNEclI2U5RywkJSRlMTJHISIiLzckJSNlNEclJGUxM0csJiUjZTFHIiIiJSRlMTZHISIiLzckJSNlNEclJGUxNEclI2UyRy83JCUjZTRHJSRlMTVHJSNlM0cvNyQlI2U0RyUkZTE2RyUjZTRHLzckJSNlNUclI2U2RywkJSNlNUchIiIvNyQlI2U1RyUkZTEwRywkJSNlOUchIiIvNyQlI2U1RyUkZTE0RywkJSRlMTNHISIiLzckJSNlNkclI2U3RyUjZTdHLzckJSNlNkclI2U4RyUjZThHLzckJSNlNkclJGUxMEcsJCUkZTEwRyEiIi83JCUjZTZHJSRlMTRHLCQlJGUxNEchIiIvNyQlI2U3RyUjZTlHJSNlNUcvNyQlI2U3RyUkZTEwRywmJSNlNkciIiIlJGUxMUchIiIvNyQlI2U3RyUkZTExRyUjZTdHLzckJSNlN0clJGUxMkclI2U4Ry83JCUjZTdHJSRlMTRHLCQlJGUxNUchIiIvNyQlI2U4RyUkZTEwRywkJSRlMTJHISIiLzckJSNlOEclJGUxM0clI2U1Ry83JCUjZThHJSRlMTRHLCYlI2U2RyIiIiUkZTE2RyEiIi83JCUjZThHJSRlMTVHJSNlN0cvNyQlI2U4RyUkZTE2RyUjZThHLzckJSNlOUclJGUxMUcsJCUjZTlHISIiLzckJSNlOUclJGUxNUcsJCUkZTEzRyEiIi83JCUkZTEwRyUkZTExRywkJSRlMTBHISIiLzckJSRlMTBHJSRlMTVHLCQlJGUxNEchIiIvNyQlJGUxMUclJGUxMkclJGUxMkcvNyQlJGUxMUclJGUxNUcsJCUkZTE1RyEiIi83JCUkZTEyRyUkZTEzRyUjZTlHLzckJSRlMTJHJSRlMTRHJSRlMTBHLzckJSRlMTJHJSRlMTVHLCYlJGUxMUciIiIlJGUxNkchIiIvNyQlJGUxMkclJGUxNkclJGUxMkcvNyQlJGUxM0clJGUxNkcsJCUkZTEzRyEiIi83JCUkZTE0RyUkZTE2RywkJSRlMTRHISIiLzckJSRlMTVHJSRlMTZHLCQlJGUxNUchIiI3MiUkZTExRyUkZTEyRyUkZTEzRyUkZTE0RyUkZTIxRyUkZTIyRyUkZTIzRyUkZTI0RyUkZTMxRyUkZTMyRyUkZTMzRyUkZTM0RyUkZTQxRyUkZTQyRyUkZTQzRyUkZTQ0RzcyJSplcHNpbG9uMTFHJSplcHNpbG9uMTJHJSplcHNpbG9uMTNHJSplcHNpbG9uMTRHJSplcHNpbG9uMjFHJSplcHNpbG9uMjJHJSplcHNpbG9uMjNHJSplcHNpbG9uMjRHJSplcHNpbG9uMzFHJSplcHNpbG9uMzJHJSplcHNpbG9uMzNHJSplcHNpbG9uMzRHJSplcHNpbG9uNDFHJSplcHNpbG9uNDJHJSplcHNpbG9uNDNHJSplcHNpbG9uNDRH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(gl4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDRSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the inner product on <Font style="Help Math">E4</Font> with signature <Font style="Help Math">(4,0)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(E4):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas", 4, 0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywqKiYlJGR4MUciIiIlJGR4MUciIiIiIiIqJiUkZHgyRyIiIiUkZHgyRyIiIiIiIiomJSRkeDNHIiIiJSRkeDNHIiIiIiIiKiYlJGR4NEciIiIlJGR4NEciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the subalgebra of <Font style="Help Math">gl4R</Font> which preserves the inner product <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">g</Font>.<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> </Font></Text-field>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">so4subalgebra := MatrixAlgebras("Subalgebra", gl4R, [g]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS5zbzRzdWJhbGdlYnJhRzcoLCYlJGUxMkciIiIlJGUyMUchIiIsJiUkZTEzRyIiIiUkZTMxRyEiIiwmJSRlMTRHIiIiJSRlNDFHISIiLCYlJGUyM0ciIiIlJGUzMkchIiIsJiUkZTI0RyIiIiUkZTQyRyEiIiwmJSRlMzRHIiIiJSRlNDNHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Now we initialize <Font style="Help Math">so4</Font>, viewed as a Lie algebra of <Font style="Help Math">gl4</Font>, as a Lie algebra in its own right.</Text-field>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">so4data := LieAlgebraData(so4subalgebra, so4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JShzbzRkYXRhRzcuLzckJSNlMUclI2UyRywkJSNlNEchIiIvNyQlI2UxRyUjZTNHLCQlI2U1RyEiIi83JCUjZTFHJSNlNEclI2UyRy83JCUjZTFHJSNlNUclI2UzRy83JCUjZTJHJSNlM0csJCUjZTZHISIiLzckJSNlMkclI2U0RywkJSNlMUchIiIvNyQlI2UyRyUjZTZHJSNlM0cvNyQlI2UzRyUjZTVHLCQlI2UxRyEiIi83JCUjZTNHJSNlNkcsJCUjZTJHISIiLzckJSNlNEclI2U1RywkJSNlNkchIiIvNyQlI2U0RyUjZTZHJSNlNUcvNyQlI2U1RyUjZTZHLCQlI2U0RyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(so4data);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMUxpZX5hbGdlYnJhOn5zbzRH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable("LieTable");
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKjtkVV8iLSUnTUFUUklYRzYjNyo3KiUhRyUifGdyRyUjZTFHJSNlMkclI2UzRyUjZTRHJSNlNUclI2U2RzcqJSFHJSQtLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyolI2UxRyUifGdyRyIiISwkJSNlNEchIiIsJCUjZTVHISIiJSNlMkclI2UzRyIiITcqJSNlMkclInxnckclI2U0RyIiISwkJSNlNkchIiIsJCUjZTFHISIiIiIhJSNlM0c3KiUjZTNHJSJ8Z3JHJSNlNUclI2U2RyIiISIiISwkJSNlMUchIiIsJCUjZTJHISIiNyolI2U0RyUifGdyRywkJSNlMkchIiIlI2UxRyIiISIiISwkJSNlNkchIiIlI2U1RzcqJSNlNUclInxnckcsJCUjZTNHISIiIiIhJSNlMUclI2U2RyIiISwkJSNlNEchIiI3KiUjZTZHJSJ8Z3JHIiIhLCQlI2UzRyEiIiUjZTJHLCQlI2U1RyEiIiUjZTRHIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We check that <Font style="Help Math">so4</Font> is a semi-simple Lie algebra.</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">Query("Semisimple");
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We can decompose <Font style="Help Math">so4</Font> into a direct sum of  two 3-dimensional algebras.</Text-field>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">B := Decompose();</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJCRzckLSUnUlRBQkxFRzYlIipvKiozXyItJSdNQVRSSVhHNiM3KDcoIyIiIiIiIyIiISIiISIiISIiISMiIiIiIiM3KCIiISMiIiIiIiMiIiEiIiEjISIiIiIjIiIhNygiIiEiIiEjIiIiIiIjIyIiIiIiIyIiISIiITcoIyIiIiIiIyIiISIiISIiISIiISMhIiIiIiM3KCIiISMiIiIiIiMiIiEiIiEjIiIiIiIjIiIhNygiIiEiIiEjIiIiIiIjIyEiIiIiIyIiISIiISUnTWF0cml4RzcoLCYlI2UxRyIiIiUjZTZHIiIiLCYlI2UyRyIiIiUjZTVHISIiLCYlI2UzRyIiIiUjZTRHIiIiLCYlI2UxRyIiIiUjZTZHISIiLCYlI2UyRyIiIiUjZTVHIiIiLCYlI2UzRyIiIiUjZTRHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">Alg1Data := LieAlgebraData(B[2],Alg1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlBbGcxRGF0YUc3KC83JCUjZTFHJSNlMkcsJComIiIjIiIiJSNlM0ciIiIhIiIvNyQlI2UxRyUjZTNHLCQqJiIiIyIiIiUjZTJHIiIiIiIiLzckJSNlMkclI2UzRywkKiYiIiMiIiIlI2UxRyIiIiEiIi83JCUjZTRHJSNlNUcsJComIiIjIiIiJSNlNkciIiIiIiIvNyQlI2U0RyUjZTZHLCQqJiIiIyIiIiUjZTVHIiIiISIiLzckJSNlNUclI2U2RywkKiYiIiMiIiIlI2U0RyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(Alg1Data);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5BbGcxRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable("LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKk89PV8iLSUnTUFUUklYRzYjNyo3KiUhRyUifGdyRyUjZTFHJSNlMkclI2UzRyUjZTRHJSNlNUclI2U2RzcqJSFHJSQtLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyolI2UxRyUifGdyRyIiISwkKiYiIiMiIiIlI2UzRyIiIiEiIiwkKiYiIiMiIiIlI2UyRyIiIiIiIiIiISIiISIiITcqJSNlMkclInxnckcsJComIiIjIiIiJSNlM0ciIiIiIiIiIiEsJComIiIjIiIiJSNlMUciIiIhIiIiIiEiIiEiIiE3KiUjZTNHJSJ8Z3JHLCQqJiIiIyIiIiUjZTJHIiIiISIiLCQqJiIiIyIiIiUjZTFHIiIiIiIiIiIhIiIhIiIhIiIhNyolI2U0RyUifGdyRyIiISIiISIiISIiISwkKiYiIiMiIiIlI2U2RyIiIiIiIiwkKiYiIiMiIiIlI2U1RyIiIiEiIjcqJSNlNUclInxnckciIiEiIiEiIiEsJComIiIjIiIiJSNlNkciIiIhIiIiIiEsJComIiIjIiIiJSNlNEciIiIiIiI3KiUjZTZHJSJ8Z3JHIiIhIiIhIiIhLCQqJiIiIyIiIiUjZTVHIiIiIiIiLCQqJiIiIyIiIiUjZTRHIiIiISIiIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We repeat the above computations for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(3,1) </Font>except that we find this Lie algebra to be indecomposable (over the real numbers) .</Text-field>
+<Text-field layout="Normal" style="Normal">We shall construct two different representations of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(3,1) </Font>based upon different  choices for the inner product on E4.  The structure equations for both</Text-field>
+<Text-field layout="Normal" style="Normal">representations are seen to be the same.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the two inner products we shall use.  For the second inner product <Font style="Help Math">gB</Font>, the vectors <Font style="Help Math">D_x3</Font> and <Font style="Help Math">D_x4</Font> are null vectors.</Text-field>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(E4):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">gA := CanonicalTensors("Metric", "bas", 3, 1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNnQUcsKiomJSRkeDFHIiIiJSRkeDFHIiIiIiIiKiYlJGR4MkciIiIlJGR4MkciIiIiIiIqJiUkZHgzRyIiIiUkZHgzRyIiIiIiIiomJSRkeDRHIiIiJSRkeDRHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">gB := evalDG(dx1 &amp;t dx1 + dx2 &amp;t dx2  +  dx3 &amp;s dx4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNnQkcsKiomJSRkeDFHIiIiJSRkeDFHIiIiIiIiKiYlJGR4MkciIiIlJGR4MkciIiIiIiIqJiUkZHgzRyIiIiUkZHg0RyIiIiIiIiomJSRkeDRHIiIiJSRkeDNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Here are the algebras as subalgebras of <Font style="Help Math">gl4R</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">so31Asubalgebra := MatrixAlgebras("Subalgebra",gl4R,[gA]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTBzbzMxQXN1YmFsZ2VicmFHNygsJiUkZTEyRyIiIiUkZTIxRyEiIiwmJSRlMTNHIiIiJSRlMzFHISIiLCYlJGUxNEciIiIlJGU0MUciIiIsJiUkZTIzRyIiIiUkZTMyRyEiIiwmJSRlMjRHIiIiJSRlNDJHIiIiLCYlJGUzNEciIiIlJGU0M0ciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">so31Bsubalgebra := MatrixAlgebras("Subalgebra",gl4R,[gB]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTBzbzMxQnN1YmFsZ2VicmFHNygsJiUkZTEyRyIiIiUkZTIxRyEiIiwmJSRlMTNHIiIiJSRlNDFHISIiLCYlJGUxNEciIiIlJGUzMUchIiIsJiUkZTIzRyIiIiUkZTQyRyEiIiwmJSRlMjRHIiIiJSRlMzJHISIiLCYlJGUzM0ciIiIlJGU0NEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Initialize <Font style="Help Math">so31Asubalgebra</Font> and <Font style="Help Math">so31Bsubalgebra</Font> as abstract Lie algebras.</Text-field>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">so31Adata := LieAlgebraData(so31Asubalgebra, so31A):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">so31Bdata := LieAlgebraData(so31Asubalgebra, so31B):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(so31Adata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlM0xpZX5hbGdlYnJhOn5zbzMxQUc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="so31A &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(so31Bdata,[f], [theta]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlM0xpZX5hbGdlYnJhOn5zbzMxQkc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">By inspection we see that these Lie algebras are isomorphic.</Text-field>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="so31B &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable( so31A, "LieTable"),MultiplicationTable( so31B, "LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQtJSdSVEFCTEVHNiUiKk9EPV8iLSUnTUFUUklYRzYjNyo3KiUhRyUifGdyRyUjZTFHJSNlMkclI2UzRyUjZTRHJSNlNUclI2U2RzcqRiwlJC0tLUclJS0tLS1HRjZGNkY2RjZGNjcqRi5GLSIiISwkRjEhIiIsJEYyRjpGL0YwRjg3KkYvRi1GMUY4LCRGM0Y6LCRGLkY6RjhGMDcqRjBGLUYyRjNGOEY4Ri5GLzcqRjFGLSwkRi9GOkYuRjhGOEY9RjI3KkYyRi0sJEYwRjpGOEY+RjNGOEYxNypGM0YtRjhGQ0ZBRjtGOUY4JSdNYXRyaXhHLUYkNiUiKltKPV8iLUYoNiM3KjcqRixGLSUjZjFHJSNmMkclI2YzRyUjZjRHJSNmNUclI2Y2R0Y0NypGTUYtRjgsJEZQRjosJEZRRjpGTkZPRjg3KkZORi1GUEY4LCRGUkY6LCRGTUY6RjhGTzcqRk9GLUZRRlJGOEY4Rk1GTjcqRlBGLSwkRk5GOkZNRjhGOEZXRlE3KkZRRi0sJEZPRjpGOEZYRlJGOEZQNypGUkYtRjhGZ25GZW5GVUZURjhGRQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">These algebras are semi-simple and  indecomposable and therefore simple, real Lie algebras. Of course, they not indecomposable over the complex numbers since over the complex numbers there are isomorphic to <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(4)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="so31B &gt; " size="14" style="Maple Input"><Font size="14">Query("Semisimple"), Query("Indecomposable"), Query("AbsolutelyIndecomposable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJXRydWVHRiMlJmZhbHNlRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Finally, we construct the Lie algebra <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">so(2,2).</Font> Here is the inner product we use</Text-field>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="so31B &gt; " size="14" style="Maple Input"><Font size="14">A := LinearAlgebra:-DiagonalMatrix([1,1,-1,-1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJBRy0lJ1JUQUJMRUc2JSIqS1I9XyItJSdNQVRSSVhHNiM3JjcmIiIiIiIhIiIhIiIhNyYiIiEiIiIiIiEiIiE3JiIiISIiISEiIiIiITcmIiIhIiIhIiIhISIiJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L28">
+<Input>
+<Text-field layout="Normal" prompt="so31B &gt; " size="14" style="Maple Input"><Font size="14">ChangeFrame(E4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJnNvMzFCRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L29">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">g := convert(A, DGtensor, [["cov_bas", "cov_bas"], []]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywqKiYlJGR4MUciIiIlJGR4MUciIiIiIiIqJiUkZHgyRyIiIiUkZHgyRyIiIiIiIiomJSRkeDNHIiIiJSRkeDNHIiIiISIiKiYlJGR4NEciIiIlJGR4NEciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L30">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">so22subalgebra := MatrixAlgebras("Subalgebra",gl4R,[g]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9zbzIyc3ViYWxnZWJyYUc3KCwmJSRlMTJHIiIiJSRlMjFHISIiLCYlJGUxM0ciIiIlJGUzMUciIiIsJiUkZTE0RyIiIiUkZTQxRyIiIiwmJSRlMjNHIiIiJSRlMzJHIiIiLCYlJGUyNEciIiIlJGU0MkciIiIsJiUkZTM0RyIiIiUkZTQzRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Now we initialize <Font style="Help Math">so22subalgebra,</Font> viewed as a Lie algebra of <Font style="Help Math">gl4</Font>, as a Lie algebra in its own right.</Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" input-equation="so22subalgebra := [e12-e21, e13+e31, e14+e41, e23+e32, e24+e42, e34-e43]" style="2D Output">NiM+JS9zbzIyc3ViYWxnZWJyYUc3KCwmJSRlMTJHIiIiJSRlMjFHISIiLCYlJGUxM0ciIiIlJGUzMUciIiIsJiUkZTE0RyIiIiUkZTQxRyIiIiwmJSRlMjNHIiIiJSRlMzJHIiIiLCYlJGUyNEciIiIlJGU0MkciIiIsJiUkZTM0RyIiIiUkZTQzRyEiIg==</Equation></Text-field>
+<Group drawlabel="true" labelreference="L31">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">so22data := LieAlgebraData(so22subalgebra,so4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlzbzIyZGF0YUc3Li83JCUjZTFHJSNlMkcsJCUjZTRHISIiLzckJSNlMUclI2UzRywkJSNlNUchIiIvNyQlI2UxRyUjZTRHJSNlMkcvNyQlI2UxRyUjZTVHJSNlM0cvNyQlI2UyRyUjZTNHJSNlNkcvNyQlI2UyRyUjZTRHJSNlMUcvNyQlI2UyRyUjZTZHJSNlM0cvNyQlI2UzRyUjZTVHJSNlMUcvNyQlI2UzRyUjZTZHLCQlI2UyRyEiIi83JCUjZTRHJSNlNUclI2U2Ry83JCUjZTRHJSNlNkclI2U1Ry83JCUjZTVHJSNlNkcsJCUjZTRHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L32">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(so22data);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMUxpZX5hbGdlYnJhOn5zbzRH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L33">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable("LieTable");
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKl9XPV8iLSUnTUFUUklYRzYjNyo3KiUhRyUifGdyRyUjZTFHJSNlMkclI2UzRyUjZTRHJSNlNUclI2U2RzcqJSFHJSQtLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyolI2UxRyUifGdyRyIiISwkJSNlNEchIiIsJCUjZTVHISIiJSNlMkclI2UzRyIiITcqJSNlMkclInxnckclI2U0RyIiISUjZTZHJSNlMUciIiElI2UzRzcqJSNlM0clInxnckclI2U1RywkJSNlNkchIiIiIiEiIiElI2UxRywkJSNlMkchIiI3KiUjZTRHJSJ8Z3JHLCQlI2UyRyEiIiwkJSNlMUchIiIiIiEiIiElI2U2RyUjZTVHNyolI2U1RyUifGdyRywkJSNlM0chIiIiIiEsJCUjZTFHISIiLCQlI2U2RyEiIiIiISwkJSNlNEchIiI3KiUjZTZHJSJ8Z3JHIiIhLCQlI2UzRyEiIiUjZTJHLCQlI2U1RyEiIiUjZTRHIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We check that <Font style="Help Math">so22</Font> is a semi-simple but not a simple Lie algebra.</Text-field>
+<Group drawlabel="true" labelreference="L34">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">Query("Semisimple"), Query("Indecomposable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQlJXRydWVHJSZmYWxzZUc=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 2.  The Lie algebra of trace-free 3x3 matrices sl(3,R)</Font></Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Lie algebra <Font style="Help Math">sl(n, R)</Font> is defined as the subalgebra of  <Font style="Help Math">gl(n)</Font> which preserves the volume form on <Font style="Help Math">R^n</Font>. Equivalently, <Font style="Help Math">sl(n,R)</Font> is the subalgebra of  <Font style="Help Math">gl(n,R)</Font>  consisting of trace-free matrices.  The dimension of <Font style="Help Math">sl(n,R)</Font> is <Font style="Help Math">n^2-1</Font>. In this example we construct the Lie algebra  <Font style="Help Math">sl(3, R)</Font></Text-field>
+<Text-field layout="Normal" style="Normal"> </Text-field>
+<Group drawlabel="true" labelreference="L35">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L36">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">gl3 := MatrixAlgebras("Full",3, gl3R);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRnbDNHNiU3Ny83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0clI2UzRy83JCUjZTFHJSNlNEcsJCUjZTRHISIiLzckJSNlMUclI2U3RywkJSNlN0chIiIvNyQlI2UyRyUjZTRHLCYlI2UxRyIiIiUjZTVHISIiLzckJSNlMkclI2U1RyUjZTJHLzckJSNlMkclI2U2RyUjZTNHLzckJSNlMkclI2U3RywkJSNlOEchIiIvNyQlI2UzRyUjZTRHLCQlI2U2RyEiIi83JCUjZTNHJSNlN0csJiUjZTFHIiIiJSNlOUchIiIvNyQlI2UzRyUjZThHJSNlMkcvNyQlI2UzRyUjZTlHJSNlM0cvNyQlI2U0RyUjZTVHLCQlI2U0RyEiIi83JCUjZTRHJSNlOEcsJCUjZTdHISIiLzckJSNlNUclI2U2RyUjZTZHLzckJSNlNUclI2U4RywkJSNlOEchIiIvNyQlI2U2RyUjZTdHJSNlNEcvNyQlI2U2RyUjZThHLCYlI2U1RyIiIiUjZTlHISIiLzckJSNlNkclI2U5RyUjZTZHLzckJSNlN0clI2U5RywkJSNlN0chIiIvNyQlI2U4RyUjZTlHLCQlI2U4RyEiIjcrJSRlMTFHJSRlMTJHJSRlMTNHJSRlMjFHJSRlMjJHJSRlMjNHJSRlMzFHJSRlMzJHJSRlMzNHNyslKmVwc2lsb24xMUclKmVwc2lsb24xMkclKmVwc2lsb24xM0clKmVwc2lsb24yMUclKmVwc2lsb24yMkclKmVwc2lsb24yM0clKmVwc2lsb24zMUclKmVwc2lsb24zMkclKmVwc2lsb24zM0c=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L37">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(gl3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDNSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the space <Font style="Help Math">E3</Font> upon which <Font style="Help Math">gl3</Font> acts and define the standard volume form on <Font style="Help Math">E3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L38">
+<Input>
+<Text-field layout="Normal" prompt="gl3R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3], E3):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L39">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">nu := Tools:-DGvolume("form");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNudUcqLCUkZHgxRyIiIiUiXkciIiIlJGR4MkciIiIlIl5HIiIiJSRkeDNHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define <Font style="Help Math">sl(3, R) </Font>as the subalgebra of  <Font style="Help Math">gl(3, R)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L40">
+<Input>
+<Text-field layout="Normal" prompt="E3 &gt; " size="14" style="Maple Input"><Font size="14">sl3Rsubalgebra := MatrixAlgebras("Subalgebra", gl3R, [nu]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9zbDNSc3ViYWxnZWJyYUc3KiwmJSRlMTFHIiIiJSRlMzNHISIiJSRlMTJHJSRlMTNHJSRlMjFHLCYlJGUyMkciIiIlJGUzM0chIiIlJGUyM0clJGUzMUclJGUzMkc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define <Font style="Help Math">sl(3, R) a</Font>s a Lie algebra in its own right.</Text-field>
+<Group drawlabel="true" labelreference="L41">
+<Input>
+<Text-field layout="Normal" prompt="gl3R &gt; " size="14" style="Maple Input"><Font size="14">sl3Rdata := LieAlgebraData(sl3Rsubalgebra, sl3R);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlzbDNSZGF0YUc3Ny83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0csJComIiIjIiIiJSNlM0ciIiIiIiIvNyQlI2UxRyUjZTRHLCQlI2U0RyEiIi83JCUjZTFHJSNlNkclI2U2Ry83JCUjZTFHJSNlN0csJComIiIjIiIiJSNlN0ciIiIhIiIvNyQlI2UxRyUjZThHLCQlI2U4RyEiIi83JCUjZTJHJSNlNEcsJiUjZTFHIiIiJSNlNUchIiIvNyQlI2UyRyUjZTVHJSNlMkcvNyQlI2UyRyUjZTZHJSNlM0cvNyQlI2UyRyUjZTdHLCQlI2U4RyEiIi83JCUjZTNHJSNlNEcsJCUjZTZHISIiLzckJSNlM0clI2U1RywkJSNlM0chIiIvNyQlI2UzRyUjZTdHJSNlMUcvNyQlI2UzRyUjZThHJSNlMkcvNyQlI2U0RyUjZTVHLCQlI2U0RyEiIi83JCUjZTRHJSNlOEcsJCUjZTdHISIiLzckJSNlNUclI2U2RywkKiYiIiMiIiIlI2U2RyIiIiIiIi83JCUjZTVHJSNlN0csJCUjZTdHISIiLzckJSNlNUclI2U4RywkKiYiIiMiIiIlI2U4RyIiIiEiIi83JCUjZTZHJSNlN0clI2U0Ry83JCUjZTZHJSNlOEclI2U1Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L42">
+<Input>
+<Text-field layout="Normal" prompt="gl3R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(sl3Rdata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5zbDNSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L43">
+<Input>
+<Text-field layout="Normal" prompt="sl3R &gt; " size="14" style="Maple Input"><Font size="14">MultiplicationTable("LieTable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKk9ePV8iLSUnTUFUUklYRzYjNyw3LCUhRyUifGdyRyUjZTFHJSNlMkclI2UzRyUjZTRHJSNlNUclI2U2RyUjZTdHJSNlOEc3LCUhRyUkLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNywlI2UxRyUifGdyRyIiISUjZTJHLCQqJiIiIyIiIiUjZTNHIiIiIiIiLCQlI2U0RyEiIiIiISUjZTZHLCQqJiIiIyIiIiUjZTdHIiIiISIiLCQlI2U4RyEiIjcsJSNlMkclInxnckcsJCUjZTJHISIiIiIhIiIhLCYlI2UxRyIiIiUjZTVHISIiJSNlMkclI2UzRywkJSNlOEchIiIiIiE3LCUjZTNHJSJ8Z3JHLCQqJiIiIyIiIiUjZTNHIiIiISIiIiIhIiIhLCQlI2U2RyEiIiwkJSNlM0chIiIiIiElI2UxRyUjZTJHNywlI2U0RyUifGdyRyUjZTRHLCYlI2UxRyEiIiUjZTVHIiIiJSNlNkciIiEsJCUjZTRHISIiIiIhIiIhLCQlI2U3RyEiIjcsJSNlNUclInxnckciIiEsJCUjZTJHISIiJSNlM0clI2U0RyIiISwkKiYiIiMiIiIlI2U2RyIiIiIiIiwkJSNlN0chIiIsJComIiIjIiIiJSNlOEciIiIhIiI3LCUjZTZHJSJ8Z3JHLCQlI2U2RyEiIiwkJSNlM0chIiIiIiEiIiEsJComIiIjIiIiJSNlNkciIiIhIiIiIiElI2U0RyUjZTVHNywlI2U3RyUifGdyRywkKiYiIiMiIiIlI2U3RyIiIiIiIiUjZThHLCQlI2UxRyEiIiIiISUjZTdHLCQlI2U0RyEiIiIiISIiITcsJSNlOEclInxnckclI2U4RyIiISwkJSNlMkchIiIlI2U3RywkKiYiIiMiIiIlI2U4RyIiIiIiIiwkJSNlNUchIiIiIiEiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check that <Font style="Help Math">sl(3, R) </Font>is a simple Lie algebra, over both the real and complex numbers.</Text-field>
+<Group drawlabel="true" labelreference="L44">
+<Input>
+<Text-field layout="Normal" prompt="sl3R &gt; " size="14" style="Maple Input"><Font size="14">Query("Semisimple"), Query("Indecomposable"), Query("AbsolutelyIndecomposable");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUlJXRydWVHRiNGIw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 3. Construct gl(3,C) as a real subalgebra of gl(6, R)</Font></Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The real Lie algebra<Font style="Help Math"> gl(n,C)</Font> is the subalgebra of <Font style="Help Math">gl(2n, R)</Font> which fixes the standard complex structure on <Font style="Help Math">R^2n</Font>. The Lie algebra <Font style="Help Math">gl(n, C)</Font> consists of matrices of the form <Font style="Help Math">blockmatrix(n, n, [A, B, -B, A])</Font>, where<Font style="Help Math"> A</Font> and<Font style="Help Math"> B</Font> are<Font style="Help Math"> nxn</Font> matrices. The (real )dimension of <Font style="Help Math">gl(n,C)</Font> is <Font style="Help Math">2n^2</Font>. In this example we shall  construct the 18 dimensional Lie algebra <Font style="Help Math">gl(3, C)</Font> and show that this algebra is the complexification of the Lie algebra <Font style="Help Math">gl(3, R)</Font>. </Text-field>
+<Text-field layout="Normal" style="Normal">  </Text-field>
+<Text-field layout="Normal" style="Normal">First we initialize the Lie algebra <Font style="Help Math">gl(6, R)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L45">
+<Input>
+<Text-field layout="Normal" prompt="sl3R &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L46">
+<Input>
+<Text-field layout="Normal" prompt="sl3R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",6, gl6R)):
+</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the 6 dimensional vector space <Font style="Help Math">E6</Font> on which <Font style="Help Math">gl(6, R)</Font> acts and define the standard complex structure on <Font style="Help Math">E6</Font> , defined as a 1-1 tensor.</Text-field>
+<Group drawlabel="true" labelreference="L47">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3, x4, x5, x6], E6):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L48">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">J := CanonicalTensors("ComplexStructure","bas", E6);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRywuKiYlJGR4MUciIiIlJURfeDRHIiIiISIiKiYlJGR4MkciIiIlJURfeDVHIiIiISIiKiYlJGR4M0ciIiIlJURfeDZHIiIiISIiKiYlJGR4NEciIiIlJURfeDFHIiIiIiIiKiYlJGR4NUciIiIlJURfeDJHIiIiIiIiKiYlJGR4NkciIiIlJURfeDNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L49">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">gl3Csubalgebra := MatrixAlgebras("Subalgebra", gl6R, [J]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9nbDNDc3ViYWxnZWJyYUc3NCwmJSRlMTFHIiIiJSRlNDRHIiIiLCYlJGUxMkciIiIlJGU0NUciIiIsJiUkZTEzRyIiIiUkZTQ2RyIiIiwmJSRlMTRHIiIiJSRlNDFHISIiLCYlJGUxNUciIiIlJGU0MkchIiIsJiUkZTE2RyIiIiUkZTQzRyEiIiwmJSRlMjFHIiIiJSRlNTRHIiIiLCYlJGUyMkciIiIlJGU1NUciIiIsJiUkZTIzRyIiIiUkZTU2RyIiIiwmJSRlMjRHIiIiJSRlNTFHISIiLCYlJGUyNUciIiIlJGU1MkchIiIsJiUkZTI2RyIiIiUkZTUzRyEiIiwmJSRlMzFHIiIiJSRlNjRHIiIiLCYlJGUzMkciIiIlJGU2NUciIiIsJiUkZTMzRyIiIiUkZTY2RyIiIiwmJSRlMzRHIiIiJSRlNjFHISIiLCYlJGUzNUciIiIlJGU2MkchIiIsJiUkZTM2RyIiIiUkZTYzRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We reorder this basis for <Font style="Help Math">gl3C</Font> so that the first 9 elements corresponding to the 9 matrices of the form <Font style="Help Math">blockmatrix(3, 3, [A, 0, 0,A]) </Font>and the last 9 elements corresponding to the 9 matrices of the form <Font style="Help Math">blockmatrix(3, 3, [0, B, -B, 0])</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L50">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">reorderBasis := [e11+e44, e12+e45, e13+e46,e21+e54, e22+e55, e23+e56,e31+e64, e32+e65, e33+e66, e14-e41, e15-e42, e16-e43,e24-e51, e25-e52, e26-e53,e34-e61, e35-e62, e36-e63];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS1yZW9yZGVyQmFzaXNHNzQsJiUkZTExRyIiIiUkZTQ0RyIiIiwmJSRlMTJHIiIiJSRlNDVHIiIiLCYlJGUxM0ciIiIlJGU0NkciIiIsJiUkZTIxRyIiIiUkZTU0RyIiIiwmJSRlMjJHIiIiJSRlNTVHIiIiLCYlJGUyM0ciIiIlJGU1NkciIiIsJiUkZTMxRyIiIiUkZTY0RyIiIiwmJSRlMzJHIiIiJSRlNjVHIiIiLCYlJGUzM0ciIiIlJGU2NkciIiIsJiUkZTE0RyIiIiUkZTQxRyEiIiwmJSRlMTVHIiIiJSRlNDJHISIiLCYlJGUxNkciIiIlJGU0M0chIiIsJiUkZTI0RyIiIiUkZTUxRyEiIiwmJSRlMjVHIiIiJSRlNTJHISIiLCYlJGUyNkciIiIlJGU1M0chIiIsJiUkZTM0RyIiIiUkZTYxRyEiIiwmJSRlMzVHIiIiJSRlNjJHISIiLCYlJGUzNkciIiIlJGU2M0chIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the structure equations and initialize:</Text-field>
+<Group drawlabel="true" labelreference="L51">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">gl3Cdata := LieAlgebraData(reorderBasis, gl3C); </Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlnbDNDZGF0YUc3YHAvNyQlI2UxRyUjZTJHJSNlMkcvNyQlI2UxRyUjZTNHJSNlM0cvNyQlI2UxRyUjZTRHLCQlI2U0RyEiIi83JCUjZTFHJSNlN0csJCUjZTdHISIiLzckJSNlMUclJGUxMUclJGUxMUcvNyQlI2UxRyUkZTEyRyUkZTEyRy83JCUjZTFHJSRlMTNHLCQlJGUxM0chIiIvNyQlI2UxRyUkZTE2RywkJSRlMTZHISIiLzckJSNlMkclI2U0RywmJSNlMUciIiIlI2U1RyEiIi83JCUjZTJHJSNlNUclI2UyRy83JCUjZTJHJSNlNkclI2UzRy83JCUjZTJHJSNlN0csJCUjZThHISIiLzckJSNlMkclJGUxMEcsJCUkZTExRyEiIi83JCUjZTJHJSRlMTNHLCYlJGUxMEciIiIlJGUxNEchIiIvNyQlI2UyRyUkZTE0RyUkZTExRy83JCUjZTJHJSRlMTVHJSRlMTJHLzckJSNlMkclJGUxNkcsJCUkZTE3RyEiIi83JCUjZTNHJSNlNEcsJCUjZTZHISIiLzckJSNlM0clI2U3RywmJSNlMUciIiIlI2U5RyEiIi83JCUjZTNHJSNlOEclI2UyRy83JCUjZTNHJSNlOUclI2UzRy83JCUjZTNHJSRlMTBHLCQlJGUxMkchIiIvNyQlI2UzRyUkZTEzRywkJSRlMTVHISIiLzckJSNlM0clJGUxNkcsJiUkZTEwRyIiIiUkZTE4RyEiIi83JCUjZTNHJSRlMTdHJSRlMTFHLzckJSNlM0clJGUxOEclJGUxMkcvNyQlI2U0RyUjZTVHLCQlI2U0RyEiIi83JCUjZTRHJSNlOEcsJCUjZTdHISIiLzckJSNlNEclJGUxMEclJGUxM0cvNyQlI2U0RyUkZTExRywmJSRlMTBHISIiJSRlMTRHIiIiLzckJSNlNEclJGUxMkclJGUxNUcvNyQlI2U0RyUkZTE0RywkJSRlMTNHISIiLzckJSNlNEclJGUxN0csJCUkZTE2RyEiIi83JCUjZTVHJSNlNkclI2U2Ry83JCUjZTVHJSNlOEcsJCUjZThHISIiLzckJSNlNUclJGUxMUcsJCUkZTExRyEiIi83JCUjZTVHJSRlMTNHJSRlMTNHLzckJSNlNUclJGUxNUclJGUxNUcvNyQlI2U1RyUkZTE3RywkJSRlMTdHISIiLzckJSNlNkclI2U3RyUjZTRHLzckJSNlNkclI2U4RywmJSNlNUciIiIlI2U5RyEiIi83JCUjZTZHJSNlOUclI2U2Ry83JCUjZTZHJSRlMTFHLCQlJGUxMkchIiIvNyQlI2U2RyUkZTE0RywkJSRlMTVHISIiLzckJSNlNkclJGUxNkclJGUxM0cvNyQlI2U2RyUkZTE3RywmJSRlMTRHIiIiJSRlMThHISIiLzckJSNlNkclJGUxOEclJGUxNUcvNyQlI2U3RyUjZTlHLCQlI2U3RyEiIi83JCUjZTdHJSRlMTBHJSRlMTZHLzckJSNlN0clJGUxMUclJGUxN0cvNyQlI2U3RyUkZTEyRywmJSRlMTBHISIiJSRlMThHIiIiLzckJSNlN0clJGUxNUcsJCUkZTEzRyEiIi83JCUjZTdHJSRlMThHLCQlJGUxNkchIiIvNyQlI2U4RyUjZTlHLCQlI2U4RyEiIi83JCUjZThHJSRlMTJHLCQlJGUxMUchIiIvNyQlI2U4RyUkZTEzRyUkZTE2Ry83JCUjZThHJSRlMTRHJSRlMTdHLzckJSNlOEclJGUxNUcsJiUkZTE0RyEiIiUkZTE4RyIiIi83JCUjZThHJSRlMThHLCQlJGUxN0chIiIvNyQlI2U5RyUkZTEyRywkJSRlMTJHISIiLzckJSNlOUclJGUxNUcsJCUkZTE1RyEiIi83JCUjZTlHJSRlMTZHJSRlMTZHLzckJSNlOUclJGUxN0clJGUxN0cvNyQlJGUxMEclJGUxMUcsJCUjZTJHISIiLzckJSRlMTBHJSRlMTJHLCQlI2UzRyEiIi83JCUkZTEwRyUkZTEzRyUjZTRHLzckJSRlMTBHJSRlMTZHJSNlN0cvNyQlJGUxMUclJGUxM0csJiUjZTFHISIiJSNlNUciIiIvNyQlJGUxMUclJGUxNEcsJCUjZTJHISIiLzckJSRlMTFHJSRlMTVHLCQlI2UzRyEiIi83JCUkZTExRyUkZTE2RyUjZThHLzckJSRlMTJHJSRlMTNHJSNlNkcvNyQlJGUxMkclJGUxNkcsJiUjZTFHISIiJSNlOUciIiIvNyQlJGUxMkclJGUxN0csJCUjZTJHISIiLzckJSRlMTJHJSRlMThHLCQlI2UzRyEiIi83JCUkZTEzRyUkZTE0RyUjZTRHLzckJSRlMTNHJSRlMTdHJSNlN0cvNyQlJGUxNEclJGUxNUcsJCUjZTZHISIiLzckJSRlMTRHJSRlMTdHJSNlOEcvNyQlJGUxNUclJGUxNkcsJCUjZTRHISIiLzckJSRlMTVHJSRlMTdHLCYlI2U1RyEiIiUjZTlHIiIiLzckJSRlMTVHJSRlMThHLCQlI2U2RyEiIi83JCUkZTE2RyUkZTE4RyUjZTdHLzckJSRlMTdHJSRlMThHJSNlOEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L52">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(gl3Cdata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDNDRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L53">
+<Input>
+<Text-field layout="Normal" style="Normal">Now we show that the Lie algebra gl3C is isomorphic to the Lie algebra obtained by complexifying gl3R:</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L54">
+<Input>
+<Text-field layout="Normal" prompt="gl3C &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full", 3, gl3R));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDNSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L55">
+<Input>
+<Text-field layout="Normal" prompt="gl3R &gt; " size="14" style="Maple Input"><Font size="14">Alg1data := Complexify(gl3R, Alg1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlBbGcxZGF0YUc3YHAvNyQlI2UxRyUjZTJHJSNlMkcvNyQlI2UxRyUjZTNHJSNlM0cvNyQlI2UxRyUjZTRHLCQlI2U0RyEiIi83JCUjZTFHJSNlN0csJCUjZTdHISIiLzckJSNlMUclJGUxMUclJGUxMUcvNyQlI2UxRyUkZTEyRyUkZTEyRy83JCUjZTFHJSRlMTNHLCQlJGUxM0chIiIvNyQlI2UxRyUkZTE2RywkJSRlMTZHISIiLzckJSNlMkclI2U0RywmJSNlMUciIiIlI2U1RyEiIi83JCUjZTJHJSNlNUclI2UyRy83JCUjZTJHJSNlNkclI2UzRy83JCUjZTJHJSNlN0csJCUjZThHISIiLzckJSNlMkclJGUxMEcsJCUkZTExRyEiIi83JCUjZTJHJSRlMTNHLCYlJGUxMEciIiIlJGUxNEchIiIvNyQlI2UyRyUkZTE0RyUkZTExRy83JCUjZTJHJSRlMTVHJSRlMTJHLzckJSNlMkclJGUxNkcsJCUkZTE3RyEiIi83JCUjZTNHJSNlNEcsJCUjZTZHISIiLzckJSNlM0clI2U3RywmJSNlMUciIiIlI2U5RyEiIi83JCUjZTNHJSNlOEclI2UyRy83JCUjZTNHJSNlOUclI2UzRy83JCUjZTNHJSRlMTBHLCQlJGUxMkchIiIvNyQlI2UzRyUkZTEzRywkJSRlMTVHISIiLzckJSNlM0clJGUxNkcsJiUkZTEwRyIiIiUkZTE4RyEiIi83JCUjZTNHJSRlMTdHJSRlMTFHLzckJSNlM0clJGUxOEclJGUxMkcvNyQlI2U0RyUjZTVHLCQlI2U0RyEiIi83JCUjZTRHJSNlOEcsJCUjZTdHISIiLzckJSNlNEclJGUxMEclJGUxM0cvNyQlI2U0RyUkZTExRywmJSRlMTBHISIiJSRlMTRHIiIiLzckJSNlNEclJGUxMkclJGUxNUcvNyQlI2U0RyUkZTE0RywkJSRlMTNHISIiLzckJSNlNEclJGUxN0csJCUkZTE2RyEiIi83JCUjZTVHJSNlNkclI2U2Ry83JCUjZTVHJSNlOEcsJCUjZThHISIiLzckJSNlNUclJGUxMUcsJCUkZTExRyEiIi83JCUjZTVHJSRlMTNHJSRlMTNHLzckJSNlNUclJGUxNUclJGUxNUcvNyQlI2U1RyUkZTE3RywkJSRlMTdHISIiLzckJSNlNkclI2U3RyUjZTRHLzckJSNlNkclI2U4RywmJSNlNUciIiIlI2U5RyEiIi83JCUjZTZHJSNlOUclI2U2Ry83JCUjZTZHJSRlMTFHLCQlJGUxMkchIiIvNyQlI2U2RyUkZTE0RywkJSRlMTVHISIiLzckJSNlNkclJGUxNkclJGUxM0cvNyQlI2U2RyUkZTE3RywmJSRlMTRHIiIiJSRlMThHISIiLzckJSNlNkclJGUxOEclJGUxNUcvNyQlI2U3RyUjZTlHLCQlI2U3RyEiIi83JCUjZTdHJSRlMTBHJSRlMTZHLzckJSNlN0clJGUxMUclJGUxN0cvNyQlI2U3RyUkZTEyRywmJSRlMTBHISIiJSRlMThHIiIiLzckJSNlN0clJGUxNUcsJCUkZTEzRyEiIi83JCUjZTdHJSRlMThHLCQlJGUxNkchIiIvNyQlI2U4RyUjZTlHLCQlI2U4RyEiIi83JCUjZThHJSRlMTJHLCQlJGUxMUchIiIvNyQlI2U4RyUkZTEzRyUkZTE2Ry83JCUjZThHJSRlMTRHJSRlMTdHLzckJSNlOEclJGUxNUcsJiUkZTE0RyEiIiUkZTE4RyIiIi83JCUjZThHJSRlMThHLCQlJGUxN0chIiIvNyQlI2U5RyUkZTEyRywkJSRlMTJHISIiLzckJSNlOUclJGUxNUcsJCUkZTE1RyEiIi83JCUjZTlHJSRlMTZHJSRlMTZHLzckJSNlOUclJGUxN0clJGUxN0cvNyQlJGUxMEclJGUxMUcsJCUjZTJHISIiLzckJSRlMTBHJSRlMTJHLCQlI2UzRyEiIi83JCUkZTEwRyUkZTEzRyUjZTRHLzckJSRlMTBHJSRlMTZHJSNlN0cvNyQlJGUxMUclJGUxM0csJiUjZTFHISIiJSNlNUciIiIvNyQlJGUxMUclJGUxNEcsJCUjZTJHISIiLzckJSRlMTFHJSRlMTVHLCQlI2UzRyEiIi83JCUkZTExRyUkZTE2RyUjZThHLzckJSRlMTJHJSRlMTNHJSNlNkcvNyQlJGUxMkclJGUxNkcsJiUjZTFHISIiJSNlOUciIiIvNyQlJGUxMkclJGUxN0csJCUjZTJHISIiLzckJSRlMTJHJSRlMThHLCQlI2UzRyEiIi83JCUkZTEzRyUkZTE0RyUjZTRHLzckJSRlMTNHJSRlMTdHJSNlN0cvNyQlJGUxNEclJGUxNUcsJCUjZTZHISIiLzckJSRlMTRHJSRlMTdHJSNlOEcvNyQlJGUxNUclJGUxNkcsJCUjZTRHISIiLzckJSRlMTVHJSRlMTdHLCYlI2U1RyEiIiUjZTlHIiIiLzckJSRlMTVHJSRlMThHLCQlI2U2RyEiIi83JCUkZTE2RyUkZTE4RyUjZTdHLzckJSRlMTdHJSRlMThHJSNlOEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L56">
+<Input>
+<Text-field layout="Normal" prompt="gl3R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(Alg1data);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5BbGcxRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">We see by inspection that Alg1 and gl3C are isomorphic but we can still check this formally using the Query command to verify that the identity matrix is a Lie algebra homomorphism.</Text-field>
+<Group drawlabel="true" labelreference="L57">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">A := LinearAlgebra:-IdentityMatrix(18):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L58">
+<Input>
+<Text-field layout="Normal" prompt="Alg1 &gt; " size="14" style="Maple Input"><Font size="14">Query( Alg1,gl3C, A, "Homomorphism");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 4. Construct the unitary Lie algebra u(3)</Font></Text-field></Title>
+<Text-field layout="Normal" style="Normal">The unitary Lie algebra <Font style="Help Math">u(n)</Font> is the subalgebra of <Font style="Help Math">gl(2n,R)</Font> which fixes the standard complex structure and the standard metric. It consists of matrices of the form  <Font style="Help Math">blockmatrix(n, n, [A, B, -B, A])</Font>, where <Font style="Help Math">A</Font> and <Font style="Help Math">B</Font> are <Font style="Help Math">nxn</Font> matrices, <Font style="Help Math">A </Font>is skew-symmetric and<Font style="Help Math"> B</Font> is symmetric. The dimension of <Font style="Help Math">u(n)</Font> is <Font style="Help Math">n^2</Font>.  In this example we construct <Font style="Help Math">u(3).</Font></Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L59">
+<Input>
+<Text-field layout="Normal" prompt="gl3C &gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">First initialize <Font style="Help Math">gl(6, R)</Font></Text-field>
+<Group drawlabel="true" labelreference="L60">
+<Input>
+<Text-field layout="Normal" prompt="gl3C &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full", 6, gl6R)):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the vector space <Font style="Help Math">E6</Font> on which <Font style="Help Math">gl(6, R) </Font>acts.</Text-field>
+<Group drawlabel="true" labelreference="L61">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3, y1, y2, y3], E6):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L62">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas", 6,0):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L63">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">J := CanonicalTensors("ComplexStructure","bas"):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L64">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">u3subalgebra := MatrixAlgebras("Subalgebra",gl6R,[g, J]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS11M3N1YmFsZ2VicmFHNyssKiUkZTEyRyIiIiUkZTIxRyEiIiUkZTQ1RyIiIiUkZTU0RyEiIiwqJSRlMTNHIiIiJSRlMzFHISIiJSRlNDZHIiIiJSRlNjRHISIiLCYlJGUxNEciIiIlJGU0MUchIiIsKiUkZTE1RyIiIiUkZTI0RyIiIiUkZTQyRyEiIiUkZTUxRyEiIiwqJSRlMTZHIiIiJSRlMzRHIiIiJSRlNDNHISIiJSRlNjFHISIiLColJGUyM0ciIiIlJGUzMkchIiIlJGU1NkciIiIlJGU2NUchIiIsJiUkZTI1RyIiIiUkZTUyRyEiIiwqJSRlMjZHIiIiJSRlMzVHIiIiJSRlNTNHISIiJSRlNjJHISIiLCYlJGUzNkciIiIlJGU2M0chIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Alternatively, we can calculate <Font style="Help Math">gl(3,C)</Font> and <Font style="Help Math">so(6) </Font>and use the command <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/IntersectSubspaces"><Font size="14" style="Hyperlink">IntersectSubspaces</Font></Hyperlink> to find <Font style="Help Math">u(3)</Font> as the intersection of these 2 subalgebras </Text-field>
+<Group drawlabel="true" labelreference="L65">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">gl3C := MatrixAlgebras("Subalgebra", gl6R, [J]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVnbDNDRzc0LCYlJGUxMUciIiIlJGU0NEciIiIsJiUkZTEyRyIiIiUkZTQ1RyIiIiwmJSRlMTNHIiIiJSRlNDZHIiIiLCYlJGUxNEciIiIlJGU0MUchIiIsJiUkZTE1RyIiIiUkZTQyRyEiIiwmJSRlMTZHIiIiJSRlNDNHISIiLCYlJGUyMUciIiIlJGU1NEciIiIsJiUkZTIyRyIiIiUkZTU1RyIiIiwmJSRlMjNHIiIiJSRlNTZHIiIiLCYlJGUyNEciIiIlJGU1MUchIiIsJiUkZTI1RyIiIiUkZTUyRyEiIiwmJSRlMjZHIiIiJSRlNTNHISIiLCYlJGUzMUciIiIlJGU2NEciIiIsJiUkZTMyRyIiIiUkZTY1RyIiIiwmJSRlMzNHIiIiJSRlNjZHIiIiLCYlJGUzNEciIiIlJGU2MUchIiIsJiUkZTM1RyIiIiUkZTYyRyEiIiwmJSRlMzZHIiIiJSRlNjNHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L66">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">so6 := MatrixAlgebras("Subalgebra", gl6R, [g]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRzbzZHNzEsJiUkZTEyRyIiIiUkZTIxRyEiIiwmJSRlMTNHIiIiJSRlMzFHISIiLCYlJGUxNEciIiIlJGU0MUchIiIsJiUkZTE1RyIiIiUkZTUxRyEiIiwmJSRlMTZHIiIiJSRlNjFHISIiLCYlJGUyM0ciIiIlJGUzMkchIiIsJiUkZTI0RyIiIiUkZTQyRyEiIiwmJSRlMjVHIiIiJSRlNTJHISIiLCYlJGUyNkciIiIlJGU2MkchIiIsJiUkZTM0RyIiIiUkZTQzRyEiIiwmJSRlMzVHIiIiJSRlNTNHISIiLCYlJGUzNkciIiIlJGU2M0chIiIsJiUkZTQ1RyIiIiUkZTU0RyEiIiwmJSRlNDZHIiIiJSRlNjRHISIiLCYlJGU1NkciIiIlJGU2NUchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L67">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">newu3subalgebra := IntersectSubspaces([gl3C, so6]);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTBuZXd1M3N1YmFsZ2VicmFHNyssKiUkZTEyRyEiIiUkZTIxRyIiIiUkZTQ1RyEiIiUkZTU0RyIiIiwmJSRlMzZHISIiJSRlNjNHIiIiLColJGUyNkchIiIlJGUzNUchIiIlJGU1M0ciIiIlJGU2MkciIiIsKiUkZTE2RyEiIiUkZTM0RyEiIiUkZTQzRyIiIiUkZTYxRyIiIiwqJSRlMTVHISIiJSRlMjRHISIiJSRlNDJHIiIiJSRlNTFHIiIiLCYlJGUxNEchIiIlJGU0MUciIiIsJiUkZTI1RyEiIiUkZTUyRyIiIiwqJSRlMTNHISIiJSRlMzFHIiIiJSRlNDZHISIiJSRlNjRHIiIiLColJGUyM0chIiIlJGUzMkciIiIlJGU1NkchIiIlJGU2NUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The command  <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/Tools/DGequal"><Font size="14" style="Hyperlink">DGequal</Font></Hyperlink> can be used to check that  the subalgebras u3 and newu3 are equal.</Text-field>
+<Group drawlabel="true" labelreference="L68">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">Tools:-DGequal(u3subalgebra,newu3subalgebra);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Calculate the structure equations for <Font style="Help Math">u(3)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L69">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">u3data := LieAlgebraData(u3subalgebra,"u3");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSd1M2RhdGFHNz0vNyQlI2UxRyUjZTJHLCQlI2U2RyEiIi83JCUjZTFHJSNlM0csJCUjZTRHISIiLzckJSNlMUclI2U0RywmKiYiIiMiIiIlI2UzRyIiIiIiIiomIiIjIiIiJSNlN0ciIiIhIiIvNyQlI2UxRyUjZTVHLCQlI2U4RyEiIi83JCUjZTFHJSNlNkclI2UyRy83JCUjZTFHJSNlN0clI2U0Ry83JCUjZTFHJSNlOEclI2U1Ry83JCUjZTJHJSNlM0csJCUjZTVHISIiLzckJSNlMkclI2U0RywkJSNlOEchIiIvNyQlI2UyRyUjZTVHLCYqJiIiIyIiIiUjZTNHIiIiIiIiKiYiIiMiIiIlI2U5RyIiIiEiIi83JCUjZTJHJSNlNkcsJCUjZTFHISIiLzckJSNlMkclI2U4RyUjZTRHLzckJSNlMkclI2U5RyUjZTVHLzckJSNlM0clI2U0RywkJSNlMUchIiIvNyQlI2UzRyUjZTVHLCQlI2UyRyEiIi83JCUjZTRHJSNlNUcsJCUjZTZHISIiLzckJSNlNEclI2U2RyUjZTVHLzckJSNlNEclI2U3RywkJSNlMUchIiIvNyQlI2U0RyUjZThHLCQlI2UyRyEiIi83JCUjZTVHJSNlNkcsJCUjZTRHISIiLzckJSNlNUclI2U4RywkJSNlMUchIiIvNyQlI2U1RyUjZTlHLCQlI2UyRyEiIi83JCUjZTZHJSNlN0csJCUjZThHISIiLzckJSNlNkclI2U4RywmKiYiIiMiIiIlI2U3RyIiIiIiIiomIiIjIiIiJSNlOUciIiIhIiIvNyQlI2U2RyUjZTlHJSNlOEcvNyQlI2U3RyUjZThHLCQlI2U2RyEiIi83JCUjZThHJSNlOUcsJCUjZTZHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L70">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(u3data):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L71">
+<Input>
+<Text-field layout="Normal" prompt="u3 &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L72">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">C := Center();</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJDRzcjLCglI2UzRyIiIiUjZTdHIiIiJSNlOUciIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L73">
+<Input>
+<Text-field layout="Normal" prompt="u3 &gt; " size="14" style="Maple Input"><Font size="14">L := QuotientAlgebra(C, [e1, e2, e3, e4, e5, e6, e7, e8], u3mod);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJMRzc5LzckJSNlMUclI2UyRywkJSNlNkchIiIvNyQlI2UxRyUjZTNHLCQlI2U0RyEiIi83JCUjZTFHJSNlNEcsJiomIiIjIiIiJSNlM0ciIiIiIiIqJiIiIyIiIiUjZTdHIiIiISIiLzckJSNlMUclI2U1RywkJSNlOEchIiIvNyQlI2UxRyUjZTZHJSNlMkcvNyQlI2UxRyUjZTdHJSNlNEcvNyQlI2UxRyUjZThHJSNlNUcvNyQlI2UyRyUjZTNHLCQlI2U1RyEiIi83JCUjZTJHJSNlNEcsJCUjZThHISIiLzckJSNlMkclI2U1RywmKiYiIiUiIiIlI2UzRyIiIiIiIiomIiIjIiIiJSNlN0ciIiIiIiIvNyQlI2UyRyUjZTZHLCQlI2UxRyEiIi83JCUjZTJHJSNlOEclI2U0Ry83JCUjZTNHJSNlNEcsJCUjZTFHISIiLzckJSNlM0clI2U1RywkJSNlMkchIiIvNyQlI2U0RyUjZTVHLCQlI2U2RyEiIi83JCUjZTRHJSNlNkclI2U1Ry83JCUjZTRHJSNlN0csJCUjZTFHISIiLzckJSNlNEclI2U4RywkJSNlMkchIiIvNyQlI2U1RyUjZTZHLCQlI2U0RyEiIi83JCUjZTVHJSNlOEcsJCUjZTFHISIiLzckJSNlNkclI2U3RywkJSNlOEchIiIvNyQlI2U2RyUjZThHLCYqJiIiIyIiIiUjZTNHIiIiIiIiKiYiIiUiIiIlI2U3RyIiIiIiIi83JCUjZTdHJSNlOEcsJCUjZTZHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L74">
+<Input>
+<Text-field layout="Normal" prompt="u3 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(L);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlM0xpZX5hbGdlYnJhOn51M21vZEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L75">
+<Input>
+<Text-field layout="Normal" prompt="u3mod &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> Example 5. Construct the special unity Lie algebra su(3)</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The special unity algebra <Font style="Help Math">su(n)</Font> is the subalgebra of <Font style="Help Math">gl(6,R)</Font> which fixes the standard complex structure, the standard metric and the real and imaginary parts of the complex volume form. It consists of matrices of the form <Font style="Help Math">blockmatrix(n, n, [A, B, -B, A]</Font>), where <Font style="Help Math">A</Font> and <Font style="Help Math">B</Font> are <Font style="Help Math">nxn</Font> matrices, <Font style="Help Math">A</Font> is skew-symmetric and <Font style="Help Math">B</Font> is symmetric and trace-free.  The dimension of <Font style="Help Math">su(n)</Font> is <Font style="Help Math">n^2 - 1</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L76">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L77">
+<Input>
+<Text-field layout="Normal" prompt="u3mod &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",6)):
+</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L78">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3, y1, y2, y3], E6):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the metric, the complex structure,  the real and imaginary parts of the complex volume form.</Text-field>
+<Group drawlabel="true" labelreference="L79">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas",6,0):
+</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L80">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">J := CanonicalTensors("ComplexStructure", "bas");
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRywuKiYlJGR4MUciIiIlJURfeTFHIiIiISIiKiYlJGR4MkciIiIlJURfeTJHIiIiISIiKiYlJGR4M0ciIiIlJURfeTNHIiIiISIiKiYlJGR5MUciIiIlJURfeDFHIiIiIiIiKiYlJGR5MkciIiIlJURfeDJHIiIiIiIiKiYlJGR5M0ciIiIlJURfeDNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L81">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">dz1 := DGzip([1,I],[dx1, dy1],"plus"):
+dz2 := DGzip([1,I],[dx2, dy2], "plus"):
+dz3 := DGzip([1,I],[dx3, dy3], "plus"):
+nu := dz1&amp;wedge dz2 &amp;wedge dz3:
+</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L82">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">nuR:= (1/2) &amp;mult ( nu  &amp;plus Tools:-DGmap(1,conjugate,nu));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRudVJHLCoqLCUkZHgxRyIiIiUiXkciIiIlJGR4MkciIiIlIl5HIiIiJSRkeDNHIiIiIiIiKiwlJGR4MUciIiIlIl5HIiIiJSRkeTJHIiIiJSJeRyIiIiUkZHkzRyIiIiEiIiosJSRkeDJHIiIiJSJeRyIiIiUkZHkxRyIiIiUiXkciIiIlJGR5M0ciIiIiIiIqLCUkZHgzRyIiIiUiXkciIiIlJGR5MUciIiIlIl5HIiIiJSRkeTJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L83">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">nuI:=(I/2) &amp;mult ( nu  &amp;minus Tools:-DGmap(1,conjugate,nu));</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRudUlHLCoqLCUkZHgxRyIiIiUiXkciIiIlJGR4MkciIiIlIl5HIiIiJSRkeTNHIiIiISIiKiwlJGR4MUciIiIlIl5HIiIiJSRkeDNHIiIiJSJeRyIiIiUkZHkyRyIiIiIiIiosJSRkeDJHIiIiJSJeRyIiIiUkZHgzRyIiIiUiXkciIiIlJGR5MUciIiIhIiIqLCUkZHkxRyIiIiUiXkciIiIlJGR5MkciIiIlIl5HIiIiJSRkeTNHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the subalgebra of <Font style="Help Math">gl6R</Font> which fixes <Font style="Help Math">g</Font>, <Font style="Help Math">J</Font>, <Font style="Help Math">nuI</Font> and <Font style="Help Math">nuR</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L84">
+<Input>
+<Text-field layout="Normal" prompt="E6 &gt; " size="14" style="Maple Input"><Font size="14">su3subalgebra := MatrixAlgebras("Subalgebra",gl6R,[g, J, nuI, nuR]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS5zdTNzdWJhbGdlYnJhRzcqLColJGUxMkciIiIlJGUyMUchIiIlJGU0NUciIiIlJGU1NEchIiIsKiUkZTEzRyIiIiUkZTMxRyEiIiUkZTQ2RyIiIiUkZTY0RyEiIiwqJSRlMTRHIiIiJSRlMzZHISIiJSRlNDFHISIiJSRlNjNHIiIiLColJGUxNUciIiIlJGUyNEciIiIlJGU0MkchIiIlJGU1MUchIiIsKiUkZTE2RyIiIiUkZTM0RyIiIiUkZTQzRyEiIiUkZTYxRyEiIiwqJSRlMjNHIiIiJSRlMzJHISIiJSRlNTZHIiIiJSRlNjVHISIiLColJGUyNUciIiIlJGUzNkchIiIlJGU1MkchIiIlJGU2M0ciIiIsKiUkZTI2RyIiIiUkZTM1RyIiIiUkZTUzRyEiIiUkZTYyRyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L85">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">su3data := LieAlgebraData(su3subalgebra, su3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JShzdTNkYXRhRzc9LzckJSNlMUclI2UyRywkJSNlNkchIiIvNyQlI2UxRyUjZTNHLCQlI2U0RyEiIi83JCUjZTFHJSNlNEcsJiomIiIjIiIiJSNlM0ciIiIiIiIqJiIiIyIiIiUjZTdHIiIiISIiLzckJSNlMUclI2U1RywkJSNlOEchIiIvNyQlI2UxRyUjZTZHJSNlMkcvNyQlI2UxRyUjZTdHJSNlNEcvNyQlI2UxRyUjZThHJSNlNUcvNyQlI2UyRyUjZTNHLCQqJiIiIyIiIiUjZTVHIiIiISIiLzckJSNlMkclI2U0RywkJSNlOEchIiIvNyQlI2UyRyUjZTVHLCQqJiIiIyIiIiUjZTNHIiIiIiIiLzckJSNlMkclI2U2RywkJSNlMUchIiIvNyQlI2UyRyUjZTdHLCQlI2U1RyEiIi83JCUjZTJHJSNlOEclI2U0Ry83JCUjZTNHJSNlNEcsJCUjZTFHISIiLzckJSNlM0clI2U1RywkKiYiIiMiIiIlI2UyRyIiIiEiIi83JCUjZTNHJSNlNkclI2U4Ry83JCUjZTNHJSNlOEcsJCUjZTZHISIiLzckJSNlNEclI2U1RywkJSNlNkchIiIvNyQlI2U0RyUjZTZHJSNlNUcvNyQlI2U0RyUjZTdHLCQlI2UxRyEiIi83JCUjZTRHJSNlOEcsJCUjZTJHISIiLzckJSNlNUclI2U2RywkJSNlNEchIiIvNyQlI2U1RyUjZTdHJSNlMkcvNyQlI2U1RyUjZThHLCQlI2UxRyEiIi83JCUjZTZHJSNlN0csJComIiIjIiIiJSNlOEciIiIhIiIvNyQlI2U2RyUjZThHLCQqJiIiIyIiIiUjZTdHIiIiIiIiLzckJSNlN0clI2U4RywkKiYiIiMiIiIlI2U2RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L86">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> Example 6. Construct the general quaternionic Lie algebra gl(2,H) as a subalgebra of gl(8, R)</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Lie algebra <Font style="Help Math">gl(n, H)</Font> is the real Lie algebra of <Font style="Help Math">nxn</Font> matrices with quaternion entries. The algebra <Font style="Help Math">gl(n, H)</Font> can also be defined as  the subalgebra of <Font style="Help Math">gl(4n, R) </Font>which fixes a pair of skew-commuting complex  structures on<Font style="Help Math"> R^4n</Font>. The algebra<Font style="Help Math"> gl(n, H)</Font> consists of matrices of the type </Text-field>
+<Text-field layout="Normal259" style="Normal259"> <Font style="Help Math">blockmatrix(n, n, [A,  -C, B, - D], [C, A, -D, -B], [-B, D, A, -C],[D, B, C,-A]])</Font>,</Text-field>
+<Text-field layout="Normal" style="Normal"> where the matrices <Font style="Help Math">A</Font>, <Font style="Help Math">B</Font>, <Font style="Help Math">C</Font>, <Font style="Help Math">D</Font> are arbitrary <Font style="Help Math">nxn</Font> matrices. The dimension of  <Font style="Help Math">gl(n, H)</Font> is <Font style="Help Math">4n^2</Font>.  In this example we construct <Font style="Help Math">gl(2,H)</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L87">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L88">
+<Input>
+<Text-field layout="Normal" prompt="gl6R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",8), gl8R):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L89">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, y1, u1, v1, x2, y2, u2, v2], E8):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define two matrices <Font style="Help Math">Jm</Font> and <Font style="Help Math">Km</Font> which satisfy <Font style="Help Math">Jm^2 = -I</Font> , <Font style="Help Math">Km^2 = -I</Font> and <Font style="Help Math">Jm . Km = - Km . Jm</Font></Text-field>
+<Group drawlabel="true" labelreference="L90">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">Jm := Matrix([[0, 0, 0, 0, -1, 0, 0, 0], [0, 0, 0, 0, 0, -1, 0, 0], [0, 0, 0, 0, 0, 0, -1, 0], [0, 0, 0, 0, 0, 0, 0, -1], [1, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0]]);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNKbUctJSdSVEFCTEVHNiUiKjtsPV8iLSUnTUFUUklYRzYjNyo3KiIiISIiISIiISIiISEiIiIiISIiISIiITcqIiIhIiIhIiIhIiIhIiIhISIiIiIhIiIhNyoiIiEiIiEiIiEiIiEiIiEiIiEhIiIiIiE3KiIiISIiISIiISIiISIiISIiISIiISEiIjcqIiIiIiIhIiIhIiIhIiIhIiIhIiIhIiIhNyoiIiEiIiIiIiEiIiEiIiEiIiEiIiEiIiE3KiIiISIiISIiIiIiISIiISIiISIiISIiITcqIiIhIiIhIiIhIiIiIiIhIiIhIiIhIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L91">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">Km := Matrix([[0, 0, -1, 0, 0, 0, 0, 0], [0, 0, 0, -1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, -1, 0, 0, 0], [0, 0, 0, 0, 0, -1, 0, 0]]);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNLbUctJSdSVEFCTEVHNiUiKmtpPV8iLSUnTUFUUklYRzYjNyo3KiIiISIiISEiIiIiISIiISIiISIiISIiITcqIiIhIiIhIiIhISIiIiIhIiIhIiIhIiIhNyoiIiIiIiEiIiEiIiEiIiEiIiEiIiEiIiE3KiIiISIiIiIiISIiISIiISIiISIiISIiITcqIiIhIiIhIiIhIiIhIiIhIiIhIiIiIiIhNyoiIiEiIiEiIiEiIiEiIiEiIiEiIiEiIiI3KiIiISIiISIiISIiISEiIiIiISIiISIiITcqIiIhIiIhIiIhIiIhIiIhISIiIiIhIiIhJSdNYXRyaXhH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L92">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">(Jm^2 +1), evalm(Km^2 +1), evalm(Jm &amp;* Km + Km &amp;*Jm);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiUtJSdSVEFCTEVHNiUiKm8kKj1gIi0lJ01BVFJJWEc2IzcqNyoiIiFGLEYsRixGLEYsRixGLEYrRitGK0YrRitGK0YrJSdNYXRyaXhHLSUnbWF0cml4R0YpRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">Convert<Font style="Help Math"> Jm</Font> and<Font style="Help Math"> Km</Font> to type (1,1) tensors.</Text-field>
+<Group drawlabel="true" labelreference="L93">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">J := convert(Jm, DGtensor,[["cov_bas", "con_bas"],[]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRywyKiYlJGR4MUciIiIlJURfeDJHIiIiISIiKiYlJGR5MUciIiIlJURfeTJHIiIiISIiKiYlJGR1MUciIiIlJURfdTJHIiIiISIiKiYlJGR2MUciIiIlJURfdjJHIiIiISIiKiYlJGR4MkciIiIlJURfeDFHIiIiIiIiKiYlJGR5MkciIiIlJURfeTFHIiIiIiIiKiYlJGR1MkciIiIlJURfdTFHIiIiIiIiKiYlJGR2MkciIiIlJURfdjFHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L94">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">K := convert(Km,DGtensor,[["cov_bas", "con_bas"],[]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJLRywyKiYlJGR4MUciIiIlJURfdTFHIiIiISIiKiYlJGR5MUciIiIlJURfdjFHIiIiISIiKiYlJGR1MUciIiIlJURfeDFHIiIiIiIiKiYlJGR2MUciIiIlJURfeTFHIiIiIiIiKiYlJGR4MkciIiIlJURfdTJHIiIiIiIiKiYlJGR5MkciIiIlJURfdjJHIiIiIiIiKiYlJGR1MkciIiIlJURfeDJHIiIiISIiKiYlJGR2MkciIiIlJURfeTJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L95">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " style="Normal"><Font size="14" style="Maple Input">gl2Hsubalgebra := MatrixAlgebras("Subalgebra", gl8R, [J, K]);
+</Font><Equation executable="false" input-equation="gl2Hsubalgebra := [e11+e33+e55+e77, e12+e34+e56+e78, e13-e31+e57-e75, e14-e32+e58-e76, e15-e37-e51+e73, e16-e38-e52+e74, e17+e35-e53-e71, e18+e36-e54-e72, e21+e43+e65+e87, e22+e44+e66+e88, e23-e41+e67-e85, e24-e42+e68-e86, e25-e47-e61+e83, e26-e48-e62+e84, e27+e45-e63-e81, e28+e46-e64-e82]" style="2D Output">NiM+JS9nbDJIc3ViYWxnZWJyYUc3MiwqJSRlMTFHIiIiJSRlMzNHIiIiJSRlNTVHIiIiJSRlNzdHIiIiLColJGUxMkciIiIlJGUzNEciIiIlJGU1NkciIiIlJGU3OEciIiIsKiUkZTEzRyIiIiUkZTMxRyEiIiUkZTU3RyIiIiUkZTc1RyEiIiwqJSRlMTRHIiIiJSRlMzJHISIiJSRlNThHIiIiJSRlNzZHISIiLColJGUxNUciIiIlJGUzN0chIiIlJGU1MUchIiIlJGU3M0ciIiIsKiUkZTE2RyIiIiUkZTM4RyEiIiUkZTUyRyEiIiUkZTc0RyIiIiwqJSRlMTdHIiIiJSRlMzVHIiIiJSRlNTNHISIiJSRlNzFHISIiLColJGUxOEciIiIlJGUzNkciIiIlJGU1NEchIiIlJGU3MkchIiIsKiUkZTIxRyIiIiUkZTQzRyIiIiUkZTY1RyIiIiUkZTg3RyIiIiwqJSRlMjJHIiIiJSRlNDRHIiIiJSRlNjZHIiIiJSRlODhHIiIiLColJGUyM0ciIiIlJGU0MUchIiIlJGU2N0ciIiIlJGU4NUchIiIsKiUkZTI0RyIiIiUkZTQyRyEiIiUkZTY4RyIiIiUkZTg2RyEiIiwqJSRlMjVHIiIiJSRlNDdHISIiJSRlNjFHISIiJSRlODNHIiIiLColJGUyNkciIiIlJGU0OEchIiIlJGU2MkchIiIlJGU4NEciIiIsKiUkZTI3RyIiIiUkZTQ1RyIiIiUkZTYzRyEiIiUkZTgxRyEiIiwqJSRlMjhHIiIiJSRlNDZHIiIiJSRlNjRHISIiJSRlODJHISIi</Equation></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9nbDJIc3ViYWxnZWJyYUc3MiwqJSRlMTFHIiIiJSRlMzNHIiIiJSRlNTVHIiIiJSRlNzdHIiIiLColJGUxMkciIiIlJGUzNEciIiIlJGU1NkciIiIlJGU3OEciIiIsKiUkZTEzRyIiIiUkZTMxRyEiIiUkZTU3RyIiIiUkZTc1RyEiIiwqJSRlMTRHIiIiJSRlMzJHISIiJSRlNThHIiIiJSRlNzZHISIiLColJGUxNUciIiIlJGUzN0chIiIlJGU1MUchIiIlJGU3M0ciIiIsKiUkZTE2RyIiIiUkZTM4RyEiIiUkZTUyRyEiIiUkZTc0RyIiIiwqJSRlMTdHIiIiJSRlMzVHIiIiJSRlNTNHISIiJSRlNzFHISIiLColJGUxOEciIiIlJGUzNkciIiIlJGU1NEchIiIlJGU3MkchIiIsKiUkZTIxRyIiIiUkZTQzRyIiIiUkZTY1RyIiIiUkZTg3RyIiIiwqJSRlMjJHIiIiJSRlNDRHIiIiJSRlNjZHIiIiJSRlODhHIiIiLColJGUyM0ciIiIlJGU0MUchIiIlJGU2N0ciIiIlJGU4NUchIiIsKiUkZTI0RyIiIiUkZTQyRyEiIiUkZTY4RyIiIiUkZTg2RyEiIiwqJSRlMjVHIiIiJSRlNDdHISIiJSRlNjFHISIiJSRlODNHIiIiLColJGUyNkciIiIlJGU0OEchIiIlJGU2MkchIiIlJGU4NEciIiIsKiUkZTI3RyIiIiUkZTQ1RyIiIiUkZTYzRyEiIiUkZTgxRyEiIiwqJSRlMjhHIiIiJSRlNDZHIiIiJSRlNjRHISIiJSRlODJHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L96">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">gl2Hdata := LieAlgebraData(gl2Hsubalgebra, gl2H);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlnbDJIZGF0YUc3YnAvNyQlI2UxRyUjZTJHJSNlMkcvNyQlI2UxRyUjZTRHJSNlNEcvNyQlI2UxRyUjZTZHJSNlNkcvNyQlI2UxRyUjZThHJSNlOEcvNyQlI2UxRyUjZTlHLCQlI2U5RyEiIi83JCUjZTFHJSRlMTFHLCQlJGUxMUchIiIvNyQlI2UxRyUkZTEzRywkJSRlMTNHISIiLzckJSNlMUclJGUxNUcsJCUkZTE1RyEiIi83JCUjZTJHJSNlM0csJCUjZTRHISIiLzckJSNlMkclI2U1RywkJSNlNkchIiIvNyQlI2UyRyUjZTdHLCQlI2U4RyEiIi83JCUjZTJHJSNlOUcsJiUjZTFHIiIiJSRlMTBHISIiLzckJSNlMkclJGUxMEclI2UyRy83JCUjZTJHJSRlMTFHLCYlI2UzRyIiIiUkZTEyRyEiIi83JCUjZTJHJSRlMTJHJSNlNEcvNyQlI2UyRyUkZTEzRywmJSNlNUciIiIlJGUxNEchIiIvNyQlI2UyRyUkZTE0RyUjZTZHLzckJSNlMkclJGUxNUcsJiUjZTdHIiIiJSRlMTZHISIiLzckJSNlMkclJGUxNkclI2U4Ry83JCUjZTNHJSNlNEcsJCUjZTJHISIiLzckJSNlM0clI2U1RywkKiYiIiMiIiIlI2U3RyIiIiEiIi83JCUjZTNHJSNlNkcsJCUjZThHISIiLzckJSNlM0clI2U3RywkKiYiIiMiIiIlI2U1RyIiIiIiIi83JCUjZTNHJSNlOEclI2U2Ry83JCUjZTNHJSNlOUcsJCUkZTExRyEiIi83JCUjZTNHJSRlMTFHJSNlOUcvNyQlI2UzRyUkZTEzRywkJSRlMTVHISIiLzckJSNlM0clJGUxNUclJGUxM0cvNyQlI2U0RyUjZTVHLCQlI2U4RyEiIi83JCUjZTRHJSNlN0clI2U2Ry83JCUjZTRHJSNlOUcsJiUjZTNHIiIiJSRlMTJHISIiLzckJSNlNEclJGUxMEclI2U0Ry83JCUjZTRHJSRlMTFHLCYlI2UxRyEiIiUkZTEwRyIiIi83JCUjZTRHJSRlMTJHLCQlI2UyRyEiIi83JCUjZTRHJSRlMTNHLCYlI2U3RyEiIiUkZTE2RyEiIi83JCUjZTRHJSRlMTRHLCQlI2U4RyEiIi83JCUjZTRHJSRlMTVHLCYlI2U1RyIiIiUkZTE0RyIiIi83JCUjZTRHJSRlMTZHJSNlNkcvNyQlI2U1RyUjZTZHLCQlI2UyRyEiIi83JCUjZTVHJSNlN0csJComIiIjIiIiJSNlM0ciIiIhIiIvNyQlI2U1RyUjZThHLCQlI2U0RyEiIi83JCUjZTVHJSNlOUcsJCUkZTEzRyEiIi83JCUjZTVHJSRlMTFHJSRlMTVHLzckJSNlNUclJGUxM0clI2U5Ry83JCUjZTVHJSRlMTVHLCQlJGUxMUchIiIvNyQlI2U2RyUjZTdHLCQlI2U0RyEiIi83JCUjZTZHJSNlOUcsJiUjZTVHIiIiJSRlMTRHISIiLzckJSNlNkclJGUxMEclI2U2Ry83JCUjZTZHJSRlMTFHLCYlI2U3RyIiIiUkZTE2RyIiIi83JCUjZTZHJSRlMTJHJSNlOEcvNyQlI2U2RyUkZTEzRywmJSNlMUchIiIlJGUxMEciIiIvNyQlI2U2RyUkZTE0RywkJSNlMkchIiIvNyQlI2U2RyUkZTE1RywmJSNlM0chIiIlJGUxMkchIiIvNyQlI2U2RyUkZTE2RywkJSNlNEchIiIvNyQlI2U3RyUjZThHLCQlI2UyRyEiIi83JCUjZTdHJSNlOUcsJCUkZTE1RyEiIi83JCUjZTdHJSRlMTFHLCQlJGUxM0chIiIvNyQlI2U3RyUkZTEzRyUkZTExRy83JCUjZTdHJSRlMTVHJSNlOUcvNyQlI2U4RyUjZTlHLCYlI2U3RyIiIiUkZTE2RyEiIi83JCUjZThHJSRlMTBHJSNlOEcvNyQlI2U4RyUkZTExRywmJSNlNUchIiIlJGUxNEchIiIvNyQlI2U4RyUkZTEyRywkJSNlNkchIiIvNyQlI2U4RyUkZTEzRywmJSNlM0ciIiIlJGUxMkciIiIvNyQlI2U4RyUkZTE0RyUjZTRHLzckJSNlOEclJGUxNUcsJiUjZTFHISIiJSRlMTBHIiIiLzckJSNlOEclJGUxNkcsJCUjZTJHISIiLzckJSNlOUclJGUxMEcsJCUjZTlHISIiLzckJSNlOUclJGUxMkcsJCUkZTExRyEiIi83JCUjZTlHJSRlMTRHLCQlJGUxM0chIiIvNyQlI2U5RyUkZTE2RywkJSRlMTVHISIiLzckJSRlMTBHJSRlMTFHJSRlMTFHLzckJSRlMTBHJSRlMTNHJSRlMTNHLzckJSRlMTBHJSRlMTVHJSRlMTVHLzckJSRlMTFHJSRlMTJHJSNlOUcvNyQlJGUxMUclJGUxNEcsJCUkZTE1RyEiIi83JCUkZTExRyUkZTE2RyUkZTEzRy83JCUkZTEyRyUkZTEzRywkJSRlMTVHISIiLzckJSRlMTJHJSRlMTRHLCQqJiIiIyIiIiUkZTE2RyIiIiEiIi83JCUkZTEyRyUkZTE1RyUkZTEzRy83JCUkZTEyRyUkZTE2RywkKiYiIiMiIiIlJGUxNEciIiIiIiIvNyQlJGUxM0clJGUxNEclI2U5Ry83JCUkZTEzRyUkZTE2RywkJSRlMTFHISIiLzckJSRlMTRHJSRlMTVHLCQlJGUxMUchIiIvNyQlJGUxNEclJGUxNkcsJComIiIjIiIiJSRlMTJHIiIiISIiLzckJSRlMTVHJSRlMTZHJSNlOUc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L97">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(gl2Hdata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDJIRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L98">
+<Input>
+<Text-field layout="Normal" prompt="gl2H &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Example 7.  Construct the symplectic Lie algebra sp(2)</Font></Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The symplectic algebra <Font style="Help Math">sp(n)</Font> is the subalgebra of <Font style="Help Math">gl(2n, R)</Font> of matrices which fixes a symplectic form on <Font style="Help Math">R^n</Font>. With this definition the algebra <Font style="Help Math">sp(n)</Font> consists of matrices of the form <Font style="Help Math">blockmatrix(n, n, [[A, B], [C, D]])</Font>, where <Font style="Help Math">D = -transpose(A)</Font> and <Font style="Help Math">B</Font> and <Font style="Help Math">C</Font> are <Font style="Help Math">nxn</Font> symmetric matrices. The dimension of <Font style="Help Math">sp(n)</Font>  is <Font style="Help Math">n(2n+1)</Font>.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Alternatively, the symplectic algebra <Font style="Help Math">sp(n)</Font>  can be viewed as the subalgebra of  <Font style="Help Math">gl(n, H)</Font> in <Font style="Help Math">gl(4n, R)</Font> of matrices which fixes the standard metric. In this description <Font style="Help Math">sp(n)</Font> is the subalgebra of <Font style="Help Math">gl(4n, R)</Font> given by matrices of  the form </Text-field>
+<Text-field layout="Normal259" style="Normal259"><Font style="Help Math">blockmatrix(n, n, [A, -C, B, -D], [C, A, -,D, -B],[-B, D, A, -C],[D, B, C,-A]]).</Font>  </Text-field>
+<Text-field layout="Normal" style="Normal">Here <Font style="Help Math">A</Font> is skew-symmetric and <Font style="Help Math">B</Font>, <Font style="Help Math">C</Font>, <Font style="Help Math">D</Font> are symmetric.</Text-field>
+<Text-field layout="Normal" style="DG_Text"></Text-field>
+<Group drawlabel="true" labelreference="L99">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L100">
+<Input>
+<Text-field layout="Normal" prompt="gl2H &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",4),gl4R):
+</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L101">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([q1, p1, q2, p2], E4);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlL2ZyYW1lfm5hbWU6fkU0Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L102">
+<Input>
+<Text-field layout="Normal" style="Normal">Define the standard symplectic form on <Font style="Help Math">E4</Font>.</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L103">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">omega := CanonicalTensors("SymplecticForm", "bas");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcsJiooJSRkcTFHIiIiJSJeRyIiIiUkZHEyRyIiIiIiIiooJSRkcDFHIiIiJSJeRyIiIiUkZHAyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L104">
+<Input>
+<Text-field layout="Normal" prompt="E4 &gt; " size="14" style="Maple Input"><Font size="14">sp2Asubalgebra := MatrixAlgebras("Subalgebra", gl4R, [omega]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9zcDJBc3ViYWxnZWJyYUc3LCwmJSRlMTFHIiIiJSRlMzNHISIiLCYlJGUxMkciIiIlJGU0M0chIiIlJGUxM0csJiUkZTE0RyIiIiUkZTIzRyIiIiwmJSRlMjFHIiIiJSRlMzRHISIiLCYlJGUyMkciIiIlJGU0NEchIiIlJGUyNEclJGUzMUcsJiUkZTMyRyIiIiUkZTQxRyIiIiUkZTQyRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L105">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">sp2Adata := LieAlgebraData(sp2Asubalgebra, sp2A);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlzcDJBZGF0YUc3Pi83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0csJComIiIjIiIiJSNlM0ciIiIiIiIvNyQlI2UxRyUjZTRHJSNlNEcvNyQlI2UxRyUjZTVHLCQlI2U1RyEiIi83JCUjZTFHJSNlOEcsJComIiIjIiIiJSNlOEciIiIhIiIvNyQlI2UxRyUjZTlHLCQlI2U5RyEiIi83JCUjZTJHJSNlNEcsJComIiIjIiIiJSNlM0ciIiIiIiIvNyQlI2UyRyUjZTVHLCYlI2UxRyIiIiUjZTZHISIiLzckJSNlMkclI2U2RyUjZTJHLzckJSNlMkclI2U3RyUjZTRHLzckJSNlMkclI2U4RywkJSNlOUchIiIvNyQlI2UyRyUjZTlHLCQqJiIiIyIiIiUkZTEwRyIiIiEiIi83JCUjZTNHJSNlNUcsJCUjZTRHISIiLzckJSNlM0clI2U4RyUjZTFHLzckJSNlM0clI2U5RyUjZTJHLzckJSNlNEclI2U1RywkKiYiIiMiIiIlI2U3RyIiIiEiIi83JCUjZTRHJSNlNkcsJCUjZTRHISIiLzckJSNlNEclI2U4RyUjZTVHLzckJSNlNEclI2U5RywmJSNlMUciIiIlI2U2RyIiIi83JCUjZTRHJSRlMTBHJSNlMkcvNyQlI2U1RyUjZTZHLCQlI2U1RyEiIi83JCUjZTVHJSNlOUcsJComIiIjIiIiJSNlOEciIiIhIiIvNyQlI2U1RyUkZTEwRywkJSNlOUchIiIvNyQlI2U2RyUjZTdHLCQqJiIiIyIiIiUjZTdHIiIiIiIiLzckJSNlNkclI2U5RywkJSNlOUchIiIvNyQlI2U2RyUkZTEwRywkKiYiIiMiIiIlJGUxMEciIiIhIiIvNyQlI2U3RyUjZTlHJSNlNUcvNyQlI2U3RyUkZTEwRyUjZTZH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L106">
+<Input>
+<Text-field layout="Normal" prompt="gl4R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(sp2Adata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5zcDJBRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L107">
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQlJXRydWVHRiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal">Now turn to the alternative formulation. We use the construction of <Font style="Help Math">gl(2, H)</Font> given in the previous example.</Text-field>
+<Group drawlabel="true" labelreference="L108">
+<Input>
+<Text-field layout="Normal" prompt="sp2A &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, y1, u1, v1, x2, y2, u2, v2], E8);</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L109">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">J := CanonicalTensors("ComplexStructure", "bas");</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJKRywyKiYlJGR4MUciIiIlJURfeDJHIiIiISIiKiYlJGR5MUciIiIlJURfeTJHIiIiISIiKiYlJGR1MUciIiIlJURfdTJHIiIiISIiKiYlJGR2MUciIiIlJURfdjJHIiIiISIiKiYlJGR4MkciIiIlJURfeDFHIiIiIiIiKiYlJGR5MkciIiIlJURfeTFHIiIiIiIiKiYlJGR1MkciIiIlJURfdTFHIiIiIiIiKiYlJGR2MkciIiIlJURfdjFHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L110">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">K1 := evalDG( -dx1 &amp;t D_u1 - dy1 &amp;t D_v1 +du1 &amp;t D_x1 + dv1 &amp;t D_y1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNLMUcsKiomJSRkeDFHIiIiJSVEX3UxRyIiIiEiIiomJSRkeTFHIiIiJSVEX3YxRyIiIiEiIiomJSRkdTFHIiIiJSVEX3gxRyIiIiIiIiomJSRkdjFHIiIiJSVEX3kxRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L111">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">K2 := evalDG( -dx2 &amp;t D_u2 - dy2 &amp;t D_v2 +du2 &amp;t D_x2 + dv2 &amp;t D_y2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNLMkcsKiomJSRkeDJHIiIiJSVEX3UyRyIiIiEiIiomJSRkeTJHIiIiJSVEX3YyRyIiIiEiIiomJSRkdTJHIiIiJSVEX3gyRyIiIiIiIiomJSRkdjJHIiIiJSVEX3kyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L112">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">K := K1 &amp;minus K2;
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJLRywyKiYlJGR4MUciIiIlJURfdTFHIiIiISIiKiYlJGR5MUciIiIlJURfdjFHIiIiISIiKiYlJGR1MUciIiIlJURfeDFHIiIiIiIiKiYlJGR2MUciIiIlJURfeTFHIiIiIiIiKiYlJGR4MkciIiIlJURfdTJHIiIiIiIiKiYlJGR5MkciIiIlJURfdjJHIiIiIiIiKiYlJGR1MkciIiIlJURfeDJHIiIiISIiKiYlJGR2MkciIiIlJURfeTJHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L113">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas", 8, 0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywyKiYlJGR4MUciIiIlJGR4MUciIiIiIiIqJiUkZHkxRyIiIiUkZHkxRyIiIiIiIiomJSRkdTFHIiIiJSRkdTFHIiIiIiIiKiYlJGR2MUciIiIlJGR2MUciIiIiIiIqJiUkZHgyRyIiIiUkZHgyRyIiIiIiIiomJSRkeTJHIiIiJSRkeTJHIiIiIiIiKiYlJGR1MkciIiIlJGR1MkciIiIiIiIqJiUkZHYyRyIiIiUkZHYyRyIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L114">
+<Input>
+<Text-field layout="Normal" prompt="E8 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",8), gl8R):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L115">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">sp2Bsubalgebra := MatrixAlgebras("Subalgebra", gl8R, [J, K, g]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9zcDJCc3ViYWxnZWJyYUc3LCwyJSRlMTJHIiIiJSRlMjFHISIiJSRlMzRHIiIiJSRlNDNHISIiJSRlNTZHIiIiJSRlNjVHISIiJSRlNzhHIiIiJSRlODdHISIiLColJGUxM0ciIiIlJGUzMUchIiIlJGU1N0ciIiIlJGU3NUchIiIsMiUkZTE0RyIiIiUkZTIzRyIiIiUkZTMyRyEiIiUkZTQxRyEiIiUkZTU4RyIiIiUkZTY3RyIiIiUkZTc2RyEiIiUkZTg1RyEiIiwqJSRlMTVHIiIiJSRlMzdHISIiJSRlNTFHISIiJSRlNzNHIiIiLDIlJGUxNkciIiIlJGUyNUciIiIlJGUzOEchIiIlJGU0N0chIiIlJGU1MkchIiIlJGU2MUchIiIlJGU3NEciIiIlJGU4M0ciIiIsKiUkZTE3RyIiIiUkZTM1RyIiIiUkZTUzRyEiIiUkZTcxRyEiIiwyJSRlMThHIiIiJSRlMjdHIiIiJSRlMzZHIiIiJSRlNDVHIiIiJSRlNTRHISIiJSRlNjNHISIiJSRlNzJHISIiJSRlODFHISIiLColJGUyNEciIiIlJGU0MkchIiIlJGU2OEciIiIlJGU4NkchIiIsKiUkZTI2RyIiIiUkZTQ4RyEiIiUkZTYyRyEiIiUkZTg0RyIiIiwqJSRlMjhHIiIiJSRlNDZHIiIiJSRlNjRHISIiJSRlODJHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L116">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">sp2Bdata := LieAlgebraData(sp2Bsubalgebra, sp2B);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSlzcDJCZGF0YUc3Ri83JCUjZTFHJSNlMkcsJCUjZTNHISIiLzckJSNlMUclI2UzRywmKiYiIiMiIiIlI2UyRyIiIiIiIiomIiIjIiIiJSNlOEciIiIhIiIvNyQlI2UxRyUjZTRHLCQlI2U1RyEiIi83JCUjZTFHJSNlNUcsJiomIiIjIiIiJSNlNEciIiIiIiIqJiIiIyIiIiUjZTlHIiIiISIiLzckJSNlMUclI2U2RywkJSNlN0chIiIvNyQlI2UxRyUjZTdHLCYqJiIiIyIiIiUjZTZHIiIiIiIiKiYiIiMiIiIlJGUxMEciIiIhIiIvNyQlI2UxRyUjZThHJSNlM0cvNyQlI2UxRyUjZTlHJSNlNUcvNyQlI2UxRyUkZTEwRyUjZTdHLzckJSNlMkclI2UzRywkJSNlMUchIiIvNyQlI2UyRyUjZTRHLCQqJiIiIyIiIiUjZTZHIiIiISIiLzckJSNlMkclI2U1RywkJSNlN0chIiIvNyQlI2UyRyUjZTZHLCQqJiIiIyIiIiUjZTRHIiIiIiIiLzckJSNlMkclI2U3RyUjZTVHLzckJSNlM0clI2U0RywkJSNlN0chIiIvNyQlI2UzRyUjZTVHLCYqJiIiIyIiIiUjZTZHIiIiISIiKiYiIiMiIiIlJGUxMEciIiIhIiIvNyQlI2UzRyUjZTZHJSNlNUcvNyQlI2UzRyUjZTdHLCYqJiIiIyIiIiUjZTRHIiIiIiIiKiYiIiMiIiIlI2U5RyIiIiIiIi83JCUjZTNHJSNlOEcsJCUjZTFHISIiLzckJSNlM0clI2U5RywkJSNlN0chIiIvNyQlI2UzRyUkZTEwRyUjZTVHLzckJSNlNEclI2U1RywkJSNlMUchIiIvNyQlI2U0RyUjZTZHLCQqJiIiIyIiIiUjZTJHIiIiISIiLzckJSNlNEclI2U3RywkJSNlM0chIiIvNyQlI2U1RyUjZTZHLCQlI2UzRyEiIi83JCUjZTVHJSNlN0csJiomIiIjIiIiJSNlMkciIiIhIiIqJiIiIyIiIiUjZThHIiIiISIiLzckJSNlNUclI2U4RyUjZTdHLzckJSNlNUclI2U5RywkJSNlMUchIiIvNyQlI2U1RyUkZTEwRywkJSNlM0chIiIvNyQlI2U2RyUjZTdHLCQlI2UxRyEiIi83JCUjZTdHJSNlOEcsJCUjZTVHISIiLzckJSNlN0clI2U5RyUjZTNHLzckJSNlN0clJGUxMEcsJCUjZTFHISIiLzckJSNlOEclI2U5RywkKiYiIiMiIiIlJGUxMEciIiIhIiIvNyQlI2U4RyUkZTEwRywkKiYiIiMiIiIlI2U5RyIiIiIiIi83JCUjZTlHJSRlMTBHLCQqJiIiIyIiIiUjZThHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L117">
+<Input>
+<Text-field layout="Normal" prompt="gl8R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(sp2Bdata);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5zcDJCRw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">One can use the Query command to check that the Lie algebra<Font style="Help Math"> sp2B </Font>is semisimple and indecomposable (although this takes several minutes of computation time).</Text-field>
+<Group drawlabel="true" labelreference="L118">
+<Output>
+<Text-field layout="Maple Output" style="Maple Output"></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 2" style="Heading 2"> Example 8.  Construct the exceptional Lie algebra g2</Text-field></Title>
+<Text-field layout="Normal" style="Normal">In this example we follow the description of <Font style="Help Math">g2</Font> as found in the text: <Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="true" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false"> Spinors and Calibrations</Font> by F. Resse Harvey,  p113-118,  namely, <Font style="Help Math">g2 </Font>is the subalgebra of  <Font style="Help Math">gl(7,R)</Font> which fixes a certain 3-form.  We check that the <Font style="Help Math">g2</Font> is a subalgebra of <Font style="Help Math">so(7)</Font> and we calculate the <Font style="Help Math">g2</Font> stabilizer of  a vector to be a certain 8-dimensional subalgebra <Font style="Help Math">h</Font> ( this subalgebra is in fact <Font style="Help Math">su(3)</Font>).  This proves that the 7 sphere is a <Font style="Help Math">G2 </Font>homogeneous space.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L119">
+<Input>
+<Text-field layout="Normal" prompt="sp2B &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry): with(LieAlgebras): with(Tensor):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L120">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup(MatrixAlgebras("Full",7), gl7R);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMkxpZX5hbGdlYnJhOn5nbDdSRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L121">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3, x4, x5, x6, x7],E7):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L122">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"><Font size="14">g := CanonicalTensors("Metric", "bas", 7,0);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywwKiYlJGR4MUciIiIlJGR4MUciIiIiIiIqJiUkZHgyRyIiIiUkZHgyRyIiIiIiIiomJSRkeDNHIiIiJSRkeDNHIiIiIiIiKiYlJGR4NEciIiIlJGR4NEciIiIiIiIqJiUkZHg1RyIiIiUkZHg1RyIiIiIiIiomJSRkeDZHIiIiJSRkeDZHIiIiIiIiKiYlJGR4N0ciIiIlJGR4N0ciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L123">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"><Font size="14">phi := evalDG(dx1 &amp;w dx2 &amp;w dx3  + dx1 &amp;w dx4 &amp;w dx5 -dx1 &amp;w dx6 &amp;w dx7 + dx2 &amp;w dx4 &amp;w dx6+ dx2 &amp;w dx5 &amp;w dx7 +dx3 &amp;w dx4 &amp;w dx7 -dx3 &amp;w dx5 &amp;w dx6);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHLDAqLCUkZHgxRyIiIiUiXkciIiIlJGR4MkciIiIlIl5HIiIiJSRkeDNHIiIiIiIiKiwlJGR4MUciIiIlIl5HIiIiJSRkeDRHIiIiJSJeRyIiIiUkZHg1RyIiIiIiIiosJSRkeDFHIiIiJSJeRyIiIiUkZHg2RyIiIiUiXkciIiIlJGR4N0ciIiIhIiIqLCUkZHgyRyIiIiUiXkciIiIlJGR4NEciIiIlIl5HIiIiJSRkeDZHIiIiIiIiKiwlJGR4MkciIiIlIl5HIiIiJSRkeDVHIiIiJSJeRyIiIiUkZHg3RyIiIiIiIiosJSRkeDNHIiIiJSJeRyIiIiUkZHg0RyIiIiUiXkciIiIlJGR4N0ciIiIiIiIqLCUkZHgzRyIiIiUiXkciIiIlJGR4NUciIiIlIl5HIiIiJSRkeDZHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L124">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L125">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">g2subalgebra := MatrixAlgebras("Subalgebra",gl7R,[phi]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS1nMnN1YmFsZ2VicmFHNzAsKiUkZTEyRyIiIiUkZTIxRyEiIiUkZTU2RyIiIiUkZTY1RyEiIiwqJSRlMTNHIiIiJSRlMzFHISIiJSRlNTdHIiIiJSRlNzVHISIiLColJGUxNEciIiIlJGUzNkchIiIlJGU0MUchIiIlJGU2M0ciIiIsKiUkZTE1RyIiIiUkZTM3RyEiIiUkZTUxRyEiIiUkZTczRyIiIiwqJSRlMTZHIiIiJSRlMzRHIiIiJSRlNDNHISIiJSRlNjFHISIiLColJGUxN0ciIiIlJGUzNUciIiIlJGU1M0chIiIlJGU3MUchIiIsKiUkZTIzRyIiIiUkZTMyRyEiIiUkZTY3RyIiIiUkZTc2RyEiIiwqJSRlMjRHIiIiJSRlMzVHIiIiJSRlNDJHISIiJSRlNTNHISIiLColJGUyNUciIiIlJGUzNEchIiIlJGU0M0ciIiIlJGU1MkchIiIsKiUkZTI2RyIiIiUkZTM3RyEiIiUkZTYyRyEiIiUkZTczRyIiIiwqJSRlMjdHIiIiJSRlMzZHIiIiJSRlNjNHISIiJSRlNzJHISIiLColJGU0NUciIiIlJGU1NEchIiIlJGU2N0ciIiIlJGU3NkchIiIsKiUkZTQ2RyIiIiUkZTU3RyEiIiUkZTY0RyEiIiUkZTc1RyIiIiwqJSRlNDdHIiIiJSRlNTZHIiIiJSRlNjVHISIiJSRlNzRHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">If we impose the additional constraint that the metric <Font style="Help Math">g</Font> be preserved, the result remains the same. This proves that <Font style="Help Math">g2</Font> is a subalgebra of <Font style="Help Math">so(7)</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L126">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">S := MatrixAlgebras("Subalgebra", gl7R, [phi, g]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJTRzcwLColJGUxMkciIiIlJGUyMUchIiIlJGU1NkciIiIlJGU2NUchIiIsKiUkZTEzRyIiIiUkZTMxRyEiIiUkZTU3RyIiIiUkZTc1RyEiIiwqJSRlMTRHIiIiJSRlMzZHISIiJSRlNDFHISIiJSRlNjNHIiIiLColJGUxNUciIiIlJGUzN0chIiIlJGU1MUchIiIlJGU3M0ciIiIsKiUkZTE2RyIiIiUkZTM0RyIiIiUkZTQzRyEiIiUkZTYxRyEiIiwqJSRlMTdHIiIiJSRlMzVHIiIiJSRlNTNHISIiJSRlNzFHISIiLColJGUyM0ciIiIlJGUzMkchIiIlJGU2N0ciIiIlJGU3NkchIiIsKiUkZTI0RyIiIiUkZTM1RyIiIiUkZTQyRyEiIiUkZTUzRyEiIiwqJSRlMjVHIiIiJSRlMzRHISIiJSRlNDNHIiIiJSRlNTJHISIiLColJGUyNkciIiIlJGUzN0chIiIlJGU2MkchIiIlJGU3M0ciIiIsKiUkZTI3RyIiIiUkZTM2RyIiIiUkZTYzRyEiIiUkZTcyRyEiIiwqJSRlNDVHIiIiJSRlNTRHISIiJSRlNjdHIiIiJSRlNzZHISIiLColJGU0NkciIiIlJGU1N0chIiIlJGU2NEchIiIlJGU3NUciIiIsKiUkZTQ3RyIiIiUkZTU2RyIiIiUkZTY1RyEiIiUkZTc0RyEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L127">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">Tools:-DGequal(g2subalgebra, S);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlJXRydWVH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The infinitesimal isotropy algebra is 8 dimensional.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L128">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">g2IsotropyData := MatrixAlgebras("Subalgebra",gl7R,[phi,D_x1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JS9nMklzb3Ryb3B5RGF0YUc3KiwqJSRlMjNHIiIiJSRlMzJHISIiJSRlNjdHIiIiJSRlNzZHISIiLColJGUyNEciIiIlJGUzNUciIiIlJGU0MkchIiIlJGU1M0chIiIsKiUkZTI1RyIiIiUkZTM0RyEiIiUkZTQzRyIiIiUkZTUyRyEiIiwqJSRlMjZHIiIiJSRlMzdHISIiJSRlNjJHISIiJSRlNzNHIiIiLColJGUyN0ciIiIlJGUzNkciIiIlJGU2M0chIiIlJGU3MkchIiIsKiUkZTQ1RyIiIiUkZTU0RyEiIiUkZTY3RyIiIiUkZTc2RyEiIiwqJSRlNDZHIiIiJSRlNTdHISIiJSRlNjRHISIiJSRlNzVHIiIiLColJGU0N0ciIiIlJGU1NkciIiIlJGU2NUchIiIlJGU3NEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L129">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">nops(%);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIik=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L130">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">g2data := LieAlgebraData(g2subalgebra, g2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSdnMmRhdGFHN2BwLzckJSNlMUclI2UyRywkJSNlN0chIiIvNyQlI2UxRyUjZTNHLCQlI2U4RyEiIi83JCUjZTFHJSNlNEcsJiUjZTVHISIiJSNlOUchIiIvNyQlI2UxRyUjZTVHLCYlI2U0RyIiIiUkZTEwRyEiIi83JCUjZTFHJSNlNkcsJCUkZTExRyEiIi83JCUjZTFHJSNlN0clI2UyRy83JCUjZTFHJSNlOEclI2UzRy83JCUjZTFHJSNlOUcsJiUjZTRHIiIiJSRlMTBHISIiLzckJSNlMUclJGUxMEcsJiUjZTVHIiIiJSNlOUciIiIvNyQlI2UxRyUkZTExRyUjZTZHLzckJSNlMUclJGUxMkcsJCUkZTEzRyEiIi83JCUjZTFHJSRlMTNHJSRlMTJHLzckJSNlMkclI2UzRywkJSNlNUchIiIvNyQlI2UyRyUjZTRHLCQqJiIiIyIiIiUjZTZHIiIiISIiLzckJSNlMkclI2U1RyUjZTNHLzckJSNlMkclI2U2RywkKiYiIiMiIiIlI2U0RyIiIiIiIi83JCUjZTJHJSNlN0csJCUjZTFHISIiLzckJSNlMkclI2U4RyUjZTRHLzckJSNlMkclI2U5RywmJSNlM0chIiIlJGUxMUchIiIvNyQlI2UyRyUkZTEwRywkJSNlNkchIiIvNyQlI2UyRyUkZTExRywmJSNlNUciIiIlI2U5RyIiIi83JCUjZTJHJSRlMTJHLCQlJGUxNEchIiIvNyQlI2UyRyUkZTE0RyUkZTEyRy83JCUjZTNHJSNlNEcsJCUkZTEyRyEiIi83JCUjZTNHJSNlNUcsJiomIiIjIiIiJSNlMkciIiIhIiIqJiIiIyIiIiUkZTEzRyIiIiEiIi83JCUjZTNHJSNlNkcsJCUkZTE0RyEiIi83JCUjZTNHJSNlN0clJGUxMEcvNyQlI2UzRyUjZThHLCQlI2UxRyEiIi83JCUjZTNHJSNlOUcsJiUjZTJHIiIiJSRlMTNHIiIiLzckJSNlM0clJGUxMEcsJCUjZTdHISIiLzckJSNlM0clJGUxMkclI2U0Ry83JCUjZTNHJSRlMTNHJSNlNUcvNyQlI2UzRyUkZTE0RyUjZTZHLzckJSNlNEclI2U1RywkJSRlMTRHISIiLzckJSNlNEclI2U2RywkKiYiIiMiIiIlI2UyRyIiIiEiIi83JCUjZTRHJSNlN0clJGUxMUcvNyQlI2U0RyUjZThHLCQlI2UyRyEiIi83JCUjZTRHJSNlOUcsJiUjZTFHISIiJSRlMTRHIiIiLzckJSNlNEclJGUxMUcsJCUjZTdHISIiLzckJSNlNEclJGUxMkcsJCUjZTNHISIiLzckJSNlNEclJGUxM0csJCUjZTZHISIiLzckJSNlNEclJGUxNEclI2U1Ry83JCUjZTVHJSNlNkcsJCUkZTEyRyEiIi83JCUjZTVHJSNlN0csJiUjZTZHIiIiJSNlOEchIiIvNyQlI2U1RyUjZThHLCYlI2U3RyIiIiUkZTEyRyEiIi83JCUjZTVHJSRlMTBHLCYlI2UxRyEiIiUkZTE0RyIiIi83JCUjZTVHJSRlMTFHLCYlI2UyRyEiIiUkZTEzRyEiIi83JCUjZTVHJSRlMTJHJSNlNkcvNyQlI2U1RyUkZTEzRywkJSNlM0chIiIvNyQlI2U1RyUkZTE0RywkJSNlNEchIiIvNyQlI2U2RyUjZTdHLCYlI2U1RyEiIiUjZTlHISIiLzckJSNlNkclI2U5RywmJSNlN0ciIiIlJGUxMkchIiIvNyQlI2U2RyUkZTEwRyUjZTJHLzckJSNlNkclJGUxMUcsJCUjZTFHISIiLzckJSNlNkclJGUxMkcsJCUjZTVHISIiLzckJSNlNkclJGUxM0clI2U0Ry83JCUjZTZHJSRlMTRHLCQlI2UzRyEiIi83JCUjZTdHJSNlOEclI2U5Ry83JCUjZTdHJSNlOUcsJCUjZThHISIiLzckJSNlN0clJGUxMEcsJComIiIjIiIiJSRlMTFHIiIiISIiLzckJSNlN0clJGUxMUcsJComIiIjIiIiJSRlMTBHIiIiIiIiLzckJSNlN0clJGUxM0csJCUkZTE0RyEiIi83JCUjZTdHJSRlMTRHJSRlMTNHLzckJSNlOEclI2U5RywmKiYiIiMiIiIlI2U3RyIiIiIiIiomIiIjIiIiJSRlMTJHIiIiISIiLzckJSNlOEclJGUxMEcsJCUkZTEzRyEiIi83JCUjZThHJSRlMTFHLCQlJGUxNEchIiIvNyQlI2U4RyUkZTEyRyUjZTlHLzckJSNlOEclJGUxM0clJGUxMEcvNyQlI2U4RyUkZTE0RyUkZTExRy83JCUjZTlHJSRlMTBHLCQlJGUxNEchIiIvNyQlI2U5RyUkZTExRyUkZTEzRy83JCUjZTlHJSRlMTJHLCQlI2U4RyEiIi83JCUjZTlHJSRlMTNHLCQlJGUxMUchIiIvNyQlI2U5RyUkZTE0RyUkZTEwRy83JCUkZTEwRyUkZTExRywkKiYiIiMiIiIlI2U3RyIiIiEiIi83JCUkZTEwRyUkZTEyRyUkZTExRy83JCUkZTEwRyUkZTEzRywkJSNlOEchIiIvNyQlJGUxMEclJGUxNEcsJCUjZTlHISIiLzckJSRlMTFHJSRlMTJHLCQlJGUxMEchIiIvNyQlJGUxMUclJGUxM0clI2U5Ry83JCUkZTExRyUkZTE0RywkJSNlOEchIiIvNyQlJGUxMkclJGUxM0csJComIiIjIiIiJSRlMTRHIiIiISIiLzckJSRlMTJHJSRlMTRHLCQqJiIiIyIiIiUkZTEzRyIiIiIiIi83JCUkZTEzRyUkZTE0RywkKiYiIiMiIiIlJGUxMkciIiIhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L131">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">DGsetup(g2data):</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">One can use the Query command to check that the Lie algebra<Font style="Help Math"> g2 </Font>is semisimple and indecomposable (although this takes several minutes of computation time).</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Actually <Font style="Help Math">g2</Font> can be constructed using any generic 3-form. The form using in <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/References"><Font size="14" style="Hyperlink">Harris and Fulton</Font></Hyperlink>, Representation Theory,  page 350, is given below:</Text-field>
+<Group drawlabel="true" labelreference="L132">
+<Input>
+<Text-field layout="Normal" prompt="g2 &gt; " size="14" style="Maple Input"><Font size="14">DGsetup([v1, v3, v4, w1, w3, w4, u], M);</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L133">
+<Input>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"><Font size="14">omega := evalDG( (dw3 &amp;w du &amp;w dv3) + (dv4 &amp;w du &amp;w dw4) + (dw1 &amp;w du &amp;w dv1) +2*(dv1 &amp;w dv3 &amp;w dw4  + dw1 &amp;w dw3 &amp;w dv4) ); 
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSZvbWVnYUcsLCouIiIjIiIiJSRkdjFHIiIiJSJeRyIiIiUkZHYzRyIiIiUiXkciIiIlJGR3NEciIiIiIiIqLCUkZHYxRyIiIiUiXkciIiIlJGR3MUciIiIlIl5HIiIiJSNkdUciIiIiIiIqLCUkZHYzRyIiIiUiXkciIiIlJGR3M0ciIiIlIl5HIiIiJSNkdUciIiIiIiIqLiIiIyIiIiUkZHY0RyIiIiUiXkciIiIlJGR3MUciIiIlIl5HIiIiJSRkdzNHIiIiIiIiKiwlJGR2NEciIiIlIl5HIiIiJSRkdzRHIiIiJSJeRyIiIiUjZHVHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L134">
+<Input>
+<Text-field layout="Normal" prompt="E7    &gt;" size="14" style="Maple Input"><Font size="14">g2subalgebra_alternative := MatrixAlgebras("Subalgebra", gl7R, [omega]);</Font></Text-field>
+<Text-field layout="Normal" prompt="M &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JTlnMnN1YmFsZ2VicmFfYWx0ZXJuYXRpdmVHNzAsKiUkZTExRyIiIiUkZTMzRyIiIiUkZTQ0RyEiIiUkZTY2RyEiIiwmJSRlMTJHIiIiJSRlNTRHISIiLColJGUxM0ciIiIqJiIiIyIiIiUkZTU3RyIiIiEiIiUkZTY0RyEiIiUkZTcyRyEiIiwqJSRlMTVHIiIiJSRlMjRHISIiKiYiIiMiIiIlJGUzN0ciIiIiIiIlJGU3NkciIiIsJiUkZTE2RyIiIiUkZTM0RyEiIiwqJSRlMTdHIiIiKiYiIiMhIiIlJGUzMkciIiIiIiIqJiIiIyEiIiUkZTU2RyIiIiEiIiomIiIjISIiJSRlNzRHIiIiIiIiLCYlJGUyMUciIiIlJGU0NUchIiIsKiUkZTIyRyIiIiUkZTMzRyIiIiUkZTU1RyEiIiUkZTY2RyEiIiwqJSRlMjNHIiIiKiYiIiMiIiIlJGU0N0ciIiIiIiIlJGU2NUchIiIlJGU3MUciIiIsJiUkZTI2RyIiIiUkZTM1RyEiIiwqJSRlMjdHIiIiKiYiIiMhIiIlJGUzMUciIiIhIiIqJiIiIyEiIiUkZTQ2RyIiIiIiIiomIiIjISIiJSRlNzVHIiIiIiIiLColJGU0MkciIiIlJGU1MUchIiIqJiIiIyIiIiUkZTY3RyIiIiEiIiUkZTczRyEiIiwmJSRlNDNHIiIiJSRlNjFHISIiLCYlJGU1M0ciIiIlJGU2MkchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L135">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">nops(g2subalgebra_alternative);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIzk=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,160]" italic="false" layout="Heading 2" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="14" style="Text" subscript="false" superscript="false" underline="false">Appendix.  The Cayley-Dickson process</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">The Cayley-Dickson process creates a new normed algebra from a given one.  See F. Reese Harvey. Spinors and Calibrations, p104-106.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">In this appendix we provide some simple programs for implementing the Cayley Dickson process. </Text-field>
+<Text-field layout="Bullet Item260" style="Bullet Item260">The procedure <Font style="Help Math">Conj </Font>computes the conjugate of an element</Text-field>
+<Text-field layout="Bullet Item260" style="Bullet Item260">The procedure<Font style="Help Math"> Mult</Font> recursively applies the formula 6.18. For lists of length 2, 4 and 8, <Font style="Help Math">Mult </Font> is the multiplication in the complex numbers, the quaternions, and the octonions.</Text-field>
+<Text-field layout="Bullet Item260" style="Bullet Item260">The procedure <Font style="Help Math">InnerProd</Font> calculates the inner product of  two numbers.</Text-field>
+<Text-field layout="Bullet Item260" style="Bullet Item260">The map <Font style="Help Math">phi</Font>, defined on page 105, is calculated by the procedure phi.</Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="true"><Title>
+<Text-field layout="Heading 3" style="Heading 3">Programs</Text-field></Title>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Group drawlabel="true" labelreference="L136">
+<Input>
+<Text-field layout="Normal" prompt="gl7R &gt; " size="14" style="Maple Input"><Font size="14">restart: with(DifferentialGeometry):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L137">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Conj := proc(A) 
+local i, n;
+n := nops(A);
+[A[1], seq(-A[i], i=2..n)]
+end;
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVDb25qR2YqNiMlIkFHNiQlImlHJSJuRzYiNiJDJD44JS0lJW5vcHNHNiM5JDckJjkkNiMiIiItJSRzZXFHNiQsJCY5JDYjOCQhIiIvOCQ7IiIjOCU2IjYiNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L138">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult := proc( A,B)
+local n, i,a, b, c, d, k, ans1, ans2, ans, c_bar, d_bar; 
+n := nops(A); 
+k := n/2;
+if nops(A) =1 and nops(B) =1 then return([A[1]*B[1]]) fi;
+a := [seq(A[i], i = 1..k)];
+b := [seq(A[i], i = k+1..n)];
+c := [seq(B[i], i = 1..k)];
+d := [seq(B[i], i = k+1..n)];
+c_bar := Conj(c):
+d_bar := Conj(d):
+ans1 := Mult(a, c)- Mult(d_bar, b):
+ans2 := Mult(d, a) + Mult(b, c_bar);
+ans := [seq(ans1[i],i = 1..k),seq(ans2[i], i = 1..k)]; 
+end:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L139">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L140">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">InnerProd := proc(A,B) </Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">local i;</Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">add( A[i]*B[i],i = 1 .. nops(A)); </Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">end;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSpJbm5lclByb2RHZio2JCUiQUclIkJHNiMlImlHNiI2Ii0lJGFkZEc2JComJjkkNiM4JCIiIiY5JTYjOCQiIiIvOCQ7IiIiLSUlbm9wc0c2IzkkNiI2IjYi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L141">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L142">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">phi := (x,y,z)-&gt; expand(InnerProd(x,Mult(y,z)));
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHZio2JSUieEclInlHJSJ6RzYiNiQlKW9wZXJhdG9yRyUmYXJyb3dHNiItJSdleHBhbmRHNiMtJSpJbm5lclByb2RHNiQ5JC0lJU11bHRHNiQ5JTkmNiI2IjYi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L143">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">AssociativeForm:=proc() 
+local ans, i,j,k;
+ans := DifferentialGeometry:-Tools:-DGzero("form", 3); 
+for i from 1 to 7 
+do for j from i+1to 7 
+do for k from j+1 to 7 
+do ans:= ans &amp;plus (phi(e||i,e||j,e||k)&amp;mult  DifferentialGeometry:-Tools:-DGform([x||i,x||j,x||k]) )
+od;od;od;  
+ans;
+end:
+</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L144">
+<Output>
+<Text-field layout="Maple Output12" style="Maple Output12"></Text-field>
+</Output>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">complex  multiplication<Font style="DG_Text">:</Font></Text-field>
+<Group drawlabel="true" labelreference="L145">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult([a, b], [c, d]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3JCwmKiYlImRHIiIiJSJiRyIiIiEiIiomJSJhRyIiIiUiY0ciIiIiIiIsJiomJSJiRyIiIiUiY0ciIiIiIiIqJiUiZEciIiIlImFHIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Quaternion  multiplication:</Text-field>
+<Group drawlabel="true" labelreference="L146">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e := [1,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L147">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">i := [0,1,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L148">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">j := [0,0,1,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L149">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">k := [0,0,0,1]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L150">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(i, i), Mult(j, j), Mult(k, k);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiU3JiEiIiIiIUYlRiVGI0Yj</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L151">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(i, j), Mult(k, i), Mult(j ,k);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiU3JiIiIUYkRiQiIiI3JkYkRiRGJUYkNyZGJEYlRiRGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L152">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(j , i), Mult(i, k), Mult(k, j);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiU3JiIiIUYkRiQhIiI3JkYkRiRGJUYkNyZGJEYlRiRGJA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Octonion Multiplication</Text-field>
+<Group drawlabel="true" labelreference="L153">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e1 := [1,0,0,0,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L154">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e2:=[0,1,0,0,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L155">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e3:=[0,0,1,0,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L156">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e4:=[0,0,0,1,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L157">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e5:=[0,0,0,0,1,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L158">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e6:=[0,0,0,0,0,1,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L159">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e7:=[0,0,0,0,0,0,1,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L160">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">e8:=[0,0,0,0,0,0,0,1]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L161">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">alpha := [a1,a2,a3,a4,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L162">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">beta := [b1,b2,b3,b4,0,0,0,0]:</Font></Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check some basic multiplication laws for octonions:</Text-field>
+<Group drawlabel="true" labelreference="L163">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(Mult(alpha, e5), Mult(beta, e5)) + Mult(Conj(beta), alpha);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3KiIiISIiISIiISIiISIiISIiISIiISIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L164">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(alpha, Mult(beta, e5)) - Mult(Mult(beta, alpha), e5);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3KiIiISIiISIiISIiISIiISIiISIiISIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L165">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(Mult(alpha, e5), beta) - Mult(Mult(alpha, Conj(beta)), e5);</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3KiIiISIiISIiISIiISIiISIiISIiISIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Octonion multiplication is non-associative.</Text-field>
+<Group drawlabel="true" labelreference="L166">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Mult(e4, Mult(e5, e6)), Mult(Mult(e4, e5), e6);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQ3KiIiIUYkIiIiRiRGJEYkRiRGJDcqRiRGJCEiIkYkRiRGJEYkRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Check that <Font style="Help Math">phi</Font> is alternating on imaginary octonions.</Text-field>
+<Group drawlabel="true" labelreference="L167">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">im_x:=[0,seq(x||i,i = 1..7)];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbV94RzcqIiIhJSN4MUclI3gyRyUjeDNHJSN4NEclI3g1RyUjeDZHJSN4N0c=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L168">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">im_y:=[0,seq(y||i,i = 1..7)];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbV95RzcqIiIhJSN5MUclI3kyRyUjeTNHJSN5NEclI3k1RyUjeTZHJSN5N0c=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L169">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">im_z:=[0,seq(z||i,i = 1..7)];</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSVpbV96RzcqIiIhJSN6MUclI3oyRyUjejNHJSN6NEclI3o1RyUjejZHJSN6N0c=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L170">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">phi(im_x,im_y,im_z) + phi(im_x,im_z,im_y);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L171">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">phi(im_x,im_y,im_z) +phi(im_y,im_x,im_z);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L172">
+<Input>
+<Text-field layout="Normal" style="Normal">The next procedure checks some other properties of the<Font style="Help Math"> phi</Font> map</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L173">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Check_phi := proc() </Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">local i, j, k, a;</Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">for i to 8 </Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">do for j from i+1 to 8 </Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">do for k from j+1 to 8 do
+a := phi(e||i,e||j,e||k);</Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">if  a&lt;&gt; 0  then print(i,j,k,a) fi;
+od;od;od;</Font></Text-field>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">end;</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSpDaGVja19waGlHZio2IjYmJSJpRyUiakclImtHJSJhRzYiNiI/KDgkIiIiIiIiIiIpJSV0cnVlRz8oOCUsJjgkIiIiIiIiIiIiIiIiIiIpJSV0cnVlRz8oOCYsJjglIiIiIiIiIiIiIiIiIiIpJSV0cnVlR0MkPjgnLSUkcGhpRzYlKCUiZUc4JCglImVHOCUoJSJlRzgmQCQwOCciIiEtJSZwcmludEc2JjgkOCU4JjgnNiI2IjYi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L174">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L175">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">Check_phi();
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiMiIiQiIiUiIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiMiIiYiIiciIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiMiIigiIikhIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiQiIiYiIigiIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiQiIiciIikiIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiUiIiYiIikiIiI=</Equation></Text-field>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiYiIiUiIiciIighIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L176">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">with(DifferentialGeometry):with(Tools):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L177">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">DGsetup([x1, x2, x3, x4, x5, x6, x7], E7):</Font></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L178">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L179">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"><Font size="14">new_phi := AssociativeForm();
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JShuZXdfcGhpRywqKiwlJGR4MkciIiIlIl5HIiIiJSRkeDNHIiIiJSJeRyIiIiUkZHg0RyIiIiIiIiosJSRkeDJHIiIiJSJeRyIiIiUkZHg1RyIiIiUiXkciIiIlJGR4NkciIiIiIiIqLCUkZHgzRyIiIiUiXkciIiIlJGR4NUciIiIlIl5HIiIiJSRkeDdHIiIiIiIiKiwlJGR4NEciIiIlIl5HIiIiJSRkeDZHIiIiJSJeRyIiIiUkZHg3RyIiIiEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L180">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"><Font size="14">psi := Transformation(E7,E7,[x1= x1,x2 = x2,x3 = x3,x4 = x4,x5 =-x7,x7=-x5,x6 =x6]);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwc2lHNykvJSN4MUclI3gxRy8lI3gyRyUjeDJHLyUjeDNHJSN4M0cvJSN4NEclI3g0Ry8lI3g1RywkJSN4N0chIiIvJSN4NkclI3g2Ry8lI3g3RywkJSN4NUchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L181">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"><Font size="14">newer_phi:= Pullback(psi,new_phi);
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSpuZXdlcl9waGlHLCoqLCUkZHgyRyIiIiUiXkciIiIlJGR4M0ciIiIlIl5HIiIiJSRkeDRHIiIiIiIiKiwlJGR4MkciIiIlIl5HIiIiJSRkeDZHIiIiJSJeRyIiIiUkZHg3RyIiIiIiIiosJSRkeDNHIiIiJSJeRyIiIiUkZHg1RyIiIiUiXkciIiIlJGR4N0ciIiIhIiIqLCUkZHg0RyIiIiUiXkciIiIlJGR4NUciIiIlIl5HIiIiJSRkeDZHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L182">
+<Input>
+<Text-field layout="Normal" prompt="E7 &gt; " size="14" style="Maple Input"><Font size="14">phi:= DGform([x1,x2,x3]) &amp;minus (DGform([x1,x5,x6])  &amp;plus DGform([x4,x2,x6]) &amp;plus DGform([x4,x5,x3]) &amp;plus DGform([x1,x4,x7]) &amp;plus DGform([x2,x5,x7]) &amp;plus DGform([x3,x6,x7]));
+</Font></Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRwaGlHLDAqLCUkZHgxRyIiIiUiXkciIiIlJGR4MkciIiIlIl5HIiIiJSRkeDNHIiIiIiIiKiwlJGR4MUciIiIlIl5HIiIiJSRkeDRHIiIiJSJeRyIiIiUkZHg3RyIiIiEiIiosJSRkeDFHIiIiJSJeRyIiIiUkZHg1RyIiIiUiXkciIiIlJGR4NkciIiIhIiIqLCUkZHgyRyIiIiUiXkciIiIlJGR4NEciIiIlIl5HIiIiJSRkeDZHIiIiIiIiKiwlJGR4MkciIiIlIl5HIiIiJSRkeDVHIiIiJSJeRyIiIiUkZHg3RyIiIiEiIiosJSRkeDNHIiIiJSJeRyIiIiUkZHg0RyIiIiUiXkciIiIlJGR4NUciIiIhIiIqLCUkZHgzRyIiIiUiXkciIiIlJGR4NkciIiIlIl5HIiIiJSRkeDdHIiIiISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L183">
+<Input>
+<Text-field layout="Normal" prompt="sp2B &gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L184">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " size="14" style="Maple Input"></Text-field>
+</Input>
+</Group>
+</Section>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="false" executable="false" family="Times New Roman" font_style_name="Text" foreground="[128,0,128]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false"><Font encoding="UTF-8">\357\277\275Ian M. Anderson 2006</Font></Text-field>
+<Text-field layout="Normal" style="Normal"></Text-field>
+</Worksheet>

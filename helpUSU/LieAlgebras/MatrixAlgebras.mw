@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Worksheet>
+<Version major="13" minor="2"></Version>
+<Label-Scheme prefix="" value="2"></Label-Scheme>
+<View-Properties presentation="false"></View-Properties>
+<Styles><Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" name="Help Maple Name" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Menus" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Fixed Width" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Text" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Text Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Nonterminal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Heading" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Variable" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Italic Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Default" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Italic" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Dash Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output12" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" name="Maple Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" name="2D Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Bold Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Page Number" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Output Labels" opaque="false" placeholder="false" readonly="false" size="8" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Bullet Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Plot Title" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Emphasized" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" name="2D Math Symbol 2" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Maple Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Author" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Warning" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Plot" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Line Printed Output" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" name="Diagnostic" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" name="Help" opaque="false" placeholder="false" readonly="true" size="9" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="2D Math Italic Small" opaque="false" placeholder="false" readonly="false" size="1" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Normal" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Comment" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Help Underlined Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Copyright" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" name="Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Underlined" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Prompt" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="2D Math" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" name="2D Input" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Title" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" name="Error" opaque="false" placeholder="false" readonly="true" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Heading 1" opaque="false" placeholder="false" readonly="false" size="18" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Notes" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Help Bold" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 4" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" name="Heading 3" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="LaTeX" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Heading 2" opaque="false" placeholder="false" readonly="false" size="14" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" name="Dictionary Hyperlink" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" name="Popup" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="true"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="Left Justified Maple Output" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" name="List Item" opaque="false" placeholder="false" readonly="false" size="12" subscript="false" superscript="false" underline="false"></Font>
+<Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" name="Help Fixed" opaque="false" placeholder="false" readonly="false" size="10" subscript="false" superscript="false" underline="false"></Font>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dash" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Dash Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Maple Output12" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Author" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="8"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Warning" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Fixed Width" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Maple Plot" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="centred" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Title" pagebreak-before="false" rightmargin="0" spaceabove="12" spacebelow="12"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Line Printed Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Error" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 1" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="4"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Text Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Diagnostic" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Help" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="dot" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Bullet Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Normal" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 4" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 3" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="Heading 2" pagebreak-before="false" rightmargin="0" spaceabove="8" spacebelow="2"></Layout>
+<Layout alignment="left" bullet="none" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.5" name="Left Justified Maple Output" pagebreak-before="false" rightmargin="0" spaceabove="0" spacebelow="0"></Layout>
+<Layout alignment="left" bullet="indent" bulletsuffix="" firstindent="0" initial="0" leftmargin="0" linebreak="space" linespacing="0.0" name="List Item" pagebreak-before="false" rightmargin="0" spaceabove="3" spacebelow="3"></Layout>
+</Styles>
+<Metadata-table>
+<Metadata-category name="&lt;default&gt;"></Metadata-category>
+<Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+<Metadata-attribute name="Active" value="false"></Metadata-attribute>
+<Metadata-attribute name="Alias" value=""></Metadata-attribute>
+<Metadata-attribute name="Topic" value="DifferentialGeometry/LieAlgebras/MatrixAlgebras"></Metadata-attribute></Metadata-tag>
+</Metadata-table><Task>
+</Task>
+<Group drawlabel="true" labelreference="L1">
+<Input>
+<Text-field layout="Heading 1" style="Heading 1">LieAlgebras[MatrixAlgebras]<Font bold="true" style="Help Normal"> - create a Lie algebra data structure for a matrix Lie algebra</Font></Text-field>
+<Text-field bookmark="usage" layout="Heading 2" style="Heading 2">Calling Sequences</Text-field>
+<Text-field layout="Normal" style="Normal">     MatrixAlgebras(<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">keyword</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> n</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> AlgName</Font>)</Text-field>
+<Text-field layout="Normal" style="Normal">     MatrixAlgebras(<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">"subalgebra"</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> tensorList</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> AlgName</Font>)</Text-field>
+<Text-field layout="Heading 2" style="Heading 2">Parameters</Text-field>
+<Text-field layout="Normal" style="Normal">     <Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false">keyword     - </Font>a keyword string, one of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">"Full"</Font>, <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">"Upper"</Font>, <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">"StrictlyUpper"</Font></Text-field>
+<Text-field layout="Normal" style="Normal">     <Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false">n           - </Font>a positive integer, the dimension of the matrices for the matrix Lie algebra to be created</Text-field>
+<Text-field layout="Normal" style="Normal">     <Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false">AlgName     - </Font>a name or a string, the name of the Lie algebra to be created</Text-field>
+<Text-field layout="Normal" style="Normal">     <Font background="[255,255,255]" bold="false" executable="false" family="Monospaced" font_style_name="Text" foreground="[0,0,0]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="10" style="Text" subscript="false" superscript="false" underline="false">tensorList  - </Font>a list of vectors, differential forms or tensors defined on an <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n </Font>dimensional space</Text-field>
+</Input>
+</Group>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="false"><Title>
+<Text-field bookmark="info" layout="Heading 2" style="Heading 2">Description</Text-field></Title>
+<Text-field layout="Bullet Item" style="Bullet Item">The set of all real, <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices form a Lie algebra with respect to the Lie bracket defined by the matrix commutator<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> [a, b] = ab - ba</Font>.  This Lie algebra is usually denoted by <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(n, R)</Font>.  A matrix Lie algebra is simply a subalgebra of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(n, R)</Font>.  Examples of matrix algebras include: [i] the upper triangular <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices; [ii] the strictly upper triangular <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices; [iii] the trace-free <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices; and [iv] the skew-symmetric <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices.  All of these matrix algebras, and many others, can be created with the <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">MatrixAlgebra</Font> program.</Text-field>
+<Text-field layout="Bullet Item" style="Bullet Item">The Lie algebras of all <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices, the upper triangular <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices, and the strictly upper triangular <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">n x n</Font> matrices can be created using the first calling sequence for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">MatrixAlgebra</Font>.  The program returns the required Lie algebra data structure and lists of labels <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">e[i, j]</Font> for the vectors and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">epsilon[i, j]</Font> for the dual 1-forms for the matrix Lie algebra to be created.  Here <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">e[i, j]</Font> represents the matrix with a 1 in the <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">i</Font>-th row and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">j</Font>-th column and zeros elsewhere.</Text-field>
+<Text-field layout="Bullet Item" style="Bullet Item">Other matrix algebras are created as subalgebras of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(n, R)</Font>,<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> </Font>which are symmetries for a list of prescribed tensors using the second calling sequence for <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">MatrixAlgebra</Font>.  For example, if <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">T = [t^i_{jk}] </Font>is a type (1, 2) tensor on the vector space <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R^n</Font>, then an element <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">a = [a^l_m] </Font>of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(n, R)</Font> is a symmetry of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">T </Font>if the equation <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">a^i_m t^m_{jk} - a^l_j t^i_{lk} - a^l_k t^i_{jl} = 0 (sum on l, m) </Font>holds.<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">  </Font>If we introduce coordinates <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">x^i </Font>on <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R^n</Font>, then this symmetry condition is the same as the Lie derivative equation <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">L_X (T) = 0</Font>, where <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">T = t^i_{jk} partial_{x^i} dx^j dx^k </Font>and <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">X</Font> is the linear vector field <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">X = a^l_m x^m partial_{x^l}</Font>.<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">  </Font>The <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">MatrixAlgebra </Font>program, with the keyword option "<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">subalgebra</Font>",<Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false"> </Font>creates the matrix subalgebra of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(n, R)</Font>, which is the symmetry algebra for all the tensors in the list <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">tensorsList</Font>.</Text-field>
+<Text-field layout="Bullet Item" style="Bullet Item">The command MatrixAlgebras is part of the DifferentialGeometry:-LieAlgebras package.  It can be used in the form MatrixAlgebras(...) only after executing the commands with(DifferentialGeometry) and with(LieAlgebras), but can always be used by executing DifferentialGeometry:-LieAlgebras:-MatrixAlgebras(...).</Text-field>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="false"><Title>
+<Text-field bookmark="examples" layout="Heading 2" style="Heading 2">Examples</Text-field></Title>
+<Group drawlabel="true" labelreference="L2">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">with(DifferentialGeometry): with(LieAlgebras):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">Example 1.</Text-field>
+<Text-field layout="Normal" style="Normal">Create the Lie algebra data structure for the Lie algebra of all 2 x 2 matrices.</Text-field>
+<Group drawlabel="true" labelreference="L3">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">L1 := MatrixAlgebras("Full", 2, gl2);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMUc2JTcnLzckJSNlMUclI2UyRyUjZTJHLzckJSNlMUclI2UzRywkJSNlM0chIiIvNyQlI2UyRyUjZTNHLCYlI2UxRyIiIiUjZTRHISIiLzckJSNlMkclI2U0RyUjZTJHLzckJSNlM0clI2U0RywkJSNlM0chIiI3JiUkZTExRyUkZTEyRyUkZTIxRyUkZTIyRzcmJSplcHNpbG9uMTFHJSplcHNpbG9uMTJHJSplcHNpbG9uMjFHJSplcHNpbG9uMjJH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L4">
+<Input>
+<Text-field layout="Normal" prompt="&gt; " style="Maple Input">DGsetup(L1):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Let us check that this result agrees with the direct computation of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(2)</Font> using <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">LieAlgebraData</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L5">
+<Input>
+<Text-field layout="Normal" prompt="gl2 &gt; " style="Maple Input">M := [Matrix([[1, 0],[0, 0]]), Matrix([[0, 1], [0, 0]]), Matrix([[0, 0], [1, 0]]), Matrix([[0, 0], [0, 1]])];</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJNRzcmLSUnUlRBQkxFRzYlIiprQCFIOi0lJ01BVFJJWEc2IzckNyQiIiIiIiE3JCIiISIiISUnTWF0cml4Ry0lJ1JUQUJMRUc2JSIqL1EhSDotJSdNQVRSSVhHNiM3JDckIiIhIiIiNyQiIiEiIiElJ01hdHJpeEctJSdSVEFCTEVHNiUiKk9gIUg6LSUnTUFUUklYRzYjNyQ3JCIiISIiITckIiIiIiIhJSdNYXRyaXhHLSUnUlRBQkxFRzYlIiopUTRIOi0lJ01BVFJJWEc2IzckNyQiIiEiIiE3JCIiISIiIiUnTWF0cml4Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L6">
+<Input>
+<Text-field layout="Normal" prompt="gl2 &gt; " style="Maple Input">L2 := LieAlgebraData(M, newgl2);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMMkc3Jy83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0csJCUjZTNHISIiLzckJSNlMkclI2UzRywmJSNlMUciIiIlI2U0RyEiIi83JCUjZTJHJSNlNEclI2UyRy83JCUjZTNHJSNlNEcsJCUjZTNHISIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">Example 2.</Text-field>
+<Text-field layout="Normal" style="Normal">We create the 6 dimensional Lie algebra of all 3 x 3 Upper triangular matrices.  This is the standard example of a solvable algebra.</Text-field>
+<Group drawlabel="true" labelreference="L7">
+<Input>
+<Text-field layout="Normal" prompt="gl2 &gt; " style="Maple Input">L3 := MatrixAlgebras("Upper", 3, T3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMM0c2JTcpLzckJSNlMUclI2UyRyUjZTJHLzckJSNlMUclI2UzRyUjZTNHLzckJSNlMkclI2U0RyUjZTJHLzckJSNlMkclI2U1RyUjZTNHLzckJSNlM0clI2U2RyUjZTNHLzckJSNlNEclI2U1RyUjZTVHLzckJSNlNUclI2U2RyUjZTVHNyglJGUxMUclJGUxMkclJGUxM0clJGUyMkclJGUyM0clJGUzM0c3KCUqZXBzaWxvbjExRyUqZXBzaWxvbjEyRyUqZXBzaWxvbjEzRyUqZXBzaWxvbjIyRyUqZXBzaWxvbjIzRyUqZXBzaWxvbjMzRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L8">
+<Input>
+<Text-field layout="Normal" prompt="gl2 &gt; " style="Maple Input">DGsetup(L3):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L9">
+<Input>
+<Text-field layout="Normal" prompt="T3 &gt; " style="Maple Input">MultiplicationTable("LieTable");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJSdSVEFCTEVHNiUiKmNbUWEiLSUnTUFUUklYRzYjNyo3KiUhRyUifGdyRyUkZTExRyUkZTEyRyUkZTEzRyUkZTIyRyUkZTIzRyUkZTMzRzcqJSFHJSQtLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HJSUtLS0tRyUlLS0tLUclJS0tLS1HNyolJGUxMUclInxnckciIiElJGUxMkclJGUxM0ciIiEiIiEiIiE3KiUkZTEyRyUifGdyRywkJSRlMTJHISIiIiIhIiIhJSRlMTJHJSRlMTNHIiIhNyolJGUxM0clInxnckcsJCUkZTEzRyEiIiIiISIiISIiISIiISUkZTEzRzcqJSRlMjJHJSJ8Z3JHIiIhLCQlJGUxMkchIiIiIiEiIiElJGUyM0ciIiE3KiUkZTIzRyUifGdyRyIiISwkJSRlMTNHISIiIiIhLCQlJGUyM0chIiIiIiElJGUyM0c3KiUkZTMzRyUifGdyRyIiISIiISwkJSRlMTNHISIiIiIhLCQlJGUyM0chIiIiIiElJ01hdHJpeEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L10">
+<Input>
+<Text-field layout="Normal" prompt="T3 &gt; " style="Maple Input">LieAlgebraCheck(T3, "Solvable");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMtJTBMaWVBbGdlYnJhQ2hlY2tHNiQlI1QzR1EpU29sdmFibGU2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">Example 3.</Text-field>
+<Text-field layout="Normal" style="Normal">We create the 8 dimensional Lie algebra of all 3 x 3 trace-free matrices.  This is the classical matrix algebra <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">sl(3, R)</Font>.  It is simple (i.e. semisimple and indecomposable).  First we create the Lie algebra of all 3 x 3 matrices.</Text-field>
+<Group drawlabel="true" labelreference="L11">
+<Input>
+<Text-field layout="Normal" prompt="T3 &gt; " style="Maple Input">L3 := MatrixAlgebras("Full", 3, gl3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMM0c2JTc3LzckJSNlMUclI2UyRyUjZTJHLzckJSNlMUclI2UzRyUjZTNHLzckJSNlMUclI2U0RywkJSNlNEchIiIvNyQlI2UxRyUjZTdHLCQlI2U3RyEiIi83JCUjZTJHJSNlNEcsJiUjZTFHIiIiJSNlNUchIiIvNyQlI2UyRyUjZTVHJSNlMkcvNyQlI2UyRyUjZTZHJSNlM0cvNyQlI2UyRyUjZTdHLCQlI2U4RyEiIi83JCUjZTNHJSNlNEcsJCUjZTZHISIiLzckJSNlM0clI2U3RywmJSNlMUciIiIlI2U5RyEiIi83JCUjZTNHJSNlOEclI2UyRy83JCUjZTNHJSNlOUclI2UzRy83JCUjZTRHJSNlNUcsJCUjZTRHISIiLzckJSNlNEclI2U4RywkJSNlN0chIiIvNyQlI2U1RyUjZTZHJSNlNkcvNyQlI2U1RyUjZThHLCQlI2U4RyEiIi83JCUjZTZHJSNlN0clI2U0Ry83JCUjZTZHJSNlOEcsJiUjZTVHIiIiJSNlOUchIiIvNyQlI2U2RyUjZTlHJSNlNkcvNyQlI2U3RyUjZTlHLCQlI2U3RyEiIi83JCUjZThHJSNlOUcsJCUjZThHISIiNyslJGUxMUclJGUxMkclJGUxM0clJGUyMUclJGUyMkclJGUyM0clJGUzMUclJGUzMkclJGUzM0c3KyUqZXBzaWxvbjExRyUqZXBzaWxvbjEyRyUqZXBzaWxvbjEzRyUqZXBzaWxvbjIxRyUqZXBzaWxvbjIyRyUqZXBzaWxvbjIzRyUqZXBzaWxvbjMxRyUqZXBzaWxvbjMyRyUqZXBzaWxvbjMzRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L12">
+<Input>
+<Text-field layout="Normal" prompt="T3 &gt; " style="Maple Input">DGsetup(L3):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Now define an auxiliary 3 dimensional space, call it <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R3</Font>.  Choose any coordinates labels.</Text-field>
+<Group drawlabel="true" labelreference="L13">
+<Input>
+<Text-field layout="Normal" prompt="gl3 &gt; " style="Maple Input">DGsetup([x, y, z], R3):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the standard volume form on <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R3</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L14">
+<Input>
+<Text-field layout="Normal" prompt="R3 &gt; " style="Maple Input">nu := dx &amp;wedge dy &amp;wedge dz;</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNudUcqLCUjZHhHIiIiJSJeRyIiIiUjZHlHIiIiJSJeRyIiIiUjZHpHIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the subalgebra of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(3)</Font> which preserves this volume form.</Text-field>
+<Group drawlabel="true" labelreference="L15">
+<Input>
+<Text-field layout="Normal" prompt="R3 &gt; " style="Maple Input">SL3 := MatrixAlgebras("Subalgebra", gl3, [nu], sl3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRTTDNHNyosJiUkZTExRyIiIiUkZTMzRyEiIiUkZTEyRyUkZTEzRyUkZTIxRywmJSRlMjJHIiIiJSRlMzNHISIiJSRlMjNHJSRlMzFHJSRlMzJH</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Note that each of the matrices represented by the elements of the list <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">SL3</Font> are trace-free.</Text-field>
+<Group drawlabel="true" labelreference="L16">
+<Input>
+<Text-field layout="Normal" prompt="gl3 &gt; " style="Maple Input">L4 := LieAlgebraData(SL3, sl3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMNEc3Ny83JCUjZTFHJSNlMkclI2UyRy83JCUjZTFHJSNlM0csJComIiIjIiIiJSNlM0ciIiIiIiIvNyQlI2UxRyUjZTRHLCQlI2U0RyEiIi83JCUjZTFHJSNlNkclI2U2Ry83JCUjZTFHJSNlN0csJComIiIjIiIiJSNlN0ciIiIhIiIvNyQlI2UxRyUjZThHLCQlI2U4RyEiIi83JCUjZTJHJSNlNEcsJiUjZTFHIiIiJSNlNUchIiIvNyQlI2UyRyUjZTVHJSNlMkcvNyQlI2UyRyUjZTZHJSNlM0cvNyQlI2UyRyUjZTdHLCQlI2U4RyEiIi83JCUjZTNHJSNlNEcsJCUjZTZHISIiLzckJSNlM0clI2U1RywkJSNlM0chIiIvNyQlI2UzRyUjZTdHJSNlMUcvNyQlI2UzRyUjZThHJSNlMkcvNyQlI2U0RyUjZTVHLCQlI2U0RyEiIi83JCUjZTRHJSNlOEcsJCUjZTdHISIiLzckJSNlNUclI2U2RywkKiYiIiMiIiIlI2U2RyIiIiIiIi83JCUjZTVHJSNlN0csJCUjZTdHISIiLzckJSNlNUclI2U4RywkKiYiIiMiIiIlI2U4RyIiIiEiIi83JCUjZTZHJSNlN0clI2U0Ry83JCUjZTZHJSNlOEclI2U1Rw==</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L17">
+<Input>
+<Text-field layout="Normal" prompt="gl3 &gt; " style="Maple Input">DGsetup(L4);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiMlMUxpZX5hbGdlYnJhOn5zbDNH</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L18">
+<Input>
+<Text-field layout="Normal" prompt="sl3 &gt; " style="Maple Input">Query(sl3, "Semisimple"), Query(sl3, "Indecomposable");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQlJXRydWVHRiM=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[0,0,0]" italic="false" layout="Normal" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">Example 4.</Text-field>
+<Text-field layout="Normal" style="Normal">We create the 6 dimensional Lie algebra of all 4 x 4 skew-symmetric matrices.  This is the classical matrix algebra <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">so(4, R)</Font>.  It is semisimple but not simple (that is, it is decomposable).  First we create the Lie algebra of all 4 x 4 matrices.</Text-field>
+<Group drawlabel="true" labelreference="L19">
+<Input>
+<Text-field layout="Normal" prompt="sl3 &gt; " style="Maple Input">L5 := MatrixAlgebras("Full", 4, gl4):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L20">
+<Input>
+<Text-field layout="Normal" prompt="sl3 &gt; " style="Maple Input">DGsetup(L5):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Now define an auxiliary 4 dimensional space, call it <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R4</Font>.  Choose any coordinates labels.</Text-field>
+<Group drawlabel="true" labelreference="L21">
+<Input>
+<Text-field layout="Normal" prompt="gl4 &gt; " style="Maple Input">DGsetup([x1, x2, x3, x4], R5):</Text-field>
+</Input>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Define the standard Euclidean metric tensor on <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">R4</Font>.</Text-field>
+<Group drawlabel="true" labelreference="L22">
+<Input>
+<Text-field layout="Normal" prompt="R5 &gt; " style="Maple Input">g := evalDG(dx1 &amp;t dx1 + dx2 &amp;t dx2 + dx3 &amp;t dx3 + dx4 &amp;t dx4);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSJnRywqKiYlJGR4MUciIiIlJGR4MUciIiIiIiIqJiUkZHgyRyIiIiUkZHgyRyIiIiIiIiomJSRkeDNHIiIiJSRkeDNHIiIiIiIiKiYlJGR4NEciIiIlJGR4NEciIiIiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Find the subalgebra of <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">gl(3)</Font> which preserves this volume form.</Text-field>
+<Group drawlabel="true" labelreference="L23">
+<Input>
+<Text-field layout="Normal" prompt="R5 &gt; " style="Maple Input">SO4 := MatrixAlgebras("Subalgebra", gl4, [g], sl3);</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSRTTzRHNygsJiUkZTEyRyIiIiUkZTIxRyEiIiwmJSRlMTNHIiIiJSRlMzFHISIiLCYlJGUxNEciIiIlJGU0MUchIiIsJiUkZTIzRyIiIiUkZTMyRyEiIiwmJSRlMjRHIiIiJSRlNDJHISIiLCYlJGUzNEciIiIlJGU0M0chIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field layout="Normal" style="Normal"></Text-field>
+<Text-field layout="Normal" style="Normal">Note that each of the matrices represented by the elements of the list <Font background="[255,255,255]" bold="true" executable="false" family="Times New Roman" font_style_name="Text" foreground="[104,64,92]" italic="false" opaque="false" placeholder="false" readonly="false" selection-placeholder="false" size="12" style="Text" subscript="false" superscript="false" underline="false">SO4</Font> are skew-symmetric.</Text-field>
+<Group drawlabel="true" labelreference="L24">
+<Input>
+<Text-field layout="Normal" prompt="gl4 &gt; " style="Maple Input">L6 := LieAlgebraData(SO4, so4); </Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output12" style="2D Output"><Equation executable="false" style="2D Output">NiM+JSNMNkc3Li83JCUjZTFHJSNlMkcsJCUjZTRHISIiLzckJSNlMUclI2UzRywkJSNlNUchIiIvNyQlI2UxRyUjZTRHJSNlMkcvNyQlI2UxRyUjZTVHJSNlM0cvNyQlI2UyRyUjZTNHLCQlI2U2RyEiIi83JCUjZTJHJSNlNEcsJCUjZTFHISIiLzckJSNlMkclI2U2RyUjZTNHLzckJSNlM0clI2U1RywkJSNlMUchIiIvNyQlI2UzRyUjZTZHLCQlI2UyRyEiIi83JCUjZTRHJSNlNUcsJCUjZTZHISIiLzckJSNlNEclI2U2RyUjZTVHLzckJSNlNUclI2U2RywkJSNlNEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L25">
+<Input>
+<Text-field layout="Normal" prompt="gl4 &gt; " style="Maple Input">DGsetup(L6):</Text-field>
+</Input>
+</Group>
+<Group drawlabel="true" labelreference="L26">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " style="Maple Input">MultiplicationTable(so4, "LieBracket");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiM3Li83JCUjZTFHJSNlMkcsJCUjZTRHISIiLzckJSNlMUclI2UzRywkJSNlNUchIiIvNyQlI2UxRyUjZTRHJSNlMkcvNyQlI2UxRyUjZTVHJSNlM0cvNyQlI2UyRyUjZTNHLCQlI2U2RyEiIi83JCUjZTJHJSNlNEcsJCUjZTFHISIiLzckJSNlMkclI2U2RyUjZTNHLzckJSNlM0clI2U1RywkJSNlMUchIiIvNyQlI2UzRyUjZTZHLCQlI2UyRyEiIi83JCUjZTRHJSNlNUcsJCUjZTZHISIiLzckJSNlNEclI2U2RyUjZTVHLzckJSNlNUclI2U2RywkJSNlNEchIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group drawlabel="true" labelreference="L27">
+<Input>
+<Text-field layout="Normal" prompt="so4 &gt; " style="Maple Input">Query(so4, "Semisimple"), Query(so4, "Indecomposable");</Text-field>
+</Input>
+<Output>
+<Text-field layout="Maple Output" style="2D Output"><Equation executable="false" style="2D Output">NiQlJXRydWVHJSZmYWxzZUc=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section EssayAnswerColumns="60" EssayAnswerRows="5" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" collapsed="false"><Title>
+<Text-field bookmark="seealso" layout="Heading 2" style="Heading 2">See Also</Text-field></Title>
+<Text-field layout="Normal" style="Normal"><Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras"><Font style="Hyperlink">LieAlgebras</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/LieAlgebraData"><Font style="Hyperlink">LieAlgebraData</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/MultiplicationTable"><Font style="Hyperlink">MultiplicationTable</Font></Hyperlink>, <Hyperlink hyperlink="true" linktarget="Help:DifferentialGeometry/LieAlgebras/Query"><Font style="Hyperlink">Query</Font></Hyperlink></Text-field>
+</Section>
+</Worksheet>

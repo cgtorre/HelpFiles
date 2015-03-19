@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="N &gt; " ShowLabels="true"/>
+<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal258" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="24" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal260" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output12" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output6" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1259" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1257" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="24" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output256" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Math" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,160]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal258" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1259" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal260" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1257" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output256" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value=""/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/LessonsAndTutorials/Tutorials/IntroHomogeneousSpaces"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Text-field style="Text" italic="true" size="24" bold="true" foreground="[0,0,160]" layout="Normal258"><Font bold="true" italic="true" foreground="[0,0,160]" size="24">DifferentialGeometry Tutorials</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Text" size="18" bold="true" foreground="[0,0,160]" layout="Normal"><Font bold="true" foreground="[0,0,160]" size="18">An Introduction to Homogeneous Spaces</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Overview</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Let <Font style="Help Math">G</Font> be a Lie group action acting on a manifold <Font style="Help Math">M</Font>.  If the action is transitive (that is, if for any <Font style="Help Math">x</Font>, <Font style="Help Math">y</Font> in <Font style="Help Math">M</Font> there is <Font style="Help Math">g</Font> in <Font style="Help Math">G</Font> such that <Font style="Help Math">g*x = y</Font>), then <Font style="Help Math">M</Font> is called a homogeneous space (or, more precisely, a<Font style="Help Math"> </Font>homogenous <Font style="Help Math">G</Font> space).  The isotropy subgroup for the action of <Font style="Help Math">G </Font>on <Font style="Help Math">M</Font> at a point <Font style="Help Math">x</Font> in <Font style="Help Math">M</Font> is <Font style="Help Math">H = {x in g such that g*x = x}</Font>. The infinitesimal generators for the action of <Font style="Help Math">G</Font> on <Font style="Help Math">M </Font>define a Lie algebra of vector fields on <Font style="Help Math">M</Font> which is isomorphic (assuming <Font style="Help Math">G</Font> acts effectively on <Font style="Help Math">M</Font>) to the Lie algebra <Font style="Help Math">g</Font> of the Lie group of <Font style="Help Math">G.  </Font>The infinitesimal isotropy subalgebra at <Font style="Help Math">x </Font>consists of those infinitesimal generators which vanish at <Font style="Help Math">x</Font>. This is a subalgebra <Font style="Help Math">h</Font> of  <Font style="Help Math">g</Font> which is isomorphic to the Lie algebra of <Font style="Help Math">H</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Two homogeneous <Font style="Help Math">G</Font> spaces <Font style="Help Math">M</Font> and <Font style="Help Math">N </Font>are said to be equivalent is there is a diffeomorphism <Font style="Help Math">phi : M --&gt;N</Font> such that for any <Font style="Help Math">x in M</Font> and <Font style="Help Math">g in G</Font>, <Font style="Help Math">phi(g*x) = g*phi(x).</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Let <Font style="Help Math">M </Font>be a homogenous <Font style="Help Math">G</Font> space with isotropy subgroup <Font style="Help Math">H </Font>at <Font style="Help Math">x0</Font> and let <Font style="Help Math">G/H</Font> be the space of right cosets of <Font style="Help Math">H</Font> in <Font style="Help Math">G</Font>. Then the mapping <Font style="Help Math">phi</Font> which sends the coset <Font style="Help Math">gH</Font> in<Font style="Help Math"> G/H</Font> to the point <Font style="Help Math">g*x0</Font> in <Font style="Help Math">M</Font> is a bijective correspondence.  In fact, with respect to the natural manifold structure on <Font style="Help Math">G/H</Font>, the map <Font style="Help Math">phi </Font>defines a diffeomorphism from <Font style="Help Math">G/H </Font>to <Font style="Help Math">M </Font>so that the homogenous <Font style="Help Math">G</Font> spaces <Font style="Help Math">M</Font> and <Font style="Help Math">G/H</Font> are equivalent. </Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">In this tutorial we start with a 4-dimensional solvable Lie algebra <Font style="Help Math">g</Font> and a 1 dimensional subalgebra <Font style="Help Math">h </Font>and construct a homogeneous space <Font style="Help Math">M </Font>whose Lie algebra of </Text-field>
+<Text-field style="Normal" layout="Normal">infinitesimal generators is<Font style="Help Math"> g</Font> and with infinitesimal isotropy subalgebra <Font style="Help Math">h</Font>. <Font style="Help Math"> </Font>Specifically we shall do the following:</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">1.</Font>  Use the DifferrentialGeometry Library to define a 4 dimensional Lie algebra <Font style="Help Math">g</Font>. </Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">2.</Font>  Pick a 1 dimensional subalgebra <Font style="Help Math">h</Font> and find a reductive complement <Font style="Help Math">m</Font><Font bold="true" style="Text" size="14"> </Font>to <Font style="Help Math">h</Font> in <Font style="Help Math">g</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">3.</Font>  Find an <Font style="Help Math">h</Font>  invariant inner product <Font style="Help Math">&lt; , &gt;</Font><Font bold="true" style="Text" size="14"> </Font>on <Font style="Help Math">m</Font>. </Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">4.</Font>  Construct a (global) Lie group <Font style="Help Math">G</Font><Font bold="true" style="Text" size="14"> </Font>whose Lie algebra is <Font style="Help Math">g</Font>. </Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Help Bold">5.</Font>  Construct the left and right invariant vector fields on <Font style="Help Math">G</Font>. Construct the Maurer Cartan forms on <Font style="Help Math">G</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">6</Font>.  Construct the homogeneous space <Font style="Help Math">G -&gt; G/H</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">7. </Font> Construct the action of <Font style="Help Math">G</Font> on <Font style="Help Math">M = G/H</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">8.</Font>  Use the inner product on <Font style="Help Math">m </Font>to construct a <Font style="Help Math">G</Font><Font bold="true" style="Text" size="14"> </Font>invariant metric on <Font style="Help Math">M = G/H</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" style="Text" size="14">9</Font>.  Define an orthonormal frame on<Font style="Help Math"> M</Font> and calculate the curvature of the metric.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Procedures Illustrated</Text-field></Title>
+<Text-field style="Normal" layout="Normal">This is a comprehensive tutorial which illustrates a large number of commands from the DifferentialGeometry package and its subpackages.</Text-field>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink" size="14">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras" hyperlink="true"><Font style="Hyperlink" size="14">LieAlgebras</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor" hyperlink="true"><Font style="Hyperlink" size="14">Tensor</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Library" hyperlink="true"><Font style="Hyperlink" size="14">Library</Font></Hyperlink>,<Hyperlink linktarget="Help:DifferentialGeometry/GroupActions" hyperlink="true"><Font style="Hyperlink" size="14">GroupActions</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Library/Browse" hyperlink="true"><Font style="Hyperlink" size="14">Browse</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/ComplementaryBasis" hyperlink="true"><Font style="Hyperlink" size="14">ComplementaryBasis</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/CottonTensor" hyperlink="true"><Font style="Hyperlink" size="14">Cotton tensor</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/DGsetup" hyperlink="true"><Font style="Hyperlink" size="14">DGsetup</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tools/DGinfo" hyperlink="true"><Font style="Hyperlink" size="14">DGinfo</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/GenerateSymmetricTensors" hyperlink="true"><Font style="Hyperlink" size="14">GenerateSymmetricTensors</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/InfinitesimalTransformation" hyperlink="true"><Font style="Hyperlink" size="14">InfinitesimalTransformation</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/InvariantVectorsAndForms" hyperlink="true"><Font style="Hyperlink" size="14">InvariantVectorsAndForms</Font></Hyperlink>, ,<Hyperlink linktarget="Help:DifferentialGeometry/LieDerivative" hyperlink="true"><Font style="Hyperlink" size="14">LieDerivative</Font></Hyperlink>, <Hyperlink linktarget="Wks:DifferentialGeometry/GroupActions/LieGroup" hyperlink="true"><Font style="Hyperlink" size="14">LieGroup</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor" hyperlink="true"><Font style="Hyperlink" size="14">PushPullTensor,</Font></Hyperlink> <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebra/Query" hyperlink="true"><Font style="Hyperlink" size="14">Query</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Library/References" hyperlink="true"><Font style="Hyperlink" size="14">References</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"><Font style="Hyperlink" size="14">Retrieve</Font></Hyperlink>.</Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Part A.  Algebraic Steps</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We first load in all the packages we shall need for this tutorial.</Text-field>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(DifferentialGeometry): </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(LieAlgebras):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(Tensor): </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(GroupActions): </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">with(Library):</Font></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Our goal is to construct a 3 dimensional homogeneous space for a 4-dimensional Lie group. We begin by looking at the 4 dimensional Lie algebras available for our use.  All 4-dimensional Lie algebras have been classified and the results of these classifications are contained in the DifferentialGeometry Library.  The<Hyperlink linktarget="Help:DifferentialGeometry/References" hyperlink="true"><Font style="Hyperlink" size="14"> References</Font></Hyperlink> command gives us a list of the articles and books whose results are in the DifferentialGeometry Library. </Text-field>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">References(verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+Doubrov, 1
+	 Classification of Subalgebras in the Exceptional Lie Algebra of Type G_2
+	 Proc. of the Natl. Academy of Sciences of Belarus, Ser. Phys.-Math. Sci., 2008, No.3
+
+
+Gong, 1
+	 Classification of Nilpotent Lie Algebras of Dimension 7( Over Algebraically Closed Fields and R)
+	 PhD. Thesis,  University of Waterloo (1998)
+
+
+Gonzalez-Lopez, 1
+	 Lie algebras of vector fields in the real plane (with Kamran and Olver)
+	 Proc. London Math Soc. Vol 64 (1992), 339--368
+
+
+Kamke, 1
+	  Differentialgleichungen
+	  Chelsa Publ. Co. (1947)
+
+Mubarakzyanov, 1
+	 Lie algebras of dimmensions 3, 4
+	 Izv. Vyssh. Uchebn. Zaved. Math 34(1963) 99
+
+Mubarakzyanov, 2
+	 Lie algebras of dimension 5
+	 Izv. Vyssh. Uchebn. Zaved. Math 34(1963) 99
+
+Mubarakzyanov, 3
+	 Lie algebras of dimension 6
+	 Izv. Vyssh. Uchebn. Zaved. Math 35(1963) 104
+
+Olver, 1:
+	 Equivalence, Invariants and Symmetry, 472--473
+
+Petrov, 1:
+	 Einstein Spaces
+
+Stephani, 1:
+	 Exact Solutions to Einstein's Field Equations, 2nd Edition (with Kramer, Maccallum, Hoenselaers, Herlt)
+
+Turkowski, 1:
+	 Low dimensional real Lie algebras
+	 JMP(29), 1990, 2139--2144
+
+Turkowski, 2
+	 Solvable Lie Algebras of dimension six
+	 JMP(31), 1990, 1344--1350
+
+Winternitz, 1:
+	 Invariants of real low dimensional Lie algebras, (with Patera, Sharp and Zassenhaus)
+	 JMP vol 17, No 6, June 1976, 966--994
+</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NzI3JFEoRG91YnJvdjYiIiIiNyRRJUdvbmdGJUYmNyRRL0dvbnphbGV6LUxvcGV6RiVGJjckUS1IYXdraW5nRWxsaXNGJUYmNyRRJkthbWtlRiVGJjckUShNb3Jvem92RiVGJjckUS5NdWJhcmFreXphbm92RiVGJjckRjIiIiM3JEYyIiIkNyRRJk9sdmVyRiVGJjckUSdQZXRyb3ZGJUYmNyRRKVN0ZXBoYW5pRiVGJjckUSpUdXJrb3dza2lGJUYmNyRGPkY0NyRRJFVTVUYlRjQ3JFErV2ludGVybml0ekYlRiY=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The paper by Winternitz <Font style="Text" italic="true" size="14">Invariants of real low dimensional algebras </Font>contains a convenient list of all Lie algebras of dimension  &lt;= 5 which we will shall use here. The indices by which this these Lie algebras are labeling in the paper can be obtained using the <Hyperlink linktarget="Help:DifferentialGeometry/Library/Browse" hyperlink="true"><Font style="Hyperlink" size="14">Browse</Font></Hyperlink> command. </Text-field>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Browse(&quot;Winternitz&quot;, 1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">N2JwNyQiIiQiIiE3JEYkIiIiNyRGJCIiIzckRiRGJDckRiQiIiU3JEYkIiImNyRGJCIiJzckRiQiIig3JEYkIiIpNyRGJCIiKjckRixGJTckRixGJzckRixGKTckRixGJDckRixGLDckRixGLjckRixGMDckRixGMjckRixGNDckRixGNjckRiwiIzU3JEYsIiM2NyRGLCIjNzckRi5GJTckRi5GJzckRi5GKTckRi5GJDckRi5GLDckRi5GLjckRi5GMDckRi5GMjckRi5GNDckRi5GNjckRi5GQjckRi5GRDckRi5GRjckRi4iIzg3JEYuIiM5NyRGLiIjOjckRi4iIzs3JEYuIiM8NyRGLiIjPTckRi4iIz43JEYuIiM/NyRGLiIjQDckRi4iI0E3JEYuIiNCNyRGLiIjQzckRi4iI0Q3JEYuIiNFNyRGLiIjRjckRi4iI0c3JEYuIiNINyRGLiIjSTckRi4iI0o3JEYuIiNLNyRGLiIjTDckRi4iI003JEYuIiNONyRGLiIjTzckRi4iI1A3JEYuIiNRNyRGLiIjUjckRi4iI1M3JEYwRic3JEYwRik3JEYwRiQ3JEYwRiw3JEYwRi43JEYwRjA3JEYwRjI3JEYwRjQ3JEYwRjY3JEYwRkI3JEYwRkQ3JEYwRkY3JEYwRlU3JEYwRlc3JEYwRlk3JEYwRmVuNyRGMEZnbjckRjBGaW43JEYwRltvNyRGMEZdbzckRjBGX283JEYwRmFv</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Let us look specifically at the 4 dimensional Lie algebras.</Text-field>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Browse(&quot;Winternitz&quot;, 1,[[4, 1], [4, 2], [4, 3], [4, 4], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [4, 11], [4, 12]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlRiU=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTNGJ0Y4RjtGPkZZRmZuRkJGQkZpbkZcb0Zfb0Y0RmZuRkJGZm5GQkZCRmluRlxv">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JDckNyUiIiNGKyIiIkYwNyQ3JSIiJEYrRi9GMA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIj</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYmLUY1NiVRImFGJ0Y4RjstRj82LVExJkludmlzaWJsZVRpbWVzO0YnRkJGREZib0ZJRktGTUZPRlFGUy9GV0ZVRjRGQkZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTJGJ0Y4RjtGPkZZRmZuRkJGQkZpbkZcb0Zfb0ZlcEZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTNGJ0Y4RjtGPkZZRmZuRkJGQkZpbkZcb0Zfby1GLDYmRmVwLUY/Ni1RIitGJ0ZCRkRGYm9GSUZLRk1GT0ZRL0ZUUSwwLjIyMjIyMjJlbUYnL0ZXRmdxRl5xRkJGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JjckNyUiIiJGK0YvSSJhR1E6QzpcUHJvamVjdHNcbGliXG1hcGxlLm1sYUYkNyQ3JSIiI0YrRjRGLzckNyUiIiRGK0Y0Ri83JDclRjdGK0Y3Ri8=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIk</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYnLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2Jy1GNTYlUSNlM0YnRjhGO0Y+RllGZm5GQkZCRmluRlxvRl9vLUY1NiVRI2UyRidGOEY7RmZuRkJGZm5GQkZCRmluRlxv">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JDckNyUiIiJGK0YvRi83JDclIiIkRisiIiNGLw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlRic=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2Jy1GNTYlUSNlMkYnRjhGO0Y+RllGZm5GQkZCRmluRlxvRl9vLUYsNiZGNC1GPzYtUSIrRidGQkZERmJvRklGS0ZNRk9GUS9GVFEsMC4yMjIyMjIyZW1GJy9GV0ZlcEZccEZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2Jy1GNTYlUSNlM0YnRjhGO0Y+RllGZm5GQkZCRmluRlxvRl9vLUYsNiZGXHBGYXBGXXFGQkZmbkZCRmZuRkJGQkZpbkZcbw==">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JzckNyUiIiJGK0YvRi83JDclIiIjRitGL0YvNyQ3JUYyRitGMkYvNyQ3JSIiJEYrRjJGLzckNyVGN0YrRjdGLw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIm</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2Jy1GNTYlUSNlMkYnRjhGO0Y+RllGZm5GQkZCRmluRlxvRl9vLUYsNiYtRjU2JVEiYUYnRjhGOy1GPzYtUTEmSW52aXNpYmxlVGltZXM7RidGQkZERmJvRklGS0ZNRk9GUUZTL0ZXRlVGXHBGQkZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTNGJ0Y4RjtGPkZZRmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY1NiVRImJGJ0Y4RjtGZHBGXnFGQkZmbkZCRmZuRkJGQkZpbkZcbw==">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JTckNyUiIiJGK0YvRi83JDclIiIjRitGMkkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGJDckNyUiIiRGK0Y3SSJiR0Y0</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIn</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYmLUY1NiVRImFGJ0Y4RjstRj82LVExJkludmlzaWJsZVRpbWVzO0YnRkJGREZib0ZJRktGTUZPRlFGUy9GV0ZVRjRGQkZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTJGJ0Y4RjtGPkZZRmZuRkJGQkZpbkZcb0Zfby1GLDYmLUYsNiYtRjU2JVEiYkYnRjhGO0ZbcEZlcEZCLUY/Ni1RKCZtaW51cztGJ0ZCRkRGYm9GSUZLRk1GT0ZRL0ZUUSwwLjIyMjIyMjJlbUYnL0ZXRmNxLUY1NiVRI2UzRidGOEY7RkJGZm5GQkY+LUYsNictRiM2Ji1GLDYnRmVxRj5GWUZmbkZCRkJGaW5GXG9GX28tRiw2JkZlcC1GPzYtUSIrRidGQkZERmJvRklGS0ZNRk9GUUZicUZkcS1GLDYmRlxxRltwRmVxRkJGQkZmbkZCRmZuRkJGQkZpbkZcbw==">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JzckNyUiIiJGK0YvSSJhR1E6QzpcUHJvamVjdHNcbGliXG1hcGxlLm1sYUYkNyQ3JSIiI0YrRjRJImJHRjE3JDclRjRGKyIiJCEiIjckNyVGOEYrRjRGLzckNyVGOEYrRjhGNQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIo</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYmLUkjbW5HRiQ2JFEiMkYnRkItRj82LVExJkludmlzaWJsZVRpbWVzO0YnRkJGREZib0ZJRktGTUZPRlFGUy9GV0ZVRjRGQkZmbkZCRj4tRiw2Jy1GIzYmLUYsNictRjU2JVEjZTJGJ0Y4RjtGPi1GNTYlUSNlM0YnRjhGO0ZmbkZCRkJGaW5GXG9GX29GNEZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGZnBGPkZZRmZuRkJGQkZpbkZcb0Zfb0ZmcEZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGaXBGPkZZRmZuRkJGQkZpbkZcb0Zfby1GLDYmRmZwLUY/Ni1RIitGJ0ZCRkRGYm9GSUZLRk1GT0ZRL0ZUUSwwLjIyMjIyMjJlbUYnL0ZXRl5yRmlwRkJGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JzckNyUiIiMiIiQiIiJGMTckNyVGMUYrRjFGLzckNyVGL0YrRi9GMTckNyVGMEYrRi9GMTckNyVGMEYrRjBGMQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIp</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vLUYsNiYtRj82LVEqJnVtaW51czA7RidGQkZERmJvRklGS0ZNRk9GUS9GVFEsMC4yMjIyMjIyZW1GJy9GV0ZecUZZRmZuRkJGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JTckNyUiIiMiIiQiIiJGMTckNyVGL0YrRi9GMTckNyVGMEYrRjAhIiI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiIq</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYmLUYjNiQtRiw2Ji1GNTYlUSJiRidGOEY7LUY/Ni1RIitGJ0ZCRkRGYm9GSUZLRk1GT0ZRL0ZUUSwwLjIyMjIyMjJlbUYnL0ZXRmNwLUkjbW5HRiQ2JFEiMUYnRkJGQkZCLUY/Ni1RMSZJbnZpc2libGVUaW1lcztGJ0ZCRkRGYm9GSUZLRk1GT0ZRRlMvRldGVUY0RkJGZm5GQkY+LUYsNictRiM2Ji1GLDYnLUY1NiVRI2UyRidGOEY7Rj4tRjU2JVEjZTNGJ0Y4RjtGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkY+LUYsNictRiM2Ji1GLDYnRmNxRj5GWUZmbkZCRkJGaW5GXG9GX29GY3FGZm5GQkY+LUYsNictRiM2Ji1GLDYnRmZxRj5GWUZmbkZCRkJGaW5GXG9GX28tRiw2JkZccEZpcEZmcUZCRmZuRkJGZm5GQkZCRmluRlxv">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JjckNyUiIiMiIiQiIiJGMTckNyVGMUYrRjEsJkkiYkdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGJEYxRjFGMTckNyVGL0YrRi9GMTckNyVGMEYrRjBGNQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiM1</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGaHBGWUZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JTckNyUiIiMiIiQiIiJGMTckNyVGL0YrRjAhIiI3JDclRjBGK0YvRjE=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiM2</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2U0RidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYoLUkjbW5HRiQ2JFEiMkYnRkItRj82LVExJkludmlzaWJsZVRpbWVzO0YnRkJGREZib0ZJRktGTUZPRlFGUy9GV0ZVLUY1NiVRImFGJ0Y4RjtGXHBGNEZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2Jy1GNTYlUSNlMkYnRjhGO0Y+LUY1NiVRI2UzRidGOEY7RmZuRkJGQkZpbkZcb0Zfb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZpcEY+RllGZm5GQkZCRmluRlxvRl9vLUYsNiYtRiw2JkZgcEZccEZpcEZCLUY/Ni1RKCZtaW51cztGJ0ZCRkRGYm9GSUZLRk1GT0ZRL0ZUUSwwLjIyMjIyMjJlbUYnL0ZXRl1yRlxxRkJGZm5GQkY+LUYsNictRiM2Ji1GLDYnRlxxRj5GWUZmbkZCRkJGaW5GXG9GX28tRiw2JkZpcC1GPzYtUSIrRidGQkZERmJvRklGS0ZNRk9GUUZcckZeci1GLDYmRmBwRlxwRlxxRkJGQkZmbkZCRmZuRkJGQkZpbkZcbw==">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3KDckNyUiIiMiIiQiIiJGMTckNyVGMUYrRjEsJEkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGJEYvNyQ3JUYvRitGL0Y1NyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMTckNyVGMEYrRjBGNQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVRK1dpbnRlcm5pdHo2IiIiIjckIiIlIiM3</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkb0Y0RmZuRkJGPi1GLDYnLUYjNiYtRiw2J0Y0Rj4tRjU2JVEjZTRGJ0Y4RjtGZm5GQkZCRmluRlxvRl9vLUYsNiYtRj82LVEqJnVtaW51czA7RidGQkZERmJvRklGS0ZNRk9GUS9GVFEsMC4yMjIyMjIyZW1GJy9GV0ZlcC1GNTYlUSNlMkYnRjhGO0ZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZncEY+RllGZm5GQkZCRmluRlxvRl9vRmdwRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZncEY+RlxwRmZuRkJGQkZpbkZcb0Zfb0Y0RmZuRkJGZm5GQkZCRmluRlxv">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJKWFsZ19uYW1lR0YkNyMiIiU3JjckNyUiIiIiIiRGL0YvNyQ3JSIiI0YwRjNGLzckNyVGL0YrRjMhIiI3JDclRjNGK0YvRi8=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SThfX19fX19fX19fX19fX19fX19fX19fX0c2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We choice to work with the Lie algebra [4, 11]. We retrieve the Lie algebra structure equations (with the command <Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"><Font style="Hyperlink" size="14">Retrieve</Font></Hyperlink>) for this algebra and pass these structure equations to the DGsetup program to initialize the Lie algebra. This Lie algebra has a parameter<Font style="Help Math"> a.</Font></Text-field>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">L ,P := Retrieve(&quot;Winternitz&quot;, 1, [4,11], Alg, parameters = &quot;yes&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUYjNictSSNtaUdGJDYlUSJMRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiLEYnL0Y1USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGMy8lKXN0cmV0Y2h5R0Y/LyUqc3ltbWV0cmljR0Y/LyUobGFyZ2VvcEdGPy8lLm1vdmFibGVsaW1pdHNHRj8vJSdhY2NlbnRHRj8vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLjYlUSJQRidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y7LUY4Ni1RIzo9RidGO0Y9L0ZBRj9GQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRmduLUYjNictSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYnLUZcbzYmLUYjNictRi42JVEjZTFGJ0YxRjRGNy1GLjYlUSNlNEYnRjFGNEZVRjtGOy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GODYtUSI9RidGO0Y9RmVuRkJGREZGRkhGSkZmbkZobi1GIzYoLUkjbW5HRiQ2JFEiMkYnRjstRjg2LVExJkludmlzaWJsZVRpbWVzO0YnRjtGPUZlbkZCRkRGRkZIRkpGTC9GUEZOLUYuNiVRImFGJ0YxRjRGW3FGZm9GO0ZVRjtGNy1GIzYnLUZcbzYmLUYjNictRi42JVEjZTJGJ0YxRjRGNy1GLjYlUSNlM0YnRjFGNEZVRjtGO0ZccEZfcEZicEZmb0ZVRjtGNy1GIzYnLUZcbzYmLUYjNidGaHFGN0Zpb0ZVRjtGO0ZccEZfcEZicC1GIzYmLUYjNiZGX3FGW3FGaHFGOy1GODYtUSgmbWludXM7RidGO0Y9RmVuRkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZcc0ZbckY7RlVGO0Y3LUYjNictRlxvNiYtRiM2J0ZbckY3RmlvRlVGO0Y7RlxwRl9wRmJwLUYjNiZGaHEtRjg2LVEiK0YnRjtGPUZlbkZCRkRGRkZIRkpGW3NGXXMtRiM2JkZfcUZbcUZbckY7RjtGVUY7RlVGO0Y7RlxwRl9wRjctRlxvNiYtRiM2JUZfcUZVRjtGO0ZccEZfcEZVRjtGVUY7">NiQtSSRfREdHNiI2IzckNyVRK0xpZUFsZ2VicmFGJUkkQWxnR0YlNyMiIiU3KDckNyUiIiMiIiQiIiJGMjckNyVGMkYsRjIsJEkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGJUYwNyQ3JUYwRixGMEY2NyQ3JUYwRixGMSEiIjckNyVGMUYsRjBGMjckNyVGMUYsRjFGNjcjRjY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(L, verbose);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SWduVGhlfmZvbGxvd2luZ352ZWN0b3J+ZmllbGRzfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUkjbWlHRiQ2JVEjZTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjZRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRkAvJSpzeW1tZXRyaWNHRkAvJShsYXJnZW9wR0ZALyUubW92YWJsZWxpbWl0c0dGQC8lJ2FjY2VudEdGQC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYvNiVRI2UyRidGMkY1RjgtRi82JVEjZTNGJ0YyRjVGOC1GLzYlUSNlNEYnRjJGNS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGPEY8LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSRBbGdHRiU3IjcjNyQ3IyIiIkYvLUYkNiM3JEYoNyM3JDcjIiIjRi8tRiQ2IzckRig3IzckNyMiIiRGLy1GJDYjNyRGKDcjNyQ3IyIiJUYv</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SV5vVGhlfmZvbGxvd2luZ35kaWZmZXJlbnRpYWx+MS1mb3Jtc35oYXZlfmJlZW5+ZGVmaW5lZH5hbmR+cHJvdGVjdGVkOkc2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUkjbWlHRiQ2JVEoJiM5NTI7MUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRi82JVEoJiM5NTI7MkYnRjJGNUY4LUYvNiVRKCYjOTUyOzNGJ0YyRjVGOC1GLzYlUSgmIzk1Mjs0RidGMkY1LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y8RjwvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">NyYtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkkQWxnR0YlIiIiNyM3JDcjRitGKy1GJDYjNyRGKDcjNyQ3IyIiI0YrLUYkNiM3JEYoNyM3JDcjIiIkRistRiQ2IzckRig3IzckNyMiIiVGKw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">STFMaWV+YWxnZWJyYTp+QWxnRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Once the algebra is initialized we can do all sorts of calculations and tests. For the isotropy subalgebra <Font style="Help Math">h</Font> for the homogeneous space which we shall build we pick the subalgebra <Font style="Help Math">e4.</Font></Text-field>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">h := [e4];</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiaEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2JS1GLDYlUSNlNEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRldGOQ==">NyMtSSRfREdHNiI2IzckNyVRJ3ZlY3RvcjYiSSRBbGdHNiI3IjcjNyQ3IyIiJSIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Now we define the general complement <Font style="Help Math">C </Font>to <Font style="Help Math">h</Font> and try to adjust <Font style="Help Math">C</Font> to obtain a reductive complement. (A complement <Font style="Help Math">m</Font> to <Font style="Help Math">h</Font> in <Font style="Help Math">g</Font> is called reductive if <Font style="Help Math">g = m + h</Font> (vector space direct sum) and<Font style="Help Math"> ad h</Font> maps <Font style="Help Math">m</Font> to <Font style="Help Math">m</Font>, ie,  <Font style="Help Math">[h,m] is in m</Font>.)  For this we first use the <Hyperlink linktarget="Help:DifferentialGeometry/ComplementaryBasis" hyperlink="true"><Font style="Hyperlink" size="14">ComplementaryBasis</Font></Hyperlink> command to construct the most general complement to <Font style="Help Math">h</Font> in <Font style="Help Math">g</Font>.</Text-field>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">C := ComplementaryBasis([e4],[e1,e2,e3,e4], t);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Jy1JKG1mZW5jZWRHRiQ2Ji1GIzYpLUYjNiYtRiw2JVEjZTFGJ0YvRjItRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZpbi1GIzYmLUYsNiVRI3QxRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZG8tRiw2JVEjZTRGJ0YvRjJGOUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGY28vRk5RLDAuMzMzMzMzM2VtRictRiM2Ji1GLDYlUSNlMkYnRi9GMkZlbi1GIzYmLUYsNiVRI3QyRidGL0YyRmBvRmZvRjlGOUZpby1GIzYmLUYsNiVRI2UzRidGL0YyRmVuLUYjNiYtRiw2JVEjdDNGJ0YvRjJGYG9GZm9GOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGaW8tRlI2Ji1GIzYpRl1vRmlvRmZwRmlvRmBxRmNxRjlGOS9GZ3FRInxmckYnL0ZqcVEifGhyRidGY3FGOUZjcUY5">NiQ3JS1JJF9ER0c2IjYjNyQ3JVEndmVjdG9yRiZJJEFsZ0dGJjciNyQ3JDcjIiIiRjA3JDcjIiIlSSN0MUdGJi1GJTYjNyRGKTckNyQ3IyIiI0YwNyRGMkkjdDJHRiYtRiU2IzckRik3JDckNyMiIiRGMDckRjJJI3QzR0YmPCVGNEY9RkY=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Now we use the <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebra/Query" hyperlink="true"><Font style="Hyperlink" size="14">Query</Font></Hyperlink> command to determine those values of the parameters <Font style="Help Math">{t1, t2, t3}</Font> for which <Font style="Help Math">C</Font> is a reductive complement.</Text-field>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Query([e4], C, &quot;ReductivePair&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JVEldHJ1ZUYnLyUnaXRhbGljR0YuLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GMlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRi4vJSlzdHJldGNoeUdGPC8lKnN5bW1ldHJpY0dGPC8lKGxhcmdlb3BHRjwvJS5tb3ZhYmxlbGltaXRzR0Y8LyUnYWNjZW50R0Y8LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSShtZmVuY2VkR0YkNiYtRiM2Ky1JI21uR0YkNiRRIjBGJ0Y4RjQtRiM2Ji1GNTYtUSomdW1pbnVzMDtGJ0Y4RjovRj5GPEY/RkFGQ0ZFRkcvRkpRLDAuMjIyMjIyMmVtRicvRk1GaW4tRiM2KC1GVTYkUSIyRidGOC1GNTYtUTEmSW52aXNpYmxlVGltZXM7RidGOEY6RmduRj9GQUZDRkVGR0ZJL0ZNRkstRiw2JVEjdDFGJ0YvRjFGYG8tRiw2JVEiYUYnRi9GMUY4LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y4RjQtRiM2J0ZaLUYsNiVRI3QyRidGL0YxLUY1Ni1RKCZtaW51cztGJ0Y4RjpGZ25GP0ZBRkNGRUZHRmhuRmpuLUYjNiYtRiw2JVEjdDNGJ0YvRjFGYG9GZ29GOEY4RjQtRiM2J0ZaLUYjNiZGX3BGYG9GZ29GOC1GNTYtUSIrRidGOEY6RmduRj9GQUZDRkVGR0ZobkZqbkZncEY4RmpvRjhGOC8lJW9wZW5HUSJ8ZnJGJy8lJmNsb3NlR1EifGhyRidGNC1GUDYmLUYjNiUtRlA2Ji1GIzYpLUYjNidGZG8tRjU2LVEiPUYnRjhGOkZnbkY/RkFGQ0ZFRkcvRkpRLDAuMjc3Nzc3OGVtRicvRk1GZXJGVEZqb0Y4RjQtRiM2J0ZfcEZhckZURmpvRjhGNC1GIzYnRmdwRmFyRlRGam9GOEZqb0Y4RjhGYXFGZHFGam9GOEY4L0ZicVEiW0YnL0ZlcVEiXUYnRjQtRlA2Ji1GIzYlLUZQNiYtRiM2Jy1GUDYmLUYjNiUtRiw2JVEjZTRGJ0YvRjFGam9GOEY4RltzRl1zRjQtRlA2Ji1GIzYpLUYsNiVRI2UxRidGL0YxRjQtRiw2JVEjZTJGJ0YvRjFGNC1GLDYlUSNlM0YnRi9GMUZqb0Y4RjhGW3NGXXNGam9GOEY4RltzRl1zRmpvRjhGOEZbc0Zdc0Zqb0Y4">NiZJJXRydWVHJSpwcm90ZWN0ZWRHPCYiIiEsJComSSN0MUc2IiIiIkkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGKkYrISIjLCZJI3QyR0YqISIiKiZJI3QzR0YqRitGLEYrRjEsJiomRjBGK0YsRitGMUYzRis3IzwlL0YpRiYvRjBGJi9GM0YmNyM3JDcjLUkkX0RHR0YqNiM3JDclUSd2ZWN0b3JGKkkkQWxnR0YqNyI3IzckNyMiIiVGKzclLUY/NiM3JEZCNyM3JDcjRitGKy1GPzYjNyRGQjcjNyQ3IyIiI0YrLUY/NiM3JEZCNyM3JDcjIiIkRis=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We conclude that <Font style="Help Math">m = [e1, e2, e3]</Font> is a reductive complement to the subalgebra <Font style="Help Math">h = [e4] </Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Now we look for an <Font style="Help Math">h</Font> invariant inner product on <Font style="Help Math">m</Font>. We find that none exist unless the parameter <Font style="Help Math">a</Font> in the algebra vanishes in which case there is a 2 parameter family of non-degenerate inner products on <Font style="Help Math">h,</Font> as given by the symmetric covariant tensor <Font style="Help Math">g_m</Font>.</Text-field>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g_m :=  evalDG(a1* theta1 &amp;t theta1 + a2*theta2 &amp;t theta2 + a2 *theta3 &amp;t theta3);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkZ19tRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYoLUYjNigtRiw2JVEjYTFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYsNiVRKCYjOTUyOzFGJ0YvRjJGVkZmbkY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXW8tRiM2KC1GLDYlUSNhMkYnRi9GMkZWLUYsNiVRKCYjOTUyOzJGJ0YvRjJGVkZkb0Y5RmluLUYjNihGYW9GVi1GLDYlUSgmIzk1MjszRidGL0YyRlZGaW9GOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkkQWxnR0YkNyQ3JFEoY292X2Jhc0YkRiw3IjclNyQ3JCIiIkYxSSNhMUdGJDckNyQiIiNGNUkjYTJHRiQ3JDckIiIkRjlGNg==</Equation></Text-field>
+</Output>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Detailed Calculations of the h invariant inner products on m.</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">In this sub-section we give the detailed computations of the <Font style="Help Math">h </Font>invariant, symmetric rank 2 tensors on <Font style="Help Math">m = [e1, e2, e3]. </Font>First we use the <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/GenerateSymmetricTensors" hyperlink="true"><Font style="Hyperlink" size="14">GenerateSymmetricTensors</Font></Hyperlink> command to generate a basis for the symmetric rank 2 tensors on <Font style="Help Math">m. (</Font>Recall that <Font style="Help Math">theta1</Font>, <Font style="Help Math">theta2</Font>, <Font style="Help Math">theta3</Font>, <Font style="Help Math">theta4</Font> are the dual basis to <Font style="Help Math">e1</Font>,<Font style="Help Math"> e2</Font>, <Font style="Help Math">e3</Font>, <Font style="Help Math">e4</Font>)</Text-field>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">S := GenerateSymmetricTensors([theta1, theta2, theta3], 2);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ly1GIzYmLUYsNiVRKCYjOTUyOzFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZnbkZWRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZmbi9GTlEsMC4zMzMzMzMzZW1GJy1GIzYmLUYjNictSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEiMUYnRjktRmdvNiRRIjJGJ0Y5LyUubGluZXRoaWNrbmVzc0dGaW8vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYXAvJSliZXZlbGxlZEdGPUZZLUYjNiZGVkZZLUYsNiVRKCYjOTUyOzJGJ0YvRjJGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmJxLUYjNidGY29GWS1GIzYmRmhwRllGVkY5RltxRjlGOUZpbi1GIzYmLUYjNidGY29GWS1GIzYmRlZGWS1GLDYlUSgmIzk1MjszRidGL0YyRjlGW3FGOUZecS1GIzYnRmNvRlktRiM2JkZeckZZRlZGOUZbcUY5RjlGaW4tRiM2JkZocEZZRmhwRjlGaW4tRiM2Ji1GIzYnRmNvRlktRiM2JkZocEZZRl5yRjlGW3FGOUZecS1GIzYnRmNvRlktRiM2JkZeckZZRmhwRjlGW3FGOUY5RmluLUYjNiZGXnJGWUZeckY5RltxRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZbcUY5">NygtSSRfREdHNiI2IzckNyVRJ3RlbnNvckYlSSRBbGdHRiU3JDckUShjb3ZfYmFzRiVGLTciNyM3JDckIiIiRjJGMi1GJDYjNyRGKDckNyQ3JEYyIiIjI0YyRjk3JDckRjlGMkY6LUYkNiM3JEYoNyQ3JDckRjIiIiRGOjckNyRGQ0YyRjotRiQ2IzckRig3IzckNyRGOUY5RjItRiQ2IzckRig3JDckNyRGOUZDRjo3JDckRkNGOUY6LUYkNiM3JEYoNyM3JDckRkNGQ0Yy</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Form the general linear combination of the tensors in the list <Font style="Help Math">S</Font>. This gives the most general symmetric rank 2 tensorson <Font style="Help Math">m</Font>.</Text-field>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">T := DGzip([a1,a2,a3,a4,a5,a6], S, &quot;plus&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiVEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2NC1GIzYoLUYsNiVRI2ExRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWi1GLDYlUSgmIzk1MjsxRidGL0YyRlZGZm5GOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1vLUYjNictSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEiMUYnRjktRmVvNiRRIjJGJ0Y5LyUubGluZXRoaWNrbmVzc0dGZ28vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGX3AvJSliZXZlbGxlZEdGPUZWLUYjNigtRiw2JVEjYTJGJ0YvRjJGVkZmbkZWLUYsNiVRKCYjOTUyOzJGJ0YvRjJGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUZpbi1GIzYnRmFvRlYtRiM2KC1GLDYlUSNhM0YnRi9GMkZWRmZuRlYtRiw2JVEoJiM5NTI7M0YnRi9GMkY5RlxxRjlGaW4tRiM2J0Zhb0ZWLUYjNihGZnBGVkZpcEZWRmZuRjlGXHFGOUZpbi1GIzYoLUYsNiVRI2E0RidGL0YyRlZGaXBGVkZpcEY5RmluLUYjNidGYW9GVi1GIzYoLUYsNiVRI2E1RidGL0YyRlZGaXBGVkZmcUY5RlxxRjlGaW4tRiM2J0Zhb0ZWLUYjNihGY3FGVkZmcUZWRmZuRjlGXHFGOUZpbi1GIzYnRmFvRlYtRiM2KEZmckZWRmZxRlZGaXBGOUZccUY5RmluLUYjNigtRiw2JVEjYTZGJ0YvRjJGVkZmcUZWRmZxRjlGOUZccUY5">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkkQWxnR0YkNyQ3JFEoY292X2Jhc0YkRiw3IjcrNyQ3JCIiIkYxSSNhMUdGJDckNyRGMSIiIywkSSNhMkdGJCNGMUY1NyQ3JEYxIiIkLCRJI2EzR0YkRjg3JDckRjVGMUY2NyQ3JEY1RjVJI2E0R0YkNyQ3JEY1RjssJEkjYTVHRiRGODckNyRGO0YxRjw3JDckRjtGNUZFNyQ3JEY7RjtJI2E2R0Yk</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">To find the <Font style="Help Math">h</Font> invariant tensors, we Lie differentiate the metric <Font style="Help Math">T</Font> with respect to the vector <Font style="Help Math">e4</Font>, set the coefficients of the result to zero, and  so obtain a linear system of equations <Font style="Help Math">Eq</Font> for the coefficients <Font style="Help Math">{a1, a2,.., a6}</Font>.</Text-field>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LG := LieDerivative(e4, T);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjTEdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNjQtRiM2LC1JI21uR0YkNiRRIjRGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW4tRiw2JVEiYUYnRi9GMkZXLUYsNiVRI2ExRidGL0YyRlctRiw2JVEoJiM5NTI7MUYnRi9GMkZXRl1vRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZkby1GIzYoLUkobWZlbmNlZEdGJDYkLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIRmNvRmVvLUYjNictSSZtZnJhY0dGJDYoLUZUNiRRIjFGJ0Y5LUZUNiRRIjJGJ0Y5LyUubGluZXRoaWNrbmVzc0dGZ3AvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGX3EvJSliZXZlbGxlZEdGPUZXLUYsNiVRI2EzRidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RmBvLUYjNictRmNwNigtRlQ2JFEiM0YnRjlGaHBGW3FGXXFGYHFGYnFGVy1GIzYmRmduRlctRiw2JVEjYTJGJ0YvRjJGOUZncUY5RjlGOUZXRl1vRlctRiw2JVEoJiM5NTI7MkYnRi9GMkY5RmBvLUYjNigtRmlvNiQtRiM2Ji1GIzYnRlxyRlctRiM2JkZnbkZXRmRxRjlGZ3FGOUZgby1GIzYnRmJwRldGY3JGZ3FGOUY5RjlGV0Zdb0ZXLUYsNiVRKCYjOTUyOzNGJ0YvRjJGOUZgby1GIzYoRmhvRldGZnJGV0Zdb0Y5RmBvLUYjNigtRmlvNiQtRiM2J0ZdcC1GLDYlUSNhNUYnRi9GMkZgby1GIzYoRmhwRldGZ25GVy1GLDYlUSNhNEYnRi9GMkY5RjlGOUZXRmZyRldGZnJGOUZgby1GIzYoLUZpbzYkLUYjNigtRiM2JkZnbkZXRmB0RjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZjb0Zlby1GLDYlUSNhNkYnRi9GMkZgb0ZldEY5RjlGV0ZmckZXRmVzRjlGYG8tRiM2KEZbc0ZXRmVzRldGXW9GOUZgby1GIzYoRmp0RldGZXNGV0ZmckY5RmBvLUYjNigtRmlvNiQtRiM2Ji1GIzYoRmhwRldGZ25GV0ZjdUY5RmBvRmB0RjlGOUZXRmVzRldGZXNGOUY5RmdxRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkkQWxnR0YkNyQ3JFEoY292X2Jhc0YkRiw3IjcrNyQ3JCIiIkYxLCQqJkkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGFGJEYxSSNhMUdGJEYxIiIlNyQ3JEYxIiIjLCZJI2EzR0YkIyEiIkY6KiZGNEYxSSNhMkdGJEYxIyIiJEY6NyQ3JEYxRkIsJiomRjRGMUY8RjFGQUZAI0YxRjo3JDckRjpGMUY7NyQ3JEY6RjosJkkjYTVHRiRGPiomRjRGMUkjYTRHRiRGMUY6NyQ3JEY6RkIsKComRjRGMUZNRjFGMUkjYTZHRiRGPkZPRjE3JDckRkJGMUZFNyQ3JEZCRjpGUjckNyRGQkZCLCYqJkY0RjFGVEYxRjpGTUYx</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Eq := Tools:-DGinfo(LG, &quot;CoefficientSet&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjRXFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNi8tRiM2KC1JI21uR0YkNiRRIjRGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GaG4tRiw2JVEiYUYnRi9GMkZaLUYsNiVRI2ExRidGL0YyRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZnbi9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZccC1GIzYnLUkmbWZyYWNHRiQ2KC1GVzYkUSIxRidGOS1GVzYkUSIyRidGOS8lLmxpbmV0aGlja25lc3NHRmVwLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1xLyUpYmV2ZWxsZWRHRj1GWi1GLDYlUSNhM0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRltwRl1wLUYjNictRmFwNigtRlc2JFEiM0YnRjlGZnBGaXBGW3FGXnFGYHFGWi1GIzYmRmpuRlotRiw2JVEjYTJGJ0YvRjJGOUZlcUY5RjlGYG8tRiM2J0Zoby1GLDYlUSNhNUYnRi9GMkZocS1GIzYoRmZwRlpGam5GWi1GLDYlUSNhNEYnRi9GMkY5RjlGYG8tRiM2Ji1GIzYnRl1yRlotRiM2JkZqbkZaRmJxRjlGZXFGOUZocS1GIzYnRmBwRlpGZHJGZXFGOUY5RmBvLUYjNiYtRiM2KEZmcEZaRmpuRlotRiw2JVEjYTZGJ0YvRjJGOUZocUZpckY5RmBvLUYjNigtRiM2JkZqbkZaRmlyRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZbcEZdcEZddEZocUZec0Y5RmVxRjlGOS8lJW9wZW5HUSJ8ZnJGJy8lJmNsb3NlR1EifGhyRidGZXFGOQ==">PCgsJComSSJhR1E6QzpcUHJvamVjdHNcbGliXG1hcGxlLm1sYTYiIiIiSSNhMUdGJ0YoIiIlLCZJI2EzR0YnIyEiIiIiIyomRiVGKEkjYTJHRidGKCMiIiRGLywmSSNhNUdGJ0YuKiZGJUYoSSNhNEdGJ0YoRi8sJiomRiVGKEYsRihGMkYxI0YoRi8sJiomRiVGKEkjYTZHRidGKEYvRjVGKCwoKiZGJUYoRjVGKEYoRj1GLkY3Rig=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The LinearAlgebra command <Hyperlink linktarget="Help:DifferentialGeometry/GenerateMatrix" hyperlink="true"><Font style="Hyperlink" size="14">GenerateMatrix</Font></Hyperlink> gives us the coefficient matrix for the system of equations <Font style="Help Math">Eq</Font>.</Text-field>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">A, b := LinearAlgebra:-GenerateMatrix(Eq, [a1, a2, a3, a4, a5,a6]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUYjNictSSNtaUdGJDYlUSJBRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiLEYnL0Y1USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGMy8lKXN0cmV0Y2h5R0Y/LyUqc3ltbWV0cmljR0Y/LyUobGFyZ2VvcEdGPy8lLm1vdmFibGVsaW1pdHNHRj8vJSdhY2NlbnRHRj8vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLjYlUSJiRidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y7LUY4Ni1RIzo9RidGO0Y9L0ZBRj9GQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRmduLUYjNictSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2JS1JJ210YWJsZUdGJDY6LUkkbXRyR0YkNistSSRtdGRHRiQ2KC1GIzYmLUkjbW5HRiQ2JFEiNEYnRjstRjg2LVExJkludmlzaWJsZVRpbWVzO0YnRjtGPUZlbkZCRkRGRkZIRkpGTC9GUEZOLUYuNiVRImFGJ0YxRjRGOy8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGW3EvJStncm91cGFsaWduR0ZbcS8lKHJvd3NwYW5HUSIxRicvJStjb2x1bW5zcGFuR0ZicS1Gam82KC1GX3A2JFEiMEYnRjtGaXBGXHFGXnFGYHFGY3FGZXFGZXFGZXFGZXFGaXBGXHFGXnEtRmdvNitGZXEtRmpvNigtRiM2Jy1JJm1mcmFjR0YkNigtRl9wNiRRIjNGJ0Y7LUZfcDYkUSIyRidGOy8lLmxpbmV0aGlja25lc3NHRmJxLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1zLyUpYmV2ZWxsZWRHRj9GYnBGZnBGVUY7RmlwRlxxRl5xRmBxRmNxLUZqbzYoLUYjNiYtRjg2LVEqJnVtaW51czA7RidGO0Y9RmVuRkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZqcy1GYXI2KC1GX3A2JEZicUY7RmZyRmlyRltzRl5zRmBzRlVGO0ZpcEZccUZecUZgcUZjcUZlcUZlcUZlcUZpcEZccUZecS1GZ282K0ZlcUZlcUZlcS1Gam82KC1GIzYmRmZyRmJwRmZwRjtGaXBGXHFGXnFGYHFGY3EtRmpvNigtRiM2JUZmc0ZedEY7RmlwRlxxRl5xRmBxRmNxRmVxRmlwRlxxRl5xLUZnbzYrRmVxLUZqbzYoRlx0RmlwRlxxRl5xRmBxRmNxRlxyRmVxRmVxRmVxRmlwRlxxRl5xLUZnbzYrRmVxRmVxRmVxRmVxLUZqbzYoRl50RmlwRlxxRl5xRmBxRmNxRmJ0RmlwRlxxRl5xLUZnbzYrRmVxRmVxRmVxRmB1LUZqbzYoRmZwRmlwRlxxRl5xRmBxRmNxRmZ0RmlwRlxxRl5xLyUmYWxpZ25HUSVheGlzRicvRmpwUSliYXNlbGluZUYnL0ZdcUZdcy9GX3FRJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0YzLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGYnYvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGXXcvJSZmcmFtZUdGXXcvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0Y/LyUtZXF1YWxjb2x1bW5zR0Y/LyUtZGlzcGxheXN0eWxlR0Y/LyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRmp2RlVGO0Y7L0krbXNlbWFudGljc0dGJFEnTWF0cml4RicvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGYHgvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUSs0NTc4ODgwMTMwRidGNy1GXG82JS1GX282KC1GIzYlLUZkbzY6LUZnbzYmRmVxRmlwRlxxRl5xRmd5Rmd5Rmd5Rmd5Rmd5RmZ1Rml1L0ZdcUZdeEZcdkZedkZgdkZjdkZldkZodkZbd0Zed0Zgd0Zid0Zld0Znd0Zpd0ZbeEZeeEZVRjtGOy9GYXhRKkNvbFZlY3RvckYnRmN4RmZ4Rmp5Rml4L0ZdeVErNDU3ODg3OTkzOEYnRlVGO0ZVRjs=">NiQtSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHNiI2Iy9JJCVpZEdGKCIrSSwpKXlYLSZJJ1ZlY3RvckdGJTYjSSdjb2x1bW5HRig2Iy9GKyIrUSp6KXlY</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">factor(LinearAlgebra:-Determinant(A));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JFEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUYsNiRRIjJGJ0YvLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0YyLUkobWZlbmNlZEdGJDYkLUYjNiYtRiM2Ji1GLDYkUSI5RidGL0YyRkpGLy1GMzYtUSIrRidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjIyMjIyMjJlbUYnL0ZJRmRvLUYsNiRRIjFGJ0YvRi9GL0YyLUZnbjYkLUYjNiZGSkZgb0Zmb0YvRi9GLw==">LCQqKEkiYUdROkM6XFByb2plY3RzXGxpYlxtYXBsZS5tbGE2IiIiIywmKiRGJEYnIiIqIiIiRitGKywmRilGK0YrRitGKyIiJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The only real value of <Font style="Help Math">a</Font> for which the the system of equations <Font style="Help Math">Eq</Font> will have a non-trivial solution is <Font style="Help Math">a=0</Font>.  We substitute this value back in <Font style="Help Math">Eq</Font>, solve for the coefficients <Font style="Help Math">{a1, a2, a3 , ... a6}</Font> and substitute this solution back in the tensor <Font style="Help Math">T</Font>.</Text-field>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Soln:= solve( subs(P[1] = 0,Eq),{a1, a2, a3, a4, a5,a6});</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVElU29sbkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ly1GIzYnLUYsNiVRI2ExRidGL0YyLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNRlYvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUYsNiVRI2EyRidGL0YyRlktSSNtbkdGJDYkUSIwRidGOUZmbkY5RmluLUYjNictRiw2JVEjYTNGJ0YvRjJGWUZmb0ZmbkY5RmluLUYjNictRiw2JVEjYTRGJ0YvRjJGWS1GLDYlUSNhNkYnRi9GMkZmbkY5RmluLUYjNictRiw2JVEjYTVGJ0YvRjJGWUZmb0ZmbkY5RmluLUYjNidGZHBGWUZkcEZmbkY5RmZuRjlGOS8lJW9wZW5HUSJ8ZnJGJy8lJmNsb3NlR1EifGhyRidGZm5GOQ==">PCgvSSNhMUc2IkYkL0kjYTJHRiUiIiEvSSNhM0dGJUYoL0kjYTRHRiVJI2E2R0YlL0kjYTVHRiVGKC9GLUYt</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">InvariantT := Tools:-DGsimplify(subs(Soln, T));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVErSW52YXJpYW50VEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2KC1GIzYoLUYsNiVRI2ExRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWi1GLDYlUSgmIzk1MjsxRidGL0YyRlZGZm5GOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1vLUYjNigtRiw2JVEjYTZGJ0YvRjJGVi1GLDYlUSgmIzk1MjsyRidGL0YyRlZGZG9GOUZpbi1GIzYoRmFvRlYtRiw2JVEoJiM5NTI7M0YnRi9GMkZWRmlvRjlGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOQ==">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkkQWxnR0YkNyQ3JFEoY292X2Jhc0YkRiw3IjclNyQ3JCIiIkYxSSNhMUdGJDckNyQiIiNGNUkjYTZHRiQ3JDckIiIkRjlGNg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Text-field style="Maple Output256" layout="Maple Output256"></Text-field>
+<Text-field style="Normal" layout="Normal">Accordingly, we fix the parameter <Font style="Help Math">a</Font> in our Lie algebra to<Font style="Help Math"> a =0</Font> and re-initialize the algebra.</Text-field>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">L1 := subs(P[1] = 0, L);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjTDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNiktRiM2Jy1GUDYmLUYjNictRiw2JVEjZTJGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GLDYlUSNlM0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYsNiVRI2UxRidGL0YyRmJvRjlGZ24tRiM2Jy1GUDYmLUYjNidGWkZnbi1GLDYlUSNlNEYnRi9GMkZib0Y5RjlGZW9GaG9GW3AtRiM2Ji1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GYHFGX29GYm9GOUZib0Y5RmduLUYjNictRlA2Ji1GIzYnRl9vRmduRmdwRmJvRjlGOUZlb0Zob0ZbcEZaRmJvRjlGYm9GOUY5RmVvRmhvRmJvRjk=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJEFsZ0dGJDcjIiIlNyg3JDclIiIjIiIkIiIiRjE3JDclRjFGK0YxIiIhNyQ3JUYvRitGL0Y0NyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMTckNyVGMEYrRjBGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(L1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">STFMaWV+YWxnZWJyYTp+QWxnRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal">With <Font style="Help Math">a=0</Font> the Lie algebra remains solvable and not nilpotent or decomposable.</Text-field>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Query(&quot;Solvable&quot;), Query(&quot;Nilpotent&quot;), Query(&quot;Indecomposable&quot;);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiVJJXRydWVHJSpwcm90ZWN0ZWRHSSZmYWxzZUdGJEYj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Check that the metric <Font style="Help Math">g_m</Font> is indeed <Font style="Help Math">h = [e4</Font>] invariant.</Text-field>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieDerivative(e4, g_m);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiMEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GLDYlUSgmIzk1MjsxRidGL0YyRjVGT0Y5">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkkQWxnR0YkNyQ3JFEoY292X2Jhc0YkRiw3IjcjNyQ3JCIiIkYxIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">This concludes our analysis at the purely Lie algebra level.  We have found a 4-dimensional Lie algebra <Font style="Help Math">g (</Font>initialized with the name<Font style="Help Math"> Alg) </Font>and a 1 dimensional subalgebra <Font style="Help Math">h = [e4] </Font>such that <Font style="Help Math">m = [e1, e2, e3] </Font>is a reductive complement. The subspace <Font style="Help Math">m</Font> admits the <Font style="Help Math">h </Font>invariant metric <Font style="Help Math">a1theta1 theta1 + a2(theta2 theta2 + theta3*theta3)</Font>.</Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Part B.  Constructing the homogeneous space</Text-field></Title>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Next we construct the Lie group <Font style="Help Math">G</Font> for our Lie algebra <Font style="Help Math">Alg</Font>. First we define local coordinates for the group<Font style="Help Math"> G</Font>. The command <Hyperlink linktarget="Wks:DifferentialGeometry/GroupActions/LieGroup" hyperlink="true"><Font style="Hyperlink" size="14">LieGroup</Font></Hyperlink> in the <Hyperlink linktarget="Help:DifferentialGeometry/GroupAction" hyperlink="true"><Font style="Hyperlink" size="14">GroupAction</Font></Hyperlink> package implements Lie's 2nd and 3rd theorems (so far for solvable groups) and directly constructs a global Lie group whose Lie algebra is the given algebra <Font style="Help Math">Alg</Font>.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The LieGroup program results a Maple structure called a <Hyperlink linktarget="Help:module" hyperlink="true"><Font style="Hyperlink" size="14">module</Font></Hyperlink>.  The module <Font style="Help Math">LG</Font> is  has various exports which provide the information about the Lie group.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="Alg &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x1, x2, x3, x4], G);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5HRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LG := LieGroup(Alg, G);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjTEdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNistRjY2L1EnbW9kdWxlRicvJSVib2xkR0YxL0YzUSVib2xkRicvJStmb250d2VpZ2h0R0ZXRjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW4tSShtZmVuY2VkR0YkNiQtRiM2JS1GLDYjUSFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjVlbUYnLyUmZGVwdGhHRmdvLyUqbGluZWJyZWFrR1ExZmlyc3Rwcm9jbmV3bGluZUYnLUYjNiktRjY2L1EnZXhwb3J0RidGVEZWRlhGO0Y+RkBGQkZERkZGSEZaRmZuLUZjbzYmRmVvRmhvRltwL0ZecFElYXV0b0YnLUYjNi0tRiw2JVEmRnJhbWVGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZaL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRKUlkZW50aXR5RidGL0YyRl5xLUYsNiVRM0xlZnRNdWx0aXBsaWNhdGlvbkYnRi9GMkZecS1GLDYlUTRSaWdodE11bHRpcGxpY2F0aW9uRidGL0YyRl5xLUYsNiVRKEludmVyc2VGJ0YvRjJGX29GOS1GNjYtUSI7RidGOUY7RmFxRkBGQkZERkZGSEZaRk1GYm9GX29GOUZqbi1GY282JkZlb0Zob0ZbcC9GXnBRNmRlY3JlYXNlaW5kZW50bmV3bGluZUYnLUY2Ni9RK2VuZH5tb2R1bGVGJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GX29GOUZfb0Y5">YDYnSSZGcmFtZUc2IkkpSWRlbnRpdHlHRiVJM0xlZnRNdWx0aXBsaWNhdGlvbkdGJUk0UmlnaHRNdWx0aXBsaWNhdGlvbkdGJUkoSW52ZXJzZUdGJWI2I0krdGhpc21vZHVsZUdGJUYlRiVGI0YlRiVGJUYlSSxfbTI5Njc2MDM0MEdGJUYl</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Here is the explicit formula for left multiplication in <Font style="Help Math">G</Font> of the group element with coordinates <Font style="Help Math">[a1, a2, a3, a4]</Font> by the group element with coordinates <Font style="Help Math">[x1, x2, x3, x4].</Font></Text-field>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">dotLeft := LG:-LeftMultiplication([a1, a2, a3, a4]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEoZG90TGVmdEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYnLUYsNiVRI3gxRidGL0YyLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNkotRiw2JVEjYTFGJ0YvRjItRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZfby1GIzYqLUYsNiVRI2EyRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5Gam8tRiw2JVEjYTRGJ0YvRjJGZm8tRiw2JVEjeDJGJ0YvRjJGZm8tRiM2Jy1GLDYlUSRjb3NGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmlvRltwLUZQNiQtRiM2JUZccC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5Rl9xRjlGOUZbby1GIzYqRmNvRmZvRlxwRmZvLUYsNiVRI3gzRidGL0YyRmZvLUYjNictRiw2JVEkc2luRidGZ3BGOUZocEZbcUZfcUY5RjlGW28tRiM2KkZjb0Zmby1GLDYlUSN4NEYnRi9GMkZmb0ZfcEZmb0ZicEY5RltvLUYjNipGY29GZm9GXnJGZm9GZHFGZm9GZ3FGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRl5vRmBvLUYjNiotRiw2JVEjYTNGJ0YvRjJGZm9GXHBGZm9GX3BGZm9GZ3FGOUZbby1GIzYqRmhyRmZvRlxwRmZvRmRxRmZvRmJwRjlGY3ItRiM2KkZockZmb0ZeckZmb0ZfcEZmb0ZncUY5RmNyLUYjNiZGZHFGZm9GX3BGOUZbby1GIzYqRmhyRmZvRl5yRmZvRmRxRmZvRmJwRjlGW28tRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GaXM2JFEiMkYnRjkvJS5saW5ldGhpY2tuZXNzR0ZbdC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZjdC8lKWJldmVsbGVkR0Y9RmZvLUYjNiYtSSVtc3VwR0YkNiVGY29GXHQvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmZvRl5yRjlGX3FGOUZbby1GIzYnRmVzRmZvLUYjNiYtRlt1NiVGaHJGXHRGXXVGZm9GXnJGOUZfcUY5RltvLUYjNidGZXNGZm8tRiM2Ji1GW3U2JUZfcEZcdEZddUZmb0ZccEY5Rl9xRjlGW28tRiM2J0Zlc0Zmby1GIzYmLUZbdTYlRmRxRlx0Rl11RmZvRlxwRjlGX3FGOUZjckZWRltvLUYjNihGX3BGZm9GZHFGZm8tRlt1NiVGYnBGXHRGXXVGOUZjci1GIzYoRmNvRmZvRl9wRmZvRmdxRjlGW28tRiM2KEZjb0Zmb0ZkcUZmb0ZicEY5RmNyLUYjNidGZXNGZm8tRiM2KEZqdUZmb0ZicEZmb0ZncUY5Rl9xRjlGW28tRiM2J0Zlc0Zmby1GIzYoRmB2RmZvRmJwRmZvRmdxRjlGX3FGOUY5Rl9xRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZpby9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnRl9wRlktRiM2KEZjb0Zjci1GIzYmRl9wRmZvRmJwRjlGY3ItRiM2JkZkcUZmb0ZncUY5RjlGX3FGOUZidy1GIzYnRmRxRlktRiM2KEZockZbby1GIzYmRl9wRmZvRmdxRjlGY3ItRiM2JkZkcUZmb0ZicEY5RjlGX3FGOUZidy1GIzYnRl5yRlktRiM2JkZeckZjckZccEY5Rl9xRjlGX3FGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRl9xRjk=">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiR0dGJCIiIUYqNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJDYjL0kkJWlkR0YkIitleTgkZiU3JjckLEpJI2ExR0YkIiIiKipJI2EyR0YkRjxJI2E0R0YkRjxJI3gyR0YyRjwtSSRjb3NHRjE2I0Y/RjwhIiIqKkY+RjxGP0Y8SSN4M0dGMkY8LUkkc2luR0YxRkNGPEZEKipGPkY8SSN4NEdGMkY8RkBGPEZBRjxGRCoqRj5GPEZKRjxGRkY8RkdGPEZEKipJI2EzR0YkRjxGP0Y8RkBGPEZHRjxGPCoqRk1GPEY/RjxGRkY8RkFGPEZEKipGTUY8RkpGPEZARjxGR0Y8RjwqJkZGRjxGQEY8RjwqKkZNRjxGSkY8RkZGPEZBRjxGRComRj4iIiNGSkY8I0ZERlMqJkZNRlNGSkY8RlQqJkZARlNGP0Y8RlQqJkZGRlNGP0Y8RlRJI3gxR0YyRjwqKEZARjxGRkY8RkFGU0ZEKihGPkY8RkBGPEZHRjxGPCooRj5GPEZGRjxGQUY8RkQqKEZARlNGQUY8RkdGPCNGPEZTKihGRkZTRkFGPEZHRjxGVEZYNyQsKEY+RjwqJkZARjxGQUY8RjwqJkZGRjxGR0Y8RjxGQDckLChGTUY8KiZGQEY8RkdGPEZEKiZGRkY8RkFGPEY8RkY3JCwmRkpGPEY/RjxGSg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Let's look at the left and right invariant vector fields and forms for this Lie group. These are calculated with the <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/InvariantVectorsAndForms" hyperlink="true"><Font style="Hyperlink" size="14">InvariantVectorsAndForms</Font></Hyperlink><Font style="Help Math"> </Font>command.</Text-field>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">XL, OmegaL, XR, OmegaR := InvariantVectorsAndForms(LG):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">XR;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUkjbWlHRiQ2JVElRF94MUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2Jy1GOTYtUSomdW1pbnVzMDtGJ0Y8Rj4vRkJGQEZDRkVGR0ZJRksvRk5RLDAuMjIyMjIyMmVtRicvRlFGWi1GLDYmLUYjNiQtRiw2Ji1GLDYmLUYvNiVRI3gyRidGMkY1LUY5Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y8Rj5GWEZDRkVGR0ZJRktGTS9GUUZPLUYvNiVRI3g0RidGMkY1RjwtRjk2LVEiK0YnRjxGPkZYRkNGRUZHRklGS0ZZRmVuLUYvNiVRI3gzRidGMkY1RjxGPEZhb0YuRjxGaG8tRi82JVElRF94MkYnRjJGNUY8RjgtRiw2J0ZVLUYsNihGW3BGYW9GZW9GYW9GLkY8RmhvLUYvNiVRJURfeDNGJ0YyRjVGPEY4LUYsNitGVS1GLDYmLUklbXN1cEdGJDYlRltwLUkjbW5HRiQ2JFEiMkYnRjwvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmFvRi5GPEZoby1GLDYmRltwRmFvRl5wRjwtRjk2LVEoJm1pbnVzO0YnRjxGPkZYRkNGRUZHRklGS0ZZRmVuLUYsNiZGXm9GYW9GZXBGPEZoby1GLzYlUSVEX3g0RidGMkY1RjwvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjxGPC8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSJHR0YlNyI3IzckNyMiIiJGLy1GJDYjNyRGKDckNyRGLiwmKiZJI3gyRyUqcHJvdGVjdGVkR0YvSSN4NEdGOEYvISIiSSN4M0dGOEY6NyQ3IyIiI0YvLUYkNiM3JEYoNyQ3JEYuLCQqJkY7Ri9GOUYvRjo3JDcjIiIkRi8tRiQ2IzckRig3JjckRi4sJCokRjtGPkY6NyRGPUY7NyRGRywkRjdGOjckNyMiIiVGLw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">XL;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUkjbWlHRiQ2JVElRF94MUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2KS1GOTYtUSomdW1pbnVzMDtGJ0Y8Rj4vRkJGQEZDRkVGR0ZJRksvRk5RLDAuMjIyMjIyMmVtRicvRlFGWi1GLDYmLUYjNiQtRiw2KUZVLUYsNiYtRi82JVEjeDJGJ0YyRjUtRjk2LVExJkludmlzaWJsZVRpbWVzO0YnRjxGPkZYRkNGRUZHRklGS0ZNL0ZRRk8tRiw2Jy1GLzYlUSRzaW5GJy9GM0ZARjwtRjk2LVEwJkFwcGx5RnVuY3Rpb247RidGPEY+RlhGQ0ZFRkdGSUZLRk1GZG8tRiM2JC1GLDYlLUYvNiVRI3g0RidGMkY1LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y8RjxGZXBGPEY8LUY5Ni1RKCZtaW51cztGJ0Y8Rj5GWEZDRkVGR0ZJRktGWUZlbi1GLDYoRmVvRmFvLUYvNiVRI3gzRidGMkY1RmFvRmJwRjwtRjk2LVEiK0YnRjxGPkZYRkNGRUZHRklGS0ZZRmVuLUYsNihGXm9GYW9GYnBGYW8tRiw2Jy1GLzYlUSRjb3NGJ0Zqb0Y8RltwRl5wRmVwRjxGPEY8RjxGYW9GLkY8RmBxLUYsNiZGZXFGYW8tRi82JVElRF94MkYnRjJGNUY8RmhwLUYsNiZGZW9GYW8tRi82JVElRF94M0YnRjJGNUY8RjxGOC1GLDYpRlUtRiw2Ji1GIzYkLUYsNigtRiw2KEZeb0Zhb0ZicEZhb0Zlb0Y8RmBxLUYsNiZGXm9GYW9GZXFGPEZgcS1GLDYoRmVxRmFvRl1xRmFvRmJwRjxGPEY8RmFvRi5GPEZgcS1GLDYmRmVvRmFvRlxyRjxGYHEtRiw2JkZlcUZhb0ZhckY8RjxGOC1GLDYnRlUtRiw2Ji1GIzYkLUYsNiYtRiw2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGPC1GZHQ2JFEiMkYnRjwvJS5saW5ldGhpY2tuZXNzR0ZmdC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZedS8lKWJldmVsbGVkR0ZARmFvLUklbXN1cEdGJDYlRl5vRmd0LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZlcEY8RmBxLUYsNidGYHRGYW8tRmR1NiVGXXFGZ3RGZnVGZXBGPEY8RjxGYW9GLkY8RmBxLUYvNiVRJURfeDRGJ0YyRjVGPEZlcEY8RjwvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSJHR0YlNyI3IzckNyMiIiJGLy1GJDYjNyRGKDclNyRGLiwoKiZJI3gyRyUqcHJvdGVjdGVkR0YvLUkkc2luRzYkRjhJKF9zeXNsaWJHRiU2I0kjeDRHRjhGL0YvKihGOUYvSSN4M0dGOEYvRj5GL0YvKihGN0YvRj5GLy1JJGNvc0dGO0Y9Ri8hIiI3JDcjIiIjRkI3JDcjIiIkLCRGOUZELUYkNiM3JEYoNyU3JEYuLCgqKEY3Ri9GPkYvRjlGL0ZEKiZGN0YvRkJGL0ZEKihGQkYvRkBGL0Y+Ri9GRDckRkZGOTckRklGQi1GJDYjNyRGKDckNyRGLiwmKiRGN0ZHI0ZERkcqJEZARkdGaG43JDcjIiIlRi8=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Maple Output" layout="Maple Output"></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The command <Hyperlink linktarget="Help:DifferentialGeometry/LieAlgebras/LieAlgebraData" hyperlink="true"><Font style="Hyperlink" size="14">LieAlgebraData</Font></Hyperlink> computes the structure equations for the right invariant vector fields <Font style="Help Math">XR</Font>.  These structure equations coincide with the structure equations for the Lie algebra which we started with.</Text-field>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieAlgebraData(XR);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGaHBGWUZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRRI0wyRiQ3IyIiJTclNyQ3JSIiIyIiJCIiIkYxNyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">L1;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGaHBGWUZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJEFsZ0dGJDcjIiIlNyg3JDclIiIjIiIkIiIiRjE3JDclRjFGK0YxIiIhNyQ3JUYvRitGL0Y0NyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMTckNyVGMEYrRjBGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The structure equations for the left invariant vector fields <Font style="Help Math">XR </Font>differ by just a sign. Because the coefficients of the vector fields <Font style="Help Math">XR</Font> contain transcendental functions we use an alternative calling sequence for the LieAlgebraData program.</Text-field>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieAlgebraData(XL,initialpointlist = [[x1=0,x2=1,x3=0, x4 =0]]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGXHAtRjU2JVEjZTFGJ0Y4RjtGZm5GQkZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfb0ZZRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GZ3BGZm5GQkZCRmluRlxvRl9vLUYsNiZGaG9GNEZmbkZCRmZuRkJGZm5GQkZCRmluRlxv">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiQvSTFpbml0aWFscG9pbnRsaXN0R0YkNyM3Ji9JI3gxRyUqcHJvdGVjdGVkRyIiIS9JI3gyR0YvIiIiL0kjeDNHRi9GMC9JI3g0R0YvRjA3IyIiJTclNyQ3JSIiIyIiJEYzISIiNyQ3JUY9RjlGPkYzNyQ3JUY+RjlGPUY/</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The left and right invariant vector fields for any Lie group commute.</Text-field>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Matrix(4,4, (i,j)-&gt;LieBracket(XL[i], XR[j]));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWFjdGlvbkc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYoLUklbXJvd0dGJDYlLUknbXRhYmxlR0YkNjgtSSRtdHJHRiQ2KS1JJG10ZEdGJDYoLUYvNiYtSSNtaUdGJDYlUSIwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0ZEUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGTi8lKXN0cmV0Y2h5R0ZOLyUqc3ltbWV0cmljR0ZOLyUobGFyZ2VvcEdGTi8lLm1vdmFibGVsaW1pdHNHRk4vJSdhY2NlbnRHRk4vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0Znbi1GPTYlUSVEX3gxRidGQEZDRkovJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRl9vLyUrZ3JvdXBhbGlnbkdGX28vJShyb3dzcGFuR1EiMUYnLyUrY29sdW1uc3BhbkdGZm9GN0Y3RjdGXW9GYG9GYm9GNEY0RjQvJSZhbGlnbkdRJWF4aXNGJy9GXm9RKWJhc2VsaW5lRicvRmFvUSdjZW50ZXJGJy9GY29RJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0ZCLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZnAvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGYXEvJSZmcmFtZUdGYXEvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0ZOLyUtZXF1YWxjb2x1bW5zR0ZOLyUtZGlzcGxheXN0eWxlR0ZOLyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl5xLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZKRkovSSttc2VtYW50aWNzR0YkUSdNYXRyaXhGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Znci8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRKzQ2MDAzNzk3NzhGJw==">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciK3koei5nJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Maple Output256" layout="Maple Output256"></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The quotient of <Font style="Help Math">G </Font>by the 1 dimensional subgroup <Font style="Help Math">H</Font> generated by the vector field <Font style="Help Math">XL[4</Font>] is a 3 dimensional manifold.  We call this manifold <Font style="Help Math">M</Font> and use coordinates <Font style="Help Math">[x, y, z]</Font> on <Font style="Help Math">M</Font>. The key step now is to calculate the coordinate formula for the projection map <Font style="Help Math">pi </Font>from <Font style="Help Math">G</Font> to <Font style="Help Math">M = G/H</Font>. Abstractly, this project map send the group element <Font style="Help Math">g</Font> to the coset<Font style="Help Math"> gH</Font>, ie,  <Font style="Help Math">pi(g) = gH</Font>. Consequently, for any <Font style="Help Math">h</Font> in <Font style="Help Math">H</Font> we have that <Font style="Help Math">pi(g h) = g h H = gH = pi(g) </Font>and therefore the projection <Font style="Help Math">pi</Font> is invariant with respect to the right action of <Font style="Help Math">H</Font> on <Font style="Help Math">G</Font>. The infinitesimal generation of this right action is the left invariant vector field <Font style="Help Math">Z = XL[4]. </Font>Thus, if we set </Text-field>
+<Text-field style="Normal260" layout="Normal260"><Font style="Help Math">pi(x1,x2,x3,x4) = [F1(x1,x2,x3,x4), F2(x2,x3,x4), F3(x1,x2,x3,x4)]</Font>  </Text-field>
+<Text-field style="Normal" layout="Normal">it follows that component functions <Font style="Help Math">F1</Font>, <Font style="Help Math">F2</Font>,<Font style="Help Math"> F3</Font> are all invariants of the vector field <Font style="Help Math">Z</Font>.  This is the theoretical basis for the computation of the projection map <Font style="Help Math">pi .</Font></Text-field>
+<Text-field style="Normal" layout="Normal"> </Text-field>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Z := XL[4];</Font></Text-field>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiWkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GXm82JFEiMkYnRjkvJS5saW5ldGhpY2tuZXNzR0Zgby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zoby8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYXAtSSVtc3VwR0YkNiUtRiw2JVEjeDJGJ0YvRjJGYW8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGVEZWLUYjNidGam5GXXAtRmRwNiUtRiw2JVEjeDNGJ0YvRjJGYW9GaXBGXHFGOUY5RjlGXXAtRiw2JVElRF94MUYnRi9GMkY5Rl9xLUYsNiVRJURfeDRGJ0YvRjJGOUZccUY5">LUkkX0RHRzYiNiM3JDclUSd2ZWN0b3JGJEkiR0dGJDciNyQ3JDcjIiIiLCYqJEkjeDJHJSpwcm90ZWN0ZWRHIiIjIyEiIkYzKiRJI3gzR0YyRjNGNDckNyMiIiVGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">InvariantPDE := LieDerivative(Z, F(x1, x2, x3, x4));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEtSW52YXJpYW50UERFRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYmLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZm4tRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GXm82JFEiMkYnRjkvJS5saW5ldGhpY2tuZXNzR0Zgby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zoby8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYXAtSSVtc3VwR0YkNiUtRiw2JVEjeDJGJ0YvRjJGYW8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ24tRiM2J0ZqbkZdcC1GZHA2JS1GLDYlUSN4M0YnRi9GMkZhb0ZpcEZccUY5RjlGOUZdcC1GVDYkLUYjNictRltvNigtRiM2JS1GNjYtUSsmUGFydGlhbEQ7RidGOUY7Rj5GQEZCRkRGRkZIRmBwRmJwRlxxRjktRiM2JS1GIzYmRmFyLUYsNiVRI3gxRidGL0YyRlxxRjlGXHFGOUZkb0Zmb0Zpb0ZbcEZdcC1GIzYnLUYsNiVRIkZGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmBwRmJwLUZUNiQtRiM2K0Zoci1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmBwL0ZOUSwwLjMzMzMzMzNlbUYnRmZwRmdzRmZxRmdzLUYsNiVRI3g0RidGL0YyRlxxRjlGOUZccUY5RlxxRjlGOUY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ24tRiM2Jy1GW282KEZfci1GIzYlLUYjNiZGYXJGXXRGXHFGOUZccUY5RmRvRmZvRmlvRltwRl1wRltzRlxxRjlGOUZccUY5">LCYqJiwmKiRJI3gyRyUqcHJvdGVjdGVkRyIiIyMhIiJGKCokSSN4M0dGJ0YoRikiIiItSSVkaWZmR0YnNiQtSSJGRzYiNiZJI3gxR0YnRiZGLEkjeDRHRidGNUYtRi0tRi82JEYxRjZGLQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">pdsolve(InvariantPDE);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUYjNictSSNtaUdGJDYlUSJGRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2Ky1GLjYlUSN4MUYnRjFGNC1GODYtUSIsRidGO0Y9L0ZBRjNGQkZERkZGSEZKRkwvRlBRLDAuMzMzMzMzM2VtRictRi42JVEjeDJGJ0YxRjRGWS1GLjYlUSN4M0YnRjFGNEZZLUYuNiVRI3g0RidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y7RjtGYm9GOy1GODYtUSI9RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRmlvLUYjNictRi42JVEkX0YxRidGMUY0RjctRlI2JC1GIzYpRmluRllGXG9GWS1JJm1mcmFjR0YkNigtRiM2JS1GIzYoLUYjNiYtSSNtbkdGJDYkUSIyRidGOy1GODYtUTEmSW52aXNpYmxlVGltZXM7RidGO0Y9RkBGQkZERkZGSEZKRkxGT0ZWRjstRjg2LVEiK0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZocS1GIzYmLUklbXN1cEdGJDYlRmluRl1xLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZhcUZfb0Y7RmRxLUYjNiYtRl1yNiVGXG9GXXFGX3JGYXFGX29GO0Y7RmJvRjstRiM2JS1GIzYmRlxyRmRxRmRyRjtGYm9GOy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGX3MvJSliZXZlbGxlZEdGP0Zib0Y7RjtGYm9GO0Zib0Y7">Ly1JIkZHNiI2JkkjeDFHJSpwcm90ZWN0ZWRHSSN4MkdGKEkjeDNHRihJI3g0R0YoLUkkX0YxR0YlNiVGKUYqKiYsKEYnIiIjKiZGKUYxRisiIiJGMyomRipGMUYrRjNGM0YzLCYqJEYpRjFGMyokRipGMUYzISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup([x, y, z] ,M);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">pi := Transformation(G, M, [x = x2, y = x3, z = (x3^2+x2^2)*x4 + 2*x1]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2KS1GIzYnLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSi1GLDYlUSN4MkYnRlZGWC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGMi1GNjYtUSIsRidGMkY5L0Y8RldGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLUSwwLjMzMzMzMzNlbUYnLUYjNictRiw2JVEieUYnRlZGWEZaLUYsNiVRI3gzRidGVkZYRmpuRjJGXW8tRiM2Jy1GLDYlUSJ6RidGVkZYRlotRiM2Ji1GIzYmLUZNNiQtRiM2Ji1JJW1zdXBHRiQ2JUZnbi1JI21uR0YkNiRRIjJGJ0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRmhxLUZbcTYlRmpvRl1xRmFxRjJGMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmFvL0ZLRmJvLUYsNiVRI3g0RidGVkZYRjJGZHEtRiM2JkZdcUZcci1GLDYlUSN4MUYnRlZGWEYyRjJGam5GMkZqbkYyRjIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGam5GMg==">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiR0dGJCIiITckSSJNR0YkRiw3IjcjLUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkNiMvSSQlaWRHRiQiKz0zUCtZNyU3JEkjeDJHRjRJInhHRjQ3JEkjeDNHRjRJInlHRjQ3JCwmKiYsJiokRjwiIiMiIiIqJEY/RkZGR0ZHSSN4NEdGNEZHRkdJI3gxR0Y0RkZJInpHRjQ=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Our next task to calculate the action of the Lie group G on the manifold <Font style="Help Math">M</Font>. For this we shall need a &quot;cross-section&quot; to the projection map <Font style="Help Math">pi</Font>, that is, a map<Font style="Help Math"> Sigma : M -&gt; G </Font>such that <Font style="Help Math">pi o Sigma = identity on M. </Font>Such a map is easily defined.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Sigma := Transformation(M,G, [x2 = x, x3 = y, x1 =1/2*z, x4=0]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5MzE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYnLUYsNiVRI3gxRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRictRjY2LVEiPUYnRjJGOUY7Rj1GP0ZBRkNGRUZHRkotRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGMi1GXW82JFEiMkYnRjIvJS5saW5ldGhpY2tuZXNzR0Zfby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Znby8lKWJldmVsbGVkR0YxLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGYHAtRiw2JVEiekYnRlZGWC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGMkZlcEYyLUY2Ni1RIixGJ0YyRjkvRjxGV0Y9Rj9GQUZDRkVGX3AvRktRLDAuMzMzMzMzM2VtRictRiM2Jy1GLDYlUSN4MkYnRlZGWEZaLUYsNiVRInhGJ0ZWRlhGZXBGMkZocC1GIzYnLUYsNiVRI3gzRidGVkZYRlotRiw2JVEieUYnRlZGWEZlcEYyRmhwLUYjNictRiw2JVEjeDRGJ0ZWRlhGWi1GXW82JFEiMEYnRjJGZXBGMkZlcEYyRjIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGZXBGMg==">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiTUdGJCIiITckSSJHR0YkRiw3IjcjLUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkNiMvSSQlaWRHRiQiK0FKUCtZNyY3JCwkSSJ6R0Y0IyIiIiIiI0kjeDFHRjQ3JEkieEdGNEkjeDJHRjQ3JEkieUdGNEkjeDNHRjQ3JEYsSSN4NEdGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" input-equation="">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRictRiM2JS1GLDYlUSgmU2lnbWE7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGNy8lJmZlbmNlR0Y2LyUqc2VwYXJhdG9yR0Y2LyUpc3RyZXRjaHlHRjYvJSpzeW1tZXRyaWNHRjYvJShsYXJnZW9wR0Y2LyUubW92YWJsZWxpbWl0c0dGNi8lJ2FjY2VudEdGNi8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiYtRiM2K0YrLUYjNiUtRiw2JVEjeDFGJy9GNVEldHJ1ZUYnL0Y4USdpdGFsaWNGJy1GOzYtUSI9RidGN0Y+RkBGQkZERkZGSEZKRkxGTy1JJm1mcmFjR0YkNigtRiM2Iy1GLDYlUSJ6RidGZW5GZ24tRiM2Iy1JI21uR0YkNiRRIjJGJ0Y3LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZfcC8lKWJldmVsbGVkR0Y2LUY7Ni1RIixGJ0Y3Rj4vRkFGZm5GQkZERkZGSEZKL0ZNUSYwLjBlbUYnL0ZQUSwwLjMzMzMzMzNlbUYnLUYjNiUtRiw2JVEjeDJGJ0ZlbkZnbkZpbi1GLDYlUSJ4RidGZW5GZ25GZHAtRiM2JS1GLDYlUSN4M0YnRmVuRmduRmluLUYsNiVRInlGJ0ZlbkZnbkZkcC1GIzYlLUYsNiVRI3g0RidGZW5GZ25GaW4tRmdvNiRRIjBGJ0Y3RitGNy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Yr</Equation></Text-field>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">simplify(ComposeTransformations(pi,Sigma));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiPUYnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZRRjAvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRj4tRjs2LVEiLEYnRj5GQC9GREY2RkVGR0ZJRktGTS9GUFEmMC4wZW1GJy9GU1EsMC4zMzMzMzMzZW1GJy1GLDYnLUYxNiVRInlGJ0Y0RjdGOkZbb0ZURj5GVy1GLDYnLUYxNiVRInpGJ0Y0RjdGOkZgb0ZURj5GVEY+Rj4vJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiTUdGJCIiIUYqNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJDYjL0kkJWlkR0YkIitZaE8rWTclNyRJInhHRjJGOjckSSJ5R0YyRjw3JEkiekdGMkY+</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The action of <Font style="Help Math">G</Font> on <Font style="Help Math">M</Font> is now computed as the composition of the projection map <Font style="Help Math">pi</Font>, the left multiplication map <Font style="Help Math">dotLeft</Font> of <Font style="Help Math">G</Font> to <Font style="Help Math">G</Font>, and the cross-section <Font style="Help Math">Sigma</Font>.</Text-field>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">mu := map(simplify,ComposeTransformations( pi, dotLeft, Sigma));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5NTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2KS1GIzYnLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUSI9RidGMkY5RjtGPUY/RkFGQ0ZFRkdGSi1GIzYoLUYsNiVRI2EyRidGVkZYLUY2Ni1RIitGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGYG8tRiM2JkZTLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGaG8tRiM2Jy1GLDYlUSRjb3NGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGMkY5RjtGPUY/RkFGQ0ZFRmdvRmlvLUZNNiQtRiM2JS1GLDYlUSNhNEYnRlZGWC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGMkYyRmlwRjJGMkZcby1GIzYmLUYsNiVRInlGJ0ZWRlhGZG8tRiM2Jy1GLDYlUSRzaW5GJ0YvRjJGX3BGYnBGaXBGMkYyRjJGaXBGMi1GNjYtUSIsRidGMkY5L0Y8RldGPUY/RkFGQ0ZFRmdvL0ZLUSwwLjMzMzMzMzNlbUYnLUYjNidGXnFGWi1GIzYoLUYsNiVRI2EzRidGVkZYLUY2Ni1RKCZtaW51cztGJ0YyRjlGO0Y9Rj9GQUZDRkVGX29GYW8tRiM2JkZTRmRvRmFxRjJGXG8tRiM2JkZecUZkb0Zqb0YyRjJGaXBGMkZmcS1GIzYnLUYsNiVRInpGJ0ZWRlhGWi1GIzY2LUYjNiotSSNtbkdGJDYkUSIyRidGMkZkb0ZpbkZkb0ZTRmRvRmFxRjJGY3ItRiM2KC1JJW1zdXBHRiQ2JUZecUZjcy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGZG9Gam9GZG9GYXFGMkZcby1GIzYoLUZqczYlRlNGY3NGXHRGZG9Gam9GZG9GYXFGMkZjci1GIzYqRmNzRmRvRmluRmRvRl5xRmRvRmpvRjJGXG8tRiM2JkZmcEZkby1GanM2JUZpbkZjc0ZcdEYyRlxvLUYjNiZGY3NGZG8tRiw2JVEjYTFGJ0ZWRlhGMkZjci1GIzYqRmNzRmRvRlNGZG9GXnFGZG8tRmpzNiVGam9GY3NGXHRGMkZcb0Zcc0Zcby1GIzYoRmNzRmRvRl5xRmRvRlNGMkZcby1GIzYmRmZwRmRvLUZqczYlRmByRmNzRlx0RjJGMkZpcEYyRmlwRjJGMi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZpcEYy">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiTUdGJCIiIUYqNyI3Iy1JJ01hdHJpeEc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJDYjL0kkJWlkR0YkIitNKW8uZyU3JTckLChJI2EyR0YkIiIiKiZJInhHRjJGPC1JJGNvc0dGMTYjSSNhNEdGJEY8RjwqJkkieUdGMkY8LUkkc2luR0YxRkFGPEY8Rj43JCwoSSNhM0dGJEY8KiZGPkY8RkVGPCEiIiomRkRGPEY/RjxGPEZENyQsNiooRjtGPEY+RjxGRUY8IiIjKihGREZQRj9GPEZFRjxGSyooRj5GUEY/RjxGRUY8RjwqKEY7RjxGREY8Rj9GPCEiIyomRkJGPEY7RlBGPEkjYTFHRiRGUCooRj5GPEZERjxGP0ZQRlRJInpHRjJGPComRkRGPEY+RjxGUComRkJGPEZJRlBGPEZY</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Note that the action of <Font style="Help Math">G</Font> restricts to the action of the the Euclidean group on the <Font style="Help Math">xy</Font> <Font style="Help Math">plane</Font>. The infinitesimal generators for the action of <Font style="Help Math">G</Font> on <Font style="Help Math">M</Font> are calculated using the <Hyperlink linktarget="Help:DifferentialGeometry/InfinitesimalTransformation" hyperlink="true"><Font style="Hyperlink" size="14">InfinitesimalTransformation</Font></Hyperlink> command. </Text-field>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Gamma := InfinitesimalTransformation(mu, [a1,a2,a3,a4]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5MTU7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSShtZmVuY2VkR0YkNiYtRiM2Ky1GIzYmLUkjbW5HRiQ2JFEiMkYnRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEmMC4wZW1GJy9GS0Zlbi1GLDYlUSREX3pGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJ0YyLUY2Ni1RIixGJ0YyRjkvRjxGW29GPUY/RkFGQ0ZFRlovRktRLDAuMzMzMzMzM2VtRictRiM2Ji1GLDYlUSREX3hGJ0ZqbkZcby1GNjYtUSgmbWludXM7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRl1wLUYjNihGU0ZXLUYsNiVRInlGJ0ZqbkZcb0ZXRmduRjJGMkZeby1GLDYlUSREX3lGJ0ZqbkZcb0Zeby1GIzYoLUYjNiZGYXBGV0Zmb0YyRmlvLUYjNiYtRiw2JVEieEYnRmpuRlxvRldGZHBGMi1GNjYtUSIrRidGMkY5RjtGPUY/RkFGQ0ZFRlxwRl5wLUYjNiYtRk02JC1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjJGOUY7Rj1GP0ZBRkNGRUZccEZecC1JJW1zdXBHRiQ2JUZhcEZTLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZgcS1GXXI2JUZdcUZTRl9yRjJGMkZXRmduRjJGMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGMkYyLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmRyRjI=">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSJNR0YlNyI3IzckNyMiIiQiIiMtRiQ2IzckRig3JDckNyMiIiJGNzckRi4sJEkieUclKnByb3RlY3RlZEchIiMtRiQ2IzckRig3IzckNyNGMEY3LUYkNiM3JEYoNyU3JEY2Rjo3JEZCLCRJInhHRjshIiI3JEYuLCYqJEY6RjBGSyokRkpGMEY3</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Finally, we can check our answer.  The structure equations for the Lie algebra of vectors fields <Font style="Help Math">Gamma</Font> coincides with the Lie algebra we started with </Text-field>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieAlgebraData(Gamma);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGaHBGWUZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRRI0wyRiQ3IyIiJTclNyQ3JSIiIyIiJCIiIkYxNyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L47" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">L1;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYsNictRiM2Ji1GLDYnLUkjbWlHRiQ2JVEjZTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjxRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRkYvJSpzeW1tZXRyaWNHRkYvJShsYXJnZW9wR0ZGLyUubW92YWJsZWxpbWl0c0dGRi8lJ2FjY2VudEdGRi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY1NiVRI2UzRidGOEY7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZCRkIvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRj82LVEiPUYnRkJGRC9GSEZGRklGS0ZNRk9GUS9GVFEsMC4yNzc3Nzc4ZW1GJy9GV0Zkby1GNTYlUSNlMUYnRjhGO0ZmbkZCRj4tRiw2Jy1GIzYmLUYsNidGNEY+LUY1NiVRI2U0RidGOEY7RmZuRkJGQkZpbkZcb0Zfby1GLDYmLUY/Ni1RKiZ1bWludXMwO0YnRkJGREZib0ZJRktGTUZPRlEvRlRRLDAuMjIyMjIyMmVtRicvRldGaHBGWUZmbkZCRmZuRkJGPi1GLDYnLUYjNiYtRiw2J0ZZRj5GX3BGZm5GQkZCRmluRlxvRl9vRjRGZm5GQkZmbkZCRkJGaW5GXG8=">LUkkX0RHRzYiNiM3JDclUStMaWVBbGdlYnJhRiRJJEFsZ0dGJDcjIiIlNyg3JDclIiIjIiIkIiIiRjE3JDclRjFGK0YxIiIhNyQ3JUYvRitGL0Y0NyQ3JUYvRitGMCEiIjckNyVGMEYrRi9GMTckNyVGMEYrRjBGNA==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The identity in <Font style="Help Math">G</Font> projects to the point <Font style="Help Math">pt</Font> in <Font style="Help Math">M</Font> and the isotropy at <Font style="Help Math">pt</Font> (<Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/IsotropySubalgebra" hyperlink="true"><Font style="Hyperlink" size="14">IsotropySubalgebra</Font></Hyperlink>) is the fourth vector in <Font style="Help Math">Gamma</Font>.</Text-field>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">pt := ApplyTransformation(pi, [x1 = 0, x2 = 0,x3 = 0,x4 = 0]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjcHRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNiktRiM2Jy1GLDYlUSJ4RidGL0YyLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUkjbW5HRiQ2JFEiMEYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUYsNiVRInlGJ0YvRjJGWUZmbkZqbkY5Rl1vLUYjNictRiw2JVEiekYnRi9GMkZZRmZuRmpuRjlGam5GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmpuRjk=">NyUvSSJ4RyUqcHJvdGVjdGVkRyIiIS9JInlHRiVGJi9JInpHRiVGJg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">IsotropySubalgebra(Gamma, pt);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYlLUYsNigtRiw2Ji1JI21pR0YkNiVRInlGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRjpRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlMtRjM2JVEkRF94RidGNkY5RkAtRj02LVEoJm1pbnVzO0YnRkBGQkZFRkdGSUZLRk1GTy9GUlEsMC4yMjIyMjIyZW1GJy9GVUZnbi1GLDYmLUYzNiVRInhGJ0Y2RjlGPC1GMzYlUSREX3lGJ0Y2RjlGQC1GPTYtUSIrRidGQEZCRkVGR0ZJRktGTUZPRmZuRmhuLUYsNiYtRiM2JC1GLDYnLUY9Ni1RKiZ1bWludXMwO0YnRkBGQkZFRkdGSUZLRk1GT0ZmbkZobi1JJW1zdXBHRiQ2JUYyLUkjbW5HRiQ2JFEiMkYnRkAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmFvLUZecDYlRltvRmBwRmRwRkBGQEY8LUYzNiVRJERfekYnRjZGOUZARkAvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRkBGQC8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyMtSSRfREdHNiI2IzckNyVRJ3ZlY3RvcjYiSSJNRzYiNyI3JTckNyMiIiJJInlHJSpwcm90ZWN0ZWRHNyQ3IyIiIywkSSJ4RyUqcHJvdGVjdGVkRyEiIjckNyMiIiQsJiokSSJ5RyUqcHJvdGVjdGVkRyIiIyEiIiokSSJ4RyUqcHJvdGVjdGVkRyIiIyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Part C.  An invariant metric on the homogenous space.</Text-field></Title>
+<Text-field style="Normal" layout="Normal">We return to the invariant symmetric rank 2 tensor on the Lie algebra which we calculated in <Font style="Help Math">Part A</Font>.  As a tensor <Font style="Help Math">Omega</Font> on the Lie group, we express it in terms of the left invariant Maurer-Cartan forms as (apart from a constant scalar factor):</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">OmegaL;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNiotSSNtaUdGJDYlUSRkeDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIrRicvRjhRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZCLyUpc3RyZXRjaHlHRkIvJSpzeW1tZXRyaWNHRkIvJShsYXJnZW9wR0ZCLyUubW92YWJsZWxpbWl0c0dGQi8lJ2FjY2VudEdGQi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRlEtRiw2KC1GMTYlUSN4MkYnRjRGNy1GOzYtUTEmSW52aXNpYmxlVGltZXM7RidGPkZARkNGRUZHRklGS0ZNL0ZQUSYwLjBlbUYnL0ZTRmduLUYxNiVRI3g0RidGNEY3RlktRjE2JVEkZHgyRidGNEY3Rj5GOi1GLDYmLUYjNiQtRiw2JkZWRjotRiw2Ji1GMTYlUSN4M0YnRjRGN0ZZRmluRj5GPkY+RlktRjE2JVEkZHgzRidGNEY3Rj5GOi1GLDYmLUYjNiQtRiw2Ji1GLDYnLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y+LUZpcDYkUSIyRidGPi8lLmxpbmV0aGlja25lc3NHRltxLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmNxLyUpYmV2ZWxsZWRHRkJGWS1JJW1zdXBHRiQ2JUZWRlxxLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGPkY6LUYsNidGZXBGWS1GaXE2JUZnb0ZccUZbckZeckY+Rj5GPkZZLUYxNiVRJGR4NEYnRjRGN0Y+Rj4tRjs2LVEiLEYnRj5GQC9GREY2RkVGR0ZJRktGTUZmbi9GU1EsMC4zMzMzMzMzZW1GJy1GLDYmLUYsNiYtRiw2Jy1GMTYlUSRjb3NGJy9GNUZCRj4tRjs2LVEwJkFwcGx5RnVuY3Rpb247RidGPkZARkNGRUZHRklGS0ZNRmZuRmhuLUYjNiQtRiw2JUZpbkZeckY+Rj5GXnJGPkZZRlxvRj4tRjs2LVEoJm1pbnVzO0YnRj5GQEZDRkVGR0ZJRktGTUZPRlItRiw2Ji1GLDYnLUYxNiVRJHNpbkYnRmdzRj5GaHNGW3RGXnJGPkZZRmpvRj5GPkZoci1GLDYmLUYsNiZGZHRGWUZcb0Y+RjotRiw2JkZic0ZZRmpvRj5GPkZockZlckZeckY+Rj4vJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRic=">NyYtSSRfREdHNiI2IzckNyVRJWZvcm1GJUkiR0dGJSIiIjcmNyQ3I0YrRis3JDcjIiIjKiZJI3gyRyUqcHJvdGVjdGVkR0YrSSN4NEdGNEYrNyQ3IyIiJCwmRjNGKyomSSN4M0dGNEYrRjVGK0YrNyQ3IyIiJSwmKiRGM0YxI0YrRjEqJEY7RjFGQS1GJDYjNyRGKDckNyRGMC1JJGNvc0c2JEY0SShfc3lzbGliR0YlNiNGNTckRjcsJC1JJHNpbkdGSkZMISIiLUYkNiM3JEYoNyQ3JEYwRk83JEY3RkgtRiQ2IzckRig3IzckRj1GKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L52" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Omega := evalDG(k*OmegaL[1] &amp;t OmegaL[1] + (OmegaL[2] &amp;t OmegaL[2] + OmegaL[3] &amp;t OmegaL[3]));</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEnJiM5Mzc7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIzo9RidGMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRiM2Qi1GIzYoLUYsNiVRImtGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRmVuLUYsNiVRJGR4MUYnRlNGVUZXRmduRjItRjY2LVEiK0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0Zeby1GIzYsRlBGVy1GLDYlUSN4MkYnRlNGVUZXLUYsNiVRI3g0RidGU0ZVRldGZ25GVy1GLDYlUSRkeDJGJ0ZTRlVGMkZqbi1GIzYqRlBGVy1JKG1mZW5jZWRHRiQ2JC1GIzYmRmJvRmpuLUYjNiYtRiw2JVEjeDNGJ0ZTRlVGV0Zlb0YyRjJGMkZXRmduRlctRiw2JVEkZHgzRidGU0ZVRjJGam4tRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGMi1GYHE2JFEiMkYnRjIvJS5saW5ldGhpY2tuZXNzR0ZicS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZqcS8lKWJldmVsbGVkR0YxRlctRiM2KkZQRlctRl5wNiQtRiM2Ji1JJW1zdXBHRiQ2JUZib0ZjcS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGam4tRmZyNiVGZHBGY3FGaHJGMkYyRldGZ25GVy1GLDYlUSRkeDRGJ0ZTRlVGMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGMkZqbi1GIzYsRlBGV0Zib0ZXRmVvRldGaG9GV0ZnbkYyRmpuLUYjNigtRl5wNiQtRiM2Ji1GIzYoRlBGV0ZlckZXLUZmcjYlRmVvRmNxRmhyRjJGam5GX3FGMkYyRldGaG9GV0Zob0YyRmpuLUYjNigtRl5wNiQtRiM2Ji1GIzYoRlBGV0ZlckZXRmVvRjJGam4tRiM2KkZQRldGYm9GV0ZddEZXRmRwRjJGMkYyRldGaG9GV0ZncEYyRmpuLUYjNidGXHFGVy1GIzYuRlBGV0Zib0ZXRmVvRldGYXJGV0Zob0ZXRl1zRjJGYHNGMkZqbi1GIzYqRlBGV0ZdcEZXRmdwRldGZ25GMkZqbi1GIzYoRmF0RldGZ3BGV0Zob0YyRmpuLUYjNigtRl5wNiQtRiM2Ki1GIzYmRlBGV0ZlckYyRmpuLUYjNixGY3FGV0ZQRldGYm9GV0ZkcEZXRmVvRjJGam4tRiM2KEZQRldGW3NGV0ZddEYyRmpuRl9xRjJGMkZXRmdwRldGZ3BGMkZqbi1GIzYnRlxxRlctRiM2LEZQRldGXXBGV0ZhckZXRmdwRldGXXNGMkZgc0YyRmpuLUYjNidGXHFGVy1GIzYqRlBGV0ZhckZXRl1zRldGZ25GMkZgc0YyRmpuLUYjNidGXHFGVy1GIzYuRlBGV0Zib0ZXRmVvRldGYXJGV0Zdc0ZXRmhvRjJGYHNGMkZqbi1GIzYnRlxxRlctRiM2LEZQRldGXXBGV0ZhckZXRl1zRldGZ3BGMkZgc0YyRmpuLUYjNictRl1xNihGX3EtRmBxNiRRIjRGJ0YyRmZxRmhxRltyRl1yRlctRiM2KkZQRlctRmZyNiVGYXJGY3FGaHJGV0Zdc0ZXRl1zRjJGYHNGMkYyRmBzRjI=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiR0dGJDckNyRRKGNvdl9iYXNGJEYsNyI3MjckNyQiIiJGMUkia0dGJDckNyRGMSIiIyooRjJGMUkjeDJHJSpwcm90ZWN0ZWRHRjFJI3g0R0Y4RjE3JDckRjEiIiQqJkYyRjEsJkY3RjEqJkkjeDNHRjhGMUY5RjFGMUYxNyQ3JEYxIiIlLCQqJkYyRjEsJiokRjdGNUYxKiRGQEY1RjFGMSNGMUY1NyQ3JEY1RjFGNjckNyRGNUY1LCYqKEYyRjFGN0Y1RjlGNUYxRjFGMTckNyRGNUY8LCYqKEYyRjFGN0Y1RjlGMUYxKipGMkYxRjdGMUY5RjVGQEYxRjE3JDckRjVGQywkKipGMkYxRjdGMUY5RjFGRkYxRkk3JDckRjxGMUY9NyQ3JEY8RjVGUjckNyRGPEY8LCoqJkYyRjFGN0Y1RjEqKkYyRjFGN0YxRkBGMUY5RjFGNSooRjJGMUZARjVGOUY1RjFGMUYxNyQ3JEY8RkMsJCooRjJGMUY+RjFGRkYxRkk3JDckRkNGMUZENyQ3JEZDRjVGVzckNyRGQ0Y8Rl9vNyQ3JEZDRkMsJComRjJGMUZGRjUjRjFGQw==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We check that this tensor is invariant with respect to the vector <Font style="Help Math">Z </Font>defined in <Font style="Help Math">Part</Font> <Font style="Help Math">B</Font>.</Text-field>
+<Group labelreference="L53" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">LieDerivative(Z, Omega);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiMEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1GLDYlUSRkeDFGJ0YvRjJGNUZPRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiR0dGJDckNyRRKGNvdl9iYXNGJEYsNyI3IzckNyQiIiJGMSIiIQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Using the projection map <Font style="Help Math">pi: G -&gt;M</Font> and the cross-section <Font style="Help Math">Sigma :M -&gt; G</Font> we can drop <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PushPullTensor" hyperlink="true"><Font style="Hyperlink" size="14">(PushPullTensor</Font></Hyperlink>) this invariant tensor on the Lie group G to an invariant non-degenerate metric on <Font style="Help Math">M</Font>.</Text-field>
+<Group labelreference="L54" drawlabel="true">
+<Input>
+<Text-field prompt="G &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g := PushPullTensor(pi, Sigma, Omega);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2LC1GIzYmLUYsNiVRI2R4RidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWkZTRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqbi1GIzYoLUkobWZlbmNlZEdGJDYkLUYjNiYtRiM2Ji1GLDYlUSJrRidGL0YyRlYtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5RmZuLUZfcDYkUSIxRidGOUY5RjlGVi1GLDYlUSNkeUYnRi9GMkZWRmhwRjlGZm4tRiM2Jy1JJm1mcmFjR0YkNihGZXBGXnAvJS5saW5ldGhpY2tuZXNzR0ZncC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkcS8lKWJldmVsbGVkR0Y9RlYtRiM2KkZlb0ZWRltwRlZGaHBGVi1GLDYlUSNkekYnRi9GMkY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RmZuLUYjNidGXXFGVi1GIzYqRmVvRlZGW3BGVkZbckZWRmhwRjlGXnJGOUZmbi1GIzYnLUZecTYoRmVwLUZfcDYkUSI0RidGOUZgcUZicUZlcUZncUZWLUYjNihGZW9GVkZbckZWRltyRjlGXnJGOUY5Rl5yRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTUdGJDckNyRRKGNvdl9iYXNGJEYsNyI3JzckNyQiIiJGMUYxNyQ3JCIiI0Y0LCYqJkkia0dGJEYxSSJ4RyUqcHJvdGVjdGVkR0Y0RjFGMUYxNyQ3JEY0IiIkLCQqJkY3RjFGOEYxI0YxRjQ3JDckRjxGNEY9NyQ3JEY8RjwsJEY3I0YxIiIl</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We check that the vectors <Font style="Help Math">Gamma</Font>, calculated in <Font style="Help Math">Part B</Font>, are Killing vectors for <Font style="Help Math">g</Font>.</Text-field>
+<Group labelreference="L55" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">map(LieDerivative, Gamma, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUYsNigtSSNtaUdGJDYlUSIwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZRLUYxNiVRI2R4RidGNEY3RjpGVEY+LUY7Ni1RIixGJ0Y+RkAvRkRGNkZFRkdGSUZLRk1GTy9GU1EsMC4zMzMzMzMzZW1GJ0YuRldGLkZXRi4vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRj5GPi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyYtSSRfREdHNiI2IzckNyVRJ3RlbnNvckYlSSJNR0YlNyQ3JFEoY292X2Jhc0YlRi03IjcjNyQ3JCIiIkYyIiIhRiNGI0Yj</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">In fact, we can use the <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/Killing/KillingVectors" hyperlink="true"><Font style="Hyperlink" size="14">KillingVectors</Font></Hyperlink> program in the Killing package to calculate the Lie algebra of Killing vectors for the metric g. The result is a 4 dimensional algebra thereby proving that<Font style="Help Math"> Gamma</Font> is the full infinitesimal isometry algebra of the metric <Font style="Help Math">g</Font>. </Text-field>
+<Group labelreference="L56" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">KillingVectors(g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYrLUkmbWZyYWNHRiQ2KC1GLDYnLUkjbW5HRiQ2JFEiMkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y3LyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZALyUpc3RyZXRjaHlHRkAvJSpzeW1tZXRyaWNHRkAvJShsYXJnZW9wR0ZALyUubW92YWJsZWxpbWl0c0dGQC8lJ2FjY2VudEdGQC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk8tSSNtaUdGJDYlUSREX3lGJy8lJ2l0YWxpY0dRJXRydWVGJy9GOFEnaXRhbGljRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjctRiw2JS1GUzYlUSJrRidGVkZZRmVuRjcvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmJvLyUpYmV2ZWxsZWRHRkAtRjs2LVEiLEYnRjdGPi9GQkZYRkNGRUZHRklGS0ZNL0ZRUSwwLjMzMzMzMzNlbUYnLUYvNigtRiw2Jy1GNDYkUSI0RidGN0Y6LUZTNiVRJERfekYnRlZGWUZlbkY3RmhuRl1vRmBvRmNvRmVvRmdvLUYsNictRjs2LVEqJnVtaW51czA7RidGN0Y+RkFGQ0ZFRkdGSUZLL0ZOUSwwLjIyMjIyMjJlbUYnL0ZRRl1xLUYvNigtRiw2J0YzRjotRlM2JVEkRF94RidGVkZZRmVuRjdGaG5GXW9GYG9GY29GZW8tRjs2LVEiK0YnRjdGPkZBRkNGRUZHRklGS0ZccUZecS1GLzYoLUYsNilGYXBGOi1GUzYlUSJ5RidGVkZZRjpGZHBGZW5GN0ZobkZdb0Zgb0Zjb0Zlb0Y3RmdvLUYsNilGaXAtRi82KC1GLDYpRjNGOkZdckY6RmNxRmVuRjdGaG5GXW9GYG9GY29GZW9GZnEtRi82KC1GLDYpRjNGOi1GUzYlUSJ4RidGVkZZRjpGUkZlbkY3RmhuRl1vRmBvRmNvRmVvLUY7Ni1RKCZtaW51cztGJ0Y3Rj5GQUZDRkVGR0ZJRktGXHFGXnEtRi82KC1GLDYpRjNGOi1GIzYkLUYsNidGaXAtSSVtc3VwR0YkNiVGXXJGMy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGZnEtRmlzNiVGanJGM0ZbdEY3RjdGOkZkcEZlbkY3RmhuRl1vRmBvRmNvRmVvRjdGZW5GN0Y3LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSJNR0YlNyI3IzckNyMiIiMsJCokSSJrR0YlISIiRi8tRiQ2IzckRig3IzckNyMiIiQsJEYxIiIlLUYkNiM3JEYoNyQ3JDcjIiIiLCRGMSEiIzckRjksJComRjJGM0kieUclKnByb3RlY3RlZEdGQ0Y8LUYkNiM3JEYoNyU3JEZCLCRGSEZFNyRGLiwkKiZJInhHRkpGQ0YyRjNGLzckRjksJComLCYqJEZJRi9GMyokRlRGL0ZDRkNGMkYzRkU=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">The metric is simple enough that we could easily compute the curvature in coordinates but, for the sake of illustration we do so with an orthonormal coframe.</Text-field>
+<Group labelreference="L57" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L58" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">Fr := FrameData([dx, dy, x*dy+1/2*dz], N);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjRnJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNiktRiM2Jy1GIzYmLUYsNiVRImRGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZpbi1GLDYlUSgmIzkyMDsxRidGL0YyRjktRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tSSNtbkdGJDYkUSIwRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmhuL0ZOUSwwLjMzMzMzMzNlbUYnLUYjNictRiM2JkZYRmVuLUYsNiVRKCYjOTIwOzJGJ0YvRjJGOUZeb0Zhb0Zlb0Y5RmhvLUYjNictRiM2JkZYRmVuLUYsNiVRKCYjOTIwOzNGJ0YvRjJGOUZeby1GIzYoRltvRmVuLUYsNiVRKyZiaWd3ZWRnZTtGJ0YvRjJGZW5GYnBGOUZlb0Y5RmVvRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zlb0Y5">LUkkX0RHRzYiNiM3JTcoUS1tb3ZpbmdfZnJhbWVGJEkiTkdGJDcjIiIkSSJNR0YkNyVJInhHJSpwcm90ZWN0ZWRHSSJ5R0YvSSJ6R0YvUSVmb3JtRiQ3JjckNyQiIiJGNkY2NyQ3JCIiI0Y5RjY3JDckRjlGKywkRi4hIiM3JDckRitGK0Y5NyM3JDclRjZGOUYrISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L59" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">DGsetup(Fr);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5ORzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Use the identity transformation from N to M  to express the metric in the new frame.</Text-field>
+<Group labelreference="L60" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">id := Transformation(N, M, [x = x, y = y, z = z]);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjaWRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNiktRiM2Jy1GLDYlUSJ4RidGL0YyLUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNRlYvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GIzYnLUYsNiVRInlGJ0YvRjJGWUZjb0ZmbkY5RmluLUYjNictRiw2JVEiekYnRi9GMkZZRmhvRmZuRjlGZm5GOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmZuRjk=">LUkkX0RHRzYiNiM3JDcmUS90cmFuc2Zvcm1hdGlvbkYkNyQ3JEkiTkdGJCIiITckSSJNR0YkRiw3IjcjLUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkNiMvSSQlaWRHRiQiK21veklZNyU3JEkieEdGNEY8NyRJInlHRjRGPjckSSJ6R0Y0RkA=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L61" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">g1 := PushPullTensor(id, g);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZzFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2Ji1GLDYlUSgmIzkyMDsxRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWkZTRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqbi1GIzYmLUYsNiVRKCYjOTIwOzJGJ0YvRjJGVkZeb0Y5RmZuLUYjNigtRiw2JVEia0YnRi9GMkZWLUYsNiVRKCYjOTIwOzNGJ0YvRjJGVkZmb0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTkdGJDckNyRRKGNvdl9iYXNGJEYsNyI3JTckNyQiIiJGMUYxNyQ3JCIiI0Y0RjE3JDckIiIkRjdJImtHRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L62" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">C := Christoffel(g1);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiQ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Li1GIzYnLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y5LUZXNiRRIjJGJ0Y5LyUubGluZXRoaWNrbmVzc0dGWS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zbby8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZG8tRiM2Ki1GLDYlUSJrRidGL0YyRmBvLUYsNiVRKCYjOTIwOzFGJ0YvRjJGYG8tRiw2JVEjRTJGJ0YvRjJGYG8tRiw2JVEoJiM5MjA7M0YnRi9GMkY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GW3EtRiM2J0ZTRmBvLUYjNihGW3BGYG8tRiw2JVEjRTNGJ0YvRjJGYG8tRiw2JVEoJiM5MjA7MkYnRi9GMkY5RmRwRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZqcEZccS1GIzYnRlNGYG8tRiM2KkZob0Zgb0ZkcUZgby1GLDYlUSNFMUYnRi9GMkZgb0ZhcEY5RmRwRjlGZ3EtRiM2J0ZTRmBvLUYjNihGZHFGYG9GYXFGYG9GW3BGOUZkcEY5RmdxLUYjNidGU0Zgby1GIzYqRmhvRmBvRmFwRmBvRl5yRmBvRmRxRjlGZHBGOUZncC1GIzYnRlNGYG8tRiM2KkZob0Zgb0ZhcEZgb0ZecEZgb0ZbcEY5RmRwRjlGOUZkcEY5">LUkkX0RHRzYiNiM3JDclUStjb25uZWN0aW9uRiRJIk5HRiQ3JDclUShjb3ZfYmFzRiRRKGNvbl9iYXNGJEYsNyI3KDckNyUiIiIiIiMiIiQsJEkia0dGJCNGMkYzNyQ3JUYyRjRGM0Y3NyQ3JUYzRjJGNCwkRjYjISIiRjM3JDclRjNGNEYyRj03JDclRjRGMkYzRjw3JDclRjRGM0YyRjU=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L63" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">R := CurvatureTensor(C);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiUkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Oy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1GIzYnLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjNGJ0Y5LUZnbjYkUSI0RidGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYm8vJSliZXZlbGxlZEdGPS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORltwLUYjNiwtRiw2JVEia0YnRi9GMkZnby1GLDYlUSNFMUYnRi9GMkZnby1GLDYlUSgmIzkyMDsyRidGL0YyRmdvLUYsNiVRKCYjOTIwOzFGJ0YvRjJGZ29GZXBGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRlRGVi1GIzYnRllGZ28tRiM2LEZfcEZnb0ZicEZnb0ZlcEZnb0ZlcEZnb0ZocEY5RltxRjlGXnEtRiM2Jy1GWjYoLUZnbjYkRl9vRjlGam5GXW9GYG9GY29GZW9GZ28tRiM2LC1JJW1zdXBHRiQ2JUZfcC1GZ242JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmdvRmJwRmdvLUYsNiVRKCYjOTIwOzNGJ0YvRjJGZ29GaHBGZ29GZnJGOUZbcUY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGVEZWLUYjNidGZ3FGZ28tRiM2LEZdckZnb0ZicEZnb0ZmckZnb0ZmckZnb0ZocEY5RltxRjlGXnEtRiM2J0ZZRmdvLUYjNixGX3BGZ28tRiw2JVEjRTJGJ0YvRjJGZ29GaHBGZ29GaHBGZ29GZXBGOUZbcUY5RmlyLUYjNidGWUZnby1GIzYsRl9wRmdvRmRzRmdvRmhwRmdvRmVwRmdvRmhwRjlGW3FGOUZecS1GIzYnRmdxRmdvLUYjNixGXXJGZ29GZHNGZ29GZnJGZ29GZXBGZ29GZnJGOUZbcUY5RmlyLUYjNidGZ3FGZ28tRiM2LEZdckZnb0Zkc0Znb0ZmckZnb0ZmckZnb0ZlcEY5RltxRjlGaXItRiM2J0ZncUZnby1GIzYsRl9wRmdvLUYsNiVRI0UzRidGL0YyRmdvRmhwRmdvRmhwRmdvRmZyRjlGW3FGOUZecS1GIzYnRmdxRmdvLUYjNixGX3BGZ29GZ3RGZ29GaHBGZ29GZnJGZ29GaHBGOUZbcUY5RmlyLUYjNidGZ3FGZ28tRiM2LEZfcEZnb0ZndEZnb0ZlcEZnb0ZlcEZnb0ZmckY5RltxRjlGXnEtRiM2J0ZncUZnby1GIzYsRl9wRmdvRmd0RmdvRmVwRmdvRmZyRmdvRmVwRjlGW3FGOUY5RltxRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTkdGJDckNyZRKGNvbl9iYXNGJFEoY292X2Jhc0YkRi1GLTciNy43JDcmIiIiIiIjRjJGMywkSSJrR0YkIyEiJCIiJTckNyZGMkYzRjNGMiwkRjUjIiIkRjg3JDcmRjJGPUYyRj0sJCokRjVGMyNGMkY4NyQ3JkYyRj1GPUYyLCRGQSMhIiJGODckNyZGM0YyRjJGM0Y7NyQ3JkYzRjJGM0YyRjQ3JDcmRjNGPUYzRj1GQDckNyZGM0Y9Rj1GM0ZFNyQ3JkY9RjJGMkY9LCRGNUZGNyQ3JkY9RjJGPUYyLCRGNUZCNyQ3JkY9RjNGM0Y9RlI3JDcmRj1GM0Y9RjNGVQ==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">We remark that there are well-known formulas for computing the curvature directly from the algebraic data given at the beginning of this exercise. These formulas have been coded up using the DifferentialGeometry package and will be included in the next version of the package.</Text-field>
+<Text-field style="Normal" layout="Normal"> </Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the first covariant derivative of the curvature to see that g is not a constant curvature metric.</Text-field>
+<Group labelreference="L64" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">R1 := CovariantDerivative(R, C);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjUjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNkItRiM2Jy1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GVzYkUSIyRidGOS8lLmxpbmV0aGlja25lc3NHRlkvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW28vJSliZXZlbGxlZEdGPS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmRvLUYjNi4tSSVtc3VwR0YkNiUtRiw2JVEia0YnRi9GMkZaLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zgby1GLDYlUSNFMUYnRi9GMkZgby1GLDYlUSgmIzkyMDsyRidGL0YyRmBvLUYsNiVRKCYjOTIwOzFGJ0YvRjJGYG8tRiw2JVEoJiM5MjA7M0YnRi9GMkZgb0ZncEY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZHEtRiM2J0ZTRmBvLUYjNi5GaG9GYG9GYXBGYG9GZHBGYG9GZHBGYG9GanBGYG9GZHBGOUZdcUY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGY3FGZXEtRiM2J0ZTRmBvLUYjNi5GaG9GYG9GYXBGYG9GZHBGYG9GanBGYG9GZ3BGYG9GZ3BGOUZdcUY5RmpxLUYjNidGU0Zgby1GIzYuRmhvRmBvRmFwRmBvRmRwRmBvRmpwRmBvRmRwRmBvRmRwRjlGXXFGOUZgcS1GIzYnRlNGYG8tRiM2LkZob0Zgb0ZhcEZgb0ZqcEZgb0ZncEZgb0ZkcEZgb0ZncEY5Rl1xRjlGanEtRiM2J0ZTRmBvLUYjNi5GaG9GYG9GYXBGYG9GanBGYG9GZHBGYG9GZ3BGYG9GZ3BGOUZdcUY5RmpxLUYjNidGU0Zgby1GIzYuRmhvRmBvLUYsNiVRI0UyRidGL0YyRmBvRmdwRmBvRmdwRmBvRmpwRmBvRmdwRjlGXXFGOUZqcS1GIzYnRlNGYG8tRiM2LkZob0Zgb0Zhc0Zgb0ZncEZgb0ZkcEZgb0ZqcEZgb0ZkcEY5Rl1xRjlGYHEtRiM2J0ZTRmBvLUYjNi5GaG9GYG9GYXNGYG9GZ3BGYG9GanBGYG9GZ3BGYG9GZ3BGOUZdcUY5RmBxLUYjNidGU0Zgby1GIzYuRmhvRmBvRmFzRmBvRmdwRmBvRmpwRmBvRmRwRmBvRmRwRjlGXXFGOUZgcS1GIzYnRlNGYG8tRiM2LkZob0Zgb0Zhc0Zgb0ZqcEZgb0ZncEZgb0ZkcEZgb0ZkcEY5Rl1xRjlGanEtRiM2J0ZTRmBvLUYjNi5GaG9GYG9GYXNGYG9GanBGYG9GZHBGYG9GZ3BGYG9GZHBGOUZdcUY5RmpxLUYjNidGU0Zgby1GIzYuRltwRmBvLUYsNiVRI0UzRidGL0YyRmBvRmdwRmBvRmdwRmBvRmRwRmBvRmdwRjlGXXFGOUZgcS1GIzYnRlNGYG8tRiM2LkZbcEZgb0ZcdUZgb0ZncEZgb0ZkcEZgb0ZncEZgb0ZncEY5Rl1xRjlGanEtRiM2J0ZTRmBvLUYjNi5GW3BGYG9GXHVGYG9GZHBGYG9GZ3BGYG9GZHBGYG9GZHBGOUZdcUY5RmBxLUYjNidGU0Zgby1GIzYuRltwRmBvRlx1RmBvRmRwRmBvRmRwRmBvRmdwRmBvRmRwRjlGXXFGOUY5Rl1xRjk=">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTkdGJDckNydRKGNvbl9iYXNGJFEoY292X2Jhc0YkRi1GLUYtNyI3MjckNyciIiIiIiNGMiIiJEYyLCQqJEkia0dGJEYzI0YyRjM3JDcnRjJGM0YzRjRGM0Y1NyQ3J0YyRjNGNEYyRjIsJEY2IyEiIkYzNyQ3J0YyRjNGNEYzRjNGPTckNydGMkY0RjJGM0YyRjU3JDcnRjJGNEYzRjJGMkY9NyQ3J0YzRjJGMkY0RjJGPTckNydGM0YyRjNGNEYzRj03JDcnRjNGMkY0RjJGMkY1NyQ3J0YzRjJGNEYzRjNGNTckNydGM0Y0RjJGM0YzRjU3JDcnRjNGNEYzRjJGM0Y9NyQ3J0Y0RjJGMkYzRjIsJEY3Rj43JDcnRjRGMkYzRjJGMiwkRjdGODckNydGNEYzRjJGM0YzRlQ3JDcnRjRGM0YzRjJGM0ZX</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Calculate the <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/CottonTensor" hyperlink="true"><Font style="Hyperlink" size="14">Cotton tensor</Font></Hyperlink> to see that the metric is not conformally flat.</Text-field>
+<Group labelreference="L65" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" size="14" layout="Normal"><Font size="14">CottonTensor(g1, C);</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNictSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GMTYkUSIyRidGNC8lLmxpbmV0aGlja25lc3NHRjMvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGPi8lKWJldmVsbGVkR1EmZmFsc2VGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y0LyUmZmVuY2VHRkMvJSpzZXBhcmF0b3JHRkMvJSlzdHJldGNoeUdGQy8lKnN5bW1ldHJpY0dGQy8lKGxhcmdlb3BHRkMvJS5tb3ZhYmxlbGltaXRzR0ZDLyUnYWNjZW50R0ZDLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGWC1GIzYoLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEia0YnLyUnaXRhbGljR1EldHJ1ZUYnL0Y1USdpdGFsaWNGJ0Y3LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZELUZbbzYlUSNFMUYnRl5vRmFvRkRGZm9GNC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGNC1GRTYtUSIrRidGNEZIRkpGTEZORlBGUkZUL0ZXUSwwLjIyMjIyMjJlbUYnL0ZaRmBwLUYjNidGLUZELUYjNihGZ25GRC1GW282JVEjRTJGJ0Zeb0Zhb0ZERmZwRjRGaW9GNC1GRTYtUSgmbWludXM7RidGNEZIRkpGTEZORlBGUkZURl9wRmFwLUYjNihGam5GRC1GW282JVEjRTNGJ0Zeb0Zhb0ZERl5xRjRGNA==">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTkdGJDckNyRRKGNvbl9iYXNGJEYsNyM3JFEkYmFzRiQiIiI3JTckNyRGMEYwLCQqJEkia0dGJCIiIyNGMEY3NyQ3JEY3RjdGNDckNyQiIiRGPSwkRjYhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L66" drawlabel="true">
+<Input>
+<Text-field prompt="N &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Text-field style="Maple Output256" layout="Maple Output256"></Text-field>
+<Text-field style="Text" size="10" foreground="[128,0,128]" layout="Normal"><Font encoding="UTF-8" foreground="[128,0,128]" size="10">\357\277\275Ian M. Anderson 2006</Font></Text-field><RTable handle="4578880130">TTdSMApJN1JUQUJMRV9TQVZFLzQ1Nzg4ODAxMzBYLCUpYW55dGhpbmdHNiJGJVtnbCEiJSEhISNFIiciJywkSSJhR1E6QzpcUHJvamVjdHNcbGliXG1hcGxlLm1sYUYlIiIlIiIhRipGKkYqRipGKiwkRicjIiIkIiIjRiojIiIiRi5GKkYqRiojISIiRi5GKkYrRipGKkYqRiosJEYnRi5GKkYqRjBGKkYqRjJGKkYwRidGKkYqRipGKkYzRjJGJQ==</RTable><RTable handle="4578879938">TTdSMApJN1JUQUJMRV9TQVZFLzQ1Nzg4Nzk5MzhYKiUpYW55dGhpbmdHNiJGJVtnbCEjJSEhISInIiciIiFGJkYmRiZGJkYmRiU=</RTable><RTable handle="4600379778">TTdSMApJN1JUQUJMRV9TQVZFLzQ2MDAzNzk3NzhYLCUpYW55dGhpbmdHNiJGJVtnbCEiJSEhISMxIiUiJS0lJF9ER0c2IzckNyVRJ3ZlY3RvckYlJSJHRzciNyM3JDcjIiIiIiIhRiZGJkYmRiZGJkYmRiZGJkYmRiZGJkYmRiZGJkYmRiU=</RTable>
+</Worksheet>

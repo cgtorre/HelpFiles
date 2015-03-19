@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="M &gt; " ShowLabels="true"/>
+<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Active" value="false"/>
+        <Metadata-attribute name="Alias" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Topic" value="DifferentialGeometry/Library/MetricSearch"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field style="Heading 1" layout="Heading 1">Library[MetricSearch]<Font bold="true" style="Help Normal"> - a Maplet for searching the DifferentialGeometry libraries of metrics</Font></Text-field>
+<Text-field bookmark="usage" style="Heading 2" layout="Heading 2">Calling Sequences</Text-field>
+<Text-field style="Normal" layout="Normal">     MetricSearch()</Text-field>
+<Text-field style="Normal" layout="Normal">     MetricSearch(PropList)</Text-field>
+<Text-field style="Heading 2" layout="Heading 2">Parameters</Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="Text">   <Font family="Monospaced"> PropList    - </Font></Font>a list of  spacetime metric properties to search for.</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="info" style="Heading 2" layout="Heading 2">Description</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L158" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" bullet="dot"> The <Font bold="true" foreground="[104,64,92]">DifferentialGeometry Library </Font>package contains an extensive database of spacetime metrics and matter fields which give solutions to the Einstein equations of general relativity. The command <Font bold="true" foreground="[104,64,92]">MetricSearch </Font>allows the Maple user to search the database for metrics with specified properties.  The first calling sequence launches an easy to use Maplet. The second calling sequence provides the same search capabilities in a command line format.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Text-field style="Bullet Item" layout="Bullet Item">The command <Font bold="true" foreground="[104,64,92]">MetricSearch() </Font><Font style="Text">initializes</Font> a maplet which searches the DifferentialGeometry <Hyperlink linktarget="Help:DifferentialGeometry/Library" hyperlink="true"><Font style="Bullet Item" underline="true" foreground="[0,128,128]">Library</Font></Hyperlink> for metrics with user-specified properties. The current search criteria are summarized in the following table.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"></Text-field><Table interior="group" showinput="true" alignment="center" exterior="all" width="67.26094003241491%" labelreference="L113" showlabel="true" captionalignment="0" title="" order="row" drawcaption="false" randomized="false" captionposition="1" plotalignlists="" pagebreak="cell" postexecute="insert" showgroup="true"><Table-Column weight="175" separator="true"></Table-Column><Table-Column weight="300" separator="true"></Table-Column><Table-Column weight="378" separator="true"></Table-Column><Table-Column weight="392" separator="true"></Table-Column><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true" size="14">Physical Properties</Font></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Primary Description.  </Font>Search for solutions to the Einstein equations with a prescribed class of energy-momentum tensors.</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Secondary Description. </Font>Search for metrics with a prescribed class of mathematical or physical properties.</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Keyword. </Font>Keyword descriptions include metric names or authors.</Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true" size="14">Algebraic Properties</Font></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Petrov Type. </Font>Algebraic classification of the Weyl tensor. <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"></Hyperlink></Text-field>
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PetrovType</Font></Hyperlink></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Plebanksi-Petrov Type. </Font>Algebraic classification of the Ricci tensor.<Font bold="true"> </Font>This is the Petrov type of the Plebanksi tensor.</Text-field>
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PlebanskiTensor" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PlebanskiTensor</Font></Hyperlink></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Segre Type.  </Font>Algebraic classification of the Ricci tensor. The Segre type specifies the normal form of a linear transformation which is self-adjoint with respect to a 4-dimensional Lorentz signature metric. </Text-field>
+<Text-field style="Text" layout="Normal"> <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SegreType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SegreType</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true" size="14">Isometry Properties</Font></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Isometry Dimension.  </Font>The number of Killing vectors. <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/KillingVector" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">KillingVectors</Font></Hyperlink></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Orbit Dimension.  </Font>The number of pointwise independent Killing vectors; or the dimension of the orbit of the group of isometries.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font bold="true">Orbit Type.  </Font>The signature of the induced metric on the orbits.  <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SubspaceType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SubspaceType</Font></Hyperlink></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Font bold="true">Isotropy Type.  </Font> For any Lorentz signature 4-dimensional spacetime, the infinitesimal isotropy representation defines a subalgebra of <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjc29GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ji1JI21uR0YkNiRRIjNGJy9GM1Enbm9ybWFsRictSSNtb0dGJDYtUSIsRidGPi8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYkUSIxRidGPkY+Rj5GPg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEjc29GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ji1JI21uR0YkNiRRIjNGJy9GM1Enbm9ybWFsRictSSNtb0dGJDYtUSIsRidGPi8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GOzYkUSIxRidGPkY+Rj5GPg==</Equation>. These subalgebras have been classified and are labeled <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEjRjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY2Ni1RIn5GJ0Y5RjsvRj9GPUZARkJGREZGRkhGSi9GTkZMLUYsNiVRI0YyRidGL0YyRlBGNUZQLUY2Ni1RIy4uRidGOUY7RlNGQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnRlQtRjY2LVEiLkYnRjlGO0ZTRkBGQkZERkZGSEZKRlRGNUZQLUYsNiVRJEYxNUYnRi9GMkZQRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbWlHRiQ2JVEjRjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSIsRicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY2Ni1RIn5GJ0Y5RjsvRj9GPUZARkJGREZGRkhGSi9GTkZMLUYsNiVRI0YyRidGL0YyRlBGNUZQLUY2Ni1RIy4uRidGOUY7RlNGQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnRlQtRjY2LVEiLkYnRjlGO0ZTRkBGQkZERkZGSEZKRlRGNUZQLUYsNiVRJEYxNUYnRi9GMkZQRjk=</Equation>.</Text-field>
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/IsotropySubalgebra" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropySubalgebra</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/IsotropyType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropyType</Font></Hyperlink></Text-field></Table-Cell></Table-Row></Table>
+<Text-field style="Bullet Item" layout="Bullet Item" bulletsuffix="." initial="-1" bullet="none"></Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Once properties are selected by checking appropriate boxes, pressing the <Font underline="true">Search</Font> button will return all metrics in the DifferentialGeometry library which possess <Font italic="true">all</Font> of the indicated properties. The format of the result is a string representing the source reference and a sequence of lists indicating the equation numbers in the reference where the metrics appear. All the information in the DifferentialGeometry library for each metric can be obtained with the <Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"><Font style="Bullet Item" underline="true" foreground="[0,128,128]">Retrieve</Font></Hyperlink> command.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Information regarding the metric found by a search of the DifferentialGeometry library can be retrieved in one of two ways. One method is to enter the reference name (string), equation number, and the name of an initialized manifold (created in the calling worksheet using DGsetup) into the text boxes in the Retrieve section of the <Font italic="true">MetricSearch</Font><Font style="Text"> Maplet. </Font>Then pressing the Retrieve button will return a list of the spacetime fields defining the solution (e.g., metric, electromagnetic field, etc.) to the calling worksheet.  All the information in the DifferentialGeometry library for each metric can be obtained with the <Hyperlink linktarget="Help:DifferentialGeometry/Library/Retrieve" hyperlink="true"><Font style="Bullet Item" underline="true" foreground="[0,128,128]">Retrieve</Font></Hyperlink> command.</Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot">The <Font underline="true">Clear</Font> button resets all check boxes and clears all text boxes. The <Font underline="true">Close</Font> button will close the Maplet.</Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot">The second calling sequence accepts a list of desired properties, each specified by an equation <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEvbWV0cmljcHJvcGVydHlGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkxGNS1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUS5wcm9wZXJ0eXZhbHVlRidGL0YyRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEvbWV0cmljcHJvcGVydHlGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkxGNS1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUS5wcm9wZXJ0eXZhbHVlRidGL0YyRjk=</Equation>. The possibilities are:</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field><Table interior="group" showinput="true" alignment="center" exterior="all" width="67.69313884386818%" labelreference="L159" showlabel="true" captionalignment="0" title="" order="row" drawcaption="false" randomized="false" captionposition="1" plotalignlists="" pagebreak="cell" postexecute="insert" showgroup="true"><Table-Column weight="229" separator="true"></Table-Column><Table-Column weight="702" separator="true"></Table-Column><Table-Column weight="322" separator="true"></Table-Column><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal" alignment="centred"><Font bold="true">metricproperty</Font></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal" alignment="centred"><Font bold="true">propertyvalue</Font></Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"> Related Commands</Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;PrimaryDescription&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;Dust&quot;, &quot;Einstein&quot;, &quot;EinsteinMaxwell&quot;, &quot;PerfectFluid&quot;, &quot;PureRadiation&quot;, &quot;Vacuum&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/EinsteinTensor" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">EinsteinTensor</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/EnergyMomentumTensor" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">EnergyMomentumTensor</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;SecondaryDescription&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;Homogeneous&quot;, &quot;PlaneWave&quot;, &quot;PPWave&quot;, &quot;PureRadiation&quot;, &quot;RobertsonWalker&quot;, &quot;SimplyTransitive&quot;, &quot;Static&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/KillingVector" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">KillingVectors</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;KeywordDescription&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">a list of strings: author names, metric names, etc.</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;PetrovType&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;I&quot;, &quot;II&quot;, &quot;III&quot;, &quot;D&quot;, &quot;N&quot;, &quot;O&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PetrovType</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;PlebanskiPetrovType&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;I&quot;, &quot;II&quot;, &quot;III&quot;, &quot;D&quot;, &quot;N&quot;, &quot;O&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PlebanskiTensor" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PlebanskiTensor</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;SegreType&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">For example, &quot;[1,(111)]&quot; </Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SegreType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SegreType</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;IsometryDimension&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">0, 1, 2, 3, 4, 5, 6, 7, 10</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/KillingVector" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">KillingVectors</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;OrbitDimension&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">0, 1, 2, 3, 4</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/DGbasis" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">DGbasis</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;OrbitType&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;Null&quot;, &quot;Riemannian&quot;, &quot;PseudoRiemannian&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"> <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SubspaceType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SubspaceType</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/QuadraticFormSignature" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">QuadraticFormSignature</Font></Hyperlink></Text-field></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;IsotropyType</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal">&quot;F1&quot;, &quot;F2&quot;, &quot;F3&quot;, &quot;F4&quot;, &quot;F5&quot;, &quot;F6&quot;, &quot;F7&quot;, &quot;F8&quot;, &quot;F9&quot;, &quot;F10&quot;, &quot;F11&quot;, &quot;F12&quot;, &quot;F13&quot;, &quot;F14&quot;, &quot;F15&quot;</Text-field></Table-Cell><Table-Cell columnspan="1" backgroundstyle="0" rowspan="1" fillcolor="[255,255,255]">
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/IsotropySubalgebra" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropySubalgebra</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/IsotropyType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropyType</Font></Hyperlink></Text-field></Table-Cell></Table-Row></Table>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot">Currently the DifferentialGeometry library contains selected metrics from:</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal" bulletsuffix="." initial="-1" bullet="numeric"> Stephani, H.; Kramer, D.; MacCallum, M.; Hoenselaers, C.; and Herlt, E. <Font italic="true">Exact Solutions to Einstein's Field Equations</Font>. 2nd ed. Cambridge Monographs on Mathematical Physics, 2003.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">2. Hawking, Stephen; and Ellis, G. F. R. (1973). <Font italic="true">The Large Scale Structure of Space-Time</Font>. Cambridge: Cambridge University Press.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item" bullet="none"></Text-field>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="examples" style="Heading 2" layout="Heading 2">Examples</Text-field></Title>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DifferentialGeometry): with(Tensor): with(LieAlgebras) :with(Library):</Text-field>
+</Input>
+</Group>
+<Text-field style="Text" bold="true" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Example 1</Font></Text-field>
+<Text-field style="Text" layout="Normal">We find examples of metrics which are homogeneous Einstein metrics of Petrov type III. First initialize a manifold with coordinates, e.g., <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYkLUYjNi0tSSNtaUdGJDYlUSN4MUYnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSIsRidGNy8lJmZlbmNlR0Y2LyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRjYvJSpzeW1tZXRyaWNHRjYvJShsYXJnZW9wR0Y2LyUubW92YWJsZWxpbWl0c0dGNi8lJ2FjY2VudEdGNi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY7Ni1RIn5GJ0Y3Rj4vRkFGNkZDRkVGR0ZJRktGTS9GUUZPLUYxNiVRI3gyRidGNEY3RjpGUy1GMTYlUSN4M0YnRjRGN0Y6RlMtRjE2JVEjeDRGJ0Y0RjdGN0Y3LUY7Ni1RIi5GJ0Y3Rj5GVkZDRkVGR0ZJRktGTUZXRjc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYkLUYjNi0tSSNtaUdGJDYlUSN4MUYnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSIsRidGNy8lJmZlbmNlR0Y2LyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRjYvJSpzeW1tZXRyaWNHRjYvJShsYXJnZW9wR0Y2LyUubW92YWJsZWxpbWl0c0dGNi8lJ2FjY2VudEdGNi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY7Ni1RIn5GJ0Y3Rj4vRkFGNkZDRkVGR0ZJRktGTS9GUUZPLUYxNiVRI3gyRidGNEY3RjpGUy1GMTYlUSN4M0YnRjRGN0Y6RlMtRjE2JVEjeDRGJ0Y0RjdGN0Y3LUY7Ni1RIi5GJ0Y3Rj5GVkZDRkVGR0ZJRktGTUZXRjc=</Equation></Text-field>
+<Group labelreference="L123" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup([x1, x2, x3, x4], M);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"> Start the MetricSearch Maplet. </Text-field>
+<Group labelreference="L121" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">F := MetricSearch():</Text-field>
+</Input>
+</Group>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Check the Einstein box in the PhysicalProperties-Primary Description section, check type III in the Algebraic Properties-Petrov Type section, check 4 in the Orbit Dimension section.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">The result is &quot;Stephani&quot;: [12, 35, 1].</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Enter &quot;Stephani&quot; into the Reference textbox, enter [12, 35, 1] into the equation number textbox, and enter M into the manifold textbox. Press the Retrieve button. The metric is assigned to <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIi5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIi5GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTEY5</Equation><Font style="Text"> (If matter fields were present, they would also be assigned to </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9GM1Enbm9ybWFsRic=</Equation><Font style="Text">.)</Font></Text-field>
+<Group labelreference="L166" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">F;</Text-field>
+</Input>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true">Example 2</Font></Text-field>
+<Text-field style="Normal" layout="Normal">We calculate some properties of a given metric and identify the metrics with the same properties in the library database. </Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L127" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">DGsetup([t, x, y, phi], M);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SS5mcmFtZX5uYW1lOn5NRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L128" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">g := evalDG(1/x^2*(dx &amp;t dx + dy &amp;t dy) + x^2*dphi &amp;t dphi - (dt -2*y*dphi) &amp;t (dt -2*y*dphi));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ly1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1GIzYmLUYsNiVRI2R0RidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5Gam5GWUY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGVEZWLUYjNiotSSNtbkdGJDYkUSIyRidGOUZmbi1GLDYlUSJ5RidGL0YyRmZuRllGZm4tRiw2JVElZHBoaUYnRi9GMkY5RlxvLUkmbWZyYWNHRiQ2KC1GIzYnLUYsNiVRI2R4RidGL0YyRmZuRmBwLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5LUYjNiUtSSVtc3VwR0YkNiUtRiw2JVEieEYnRi9GMkZhby8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGY3BGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZnEvJSliZXZlbGxlZEdGPUZcby1GXHA2KC1GIzYnLUYsNiVRI2R5RidGL0YyRmZuRl9yRmNwRjlGZnBGYXFGZHFGZ3FGaXFGXG8tRiM2KkZhb0ZmbkZlb0ZmbkZob0ZmbkZZRjlGXG8tRiM2KC1JKG1mZW5jZWRHRiQ2JC1GIzYnRlEtRiM2Ji1GYm82JFEiNEYnRjlGZm4tRmlwNiVGZW9GYW9GXnFGOUZcby1GIzYkRmhwRjlGOUY5RmZuRmhvRmZuRmhvRjlGOUZjcEY5">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTUdGJDckNyRRKGNvdl9iYXNGJEYsNyI3KDckNyQiIiJGMSEiIjckNyRGMSIiJSwkSSJ5RyUqcHJvdGVjdGVkRyIiIzckNyRGOUY5KiRJInhHRjghIiM3JDckIiIkRkFGPDckNyRGNUYxRjY3JDckRjVGNSwmKiRGN0Y5ISIlKiRGPUY5RjE=</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L139" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L137" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"> We use the command<Hyperlink linktarget="Help:DiffererentialGeometry/Tensor/RainichConditions" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]"> RainichConditions</Font></Hyperlink> to see if the space-time is a solution of the Einstein-Maxwell equations (electrovac spacetime).</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L129" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">RainichConditions(g);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L145" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L143" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">We use the command <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/KillingVectors" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">KillingVectors</Font></Hyperlink> to determine the dimension of the group of isometries. </Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L130" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">KV := KillingVectors(g);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjS1ZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNistRiM2KC1GIzYnLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y5LUZmbjYkUSI0RidGOS8lLmxpbmV0aGlja25lc3NHRmhuLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBvLyUpYmV2ZWxsZWRHRj0tRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZpby1GIzYmLUYsNiVRInhGJ0YvRjJGZW8tRiw2JVEkRF94RidGL0YyRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqcC1GIzYnRlhGZW8tRiM2Ji1GLDYlUSJ5RidGL0YyRmVvLUYsNiVRJERfeUYnRi9GMkY5RmNwRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZpcEZbcS1GIzYnRlhGZW8tRiM2Ji1GLDYlUScmIzk2NjtGJy9GMEY9RjlGZW8tRiw2JVEmRF9waGlGJ0YvRjJGOUZjcEY5RjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZoby9GTlEsMC4zMzMzMzMzZW1GJy1GIzYmLUYjNictRlk2KEZlbi1GZm42JFEiMkYnRjlGXG9GXm9GYW9GY29GZW8tRiM2JkZdckZlby1GLDYlUSREX3RGJ0YvRjJGOUZjcEY5RmZwLUYjNidGWEZlby1GIzYkRmNxRjlGY3BGOUY5RmRyLUYjNiYtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIRmlwRltxLUYjNidGWEZlby1GIzYkRmFyRjlGY3BGOUZjcEY5RmRyLUYjNidGXnNGZW8tRiM2JEZlc0Y5RmNwRjlGY3BGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmNwRjk=">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSJNR0YlNyI3JTckNyMiIiMsJEkieEclKnByb3RlY3RlZEcjIiIiIiIlNyQ3IyIiJCwkSSJ5R0YyRjM3JDcjRjUsJEkkcGhpR0YyIyEiIkY1LUYkNiM3JEYoNyQ3JDcjRjQsJEY+I0Y0Ri83JEY3RjMtRiQ2IzckRig3IzckRjxGPy1GJDYjNyRGKDcjNyRGRkZI</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L131" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">nops(KV);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIl</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L150" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L148" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Next we find the <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">Petrov type</Font></Hyperlink> of the metric.</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L132" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">PetrovType(g);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">USJJNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal">Search for this metric in the data-base using the command line version of <Font bold="true" foreground="[104,64,92]">MetricSearch. </Font>We find that this is the metric in Stephani, Kramer et al. equation [12, 21, 1].</Text-field>
+<Group labelreference="L170" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">MetricSearch([&quot;PrimaryDescription&quot; = &quot;EinsteinMaxwell&quot;, &quot;PetrovType&quot; = &quot;I&quot;, &quot;IsometryDimension&quot; = 4]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyM3JVEpU3RlcGhhbmk2IiIiIjclIiM3IiNAIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L169" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Retrieve(&quot;Stephani&quot;, 1, [12, 21, 1], manifoldname=M, output=[&quot;Metric&quot;]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYlLUYsNi8tSSNtb0dGJDYtUSomdW1pbnVzMDtGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjkvJSlzdHJldGNoeUdGOS8lKnN5bW1ldHJpY0dGOS8lKGxhcmdlb3BHRjkvJS5tb3ZhYmxlbGltaXRzR0Y5LyUnYWNjZW50R0Y5LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGSC1GLDYmLUkjbWlHRiQ2JVEjZHRGJy8lJ2l0YWxpY0dRJXRydWVGJy9GNVEnaXRhbGljRictRjE2LVExJkludmlzaWJsZVRpbWVzO0YnRjRGN0Y6RjxGPkZARkJGRC9GR1EmMC4wZW1GJy9GSkZaRk1GNC1GMTYtUSIrRidGNEY3RjpGPEY+RkBGQkZERkZGSS1GLDYqLUkjbW5HRiQ2JFEiMkYnRjRGVi1GTjYlUSJ5RidGUUZURlZGTUZWLUZONiVRJWRwaGlGJ0ZRRlRGNEZmbi1JJm1mcmFjR0YkNigtRiw2KS1JJW1zdXBHRiQ2JS1GTjYlUSNfYUYnRlFGVEZbby8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGVi1GTjYlUSNkeEYnRlFGVEZWRmNwLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y0LUYsNiUtRltwNiUtRk42JVEieEYnRlFGVEZbb0ZgcEZmcEY0LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZlcS8lKWJldmVsbGVkR0Y5RmZuLUZmbzYoLUYsNilGam9GVi1GTjYlUSNkeUYnRlFGVEZWRl5yRmZwRjRGaXBGYHFGY3FGZnFGaHFGZm4tRiw2KkZbb0ZWRl9vRlZGYm9GVkZNRjRGZm4tRiw2KC1GIzYkLUYsNidGMC1GLDYmLUZcbzYkUSI0RidGNEZWLUZbcDYlRl9vRltvRmBwRjRGZm4tRiw2JEZbcUY0RjRGNEZWRmJvRlZGYm9GNEY0RmZwRjRGNC8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyMtSSRfREdHNiI2IzckNyVRJ3RlbnNvcjYiSSJNRzYiNyQ3JFEoY292X2JhczYiUShjb3ZfYmFzNiI3IjcoNyQ3JCIiIiIiIiEiIjckNyQiIiIiIiUsJEkieUclKnByb3RlY3RlZEciIiM3JDckIiIjIiIjKiZJI19hRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiIiIjSSJ4RyUqcHJvdGVjdGVkRyEiIzckNyQiIiQiIiQqJkkjX2FHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHNiIiIiNJInhHJSpwcm90ZWN0ZWRHISIjNyQ3JCIiJSIiIiwkSSJ5RyUqcHJvdGVjdGVkRyIiIzckNyQiIiUiIiUsJiokSSJ5RyUqcHJvdGVjdGVkRyIiIyEiJSokSSJ4RyUqcHJvdGVjdGVkRyIiIyIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true">Example 3</Font></Text-field>
+<Text-field style="Normal" layout="Normal">Find the Goedel metric in the data-base and then retrieve it:</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Group labelreference="L161" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">S := MetricSearch([&quot;Keywords&quot; = [&quot;Goedel&quot;]]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2JS1GUDYmLUYjNiktSSNtc0dGJDYjUSlTdGVwaGFuaUYnLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIxRidGOUZmbi1GUDYmLUYjNiktRl9vNiRRIzEyRidGOUZmbi1GX282JFEjMjZGJ0Y5RmZuRl5vLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGXHBGOUY5Rl9wRmJwRlxwRjlGOUZfcEZicEZccEY5">NyM3JVEpU3RlcGhhbmk2IiIiIjclIiM3IiNFIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L162" drawlabel="true">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">g := Retrieve(op(S[1]), manifoldname = M, output = [&quot;Metric&quot;])[1];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ly1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1GIzYoLUklbXN1cEdGJDYlLUYsNiVRI19hRidGL0YyLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZG8tRiw2JVEjZHRGJ0YvRjJGYG9GZm9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlRGVi1GIzYqRllGYG8tRlo2JS1GNjYtUS8mRXhwb25lbnRpYWxFO0YnRjlGO0Y+RkBGQkZERkZGSEZjby9GTlEsMC4xMTExMTExZW1GJy1GLDYlUSJ4RidGL0YyRl1vRmBvRmZvRmBvLUYsNiVRJWRwaGlGJ0YvRjJGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRlRGVi1GIzYoRllGYG8tRiw2JVEjZHhGJ0YvRjJGYG9GYHFGOUZbcS1GIzYoRllGYG8tRiw2JVEjZHlGJ0YvRjJGYG9GZXFGOUZpby1GIzYqRllGYG9GXnBGYG9GaHBGYG9GZm9GOUZpby1GIzYnLUkmbWZyYWNHRiQ2KC1Gam42JFEiMUYnRjlGaW4vJS5saW5ldGhpY2tuZXNzR0Zhci8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zmci8lKWJldmVsbGVkR0Y9RmBvLUYjNipGWUZgby1GWjYlRmBwLUYjNiZGaW5GYG9GZXBGOUZdb0Zgb0ZocEZgb0ZocEY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjlGYXNGOQ==">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEkiTUdGJDckNyRRKGNvdl9iYXNGJEYsNyI3KDckNyQiIiJGMSwkKiRJI19hRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkIiIjISIiNyQ3JEYxIiIlLCQqJkY0RjgtSSRleHBHRjU2I0kieEdGNkYxRjk3JDckRjhGOEYzNyQ3JCIiJEZHRjM3JDckRjxGMUY9NyQ3JEY8RjwsJComRjRGOC1GQDYjLCRGQkY4RjEjRjlGOA==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">See Also</Text-field></Title>
+<Text-field style="Text" layout="Normal"><Hyperlink linktarget="Help:DifferentialGeometry" hyperlink="true"><Font style="Hyperlink">DifferentialGeometry</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor" hyperlink="true"><Font style="Hyperlink">Tensor</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/GroupActions/IsotropySubalgebra" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropySubalgebra</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/IsotropyType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">IsotropyType</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/KillingVectors" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">KillingVectors</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PetrovType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PetrovType</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/PlebanskiTensor" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">PlebanskiTensor</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SegreType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SegreType</Font></Hyperlink>, <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/SubspaceType" hyperlink="true"><Font style="Text" underline="true" foreground="[0,128,128]">SubspaceType</Font></Hyperlink> <Hyperlink linktarget="Help:DifferentialGeometry/Tensor/AdaptedSpinorDyad" hyperlink="true"></Hyperlink><Hyperlink linktarget="Help:DifferentialGeometry/Tensor/AdaptedNullTetrad" hyperlink="true"></Hyperlink></Text-field>
+</Section>
+</Worksheet>
